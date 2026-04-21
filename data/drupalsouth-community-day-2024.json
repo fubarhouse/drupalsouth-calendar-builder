@@ -1,0 +1,188 @@
+{
+  "event": {
+    "designation": "DrupalSouth Community Day",
+    "location": "Canberra",
+    "year": "2024",
+    "website": "https://drupalsouth.org/events/drupalsouth-community-day-2024",
+    "region": "Australia",
+    "startDate": "2024-11-13T21:00:00Z",
+    "endDate": "2024-11-14T05:00:00Z",
+    "scheduleURL": "https://drupalsouth.org/community-day-2024-schedule",
+    "venue": "Canberra Southern Cross Club, Woden, ACT",
+    "timezone": "Australia/Sydney"
+  },
+  "items": [
+    {
+      "startTime": "2024-11-13T21:00:00Z",
+      "endTime": "2024-11-13T22:00:00Z",
+      "duration": "P60M",
+      "title": "Registration",
+      "location": "Foyer",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-11-13T22:00:00Z",
+      "endTime": "2024-11-13T22:10:00Z",
+      "duration": "P10M",
+      "title": "Opening Remarks",
+      "location": "Top of the Cross",
+      "link": "",
+      "track": "General",
+      "speakers": ["Marge"]
+    },
+    {
+      "startTime": "2024-11-13T22:10:00Z",
+      "endTime": "2024-11-13T22:35:00Z",
+      "duration": "P25M",
+      "title": "Venue Sponsor Remarks - PreviousNext",
+      "location": "Top of the Cross",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-11-13T22:35:00Z",
+      "endTime": "2024-11-13T23:20:00Z",
+      "duration": "P45M",
+      "title": "Content Creators and Drupal: Bridging the Gap Between Developers and Publishers",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Non-technical",
+      "speakers": ["Mel Stubbings", "Chris Knowles", "Geeta Sharma", "Taylor Spaven", "Shaun Whiter"]
+    },
+    {
+      "startTime": "2024-11-13T22:35:00Z",
+      "endTime": "2024-11-13T23:35:00Z",
+      "duration": "P60M",
+      "title": "Common (but tricky) GovCMS requirements",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Technical",
+      "speakers": ["David Flores-Condezo"]
+    },
+    {
+      "startTime": "2024-11-13T22:35:00Z",
+      "endTime": "2024-11-13T23:20:00Z",
+      "duration": "P45M",
+      "title": "CivicTheme and Starshot: World-class site builder experience delivering world-class digital experiences",
+      "location": "Private Dining",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Technical",
+      "speakers": ["Thomas Peterson"]
+    },
+    {
+      "startTime": "2024-11-13T23:40:00Z",
+      "endTime": "2024-11-14T00:00:00Z",
+      "duration": "P20M",
+      "title": "Morning Tea",
+      "location": "Foyer",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-11-14T00:00:00Z",
+      "endTime": "2024-11-14T00:30:00Z",
+      "duration": "P30M",
+      "title": "How to unlock enhanced search visibility & provide a richer user experience using Schema.org",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Non-technical",
+      "speakers": ["Julia Topliss"]
+    },
+    {
+      "startTime": "2024-11-14T00:00:00Z",
+      "endTime": "2024-11-14T00:30:00Z",
+      "duration": "P30M",
+      "title": "PDF or not to PDF!",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Non-technical",
+      "speakers": ["Andre Kakos"]
+    },
+    {
+      "startTime": "2024-11-14T00:00:00Z",
+      "endTime": "2024-11-14T01:00:00Z",
+      "duration": "P60M",
+      "title": "GovFlix: A behind the scenes look of a content recommendation system",
+      "location": "Private Dining",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Technical",
+      "speakers": ["Murray Woodman"]
+    },
+    {
+      "startTime": "2024-11-14T00:35:00Z",
+      "endTime": "2024-11-14T01:05:00Z",
+      "duration": "P30M",
+      "title": "Accessibility Mistakes: A Developer's Guide",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Technical",
+      "speakers": ["Jeannie Panting"]
+    },
+    {
+      "startTime": "2024-11-14T01:10:00Z",
+      "endTime": "2024-11-14T02:00:00Z",
+      "duration": "P50M",
+      "title": "Lunch",
+      "location": "Foyer",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-11-14T02:00:00Z",
+      "endTime": "2024-11-14T03:00:00Z",
+      "duration": "P60M",
+      "title": "Exploring Single Directory Components",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Technical",
+      "speakers": ["Brynn Briedis"]
+    },
+    {
+      "startTime": "2024-11-14T02:00:00Z",
+      "endTime": "2024-11-14T02:30:00Z",
+      "duration": "P30M",
+      "title": "Starshot show & tell (& tell me what you think)",
+      "location": "Private Dining",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Non-technical",
+      "speakers": ["Pamela Barone"]
+    },
+    {
+      "startTime": "2024-11-14T02:30:00Z",
+      "endTime": "2024-11-14T03:00:00Z",
+      "duration": "P30M",
+      "title": "What has the Drupal Association ever done for us?",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
+      "track": "Non-technical",
+      "speakers": ["Owen Lansbury"]
+    },
+    {
+      "startTime": "2024-11-14T03:00:00Z",
+      "endTime": "2024-11-14T03:10:00Z",
+      "duration": "P10M",
+      "title": "Closing Remarks & Networking Sponsor Remarks (Annex)",
+      "location": "Top of the Cross",
+      "link": "",
+      "track": "General",
+      "speakers": ["Marge"]
+    },
+    {
+      "startTime": "2024-11-14T03:10:00Z",
+      "endTime": "2024-11-14T05:00:00Z",
+      "duration": "P110M",
+      "title": "Networking Event (sponsored by Annex)",
+      "location": "Venue",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    }
+  ],
+  "result": "success",
+  "url": "https://drupalsouth.org/community-day-2024-schedule"
+}

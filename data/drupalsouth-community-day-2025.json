@@ -1,0 +1,228 @@
+{
+  "event": {
+    "designation": "DrupalSouth Community Day",
+    "location": "Canberra",
+    "year": "2025",
+    "website": "https://drupalsouth.org/events/drupalsouth-community-day-2025",
+    "region": "Australia",
+    "startDate": "2025-11-05T21:00:00Z",
+    "endDate": "2025-11-06T06:30:00Z",
+    "scheduleURL": "https://drupalsouth.org/community-day-2025-schedule",
+    "venue": "Canberra Southern Cross Club, Woden, ACT",
+    "timezone": "Australia/Sydney"
+  },
+  "items": [
+    {
+      "startTime": "2025-11-05T21:00:00Z",
+      "endTime": "2025-11-05T22:00:00Z",
+      "duration": "P60M",
+      "title": "Registration",
+      "location": "Foyer",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2025-11-05T22:00:00Z",
+      "endTime": "2025-11-05T22:05:00Z",
+      "duration": "P5M",
+      "title": "Opening Remarks",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/sites/default/files/2025-11/DSCD25open.pdf",
+      "track": "General",
+      "speakers": ["Marge"]
+    },
+    {
+      "startTime": "2025-11-05T22:05:00Z",
+      "endTime": "2025-11-05T22:30:00Z",
+      "duration": "P25M",
+      "title": "Keynote: Say hello to the AI Agent: your newest persona!",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#salsa",
+      "track": "Non-technical",
+      "speakers": ["Akhil Bhandari", "Julia Topliss"]
+    },
+    {
+      "startTime": "2025-11-05T22:30:00Z",
+      "endTime": "2025-11-05T23:00:00Z",
+      "duration": "P30M",
+      "title": "Reef Knowledge System: Personalising the user experience on GovCMS",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#david",
+      "track": "Non-technical",
+      "speakers": ["David Flores-Condezo"]
+    },
+    {
+      "startTime": "2025-11-05T22:30:00Z",
+      "endTime": "2025-11-05T23:00:00Z",
+      "duration": "P30M",
+      "title": "Open Source Web Analytics for Drupal",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#vr2",
+      "track": "Technical",
+      "speakers": ["Vladimir Roudakov"]
+    },
+    {
+      "startTime": "2025-11-05T23:05:00Z",
+      "endTime": "2025-11-05T23:35:00Z",
+      "duration": "P30M",
+      "title": "Seeing what they see: user research insights from the field (and what we keep getting wrong)",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#millie",
+      "track": "Non-technical",
+      "speakers": ["Maddi Collings"]
+    },
+    {
+      "startTime": "2025-11-05T23:05:00Z",
+      "endTime": "2025-11-05T23:35:00Z",
+      "duration": "P30M",
+      "title": "Visual regression testing: BackstopJS for the win",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#marji",
+      "track": "Technical",
+      "speakers": ["Marji Cermak"]
+    },
+    {
+      "startTime": "2025-11-05T23:35:00Z",
+      "endTime": "2025-11-06T00:00:00Z",
+      "duration": "P25M",
+      "title": "Morning Tea",
+      "location": "Foyer",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2025-11-06T00:00:00Z",
+      "endTime": "2025-11-06T00:20:00Z",
+      "duration": "P20M",
+      "title": "Drupal Jeopardy",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#toby",
+      "track": "Non-technical",
+      "speakers": ["Toby Wild"]
+    },
+    {
+      "startTime": "2025-11-06T00:25:00Z",
+      "endTime": "2025-11-06T01:25:00Z",
+      "duration": "P60M",
+      "title": "Content design systems: A whole of government approach to content",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#emma",
+      "track": "Non-technical",
+      "speakers": ["Emma Kelson", "McGee Noble"]
+    },
+    {
+      "startTime": "2025-11-06T00:25:00Z",
+      "endTime": "2025-11-06T01:25:00Z",
+      "duration": "P60M",
+      "title": "No code rules engine for Drupal automation and AI integration",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#vr1",
+      "track": "Technical",
+      "speakers": ["Vladimir Roudakov"]
+    },
+    {
+      "startTime": "2025-11-06T01:30:00Z",
+      "endTime": "2025-11-06T02:00:00Z",
+      "duration": "P30M",
+      "title": "Designing a starter theme",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#murray",
+      "track": "Non-technical",
+      "speakers": ["Murray Woodman"]
+    },
+    {
+      "startTime": "2025-11-06T01:30:00Z",
+      "endTime": "2025-11-06T02:00:00Z",
+      "duration": "P30M",
+      "title": "Five Years Late, Still On Time: mentalhealthonline.org.au Drupal 8 to 11 journey",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#alex",
+      "track": "Technical",
+      "speakers": ["Alex Skrypnyk"]
+    },
+    {
+      "startTime": "2025-11-06T02:00:00Z",
+      "endTime": "2025-11-06T02:50:00Z",
+      "duration": "P50M",
+      "title": "Lunch",
+      "location": "Foyer",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2025-11-06T02:50:00Z",
+      "endTime": "2025-11-06T03:10:00Z",
+      "duration": "P20M",
+      "title": "Mad Libs meets Drupal",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#al",
+      "track": "Non-technical",
+      "speakers": ["Al O'Neill"]
+    },
+    {
+      "startTime": "2025-11-06T03:15:00Z",
+      "endTime": "2025-11-06T03:45:00Z",
+      "duration": "P30M",
+      "title": "Content Governance: Delivering Accurate, Accessible, and Trusted Information",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#julia",
+      "track": "Non-technical",
+      "speakers": ["Julia Topliss"]
+    },
+    {
+      "startTime": "2025-11-06T03:15:00Z",
+      "endTime": "2025-11-06T03:45:00Z",
+      "duration": "P30M",
+      "title": "Building for the Future with Web Components",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#brynn",
+      "track": "Technical",
+      "speakers": ["Brynn Briedis"]
+    },
+    {
+      "startTime": "2025-11-06T03:50:00Z",
+      "endTime": "2025-11-06T04:20:00Z",
+      "duration": "P30M",
+      "title": "Unifying the UX pipeline",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#andre",
+      "track": "Non-technical",
+      "speakers": ["André Kakos", "Matt Commons"]
+    },
+    {
+      "startTime": "2025-11-06T03:50:00Z",
+      "endTime": "2025-11-06T04:20:00Z",
+      "duration": "P30M",
+      "title": "The Anatomy of a 100 Lighthouse Score",
+      "location": "Orion",
+      "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#pat",
+      "track": "Technical",
+      "speakers": ["Pat Roberts"]
+    },
+    {
+      "startTime": "2025-11-06T04:20:00Z",
+      "endTime": "2025-11-06T04:30:00Z",
+      "duration": "P10M",
+      "title": "Closing Remarks",
+      "location": "Top of the Cross",
+      "link": "https://drupalsouth.org/sites/default/files/2025-11/DSCD25close.pdf",
+      "track": "General",
+      "speakers": ["Marge"]
+    },
+    {
+      "startTime": "2025-11-06T04:30:00Z",
+      "endTime": "2025-11-06T06:30:00Z",
+      "duration": "P120M",
+      "title": "Networking Event (sponsored by Annex)",
+      "location": "Venue",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    }
+  ],
+  "result": "success",
+  "url": "https://drupalsouth.org/community-day-2025-schedule"
+}

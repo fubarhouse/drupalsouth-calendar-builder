@@ -1,0 +1,108 @@
+{
+  "event": {
+    "designation": "DrupalSouth Community Day",
+    "location": "Canberra",
+    "year": "2023",
+    "website": "https://drupalsouth.org/events/drupalsouth-community-day-2023",
+    "region": "Australia",
+    "startDate": "2023-11-22T22:00:00Z",
+    "endDate": "2023-11-23T05:00:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule",
+    "venue": "Canberra Rex Hotel, Canberra",
+    "timezone": "Australia/Sydney"
+  },
+  "items": [
+    {
+      "startTime": "2023-11-22T22:00:00Z",
+      "endTime": "2023-11-23T01:00:00Z",
+      "duration": "P180M",
+      "title": "Contributing to Drupal",
+      "location": "Room 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#contributing",
+      "track": "Non-technical",
+      "speakers": ["Owen Lansbury", "Griffyn Heels"]
+    },
+    {
+      "startTime": "2023-11-22T22:00:00Z",
+      "endTime": "2023-11-23T01:00:00Z",
+      "duration": "P180M",
+      "title": "ECA deep dive: Rules replacement for Drupal 10",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#eca",
+      "track": "Technical",
+      "speakers": ["Vladimir Roudakov"]
+    },
+    {
+      "startTime": "2023-11-22T22:00:00Z",
+      "endTime": "2023-11-23T01:00:00Z",
+      "duration": "P180M",
+      "title": "Onboarding a new PaaS Site",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#onboarding",
+      "track": "Technical",
+      "speakers": ["Simon Hobbs"]
+    },
+    {
+      "startTime": "2023-11-22T22:00:00Z",
+      "endTime": "2023-11-23T01:00:00Z",
+      "duration": "P180M",
+      "title": "Preparing for content migrations",
+      "location": "Room 4",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#migration",
+      "track": "Non-technical",
+      "speakers": ["Margery Tongway"]
+    },
+    {
+      "startTime": "2023-11-23T01:00:00Z",
+      "endTime": "2023-11-23T02:00:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Venue",
+      "link": "",
+      "track": "General",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-11-23T02:00:00Z",
+      "endTime": "2023-11-23T05:00:00Z",
+      "duration": "P180M",
+      "title": "Advanced dev - modern/headless",
+      "location": "Room 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#modern",
+      "track": "Technical",
+      "speakers": ["Max Pogonowski"]
+    },
+    {
+      "startTime": "2023-11-23T02:00:00Z",
+      "endTime": "2023-11-23T05:00:00Z",
+      "duration": "P180M",
+      "title": "CivicTheme design system for Drupal 10",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#civic",
+      "track": "Technical",
+      "speakers": ["Akhil Bhandari", "Alex Skrypnyk"]
+    },
+    {
+      "startTime": "2023-11-23T02:00:00Z",
+      "endTime": "2023-11-23T05:00:00Z",
+      "duration": "P180M",
+      "title": "Future roadmap including AI: Get hands on with generative AI",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#future",
+      "track": "Technical",
+      "speakers": ["Murray Woodman"]
+    },
+    {
+      "startTime": "2023-11-23T02:00:00Z",
+      "endTime": "2023-11-23T05:00:00Z",
+      "duration": "P180M",
+      "title": "Team Communication",
+      "location": "Room 4",
+      "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule",
+      "track": "Non-technical",
+      "speakers": ["Julia Topliss"]
+    }
+  ],
+  "result": "success",
+  "url": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule"
+}

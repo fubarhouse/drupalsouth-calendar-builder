@@ -1,0 +1,908 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Hobart",
+    "year": "2019",
+    "website": "https://drupalsouth.org/events/hobart-2019/schedule",
+    "region": "Australia \u2013 Hobart",
+    "endDate": "2019-11-29T09:30:00Z",
+    "startDate": "2019-11-26T23:00:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/hobart-2019/schedule",
+    "venue": "Hotel Grand Chancellor",
+    "timezone": "Australia/Hobart"
+  },
+  "items": [
+    {
+      "startTime": "2019-11-26T23:00:00Z",
+      "endTime": "2019-11-27T01:00:00Z",
+      "duration": "P120M",
+      "title": "Code sprint",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/code-sprint",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-26T23:00:00Z",
+      "endTime": "2019-11-27T01:00:00Z",
+      "duration": "P120M",
+      "title": "Introduction to CI/CD with Gitlab and Drupal 8",
+      "location": "Oak",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/introduction-cicd-gitlab-and-drupal-8",
+      "track": "Other",
+      "speakers": [
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T01:00:00Z",
+      "endTime": "2019-11-27T02:00:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-27T02:00:00Z",
+      "endTime": "2019-11-27T04:00:00Z",
+      "duration": "P120M",
+      "title": "Code sprint",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/code-sprint",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-27T02:00:00Z",
+      "endTime": "2019-11-27T04:00:00Z",
+      "duration": "P120M",
+      "title": "Introduction to CI/CD with Gitlab and Drupal 8",
+      "location": "Oak",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/introduction-cicd-gitlab-and-drupal-8",
+      "track": "Other",
+      "speakers": [
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T04:00:00Z",
+      "endTime": "2019-11-27T04:00:00Z",
+      "duration": "P0M",
+      "title": "Closing remarks",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-27T20:00:00Z",
+      "endTime": "2019-11-27T21:45:00Z",
+      "duration": "P105M",
+      "title": "Hike / Walk",
+      "location": "Hotel Grand Chancellor",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-27T21:45:00Z",
+      "endTime": "2019-11-27T22:00:00Z",
+      "duration": "P15M",
+      "title": "Opening remarks",
+      "location": "Sassafras",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-27T22:00:00Z",
+      "endTime": "2019-11-27T22:45:00Z",
+      "duration": "P45M",
+      "title": "Consolidation: a GovCMS SaaS story",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/consolidation-govcms-saas-story",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Margery Tongway"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T22:00:00Z",
+      "endTime": "2019-11-27T22:45:00Z",
+      "duration": "P45M",
+      "title": "The pursuit of automatic Drupal updates",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/pursuit-automatic-drupal-updates",
+      "track": "DevOps and Security",
+      "speakers": [
+        "Blaize Kaye",
+        "Thom Toogood"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T22:00:00Z",
+      "endTime": "2019-11-27T22:45:00Z",
+      "duration": "P45M",
+      "title": "Why you need QA people, and why you need them NOW!",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/why-you-need-qa-people-and-why-you-need-them-now",
+      "track": "Project Management",
+      "speakers": [
+        "Daniel Carvalhinho"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T22:00:00Z",
+      "endTime": "2019-11-27T22:20:00Z",
+      "duration": "P20M",
+      "title": "Highly processed migrations",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/highly-processed-migrations",
+      "track": "Back-End Development",
+      "speakers": [
+        "Eric Goodwin"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T22:25:00Z",
+      "endTime": "2019-11-27T22:45:00Z",
+      "duration": "P20M",
+      "title": "5239 pages, 357 authors and counting: quality, consistency and flexibility at scale",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/5239-pages-357-authors-and-counting-quality-consistency-and",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Emma Cameron"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T22:45:00Z",
+      "endTime": "2019-11-27T23:15:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-27T23:15:00Z",
+      "endTime": "2019-11-28T00:00:00Z",
+      "duration": "P45M",
+      "title": "Content modeling with Drupal",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/content-modeling-drupal",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Si Hobbs"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T23:15:00Z",
+      "endTime": "2019-11-27T23:40:00Z",
+      "duration": "P25M",
+      "title": "The Art of Parenting Applied to Challenging Clients",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/art-parenting-applied-challenging-clients",
+      "track": "Project Management",
+      "speakers": [
+        "Shelley L'Green"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T23:15:00Z",
+      "endTime": "2019-11-28T00:00:00Z",
+      "duration": "P45M",
+      "title": "The New Zealand Govt Design System and Sector Drupal 8",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/new-zealand-govt-design-system-and-sector-drupal-8",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Heike Theis",
+        "Daniel Veza"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T23:15:00Z",
+      "endTime": "2019-11-28T00:00:00Z",
+      "duration": "P45M",
+      "title": "Deploying Drupal on Kubernetes",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/deploying-drupal-kubernetes",
+      "track": "DevOps and Security",
+      "speakers": [
+        "Nick Schuch"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T23:15:00Z",
+      "endTime": "2019-11-28T00:00:00Z",
+      "duration": "P45M",
+      "title": "Drupal 8 webforms: building Event registration",
+      "location": "Oak",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-8-webforms-event-registration",
+      "track": "Other",
+      "speakers": [
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2019-11-27T23:40:00Z",
+      "endTime": "2019-11-28T00:00:00Z",
+      "duration": "P20M",
+      "title": "It takes two to tango: a true partnership approach",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/it-takes-two-tango-true-partnership-approach",
+      "track": "Project Management",
+      "speakers": [
+        "Juliane Erben",
+        "Nathan Wall"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T00:15:00Z",
+      "endTime": "2019-11-28T00:40:00Z",
+      "duration": "P25M",
+      "title": "WCAG 2.1, Web Accessibility and Drupal 8",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/wcag-21-web-accessibility-and-drupal-8",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Morgan Strong"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T00:15:00Z",
+      "endTime": "2019-11-28T00:40:00Z",
+      "duration": "P25M",
+      "title": "Cordelta: The Delivery Game",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/cordelta-sponsor-slot",
+      "track": "Project Management",
+      "speakers": [
+        "Damian Tunney"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T00:15:00Z",
+      "endTime": "2019-11-28T01:00:00Z",
+      "duration": "P45M",
+      "title": "Building your design system",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/building-your-design-system",
+      "track": "Front-end Development",
+      "speakers": [
+        "Jack Taranto"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T00:15:00Z",
+      "endTime": "2019-11-28T01:00:00Z",
+      "duration": "P45M",
+      "title": "Modular distributions and the Sector add-on ecosystem",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/modular-distributions-and-sector-add-ecosystem",
+      "track": "Back-End Development",
+      "speakers": [
+        "Daniel Veza"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T01:00:00Z",
+      "endTime": "2019-11-28T02:00:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-28T02:00:00Z",
+      "endTime": "2019-11-28T02:45:00Z",
+      "duration": "P45M",
+      "title": "DevOps and Collaboration. How Devs and non-Devs can work together",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/keynote-michelle-mannering",
+      "track": "Keynote",
+      "speakers": [
+        "Michelle Mannering"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T02:45:00Z",
+      "endTime": "2019-11-28T03:00:00Z",
+      "duration": "P15M",
+      "title": "Group photo",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-28T03:00:00Z",
+      "endTime": "2019-11-28T03:45:00Z",
+      "duration": "P45M",
+      "title": "Streamlining Drupal Delivery and Support: Our Journey at Deloitte Digital",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/deloitte-sponsor-slot",
+      "track": "Project Management",
+      "speakers": [
+        "Aaron Nichol",
+        "Christopher Hopper"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T03:00:00Z",
+      "endTime": "2019-11-28T03:25:00Z",
+      "duration": "P25M",
+      "title": "Decoupled: Why we're reinventing a worse wheel",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/decoupled-why-were-reinventing-worse-wheel",
+      "track": "Front-end Development",
+      "speakers": [
+        "Josh Waihi"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T03:00:00Z",
+      "endTime": "2019-11-28T03:45:00Z",
+      "duration": "P45M",
+      "title": "Drupal, Cacheability, and all that",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-cacheability-and-all",
+      "track": "Back-End Development",
+      "speakers": [
+        "Jibran Ijaz"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T03:00:00Z",
+      "endTime": "2019-11-28T03:45:00Z",
+      "duration": "P45M",
+      "title": "Design Systems for Agencies: The benefits of creating a shared language",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/design-systems-agencies-benefits-creating-shared-language",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Richard Sison"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T03:00:00Z",
+      "endTime": "2019-11-28T03:45:00Z",
+      "duration": "P45M",
+      "title": "Python for Drupal Devs",
+      "location": "Oak",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/python-drupal-devs",
+      "track": "Other",
+      "speakers": [
+        "Dave Hall"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T03:25:00Z",
+      "endTime": "2019-11-28T03:45:00Z",
+      "duration": "P20M",
+      "title": "Drupal meets the 3D World: On Closer Inspection",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-meets-3d-world-closer-inspection",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Melissa Stubbings",
+        "Joshua Graham"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T04:00:00Z",
+      "endTime": "2019-11-28T04:45:00Z",
+      "duration": "P45M",
+      "title": "How To (Not) Get Hacked",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/how-not-get-hacked",
+      "track": "DevOps and Security",
+      "speakers": [
+        "Michael Richardson"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T04:00:00Z",
+      "endTime": "2019-11-28T04:25:00Z",
+      "duration": "P25M",
+      "title": "Not all maps lead to treasure - but a good process map can lead to a successful project!",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/not-all-maps-lead-treasure-good-process-map-can-lead",
+      "track": "Project Management",
+      "speakers": [
+        "Akhil Bhandari"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T04:00:00Z",
+      "endTime": "2019-11-28T04:45:00Z",
+      "duration": "P45M",
+      "title": "Learn and Contribute to Open Source by Writing Blog Posts",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/learn-and-contribute-open-source-writing-blog-posts",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Ivan Zugec"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T04:00:00Z",
+      "endTime": "2019-11-28T04:25:00Z",
+      "duration": "P25M",
+      "title": "Dissecting a security audit: common issues and how to fix them",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/dissecting-security-audit-common-issues-and-how-fix-them",
+      "track": "Back-End Development",
+      "speakers": [
+        "Sam Becker"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T04:25:00Z",
+      "endTime": "2019-11-28T04:45:00Z",
+      "duration": "P20M",
+      "title": "Let's keep this G rated - redevelopment of classification.gov.au on GovCMS",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/lets-keep-g-rated-redevelopment-classificationgovau-govcms",
+      "track": "Project Management",
+      "speakers": [
+        "Paul Morriss"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T04:25:00Z",
+      "endTime": "2019-11-28T04:45:00Z",
+      "duration": "P20M",
+      "title": "Ultimate guide to Layout Builder",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/ultimate-guide-layout-builder",
+      "track": "Back-End Development",
+      "speakers": [
+        "Saul Willers"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T04:45:00Z",
+      "endTime": "2019-11-28T05:15:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-28T05:15:00Z",
+      "endTime": "2019-11-28T05:40:00Z",
+      "duration": "P25M",
+      "title": "Personalisation with Recombee",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/personalisation-recombee",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Murray Woodman"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T05:15:00Z",
+      "endTime": "2019-11-28T05:40:00Z",
+      "duration": "P25M",
+      "title": "The 45 minute site audit",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/45-minute-site-audit",
+      "track": "Project Management",
+      "speakers": [
+        "Scott Anderson"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T05:15:00Z",
+      "endTime": "2019-11-28T05:40:00Z",
+      "duration": "P25M",
+      "title": "Jumping into conversational AI - Alexa",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/jumping-conversational-ai-alexa",
+      "track": "Back-End Development",
+      "speakers": [
+        "Suchi Garg"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T05:15:00Z",
+      "endTime": "2019-11-28T05:40:00Z",
+      "duration": "P25M",
+      "title": "Frontend Re-United: The energy of the people",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/frontend-re-united-energy-people",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Mathieu Spillebeen"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T06:00:00Z",
+      "endTime": "2019-11-28T08:00:00Z",
+      "duration": "P120M",
+      "title": "Eighty Options Cocktail party at the HGC",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-28T20:00:00Z",
+      "endTime": "2019-11-28T21:45:00Z",
+      "duration": "P105M",
+      "title": "Women in Drupal coffee",
+      "location": "",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/women-drupal",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-28T21:45:00Z",
+      "endTime": "2019-11-28T22:00:00Z",
+      "duration": "P15M",
+      "title": "Opening remarks",
+      "location": "Sassafras",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-28T22:00:00Z",
+      "endTime": "2019-11-28T22:25:00Z",
+      "duration": "P25M",
+      "title": "The Scientific Wild-Ass Guess",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/scientific-wild-ass-guess",
+      "track": "Project Management",
+      "speakers": [
+        "Adam Malone"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T22:00:00Z",
+      "endTime": "2019-11-28T22:45:00Z",
+      "duration": "P45M",
+      "title": "GovCMS: It's not just about Drupal, it's an ecosystem of tools",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/govcms-its-not-just-about-drupal-its-ecosystem-tools",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Toby Bellwood"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T22:00:00Z",
+      "endTime": "2019-11-28T22:45:00Z",
+      "duration": "P45M",
+      "title": "Single Sign On across Drupal 8",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/single-sign-across-drupal-8",
+      "track": "Back-End Development",
+      "speakers": [
+        "Iwantha Lekamge"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T22:00:00Z",
+      "endTime": "2019-11-28T22:45:00Z",
+      "duration": "P45M",
+      "title": "The future of Drupal theming?",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/future-drupal-theming",
+      "track": "Front-end Development",
+      "speakers": [
+        "Mathieu Spillebeen"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T22:25:00Z",
+      "endTime": "2019-11-28T22:45:00Z",
+      "duration": "P20M",
+      "title": "Preparing for a high traffic event, simple steps to success",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/preparing-high-traffic-event-simple-steps-success",
+      "track": "Project Management",
+      "speakers": [
+        "Sean Hamlin"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T22:45:00Z",
+      "endTime": "2019-11-28T23:15:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-28T23:15:00Z",
+      "endTime": "2019-11-29T00:00:00Z",
+      "duration": "P45M",
+      "title": "Complexity of a Multi-language infrastructure - the CCAMLR story",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/complexity-multi-language-infrastructure-ccamlr-story",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Dane Cavanagh"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T23:15:00Z",
+      "endTime": "2019-11-28T23:40:00Z",
+      "duration": "P25M",
+      "title": "Cloud Native Drupal Panel",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/cloud-native-drupal-panel",
+      "track": "DevOps and Security",
+      "speakers": [
+        "Nick Santamaria",
+        "Nick Schuch"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T23:15:00Z",
+      "endTime": "2019-11-29T00:00:00Z",
+      "duration": "P45M",
+      "title": "Winning and retaining long term clients",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/winning-and-retaining-long-term-clients",
+      "track": "Project Management",
+      "speakers": [
+        "Owen Lansbury"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T23:15:00Z",
+      "endTime": "2019-11-29T00:00:00Z",
+      "duration": "P45M",
+      "title": "Site search - A relevant case study",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/site-search-relevant-case-study",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Dominic Milburn"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T23:15:00Z",
+      "endTime": "2019-11-29T00:00:00Z",
+      "duration": "P45M",
+      "title": "Practical theming in Drupal 8",
+      "location": "Oak",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/practical-theming-drupal-8",
+      "track": "Other",
+      "speakers": [
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2019-11-28T23:40:00Z",
+      "endTime": "2019-11-29T00:00:00Z",
+      "duration": "P20M",
+      "title": "End to end testing decoupled Drupal sites",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/end-end-testing-decoupled-drupal-sites",
+      "track": "Front-end Development",
+      "speakers": [
+        "Dylan Kelly"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T00:15:00Z",
+      "endTime": "2019-11-29T01:00:00Z",
+      "duration": "P45M",
+      "title": "Debunking the Myths of Digital Governance",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/debunking-myths-digital-governance",
+      "track": "Project Management",
+      "speakers": [
+        "Morgan Ritchings"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T00:15:00Z",
+      "endTime": "2019-11-29T01:00:00Z",
+      "duration": "P45M",
+      "title": "Drupal confessions",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-confessions",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Bevan Wishart"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T00:15:00Z",
+      "endTime": "2019-11-29T01:00:00Z",
+      "duration": "P45M",
+      "title": "Better content workflow, moderation and audits in Drupal 8",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/better-content-workflow-moderation-and-audits-drupal-8",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Heike Theis"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T00:15:00Z",
+      "endTime": "2019-11-29T01:00:00Z",
+      "duration": "P45M",
+      "title": "Comprehensive local-ci-production workflow setup with DrupalDevops.io",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/comprehensive-local-ci-production-workflow-setup",
+      "track": "DevOps and Security",
+      "speakers": [
+        "Alex Skrypnyk"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T01:00:00Z",
+      "endTime": "2019-11-29T02:00:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-29T02:00:00Z",
+      "endTime": "2019-11-29T02:45:00Z",
+      "duration": "P45M",
+      "title": "How Drupal.org is built",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/keynote-neil-drumm",
+      "track": "Keynote",
+      "speakers": [
+        "Neil Drumm"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T02:45:00Z",
+      "endTime": "2019-11-29T03:00:00Z",
+      "duration": "P15M",
+      "title": "Group photo",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-29T03:00:00Z",
+      "endTime": "2019-11-29T03:45:00Z",
+      "duration": "P45M",
+      "title": "The new DrupalSouth Steering Committee - Goals and progress",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/new-drupalsouth-steering-committee-goals-and-progress",
+      "track": "Project Management",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-29T03:00:00Z",
+      "endTime": "2019-11-29T03:25:00Z",
+      "duration": "P25M",
+      "title": "A case study about Service NSW website",
+      "location": "Huon",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/case-study-about-service-nsw-website",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Jibran Ijaz",
+        "Tessa Penny",
+        "Christine Roque"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T03:00:00Z",
+      "endTime": "2019-11-29T03:25:00Z",
+      "duration": "P25M",
+      "title": "Easy Migration with Commerce",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/easy-migration-commerce",
+      "track": "Back-End Development",
+      "speakers": [
+        "Tiffany Tjan"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T03:00:00Z",
+      "endTime": "2019-11-29T03:25:00Z",
+      "duration": "P25M",
+      "title": "Open source your work",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/open-source-your-work",
+      "track": "DevOps and Security",
+      "speakers": [
+        "Ben Jackson"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T03:25:00Z",
+      "endTime": "2019-11-29T03:45:00Z",
+      "duration": "P20M",
+      "title": "Content processing for site migration",
+      "location": "Myrtle",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/content-processing-site-migration",
+      "track": "Back-End Development",
+      "speakers": [
+        "Kelvin Wong"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T03:25:00Z",
+      "endTime": "2019-11-29T03:45:00Z",
+      "duration": "P20M",
+      "title": "Automated auditing",
+      "location": "Blackwood",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/auditing-glance",
+      "track": "DevOps and Security",
+      "speakers": [
+        "Karl Hepworth"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T03:45:00Z",
+      "endTime": "2019-11-29T04:15:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-29T04:15:00Z",
+      "endTime": "2019-11-29T05:00:00Z",
+      "duration": "P45M",
+      "title": "Core release manager and a member of the Drupal Security Team Security, Drupal 9, and Navigating the Changing Web Landscape",
+      "location": "Sassafras",
+      "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/keynote-jess-xjm",
+      "track": "Keynote",
+      "speakers": [
+        "xjm"
+      ]
+    },
+    {
+      "startTime": "2019-11-29T05:15:00Z",
+      "endTime": "2019-11-29T05:45:00Z",
+      "duration": "P30M",
+      "title": "Lightning talks",
+      "location": "Sassafras",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-29T05:45:00Z",
+      "endTime": "2019-11-29T06:00:00Z",
+      "duration": "P15M",
+      "title": "Closing remarks",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2019-11-29T07:00:00Z",
+      "endTime": "2019-11-29T09:30:00Z",
+      "duration": "P150M",
+      "title": "Pantheon After Party at Shambles Brewery",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    }
+  ],
+  "result": "\u2705",
+  "url": "https://drupalsouth.org/events/hobart-2019/schedule"
+}

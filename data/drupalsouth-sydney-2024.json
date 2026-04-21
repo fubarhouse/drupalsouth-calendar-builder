@@ -1,0 +1,767 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Sydney",
+    "year": "2024",
+    "website": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule",
+    "region": "Australia – Sydney",
+    "endDate": "2024-03-22T04:00:00Z",
+    "startDate": "2024-03-19T21:00:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule",
+    "venue": "Sydney Masonic Centre",
+    "timezone": "Australia/Sydney"
+  },
+  "items": [
+    {
+      "startTime": "2024-03-19T21:00:00Z",
+      "endTime": "2024-03-19T22:00:00Z",
+      "duration": "P60M",
+      "title": "Registration / Tea & Coffee",
+      "location": "Foyer",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-19T22:00:00Z",
+      "endTime": "2024-03-19T22:10:00Z",
+      "duration": "P10M",
+      "title": "Welcome to Country",
+      "location": "Grand Lodge",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-19T22:10:00Z",
+      "endTime": "2024-03-19T22:20:00Z",
+      "duration": "P10M",
+      "title": "Welcome from the DrupalSouth Committee",
+      "location": "Grand Lodge",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-19T22:20:00Z",
+      "endTime": "2024-03-19T23:05:00Z",
+      "duration": "P45M",
+      "title": "The Drupal Project Update",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3147",
+      "track": "Keynote",
+      "speakers": [
+        "Dries Buytaert"
+      ]
+    },
+    {
+      "startTime": "2024-03-19T23:05:00Z",
+      "endTime": "2024-03-19T23:15:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-19T23:15:00Z",
+      "endTime": "2024-03-19T23:45:00Z",
+      "duration": "P30M",
+      "title": "ArtSEEker - using headless Drupal to power AI Art recognition",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/2981",
+      "track": "Drupal Development",
+      "speakers": [
+        "Morgan Strong"
+      ]
+    },
+    {
+      "startTime": "2024-03-19T23:15:00Z",
+      "endTime": "2024-03-19T23:45:00Z",
+      "duration": "P30M",
+      "title": "Azure DevOps for Drupal",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3035",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Hasitha Guruge",
+        "Josh Fisher"
+      ]
+    },
+    {
+      "startTime": "2024-03-19T23:15:00Z",
+      "endTime": "2024-03-19T23:45:00Z",
+      "duration": "P30M",
+      "title": "To be or not to be a Technical Lead",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3064",
+      "track": "People & Culture",
+      "speakers": [
+        "Jibran Ijaz"
+      ]
+    },
+    {
+      "startTime": "2024-03-19T23:45:00Z",
+      "endTime": "2024-03-20T00:15:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T00:15:00Z",
+      "endTime": "2024-03-20T01:00:00Z",
+      "duration": "P45M",
+      "title": "A Q&A with Drupal Association leadership",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3047",
+      "track": "People & Culture",
+      "speakers": [
+        "Mike Richardson"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T00:15:00Z",
+      "endTime": "2024-03-20T01:00:00Z",
+      "duration": "P45M",
+      "title": "A Drupal core maintainer shares peer code review best practices",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3005",
+      "track": "Drupal Development",
+      "speakers": [
+        "xjm"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T00:15:00Z",
+      "endTime": "2024-03-20T01:00:00Z",
+      "duration": "P45M",
+      "title": "You need this when?! Using design systems to achieve success",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3051",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Amber Henry",
+        "Matt Commons"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T01:00:00Z",
+      "endTime": "2024-03-20T01:15:00Z",
+      "duration": "P15M",
+      "title": "Break (Room Change)",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T01:15:00Z",
+      "endTime": "2024-03-20T01:45:00Z",
+      "duration": "P30M",
+      "title": "Make upgrading easier for your module users",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3020",
+      "track": "Drupal Development",
+      "speakers": [
+        "Kim Pepper"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T01:15:00Z",
+      "endTime": "2024-03-20T01:45:00Z",
+      "duration": "P30M",
+      "title": "Drupal and the Open Web in the Australian Government - 2024 edition",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3041",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Sean Hamlin"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T01:15:00Z",
+      "endTime": "2024-03-20T01:45:00Z",
+      "duration": "P30M",
+      "title": "Beyond the code: building mutually beneficial client relationships",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3069",
+      "track": "People & Culture",
+      "speakers": [
+        "Guy Frawley",
+        "William O'keeffe"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T01:45:00Z",
+      "endTime": "2024-03-20T02:45:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T02:45:00Z",
+      "endTime": "2024-03-20T03:15:00Z",
+      "duration": "P30M",
+      "title": "Bringing NZ history into the future",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3043",
+      "track": "Drupal Development",
+      "speakers": [
+        "Jonathan Hunt"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T02:45:00Z",
+      "endTime": "2024-03-20T03:15:00Z",
+      "duration": "P30M",
+      "title": "Site360: Under the hood of a website health metrics tool",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3061",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Roman Barbun"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T02:45:00Z",
+      "endTime": "2024-03-20T03:15:00Z",
+      "duration": "P30M",
+      "title": "New Perspectives For Design Thinking—10 ways to fail as the person designing for other people",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3054",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Heike Theis"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T03:15:00Z",
+      "endTime": "2024-03-20T03:30:00Z",
+      "duration": "P15M",
+      "title": "Break (Room Change)",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T03:30:00Z",
+      "endTime": "2024-03-20T04:00:00Z",
+      "duration": "P30M",
+      "title": "Secure, Performant, Scalable and Green: The big wins of a static Drupal website",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3074",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Steven Worley"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T03:30:00Z",
+      "endTime": "2024-03-20T03:45:00Z",
+      "duration": "P15M",
+      "title": "Building Drupal with Twig",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3044",
+      "track": "Drupal Development",
+      "speakers": [
+        "Kelvin Wong"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T03:45:00Z",
+      "endTime": "2024-03-20T04:00:00Z",
+      "duration": "P15M",
+      "title": "Let's get cooking: Recipes for Drupal",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3066",
+      "track": "Drupal Development",
+      "speakers": [
+        "Chris Burgess"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T03:30:00Z",
+      "endTime": "2024-03-20T04:00:00Z",
+      "duration": "P30M",
+      "title": "How to stay sane while building a large-scale university website. An overview of the bond.edu.au project.",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3024",
+      "track": "People & Culture",
+      "speakers": [
+        "Griffyn Heels",
+        "Nathan Greenway"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T04:00:00Z",
+      "endTime": "2024-03-20T04:20:00Z",
+      "duration": "P20M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T04:20:00Z",
+      "endTime": "2024-03-20T04:50:00Z",
+      "duration": "P30M",
+      "title": "Delving into Website Performance: A Journey from Browser to Web Server",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3026",
+      "track": "Drupal Development",
+      "speakers": [
+        "Joshua Li"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T04:20:00Z",
+      "endTime": "2024-03-20T04:50:00Z",
+      "duration": "P30M",
+      "title": "CSS Magic: Making Web Design Fun Again!",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/2999",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Brynn Briedis"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T04:20:00Z",
+      "endTime": "2024-03-20T04:50:00Z",
+      "duration": "P30M",
+      "title": "(Support) people are people too. Learn how to increase the odds of getting your required outcome",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3039",
+      "track": "People & Culture",
+      "speakers": [
+        "Jim Koutsouris"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T04:50:00Z",
+      "endTime": "2024-03-20T05:00:00Z",
+      "duration": "P10M",
+      "title": "Break (Room Change)",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T05:00:00Z",
+      "endTime": "2024-03-20T06:00:00Z",
+      "duration": "P60M",
+      "title": "Splash Awards presented by Ironstar",
+      "location": "Grand Lodge",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T06:00:00Z",
+      "endTime": "2024-03-20T08:00:00Z",
+      "duration": "P120M",
+      "title": "Networking Drinks and Canapés",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T08:00:00Z",
+      "endTime": "2024-03-20T08:00:00Z",
+      "duration": "P0M",
+      "title": "End of Day One",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T21:30:00Z",
+      "endTime": "2024-03-20T21:50:00Z",
+      "duration": "P20M",
+      "title": "Tea & Coffee",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T21:50:00Z",
+      "endTime": "2024-03-20T22:00:00Z",
+      "duration": "P10M",
+      "title": "Introduction to Day Two",
+      "location": "Grand Lodge",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T22:00:00Z",
+      "endTime": "2024-03-20T22:45:00Z",
+      "duration": "P45M",
+      "title": "Beyond Buzzwords: Demystifying Diversity and Inclusion",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3229",
+      "track": "Keynote",
+      "speakers": [
+        "Girls in Tech Australia"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T22:45:00Z",
+      "endTime": "2024-03-20T23:00:00Z",
+      "duration": "P15M",
+      "title": "Break (Room Change)",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T23:00:00Z",
+      "endTime": "2024-03-20T23:30:00Z",
+      "duration": "P30M",
+      "title": "Drupal at scale in the Australian National University",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3018",
+      "track": "Drupal Development",
+      "speakers": [
+        "Dmitry Mikhailov"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T23:00:00Z",
+      "endTime": "2024-03-20T23:30:00Z",
+      "duration": "P30M",
+      "title": "Simplify Drupal Testing with Cypress and Cucumber Automation",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3057",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Gaurav Garg",
+        "Govind Kumar Malu"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T23:00:00Z",
+      "endTime": "2024-03-20T23:30:00Z",
+      "duration": "P30M",
+      "title": "Components of a component",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3031",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Nathan ter Bogt"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T23:30:00Z",
+      "endTime": "2024-03-20T23:50:00Z",
+      "duration": "P20M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-20T23:50:00Z",
+      "endTime": "2024-03-21T00:35:00Z",
+      "duration": "P45M",
+      "title": "Patterns for Local Development Environment Nirvana",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3040",
+      "track": "Drupal Development",
+      "speakers": [
+        "Nick Schuch"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T23:50:00Z",
+      "endTime": "2024-03-21T00:35:00Z",
+      "duration": "P45M",
+      "title": "Conflict is Information: Listen more, learn more, do better",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3065",
+      "track": "People & Culture",
+      "speakers": [
+        "Dave Sparks"
+      ]
+    },
+    {
+      "startTime": "2024-03-20T23:50:00Z",
+      "endTime": "2024-03-21T00:35:00Z",
+      "duration": "P45M",
+      "title": "First Time Contributors Workshop",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3052",
+      "track": "Drupal Development",
+      "speakers": [
+        "Suchi Garg"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T00:35:00Z",
+      "endTime": "2024-03-21T00:45:00Z",
+      "duration": "P10M",
+      "title": "Break (Room Change)",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-21T00:45:00Z",
+      "endTime": "2024-03-21T01:15:00Z",
+      "duration": "P30M",
+      "title": "Drupal Defence in Depth",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3050",
+      "track": "Drupal Development",
+      "speakers": [
+        "Ming Quah"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T00:45:00Z",
+      "endTime": "2024-03-21T01:15:00Z",
+      "duration": "P30M",
+      "title": "Patches are almost dead. Long live Merge Requests!",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3011",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T00:45:00Z",
+      "endTime": "2024-03-21T01:15:00Z",
+      "duration": "P30M",
+      "title": "Is generative AI the one UI to rule them all?",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3036",
+      "track": "Drupal Development",
+      "speakers": [
+        "Josh Waihi"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T01:15:00Z",
+      "endTime": "2024-03-21T02:15:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-21T02:15:00Z",
+      "endTime": "2024-03-21T02:45:00Z",
+      "duration": "P30M",
+      "title": "DrupalSouth Steering Committee - Panel & Open Discussion",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3249",
+      "track": "People & Culture",
+      "speakers": [
+        "Dave Sparks"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T02:15:00Z",
+      "endTime": "2024-03-21T02:45:00Z",
+      "duration": "P30M",
+      "title": "Making Sure GovCMS Works Great: Easy Ways to Test",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3038",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Joseph Zhao",
+        "Steven Worley"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T02:15:00Z",
+      "endTime": "2024-03-21T02:45:00Z",
+      "duration": "P30M",
+      "title": "Turning Tragedy into Triumph: Lessons in Resilience",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3021",
+      "track": "People & Culture",
+      "speakers": [
+        "Dallas Ramsden"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T02:45:00Z",
+      "endTime": "2024-03-21T03:00:00Z",
+      "duration": "P15M",
+      "title": "Break (Room Change)",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-21T03:00:00Z",
+      "endTime": "2024-03-21T03:30:00Z",
+      "duration": "P30M",
+      "title": "Build Forms in Drupal using Webform",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3022",
+      "track": "Drupal Development",
+      "speakers": [
+        "Ivan Zugec"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T03:00:00Z",
+      "endTime": "2024-03-21T03:15:00Z",
+      "duration": "P15M",
+      "title": "From Zero to Hero with Docker Contexts: Your Practical Guide!",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/2978",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Karl Hepworth"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T03:15:00Z",
+      "endTime": "2024-03-21T03:30:00Z",
+      "duration": "P15M",
+      "title": "Nice Things™️ for Front end devs with Storybook, Vite, Twig and Drupal",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3008",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Lee Rowlands"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T03:00:00Z",
+      "endTime": "2024-03-21T03:15:00Z",
+      "duration": "P15M",
+      "title": "The Importance and Path to Growing the Drupal Community through Marketeers",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3025",
+      "track": "People & Culture",
+      "speakers": [
+        "Marcus Duhon"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T03:15:00Z",
+      "endTime": "2024-03-21T03:30:00Z",
+      "duration": "P15M",
+      "title": "The good, the bad and the ugly: Project retrospectives",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3076",
+      "track": "People & Culture",
+      "speakers": [
+        "Murray Woodman"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T03:30:00Z",
+      "endTime": "2024-03-21T04:00:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-21T04:00:00Z",
+      "endTime": "2024-03-21T04:30:00Z",
+      "duration": "P30M",
+      "title": "Simplifying Structures: Exploring the Benefits of Drupal's Single Directory Component Approach",
+      "location": "Grand Lodge",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3058",
+      "track": "Drupal Development",
+      "speakers": [
+        "Amey Mudras",
+        "Govind Kumar Malu"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T04:00:00Z",
+      "endTime": "2024-03-21T04:30:00Z",
+      "duration": "P30M",
+      "title": "Accessibility in WYSIWYG editors",
+      "location": "Corinthian",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3013",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Janna Malikova"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T04:00:00Z",
+      "endTime": "2024-03-21T04:30:00Z",
+      "duration": "P30M",
+      "title": "Drupal Career: A Humorous Journey in the Drupal World",
+      "location": "Doric",
+      "link": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule/3006",
+      "track": "People & Culture",
+      "speakers": [
+        "Amjadkhan Pathan"
+      ]
+    },
+    {
+      "startTime": "2024-03-21T04:30:00Z",
+      "endTime": "2024-03-21T04:45:00Z",
+      "duration": "P15M",
+      "title": "Break (Room Change)",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-21T04:45:00Z",
+      "endTime": "2024-03-21T05:00:00Z",
+      "duration": "P15M",
+      "title": "Closing Remarks",
+      "location": "Grand Lodge",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-21T05:00:00Z",
+      "endTime": "2024-03-21T05:00:00Z",
+      "duration": "P0M",
+      "title": "Conference Ends",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2024-03-21T22:00:00Z",
+      "endTime": "2024-03-22T04:00:00Z",
+      "duration": "P360M",
+      "title": "Code Contribution Sprint",
+      "location": "Northcott Room, Level 4, Sydney Masonic Centre",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    }
+  ],
+  "result": "✅",
+  "url": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule"
+}

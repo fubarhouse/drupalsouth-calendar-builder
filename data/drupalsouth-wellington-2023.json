@@ -1,0 +1,763 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Wellington",
+    "year": "2023",
+    "website": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule",
+    "region": "New Zealand – Wellington",
+    "endDate": "2023-05-19T03:00:00Z",
+    "startDate": "2023-05-16T20:00:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule",
+    "venue": "The Embassy Theatre",
+    "timezone": "Pacific/Auckland"
+  },
+  "items": [
+    {
+      "startTime": "2023-05-16T20:00:00Z",
+      "endTime": "2023-05-16T21:00:00Z",
+      "duration": "P60M",
+      "title": "Registration / Tea & Coffee",
+      "location": "Foyer",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-16T21:00:00Z",
+      "endTime": "2023-05-16T21:15:00Z",
+      "duration": "P15M",
+      "title": "Opening remarks / Introduction",
+      "location": "Main Theatre",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-16T21:15:00Z",
+      "endTime": "2023-05-16T22:00:00Z",
+      "duration": "P45M",
+      "title": "Securing the software that will change the world",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2846",
+      "track": "Keynote",
+      "speakers": [
+        "Laura Bell Main"
+      ]
+    },
+    {
+      "startTime": "2023-05-16T22:00:00Z",
+      "endTime": "2023-05-16T22:15:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-16T22:15:00Z",
+      "endTime": "2023-05-16T22:45:00Z",
+      "duration": "P30M",
+      "title": "From 'them' to 'us': Demystifying Drupal contribution",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2716",
+      "track": "Drupal Development",
+      "speakers": [
+        "Pamela Barone",
+        "Lee Rowlands"
+      ]
+    },
+    {
+      "startTime": "2023-05-16T22:15:00Z",
+      "endTime": "2023-05-16T22:45:00Z",
+      "duration": "P30M",
+      "title": "Build Your Own Mailchimp in Amazon SES",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2703",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Dieuwe de Boer"
+      ]
+    },
+    {
+      "startTime": "2023-05-16T22:15:00Z",
+      "endTime": "2023-05-16T22:45:00Z",
+      "duration": "P30M",
+      "title": "Open Source, Seriously",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2712",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Mathias Bolt Lesniak"
+      ]
+    },
+    {
+      "startTime": "2023-05-16T22:45:00Z",
+      "endTime": "2023-05-16T23:15:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-16T23:15:00Z",
+      "endTime": "2023-05-16T23:45:00Z",
+      "duration": "P30M",
+      "title": "Understanding the Fields System in Drupal",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2728",
+      "track": "Drupal Development",
+      "speakers": [
+        "Ivan Zugec"
+      ]
+    },
+    {
+      "startTime": "2023-05-16T23:15:00Z",
+      "endTime": "2023-05-16T23:45:00Z",
+      "duration": "P30M",
+      "title": "Six weeks on the dark side",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2700",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Margery Tongway"
+      ]
+    },
+    {
+      "startTime": "2023-05-16T23:15:00Z",
+      "endTime": "2023-05-16T23:45:00Z",
+      "duration": "P30M",
+      "title": "CKEditor 5: One Small Step for Content Editor, One Giant Leap for Drupal",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2732",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2023-05-16T23:45:00Z",
+      "endTime": "2023-05-17T00:00:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T00:00:00Z",
+      "endTime": "2023-05-17T00:30:00Z",
+      "duration": "P30M",
+      "title": "Creating the optimal editorial experience with Layout Builder",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2729",
+      "track": "Drupal Development",
+      "speakers": [
+        "Daniel Veza"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T00:00:00Z",
+      "endTime": "2023-05-17T00:30:00Z",
+      "duration": "P30M",
+      "title": "Getting the most from your CI/CD experience",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2744",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Karl Hepworth"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T00:00:00Z",
+      "endTime": "2023-05-17T00:30:00Z",
+      "duration": "P30M",
+      "title": "Scanning the New Zealand Government ecosystem. How popular is Drupal in the land of the long white cloud?",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2724",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Sean Hamlin"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T00:30:00Z",
+      "endTime": "2023-05-17T01:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T01:30:00Z",
+      "endTime": "2023-05-17T02:00:00Z",
+      "duration": "P30M",
+      "title": "Drupal Hosting Security Panel",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2742",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Kim Pepper"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T01:30:00Z",
+      "endTime": "2023-05-17T02:00:00Z",
+      "duration": "P30M",
+      "title": "Introduction to decoupled Drupal with a Gatsby frontend",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2709",
+      "track": "Drupal Development",
+      "speakers": [
+        "Stewart West"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T01:30:00Z",
+      "endTime": "2023-05-17T01:45:00Z",
+      "duration": "P15M",
+      "title": "How much does a polar bear weigh?",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2741",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Fonda Duffy"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T01:45:00Z",
+      "endTime": "2023-05-17T02:00:00Z",
+      "duration": "P15M",
+      "title": "The Recipe for Enduring and Meaningful Workplace Relationships",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2772",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Julia Topliss"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T02:00:00Z",
+      "endTime": "2023-05-17T02:15:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T02:15:00Z",
+      "endTime": "2023-05-17T02:45:00Z",
+      "duration": "P30M",
+      "title": "Securing your Drupal projects with Essential 8: Scanning Tools & Compliance Strategies",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2770",
+      "track": "Drupal Development",
+      "speakers": [
+        "Daynis Olman"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T02:15:00Z",
+      "endTime": "2023-05-17T02:45:00Z",
+      "duration": "P30M",
+      "title": "Vue JS for React JS developers and vice versa",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2702",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Lee Rowlands"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T02:15:00Z",
+      "endTime": "2023-05-17T02:45:00Z",
+      "duration": "P30M",
+      "title": "How (anyone!) can get constructive user feedback.",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2710",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Zinzi Bianca Sullivan"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T02:45:00Z",
+      "endTime": "2023-05-17T03:00:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T03:00:00Z",
+      "endTime": "2023-05-17T03:30:00Z",
+      "duration": "P30M",
+      "title": "Secure by Design: Integrating Security into Development",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2733",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Janna Malikova"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T03:00:00Z",
+      "endTime": "2023-05-17T03:30:00Z",
+      "duration": "P30M",
+      "title": "Building an API with GraphQL 4",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2694",
+      "track": "Drupal Development",
+      "speakers": [
+        "Adam Bramley"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T03:00:00Z",
+      "endTime": "2023-05-17T03:30:00Z",
+      "duration": "P30M",
+      "title": "LINZ & Charts Showcase: From Discovery and Designs, to Development and Delivery",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2715",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Jack Kilborn"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T03:30:00Z",
+      "endTime": "2023-05-17T04:00:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T04:00:00Z",
+      "endTime": "2023-05-17T04:30:00Z",
+      "duration": "P30M",
+      "title": "Why Drupal? Why Now? - Panel Discussion",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2850",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Dave Sparks"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T04:00:00Z",
+      "endTime": "2023-05-17T04:30:00Z",
+      "duration": "P30M",
+      "title": "The Best of Both Worlds: Combining Drupal Headless and Next.js",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2767",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Jimmy Cann"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T04:00:00Z",
+      "endTime": "2023-05-17T04:30:00Z",
+      "duration": "P30M",
+      "title": "Creating a Culture of Documentation",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2723",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Alanna C Burke"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T04:30:00Z",
+      "endTime": "2023-05-17T04:45:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T04:45:00Z",
+      "endTime": "2023-05-17T05:45:00Z",
+      "duration": "P60M",
+      "title": "Splash Awards",
+      "location": "Main Theatre",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T05:45:00Z",
+      "endTime": "2023-05-17T05:45:00Z",
+      "duration": "P0M",
+      "title": "Networking Drinks and Canapés",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T20:30:00Z",
+      "endTime": "2023-05-17T20:55:00Z",
+      "duration": "P25M",
+      "title": "Tea & Coffee",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T20:55:00Z",
+      "endTime": "2023-05-17T21:15:00Z",
+      "duration": "P20M",
+      "title": "Opening remarks / Introduction",
+      "location": "Main Theatre",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T21:15:00Z",
+      "endTime": "2023-05-17T21:45:00Z",
+      "duration": "P30M",
+      "title": "Open Source is Dead, Long Live Open Source",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2860",
+      "track": "Keynote",
+      "speakers": [
+        "Donald Christie"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T21:45:00Z",
+      "endTime": "2023-05-17T22:00:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T22:00:00Z",
+      "endTime": "2023-05-17T22:30:00Z",
+      "duration": "P30M",
+      "title": "The road to zero friction testing - getting the most out of Drupal Testing Traits",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2717",
+      "track": "Drupal Development",
+      "speakers": [
+        "Michael Strelan"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T22:00:00Z",
+      "endTime": "2023-05-17T22:30:00Z",
+      "duration": "P30M",
+      "title": "Announcing the 2023 Drupal Local Development Survey Results",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2698",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Michael Richardson"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T22:00:00Z",
+      "endTime": "2023-05-17T22:30:00Z",
+      "duration": "P30M",
+      "title": "The Fast and the Functional: Pragma's Strategy for a Successful Website Rebuild",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2751",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Emily Mills"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T22:30:00Z",
+      "endTime": "2023-05-17T23:00:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T23:00:00Z",
+      "endTime": "2023-05-17T23:30:00Z",
+      "duration": "P30M",
+      "title": "I thought you'd said you'd written the tests!?",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2720",
+      "track": "Drupal Development",
+      "speakers": [
+        "Kent Shelley"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T23:00:00Z",
+      "endTime": "2023-05-17T23:30:00Z",
+      "duration": "P30M",
+      "title": "Design in Figma, launch on Drupal in days, not weeks",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2771",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Akhil Bhandari"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T23:00:00Z",
+      "endTime": "2023-05-17T23:30:00Z",
+      "duration": "P30M",
+      "title": "GovCMS Deep Dive into content sharing at scale",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2760",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Sharyn Clarkson"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T23:30:00Z",
+      "endTime": "2023-05-17T23:45:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-17T23:45:00Z",
+      "endTime": "2023-05-18T00:15:00Z",
+      "duration": "P30M",
+      "title": "Uplifting content with AI: ChatGPT and NLP Cloud",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2745",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Murray Woodman"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T23:45:00Z",
+      "endTime": "2023-05-18T00:15:00Z",
+      "duration": "P30M",
+      "title": "SEO + Web core vitals + Drupal: a 360o view on the metrics that matter",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2757",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Shivan Jaikaran"
+      ]
+    },
+    {
+      "startTime": "2023-05-17T23:45:00Z",
+      "endTime": "2023-05-18T00:15:00Z",
+      "duration": "P30M",
+      "title": "Automate your tests so you can spend more time drinking coffee",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2762",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Mel Stubbings"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T00:15:00Z",
+      "endTime": "2023-05-18T01:00:00Z",
+      "duration": "P45M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-18T01:00:00Z",
+      "endTime": "2023-05-18T01:30:00Z",
+      "duration": "P30M",
+      "title": "Next level Search API",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2719",
+      "track": "Drupal Development",
+      "speakers": [
+        "Saul Willers"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T01:00:00Z",
+      "endTime": "2023-05-18T01:30:00Z",
+      "duration": "P30M",
+      "title": "A Case Study On Building A Cloud Native Platform",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2718",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Nick Schuch"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T01:00:00Z",
+      "endTime": "2023-05-18T01:30:00Z",
+      "duration": "P30M",
+      "title": "Tips and tricks for working with GovCMS SaaS",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2749",
+      "track": "Drupal Development",
+      "speakers": [
+        "Marji Cermak"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T01:30:00Z",
+      "endTime": "2023-05-18T01:45:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-18T01:45:00Z",
+      "endTime": "2023-05-18T02:15:00Z",
+      "duration": "P30M",
+      "title": "Unlocking the Power of GraphQL in Drupal for Frontend Developers",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2707",
+      "track": "Drupal Development",
+      "speakers": [
+        "Al Munnings"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T01:45:00Z",
+      "endTime": "2023-05-18T02:15:00Z",
+      "duration": "P30M",
+      "title": "Enhance User Experience with Partially Decoupled Drupal Webforms",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2721",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Brynn Briedis"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T01:45:00Z",
+      "endTime": "2023-05-18T02:15:00Z",
+      "duration": "P30M",
+      "title": "Drupal for Changemakers - past, present, future",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2777",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Jaime Schmidt"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T02:15:00Z",
+      "endTime": "2023-05-18T02:45:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-18T02:45:00Z",
+      "endTime": "2023-05-18T03:15:00Z",
+      "duration": "P30M",
+      "title": "Engineering data pipelines, but not code",
+      "location": "Main Theatre",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2753",
+      "track": "Drupal Development",
+      "speakers": [
+        "Nathan ter Bogt"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T02:45:00Z",
+      "endTime": "2023-05-18T03:15:00Z",
+      "duration": "P30M",
+      "title": "Understanding Users Better at Scale with Google Looker Studio",
+      "location": "Room 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2748",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Scott Massey"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T02:45:00Z",
+      "endTime": "2023-05-18T03:15:00Z",
+      "duration": "P30M",
+      "title": "Using Drupal for Rules as Code projects in NZ and Australia",
+      "location": "Room 3",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule/2750",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Phillipa Martin"
+      ]
+    },
+    {
+      "startTime": "2023-05-18T03:15:00Z",
+      "endTime": "2023-05-18T03:30:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-18T03:30:00Z",
+      "endTime": "2023-05-18T04:00:00Z",
+      "duration": "P30M",
+      "title": "Closing remarks",
+      "location": "Main Theatre",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-18T04:00:00Z",
+      "endTime": "2023-05-18T06:00:00Z",
+      "duration": "P120M",
+      "title": "Networking Drinks @ Panhead Tory Street",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2023-05-18T21:00:00Z",
+      "endTime": "2023-05-19T03:00:00Z",
+      "duration": "P360M",
+      "title": "Code Contribution Sprint",
+      "location": "Xequals Wellington, 93 Cuba Street, Te Aro, Wellington 6011",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    }
+  ],
+  "result": "✅",
+  "url": "https://drupalsouth.org/events/drupalsouth-wellington-2023/schedule"
+}

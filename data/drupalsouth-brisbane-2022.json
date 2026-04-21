@@ -1,0 +1,750 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Brisbane",
+    "year": "2022",
+    "website": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule",
+    "region": "Australia – Brisbane",
+    "endDate": "2022-10-21T05:00:00Z",
+    "startDate": "2022-10-18T22:15:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule",
+    "venue": "The Westin, Brisbane",
+    "timezone": "Australia/Brisbane"
+  },
+  "items": [
+    {
+      "startTime": "2022-10-18T22:15:00Z",
+      "endTime": "2022-10-18T22:55:00Z",
+      "duration": "P40M",
+      "title": "Registration / Tea & Coffee",
+      "location": "Foyer",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-18T22:55:00Z",
+      "endTime": "2022-10-18T23:05:00Z",
+      "duration": "P10M",
+      "title": "Opening remarks / Introduction",
+      "location": "Ballroom 1",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-18T23:05:00Z",
+      "endTime": "2022-10-18T23:45:00Z",
+      "duration": "P40M",
+      "title": "Hackathons and Open-Source: The Ideal Combination for Driving Innovation",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1986",
+      "track": "Keynote",
+      "speakers": [
+        "Zaidul Alam"
+      ]
+    },
+    {
+      "startTime": "2022-10-18T23:45:00Z",
+      "endTime": "2022-10-18T23:55:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-18T23:55:00Z",
+      "endTime": "2022-10-19T00:30:00Z",
+      "duration": "P35M",
+      "title": "Managing a managed service: An exercise in automating the D8 to D9 upgrade for over 170 websites",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1626",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Alistair O'Neill",
+        "Yvonne Norris"
+      ]
+    },
+    {
+      "startTime": "2022-10-18T23:55:00Z",
+      "endTime": "2022-10-19T00:30:00Z",
+      "duration": "P35M",
+      "title": "So many websites, so little time: A consistent and efficient approach to many unique sites",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1481",
+      "track": "Drupal Development",
+      "speakers": [
+        "Mel Stubbings"
+      ]
+    },
+    {
+      "startTime": "2022-10-18T23:55:00Z",
+      "endTime": "2022-10-19T00:30:00Z",
+      "duration": "P35M",
+      "title": "Building Cloudwatch Dashboards with Custom Drupal Metrics",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1525",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Karl Hepworth"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T00:30:00Z",
+      "endTime": "2022-10-19T01:00:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T01:00:00Z",
+      "endTime": "2022-10-19T01:35:00Z",
+      "duration": "P35M",
+      "title": "The challenges of designing a HCD component-based design system and Drupal 9 theme",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1672",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Akhil Bhandari",
+        "Phillipa Martin"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T01:00:00Z",
+      "endTime": "2022-10-19T01:20:00Z",
+      "duration": "P20M",
+      "title": "Optimise Your Page Loads with Lazy Loading JS",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1617",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Rikki Bochow"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T01:00:00Z",
+      "endTime": "2022-10-19T01:35:00Z",
+      "duration": "P35M",
+      "title": "Theming with Bundle Classes, Layout builder and Twig",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1547",
+      "track": "Drupal Development",
+      "speakers": [
+        "Daniel Veza"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T01:20:00Z",
+      "endTime": "2022-10-19T01:35:00Z",
+      "duration": "P15M",
+      "title": "Taking a community initiative from idea to success, a Bug Smash case study",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1508",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Griffyn Heels"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T01:35:00Z",
+      "endTime": "2022-10-19T01:45:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T01:45:00Z",
+      "endTime": "2022-10-19T02:20:00Z",
+      "duration": "P35M",
+      "title": "Decoupled OpenSearch: A Case Study",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1572",
+      "track": "Drupal Development",
+      "speakers": [
+        "Adam Bramley"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T01:45:00Z",
+      "endTime": "2022-10-19T02:20:00Z",
+      "duration": "P35M",
+      "title": "Test Automation for GovCMS using Cypress",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1622",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Joseph Zhao",
+        "Tara Wijayagunawardana"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T01:45:00Z",
+      "endTime": "2022-10-19T02:20:00Z",
+      "duration": "P35M",
+      "title": "DrupalSouth Steering Committee - Panel & Open Discussion",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1657",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "DrupalSouth committee members"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T02:20:00Z",
+      "endTime": "2022-10-19T03:20:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T03:20:00Z",
+      "endTime": "2022-10-19T03:55:00Z",
+      "duration": "P35M",
+      "title": "Scaling Drupal Through a Pandemic",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1580",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Kim Pepper"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T03:20:00Z",
+      "endTime": "2022-10-19T03:55:00Z",
+      "duration": "P35M",
+      "title": "A whole new level in Drupal PDF generation - Rebuilding eContracts for MBA NSW",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1413",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Nigel Cunningham"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T03:20:00Z",
+      "endTime": "2022-10-19T03:55:00Z",
+      "duration": "P35M",
+      "title": "Understanding React Hooks as a backend developer",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1595",
+      "track": "Drupal Development",
+      "speakers": [
+        "Eric Goodwin"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T03:55:00Z",
+      "endTime": "2022-10-19T04:05:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T04:05:00Z",
+      "endTime": "2022-10-19T04:40:00Z",
+      "duration": "P35M",
+      "title": "Drupal 9, Migrations, Decoupled APIs and Online Collections",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1661",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Morgan Strong"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T04:05:00Z",
+      "endTime": "2022-10-19T04:40:00Z",
+      "duration": "P35M",
+      "title": "Mobile accessibility: building accessible mobile sites and native apps for accessibility",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1420",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Gian Wild"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T04:05:00Z",
+      "endTime": "2022-10-19T04:40:00Z",
+      "duration": "P35M",
+      "title": "Purge the gap – Automating Content Delivery Network purging with govCMS",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1630",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Doug Courtney"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T04:40:00Z",
+      "endTime": "2022-10-19T04:50:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T04:50:00Z",
+      "endTime": "2022-10-19T05:30:00Z",
+      "duration": "P40M",
+      "title": "AI Powered Drupal: A new era for content creation and management",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1647",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Murray Woodman"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T04:50:00Z",
+      "endTime": "2022-10-19T05:30:00Z",
+      "duration": "P40M",
+      "title": "5 Simple Tips To Level Up Your Legacy Code - You Won't Believe What Happens Next!",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1606",
+      "track": "Drupal Development",
+      "speakers": [
+        "Michael Strelan"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T04:50:00Z",
+      "endTime": "2022-10-19T05:30:00Z",
+      "duration": "P40M",
+      "title": "Better user and editor experience - exploring open data on GovCMS",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1635",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Julia Topliss",
+        "Matthew Pirani"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T05:30:00Z",
+      "endTime": "2022-10-19T07:00:00Z",
+      "duration": "P90M",
+      "title": "Networking",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T22:25:00Z",
+      "endTime": "2022-10-19T22:55:00Z",
+      "duration": "P30M",
+      "title": "Breakfast",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T22:55:00Z",
+      "endTime": "2022-10-19T23:00:00Z",
+      "duration": "P5M",
+      "title": "Opening remarks / Introduction",
+      "location": "Ballroom 1",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T23:00:00Z",
+      "endTime": "2022-10-19T23:35:00Z",
+      "duration": "P35M",
+      "title": "How to Lead Talented Technical Teams",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1996",
+      "track": "Keynote",
+      "speakers": [
+        "Sarah-Jane Peterschlingmann"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T23:35:00Z",
+      "endTime": "2022-10-19T23:40:00Z",
+      "duration": "P5M",
+      "title": "Sponsor address by SRIJAN",
+      "location": "Ballroom 1",
+      "link": "",
+      "track": "Sponsor",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T23:40:00Z",
+      "endTime": "2022-10-19T23:55:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-19T23:55:00Z",
+      "endTime": "2022-10-20T00:30:00Z",
+      "duration": "P35M",
+      "title": "Beyond plain language: techniques for communicating complex concepts and processes",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1638",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Diana Campbell"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T23:55:00Z",
+      "endTime": "2022-10-20T00:30:00Z",
+      "duration": "P35M",
+      "title": "Wriggling out from the weight of Covid to take GovCMS on its next adventure",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1660",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Sharyn Clarkson"
+      ]
+    },
+    {
+      "startTime": "2022-10-19T23:55:00Z",
+      "endTime": "2022-10-20T00:30:00Z",
+      "duration": "P35M",
+      "title": "Building a Drupal hosting platform for all the users",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/2068",
+      "track": "Drupal Development",
+      "speakers": [
+        "Toby Bellwood"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T00:30:00Z",
+      "endTime": "2022-10-20T01:00:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T01:00:00Z",
+      "endTime": "2022-10-20T01:35:00Z",
+      "duration": "P35M",
+      "title": "Using Drupal as a content store for Service NSW apps",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1634",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Michael Caddy"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T01:00:00Z",
+      "endTime": "2022-10-20T01:35:00Z",
+      "duration": "P35M",
+      "title": "Intro into Layout Builder and Drupal.offCanvas with extra tricks (and no extra Drupal modules)",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1636",
+      "track": "Drupal Development",
+      "speakers": [
+        "Joshua Graham"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T01:00:00Z",
+      "endTime": "2022-10-20T01:35:00Z",
+      "duration": "P35M",
+      "title": "A personalisation UX playbook",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1648",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Andre Kakos"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T01:35:00Z",
+      "endTime": "2022-10-20T01:45:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T01:45:00Z",
+      "endTime": "2022-10-20T02:20:00Z",
+      "duration": "P35M",
+      "title": "The state of Headless and the emergence of MACH",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1426",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Josh Waihi"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T01:45:00Z",
+      "endTime": "2022-10-20T02:20:00Z",
+      "duration": "P35M",
+      "title": "Replatforming Victoria's Department of Health onto Single Digital Presence",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1673",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Suchi Garg",
+        "Phillipa Martin"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T01:45:00Z",
+      "endTime": "2022-10-20T02:20:00Z",
+      "duration": "P35M",
+      "title": "Drupal Architecture Anti Patterns",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1650",
+      "track": "Drupal Development",
+      "speakers": [
+        "Joseph Chin"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T02:20:00Z",
+      "endTime": "2022-10-20T03:20:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T03:20:00Z",
+      "endTime": "2022-10-20T03:55:00Z",
+      "duration": "P35M",
+      "title": "Building QA Dashboards in Drupal",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1684",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Arijit Dutta"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T03:20:00Z",
+      "endTime": "2022-10-20T03:55:00Z",
+      "duration": "P35M",
+      "title": "CMS as a service: Decoupled Drupal on a modern tech stack",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1631",
+      "track": "Drupal Development",
+      "speakers": [
+        "Andrew West",
+        "Johanna Aranguren"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T03:20:00Z",
+      "endTime": "2022-10-20T03:55:00Z",
+      "duration": "P35M",
+      "title": "Improving core web vitals with Drupal: A step by step approach",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1574",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Lee Rowlands"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T03:55:00Z",
+      "endTime": "2022-10-20T04:05:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T04:05:00Z",
+      "endTime": "2022-10-20T04:40:00Z",
+      "duration": "P35M",
+      "title": "A case study about location based search on nsw.gov.au website",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1653",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Jibran Ijaz"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T04:05:00Z",
+      "endTime": "2022-10-20T04:40:00Z",
+      "duration": "P35M",
+      "title": "The Pragmatic Guide to Defending Drupal",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1609",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Nick Schuch"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T04:05:00Z",
+      "endTime": "2022-10-20T04:40:00Z",
+      "duration": "P35M",
+      "title": "How to write for the online medium",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1669",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Phillipa Martin"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T04:40:00Z",
+      "endTime": "2022-10-20T05:10:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T05:10:00Z",
+      "endTime": "2022-10-20T05:45:00Z",
+      "duration": "P35M",
+      "title": "Natural language processing - The what, why and how",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1659",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Govind Kumar Malu"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T05:10:00Z",
+      "endTime": "2022-10-20T05:45:00Z",
+      "duration": "P35M",
+      "title": "Building a secure, authenticated federal agency Drupal platform",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1624",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Juliane Erben",
+        "Alex Skrypnyk"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T05:10:00Z",
+      "endTime": "2022-10-20T05:45:00Z",
+      "duration": "P35M",
+      "title": "From NGINX + php-fpm to NGINX Unit",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1621",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Luhur Abdi Rizal"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T05:45:00Z",
+      "endTime": "2022-10-20T05:55:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T05:55:00Z",
+      "endTime": "2022-10-20T06:30:00Z",
+      "duration": "P35M",
+      "title": "Drupal - The next 20 years (and beyond)",
+      "location": "Ballroom 1",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1493",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Owen Lansbury"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T05:55:00Z",
+      "endTime": "2022-10-20T06:30:00Z",
+      "duration": "P35M",
+      "title": "Scanning the Australian Government ecosystem. How popular is Drupal down under?",
+      "location": "Ballroom 2",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1662",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Sean Hamlin"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T05:55:00Z",
+      "endTime": "2022-10-20T06:30:00Z",
+      "duration": "P35M",
+      "title": "Modernizing Drupal in the enterprise: A charter for a modern CMS platform",
+      "location": "Elevate",
+      "link": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule/1432",
+      "track": "Drupal Development",
+      "speakers": [
+        "Arijit Dutta",
+        "Mohammed Azharuddin Khan"
+      ]
+    },
+    {
+      "startTime": "2022-10-20T06:30:00Z",
+      "endTime": "2022-10-20T06:40:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T06:40:00Z",
+      "endTime": "2022-10-20T07:00:00Z",
+      "duration": "P20M",
+      "title": "Closing remarks",
+      "location": "Ballroom 1",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2022-10-20T23:00:00Z",
+      "endTime": "2022-10-21T05:00:00Z",
+      "duration": "P360M",
+      "title": "Code Contribution Sprint",
+      "location": "Elevate",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    }
+  ],
+  "result": "✅",
+  "url": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule"
+}

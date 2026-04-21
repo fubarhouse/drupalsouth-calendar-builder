@@ -1,0 +1,659 @@
+{
+  "event": {
+    "designation": "DrupalGov",
+    "location": "Online",
+    "year": "2020",
+    "website": "https://drupalsouth.org/events/drupalgov-2020/schedule",
+    "region": "Online",
+    "endDate": "2020-11-05T06:00:00Z",
+    "startDate": "2020-11-04T21:55:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/drupalgov-2020/schedule",
+    "venue": "Online",
+    "timezone": "Australia/Sydney"
+  },
+  "items": [
+    {
+      "startTime": "2020-11-04T21:55:00Z",
+      "endTime": "2020-11-04T22:10:00Z",
+      "duration": "P15M",
+      "title": "Networking, Social and Sponsor Booths",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-04T22:10:00Z",
+      "endTime": "2020-11-04T22:20:00Z",
+      "duration": "P10M",
+      "title": "Opening Remarks",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-04T22:20:00Z",
+      "endTime": "2020-11-04T23:00:00Z",
+      "duration": "P40M",
+      "title": "Government as a Platform",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Keynote",
+      "speakers": [
+        "Lee Dowsett"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:00:00Z",
+      "endTime": "2020-11-04T23:05:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-04T23:05:00Z",
+      "endTime": "2020-11-04T23:25:00Z",
+      "duration": "P20M",
+      "title": "jGrants: Drupal-based grants management system for the Ministry of Economy, Trade and Industry of Japan",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Mori Sugimoto"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:05:00Z",
+      "endTime": "2020-11-04T23:25:00Z",
+      "duration": "P20M",
+      "title": "The future of Drupal MultiSites",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Michael Schmid"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:05:00Z",
+      "endTime": "2020-11-04T23:25:00Z",
+      "duration": "P20M",
+      "title": "Facelift your administrative experience - the future of Drupal Admin UI",
+      "location": "Stage 3",
+      "link": "",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Sascha Eggenberger"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:05:00Z",
+      "endTime": "2020-11-04T23:25:00Z",
+      "duration": "P20M",
+      "title": "Birds of a Feather",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-04T23:25:00Z",
+      "endTime": "2020-11-04T23:30:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-04T23:30:00Z",
+      "endTime": "2020-11-04T23:50:00Z",
+      "duration": "P20M",
+      "title": "Documentation is like a plant - you need to tend to it!",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Alanna Burke"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:30:00Z",
+      "endTime": "2020-11-04T23:50:00Z",
+      "duration": "P20M",
+      "title": "How to classify & sort more than 200 documents in a single bulk upload",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Andre Kakos",
+        "Queenie Robertson"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:30:00Z",
+      "endTime": "2020-11-04T23:50:00Z",
+      "duration": "P20M",
+      "title": "Lego up a bootstrap Drupal theme",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Yi Yiang"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:30:00Z",
+      "endTime": "2020-11-04T23:50:00Z",
+      "duration": "P20M",
+      "title": "Birds of a Feather",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-04T23:50:00Z",
+      "endTime": "2020-11-04T23:55:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-04T23:55:00Z",
+      "endTime": "2020-11-05T00:15:00Z",
+      "duration": "P20M",
+      "title": "Helping immunisation professionals deliver good clinical care with GovCMS for the Department of Health",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Ranjeet Elkunchwar",
+        "Anton Baggerman"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:55:00Z",
+      "endTime": "2020-11-05T00:15:00Z",
+      "duration": "P20M",
+      "title": "Automated vs Manual Accessibility Testing: What's the Difference?",
+      "location": "Stage 2",
+      "link": "",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Danielle Sheffler"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:55:00Z",
+      "endTime": "2020-11-05T00:05:00Z",
+      "duration": "P10M",
+      "title": "Creating High Performing Teams",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Nicole Ritchie"
+      ]
+    },
+    {
+      "startTime": "2020-11-04T23:55:00Z",
+      "endTime": "2020-11-05T00:15:00Z",
+      "duration": "P20M",
+      "title": "Meet the Moment: Delivering Results with WebOps",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Sponsor",
+      "speakers": [
+        "Drew Gorton"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T00:05:00Z",
+      "endTime": "2020-11-05T00:15:00Z",
+      "duration": "P10M",
+      "title": "The Speedy Go-Live - A Front-End Performance Checklist Before Launch",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Anthony Comben"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T00:15:00Z",
+      "endTime": "2020-11-05T00:35:00Z",
+      "duration": "P20M",
+      "title": "DruxtJS; An introduction to decoupling with Nuxt and Drupal",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Stuart Clark"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T00:15:00Z",
+      "endTime": "2020-11-05T00:35:00Z",
+      "duration": "P20M",
+      "title": "Applying Agile in real-world scenarios",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "David Scott",
+        "Elisa Berg"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T00:15:00Z",
+      "endTime": "2020-11-05T00:35:00Z",
+      "duration": "P20M",
+      "title": "Drupal 9 and CiviCRM",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T00:15:00Z",
+      "endTime": "2020-11-05T00:35:00Z",
+      "duration": "P20M",
+      "title": "DrupalSouth Steering Committee - Panel Discussion",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Panel",
+      "speakers": [
+        "Owen Lansbury"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T00:35:00Z",
+      "endTime": "2020-11-05T00:40:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T00:40:00Z",
+      "endTime": "2020-11-05T01:20:00Z",
+      "duration": "P40M",
+      "title": "2020. That was epic! A tale of gargantuan scale.",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Keynote",
+      "speakers": [
+        "Nathan Wall"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T01:20:00Z",
+      "endTime": "2020-11-05T01:25:00Z",
+      "duration": "P5M",
+      "title": "Lunch Announcement",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T01:25:00Z",
+      "endTime": "2020-11-05T02:10:00Z",
+      "duration": "P45M",
+      "title": "Lunch, Networking, Social and Sponsor Booths",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T02:10:00Z",
+      "endTime": "2020-11-05T02:30:00Z",
+      "duration": "P20M",
+      "title": "The UX of Content Guidance",
+      "location": "Main Stage",
+      "link": "",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Matt Fenwick"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:10:00Z",
+      "endTime": "2020-11-05T02:30:00Z",
+      "duration": "P20M",
+      "title": "Archives Central: A next-generation records repository",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Jonathan Hunt"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:10:00Z",
+      "endTime": "2020-11-05T02:30:00Z",
+      "duration": "P20M",
+      "title": "Yes we can do modern Javascript development!",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Jack Taranto"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:10:00Z",
+      "endTime": "2020-11-05T02:30:00Z",
+      "duration": "P20M",
+      "title": "Drupal Security Panel",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Panel",
+      "speakers": [
+        "Kim Pepper"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:30:00Z",
+      "endTime": "2020-11-05T02:35:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T02:35:00Z",
+      "endTime": "2020-11-05T02:55:00Z",
+      "duration": "P20M",
+      "title": "Crisis project management - 12 ways to successfully lead engagements in times of emergency",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Ian Laslett"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:35:00Z",
+      "endTime": "2020-11-05T02:55:00Z",
+      "duration": "P20M",
+      "title": "Managing large (and smaller) site portfolios with Lagoon Insights",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Toby Bellwood"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:35:00Z",
+      "endTime": "2020-11-05T02:55:00Z",
+      "duration": "P20M",
+      "title": "The weather is changing - a progressively decoupled approach in the BoM website",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Joshua Li",
+        "Ben Di-Lorenzo"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:35:00Z",
+      "endTime": "2020-11-05T02:55:00Z",
+      "duration": "P20M",
+      "title": "Content Planning & UX Panel",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Panel",
+      "speakers": [
+        "Kristy de Vries"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T02:55:00Z",
+      "endTime": "2020-11-05T03:00:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T03:00:00Z",
+      "endTime": "2020-11-05T03:20:00Z",
+      "duration": "P20M",
+      "title": "Running Workshops in 2020: How to Work Together in Isolation",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Richard Sison"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T03:00:00Z",
+      "endTime": "2020-11-05T03:20:00Z",
+      "duration": "P20M",
+      "title": "Rapid Response: How we build some of Australia's most important COVID websites with Drupal",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Chris Skene"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T03:00:00Z",
+      "endTime": "2020-11-05T03:20:00Z",
+      "duration": "P20M",
+      "title": "Strategies for Managing a Fleet of Drupal Projects",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Nick Santamaria"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T03:00:00Z",
+      "endTime": "2020-11-05T03:20:00Z",
+      "duration": "P20M",
+      "title": "Birds of a Feather",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T03:20:00Z",
+      "endTime": "2020-11-05T03:40:00Z",
+      "duration": "P20M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T03:40:00Z",
+      "endTime": "2020-11-05T03:50:00Z",
+      "duration": "P10M",
+      "title": "Decoupled Drupal with JSON:API",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Swati Garg"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T03:40:00Z",
+      "endTime": "2020-11-05T04:00:00Z",
+      "duration": "P20M",
+      "title": "Drupal and InfoSec Assurance",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Arjen Lentz"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T03:40:00Z",
+      "endTime": "2020-11-05T04:00:00Z",
+      "duration": "P20M",
+      "title": "An analysis of Government sites in Australia",
+      "location": "Stage 3",
+      "link": "",
+      "track": "Showcases & Project Management",
+      "speakers": [
+        "Murray Woodman"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T03:40:00Z",
+      "endTime": "2020-11-05T04:00:00Z",
+      "duration": "P20M",
+      "title": "Securing and Scaling Drupal with Kubernetes Panel",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Panel",
+      "speakers": [
+        "Salim Lakhani"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T03:50:00Z",
+      "endTime": "2020-11-05T04:00:00Z",
+      "duration": "P10M",
+      "title": "Integrating Lunr.js into Drupal for fast and fuzzy client side search",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Samuel Becker"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T04:00:00Z",
+      "endTime": "2020-11-05T04:05:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T04:05:00Z",
+      "endTime": "2020-11-05T04:25:00Z",
+      "duration": "P20M",
+      "title": "Adopt Automation Workflow in Higher Education",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Web Tools & Technologies",
+      "speakers": [
+        "Chris Wu"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T04:05:00Z",
+      "endTime": "2020-11-05T04:25:00Z",
+      "duration": "P20M",
+      "title": "Understanding Automated Tests in Drupal",
+      "location": "Stage 2",
+      "link": "",
+      "track": "Drupal Development",
+      "speakers": [
+        "Ridhima Abrol",
+        "Sujeet Verma"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T04:05:00Z",
+      "endTime": "2020-11-05T04:25:00Z",
+      "duration": "P20M",
+      "title": "Improving UX with an interactive decision tree",
+      "location": "Stage 3",
+      "link": "",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Hugo Heuman"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T04:05:00Z",
+      "endTime": "2020-11-05T04:25:00Z",
+      "duration": "P20M",
+      "title": "GovCMS and Drupal 9, roadmap and Q&A",
+      "location": "Panels/BoFs",
+      "link": "",
+      "track": "Other",
+      "speakers": [
+        "Joseph Zhao"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T04:25:00Z",
+      "endTime": "2020-11-05T04:30:00Z",
+      "duration": "P5M",
+      "title": "Networking & Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T04:30:00Z",
+      "endTime": "2020-11-05T05:10:00Z",
+      "duration": "P40M",
+      "title": "Why Drupal accelerates digital transformation in the WA Public Service",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Keynote",
+      "speakers": [
+        "Bill Bell"
+      ]
+    },
+    {
+      "startTime": "2020-11-05T05:10:00Z",
+      "endTime": "2020-11-05T05:20:00Z",
+      "duration": "P10M",
+      "title": "Closing Remarks",
+      "location": "Main Stage",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2020-11-05T05:20:00Z",
+      "endTime": "2020-11-05T06:00:00Z",
+      "duration": "P40M",
+      "title": "Networking, Social and Sponsor Booths",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    }
+  ],
+  "result": "✅",
+  "url": "https://drupalsouth.org/events/drupalgov-2020/schedule"
+}

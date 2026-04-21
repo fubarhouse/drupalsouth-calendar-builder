@@ -1,0 +1,855 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Wellington",
+    "year": "2026",
+    "website": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule",
+    "region": "New Zealand – Wellington",
+    "endDate": "2026-05-14T04:00:00Z",
+    "startDate": "2026-05-11T20:00:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule",
+    "venue": "Harborside Function Centre",
+    "timezone": "Pacific/Auckland"
+  },
+  "items": [
+    {
+      "startTime": "2026-05-11T21:00:00Z",
+      "endTime": "2026-05-12T03:00:00Z",
+      "duration": "P360M",
+      "title": "Code Contribution Sprint",
+      "location": "Venue: 93E Cuba St, Te Aro",
+      "link": "https://maps.apple.com/place?address=93+Cuba+St%2C+Te+Aro%2C+Wellington+6011%2C+New+Zealand&coordinate=-41.2921403%2C174.7765393&name=93+Cuba+St",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-12T20:00:00Z",
+      "endTime": "2026-05-12T21:00:00Z",
+      "duration": "P60M",
+      "title": "Registration",
+      "location": "Main Room",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-12T21:00:00Z",
+      "endTime": "2026-05-12T21:30:00Z",
+      "duration": "P30M",
+      "title": "Welcome / Group Photo",
+      "location": "Main Room",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-12T21:30:00Z",
+      "endTime": "2026-05-12T22:00:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Main Room",
+      "link": "https://drupalsouth.org/",
+      "track": "Keynote",
+      "speakers": [
+        "TBA"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T22:00:00Z",
+      "endTime": "2026-05-12T22:10:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-12T22:10:00Z",
+      "endTime": "2026-05-12T22:40:00Z",
+      "duration": "P30M",
+      "title": "Bots, Scrapers, and Proxies: Defending Drupal Sites in an Automated Internet",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4341",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Sean Hamlin"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T22:10:00Z",
+      "endTime": "2026-05-12T22:40:00Z",
+      "duration": "P30M",
+      "title": "Using GA4 to Improve Content and UX in Drupal-Powered Sites",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4316",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Lana Gibson"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T22:10:00Z",
+      "endTime": "2026-05-12T22:40:00Z",
+      "duration": "P30M",
+      "title": "Title to be announced (Sponsor talk by Sparks Interactive)",
+      "location": "Breakout 3",
+      "link": "",
+      "track": "Sponsor",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-12T22:40:00Z",
+      "endTime": "2026-05-12T23:00:00Z",
+      "duration": "P20M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-12T23:00:00Z",
+      "endTime": "2026-05-12T23:30:00Z",
+      "duration": "P30M",
+      "title": "Keywords to Context: Semantic Search and Retrieval-Augmented Generation with OpenSearch",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4301",
+      "track": "Drupal Development",
+      "speakers": [
+        "Daniel Veza"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T23:00:00Z",
+      "endTime": "2026-05-12T23:30:00Z",
+      "duration": "P30M",
+      "title": "Premium Theme + AI - the new standard",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4271",
+      "track": "User Experience & Content",
+      "speakers": [
+        "George Bonnici-Carter"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T23:00:00Z",
+      "endTime": "2026-05-12T23:30:00Z",
+      "duration": "P30M",
+      "title": "The Pinto module - efficient theming for front and back end developers",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4299",
+      "track": "Drupal Development",
+      "speakers": [
+        "Adam Bramley"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T23:30:00Z",
+      "endTime": "2026-05-12T23:40:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-12T23:40:00Z",
+      "endTime": "2026-05-13T00:20:00Z",
+      "duration": "P40M",
+      "title": "The Open Source Vulnerability (OSV) Scanner Releases Support for Drupal Security Advisories - project showcase",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4324",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Gareth Jones"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T23:40:00Z",
+      "endTime": "2026-05-13T00:20:00Z",
+      "duration": "P40M",
+      "title": "Designing encapsulated content",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4290",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Angus Gordon"
+      ]
+    },
+    {
+      "startTime": "2026-05-12T23:40:00Z",
+      "endTime": "2026-05-13T00:20:00Z",
+      "duration": "P40M",
+      "title": "From Prompt to Pull Request: Human-led, AI-assisted workflows for building Drupal features",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4277",
+      "track": "Drupal Development",
+      "speakers": [
+        "Alex Skrypnyk"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T00:20:00Z",
+      "endTime": "2026-05-13T00:50:00Z",
+      "duration": "P30M",
+      "title": "CWACking on with it: New Zealand Government's open source accessibility testing software programme",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4312",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Jason Kiss"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T00:20:00Z",
+      "endTime": "2026-05-13T00:50:00Z",
+      "duration": "P30M",
+      "title": "Creating scalable structure: Content design systems in government",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4274",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Emma Kelson"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T00:20:00Z",
+      "endTime": "2026-05-13T00:50:00Z",
+      "duration": "P30M",
+      "title": "Drupal as an API for fun things",
+      "location": "Breakout 3",
+      "link": "",
+      "track": "Other",
+      "speakers": [
+        "Rox Flame"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T00:50:00Z",
+      "endTime": "2026-05-13T01:50:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T01:50:00Z",
+      "endTime": "2026-05-13T02:20:00Z",
+      "duration": "P30M",
+      "title": "Drupal as the Digital Backbone: Transforming Government Digital Services at Scale",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4320",
+      "track": "People & Culture",
+      "speakers": [
+        "Ian Laslett"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T01:50:00Z",
+      "endTime": "2026-05-13T02:20:00Z",
+      "duration": "P30M",
+      "title": "What your content stakeholders are worried about in the age of AI - and why it matters for developers",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4315",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Ruth Hendry"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T01:50:00Z",
+      "endTime": "2026-05-13T02:20:00Z",
+      "duration": "P30M",
+      "title": "Building a Template for the Marketplace: Challenges and opportunities",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4322",
+      "track": "Drupal Development",
+      "speakers": [
+        "Murray Woodman"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T02:20:00Z",
+      "endTime": "2026-05-13T02:30:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T02:30:00Z",
+      "endTime": "2026-05-13T03:00:00Z",
+      "duration": "P30M",
+      "title": "Workshops that actually work: Turning discovery into delivery",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4286",
+      "track": "Other ...",
+      "speakers": [
+        "Emily Mills"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T02:30:00Z",
+      "endTime": "2026-05-13T03:00:00Z",
+      "duration": "P30M",
+      "title": "AI Can Do My Job Now (Sort Of) (Not Really) (It's Complicated): A user researcher's complicated relationship with AI",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4346",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Billie-Mae Kennedy"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T02:30:00Z",
+      "endTime": "2026-05-13T03:00:00Z",
+      "duration": "P30M",
+      "title": "Pacific Dataviz Challenge: Telling the Story of the Pacific Through Visualised Open Data",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4313",
+      "track": "Drupal Development",
+      "speakers": [
+        "Jason Ryan Thompson"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T03:00:00Z",
+      "endTime": "2026-05-13T03:10:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T03:10:00Z",
+      "endTime": "2026-05-13T03:40:00Z",
+      "duration": "P30M",
+      "title": "Drupal as an ERP backend to Shopify",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4287",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Simon Hobbs"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T03:10:00Z",
+      "endTime": "2026-05-13T03:40:00Z",
+      "duration": "P30M",
+      "title": "Being in the Room Is the Strategy - How Drupal, proximity, and rapid prototyping unlock real Government agility",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4291",
+      "track": "People & Culture",
+      "speakers": [
+        "Alex Matthews"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T03:10:00Z",
+      "endTime": "2026-05-13T03:40:00Z",
+      "duration": "P30M",
+      "title": "Drupal CMS2: What's in the box?",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4311",
+      "track": "Drupal Development",
+      "speakers": [
+        "Stewart West"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T03:40:00Z",
+      "endTime": "2026-05-13T04:00:00Z",
+      "duration": "P20M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T04:00:00Z",
+      "endTime": "2026-05-13T04:30:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Main Room",
+      "link": "",
+      "track": "Keynote",
+      "speakers": [
+        "TBA"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T04:30:00Z",
+      "endTime": "2026-05-13T04:40:00Z",
+      "duration": "P10M",
+      "title": "Special Announcement",
+      "location": "Main Room",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T04:40:00Z",
+      "endTime": "2026-05-13T05:00:00Z",
+      "duration": "P20M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T05:00:00Z",
+      "endTime": "2026-05-13T07:00:00Z",
+      "duration": "P120M",
+      "title": "Splash Awards presented by Ironstar / Networking Drinks",
+      "location": "Bar 22",
+      "link": "",
+      "track": "Other",
+      "speakers": [
+        "Michael Richardson",
+        "Julia Topliss"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T07:00:00Z",
+      "endTime": "2026-05-13T07:00:00Z",
+      "duration": "P0M",
+      "title": "End of Day One",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T20:00:00Z",
+      "endTime": "2026-05-13T20:30:00Z",
+      "duration": "P30M",
+      "title": "Registration",
+      "location": "Main Room",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T20:30:00Z",
+      "endTime": "2026-05-13T20:50:00Z",
+      "duration": "P20M",
+      "title": "Tea & Coffee",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T20:50:00Z",
+      "endTime": "2026-05-13T21:00:00Z",
+      "duration": "P10M",
+      "title": "Welcome Day 2",
+      "location": "Main Room",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T21:00:00Z",
+      "endTime": "2026-05-13T21:30:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Main Room",
+      "link": "https://drupalsouth.org/",
+      "track": "Keynote",
+      "speakers": [
+        "TBA"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T21:30:00Z",
+      "endTime": "2026-05-13T21:40:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T21:40:00Z",
+      "endTime": "2026-05-13T22:10:00Z",
+      "duration": "P30M",
+      "title": "Secure and quality content - Automating moderation tests with Cypress",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4345",
+      "track": "Drupal Development",
+      "speakers": [
+        "Marji Cermak"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T21:40:00Z",
+      "endTime": "2026-05-13T22:10:00Z",
+      "duration": "P30M",
+      "title": "Reproducible Drupal Environments The Easy Way: A Hands-On Look At Using Drupal With Nix & NixOS",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4236",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Andrew Benbow"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T21:40:00Z",
+      "endTime": "2026-05-13T22:10:00Z",
+      "duration": "P30M",
+      "title": "How Drupal is keeping pace with a changing digital market and how it can benefit your organisation",
+      "location": "Breakout 3",
+      "link": "",
+      "track": "People & Culture",
+      "speakers": [
+        "Owen Lansbury"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T22:10:00Z",
+      "endTime": "2026-05-13T22:30:00Z",
+      "duration": "P20M",
+      "title": "Morning Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T22:30:00Z",
+      "endTime": "2026-05-13T23:00:00Z",
+      "duration": "P30M",
+      "title": "From 'Meh' to Meaningful: Driving compliant, on-brand AI with context",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4334",
+      "track": "Drupal Development",
+      "speakers": [
+        "Suchi Garg"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T22:30:00Z",
+      "endTime": "2026-05-13T23:00:00Z",
+      "duration": "P30M",
+      "title": "Rethinking the JavaScript Reflex",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4289",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Brynn Briedis"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T22:30:00Z",
+      "endTime": "2026-05-13T23:00:00Z",
+      "duration": "P30M",
+      "title": "Title to be announced (Sponsor talk by Annex)",
+      "location": "Breakout 3",
+      "link": "",
+      "track": "Sponsor",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T23:00:00Z",
+      "endTime": "2026-05-13T23:10:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T23:10:00Z",
+      "endTime": "2026-05-13T23:40:00Z",
+      "duration": "P30M",
+      "title": "Title to be announced (Sponsor talk by Xequals)",
+      "location": "Breakout 1",
+      "link": "",
+      "track": "Sponsor",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T23:10:00Z",
+      "endTime": "2026-05-13T23:40:00Z",
+      "duration": "P30M",
+      "title": "Getting started with Drupal Observability using OpenTelemetry and Grafana",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4321",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Jonathan Hunt",
+        "Chris Burgess"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T23:10:00Z",
+      "endTime": "2026-05-13T23:40:00Z",
+      "duration": "P30M",
+      "title": "Delivering Quality Drupal",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4339",
+      "track": "Other ...",
+      "speakers": [
+        "Quinn Hart",
+        "Tamara Ross",
+        "Matthew Meisel-Dennis"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T23:40:00Z",
+      "endTime": "2026-05-13T23:50:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T23:50:00Z",
+      "endTime": "2026-05-14T00:20:00Z",
+      "duration": "P30M",
+      "title": "Recipes, Site Templates and the future of Drupal distributions",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4309",
+      "track": "Drupal Development",
+      "speakers": [
+        "Michael Strelan"
+      ]
+    },
+    {
+      "startTime": "2026-05-13T23:50:00Z",
+      "endTime": "2026-05-14T00:20:00Z",
+      "duration": "P30M",
+      "title": "Title to be announced (Sponsor talk by Catalyst)",
+      "location": "Breakout 2",
+      "link": "",
+      "track": "Sponsor",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-13T23:50:00Z",
+      "endTime": "2026-05-14T00:20:00Z",
+      "duration": "P30M",
+      "title": "Including Disabled Peoples' Voice in Consultation, Service Design and Building Services that provide accessibility that digital teams should know",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4317",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Leo Goldie-Anderson"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T00:20:00Z",
+      "endTime": "2026-05-14T01:20:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-14T01:20:00Z",
+      "endTime": "2026-05-14T01:50:00Z",
+      "duration": "P30M",
+      "title": "When good enough is not good enough - a short story about performance tuning for Valkey",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4318",
+      "track": "Drupal Development",
+      "speakers": [
+        "Max Pogonowski"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T01:20:00Z",
+      "endTime": "2026-05-14T01:50:00Z",
+      "duration": "P30M",
+      "title": "Platform-First AI: How We Built a Secure AI Infrastructure and Showcased It Through Drupal",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4323",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Toby Bellwood"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T01:20:00Z",
+      "endTime": "2026-05-14T01:50:00Z",
+      "duration": "P30M",
+      "title": "DrupalSouth Committee",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org/",
+      "track": "Panel",
+      "speakers": [
+        "Julia Topliss",
+        "Chris Burgess",
+        "Margery Tongway",
+        "Vladimir Roudakov"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T01:50:00Z",
+      "endTime": "2026-05-14T02:00:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-14T02:00:00Z",
+      "endTime": "2026-05-14T02:30:00Z",
+      "duration": "P30M",
+      "title": "Navigating the Dual Frontier: Securing Drupal Against Malicious Bots while Optimizing for AEO",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4328",
+      "track": "Drupal Development",
+      "speakers": [
+        "Naveen Prakash Duraisamy"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T02:00:00Z",
+      "endTime": "2026-05-14T02:30:00Z",
+      "duration": "P30M",
+      "title": "Title to be announced (Sponsor talk by Upsun)",
+      "location": "Breakout 2",
+      "link": "",
+      "track": "Sponsor",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-14T02:00:00Z",
+      "endTime": "2026-05-14T02:30:00Z",
+      "duration": "P30M",
+      "title": "Security on Autopilot: Low-Touch Automated Security for Drupal Projects",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4314",
+      "track": "Other ...",
+      "speakers": [
+        "Nathan ter Bogt"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T02:30:00Z",
+      "endTime": "2026-05-14T02:40:00Z",
+      "duration": "P10M",
+      "title": "Break",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-14T02:40:00Z",
+      "endTime": "2026-05-14T03:10:00Z",
+      "duration": "P30M",
+      "title": "Practical Performance Testing",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4294",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Nick Schuch"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T02:40:00Z",
+      "endTime": "2026-05-14T03:10:00Z",
+      "duration": "P30M",
+      "title": "An introduction to DDev and then how extend it with a mix of technologies",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4285",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Joshua Stuart Graham"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T02:40:00Z",
+      "endTime": "2026-05-14T03:10:00Z",
+      "duration": "P30M",
+      "title": "Stranger Things in UX: Designing interfaces in a post-prompt world",
+      "location": "Breakout 3",
+      "link": "",
+      "track": "User Experience & Content",
+      "speakers": [
+        "Millie Clery",
+        "Anna Morgan",
+        "Jeannie Panting"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T03:10:00Z",
+      "endTime": "2026-05-14T03:30:00Z",
+      "duration": "P20M",
+      "title": "Afternoon Tea",
+      "location": "",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    },
+    {
+      "startTime": "2026-05-14T03:30:00Z",
+      "endTime": "2026-05-14T04:00:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Breakout 1",
+      "link": "",
+      "track": "",
+      "speakers": [
+        null
+      ]
+    },
+    {
+      "startTime": "2026-05-14T03:30:00Z",
+      "endTime": "2026-05-14T04:00:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Breakout 2",
+      "link": "",
+      "track": "",
+      "speakers": [
+        null
+      ]
+    },
+    {
+      "startTime": "2026-05-14T03:30:00Z",
+      "endTime": "2026-05-14T04:00:00Z",
+      "duration": "P30M",
+      "title": "Back to the Future: A look at web development around the millenium",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4219",
+      "track": "Web Tools & Complementary Technologies",
+      "speakers": [
+        "Alistair O'Neill"
+      ]
+    },
+    {
+      "startTime": "2026-05-14T04:00:00Z",
+      "endTime": "2026-05-14T04:30:00Z",
+      "duration": "P30M",
+      "title": "Closing Remarks",
+      "location": "Main Room",
+      "link": "",
+      "track": "Other",
+      "speakers": null
+    }
+  ],
+  "result": "\u2705",
+  "url": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule"
+}
