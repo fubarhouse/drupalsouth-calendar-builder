@@ -748,13 +748,17 @@
                 const matchesDate = !dateFilter || getLocalDate(event.startTime) === dateFilter;
                 const matchesTrack = !trackFilter || event.track === trackFilter;
                 const normalizedTrack = typeof event.track === 'string' ? event.track : '';
+                const speakersText = Array.isArray(event.speakers)
+                    ? event.speakers.join(' ')
+                    : (typeof event.speakers === 'string' ? event.speakers : '');
                 
                 // Search across all fields: title, description, track, location
                 const matchesKeywords = !keywordsFilter || 
                     event.title.toLowerCase().includes(keywordsFilter) ||
                     (event.description && event.description.toLowerCase().includes(keywordsFilter)) ||
                     normalizedTrack.toLowerCase().includes(keywordsFilter) ||
-                    event.location.toLowerCase().includes(keywordsFilter);
+                    event.location.toLowerCase().includes(keywordsFilter) ||
+                    speakersText.toLowerCase().includes(keywordsFilter);
                 
                 const matchesSelection = selectionFilter === 'all' || 
                     (selectionFilter === 'selected' && window.selectedEvents.has(event.id)) ||
@@ -1188,6 +1192,12 @@ END:VCALENDAR`;
                                     
                                     // Apply keyword highlighting to relevant fields
                                     const highlightedSummary = highlightKeywords(event.title, keywordsFilter);
+                                    const highlightedSpeakers = event.speakers
+                                        ? highlightKeywords(
+                                            Array.isArray(event.speakers) ? event.speakers.join(', ') : event.speakers,
+                                            keywordsFilter
+                                        )
+                                        : '';
                                     const highlightedLocation = event.location ? highlightKeywords(event.location, keywordsFilter) : '';
                                     const highlightedDescription = event.description ? highlightKeywords(event.description, keywordsFilter) : '';
                                     const trackLabel = typeof event.track === 'string' ? event.track.trim() : '';
@@ -1209,7 +1219,7 @@ END:VCALENDAR`;
                                                        onchange="toggleEventSelection('${event.id}')">
                                                 <div class="flex-1">
                                                     <h3 class="font-medium text-gray-900 mb-1">${highlightedSummary}</h3>
-                                                    ${event.speakers ? `<p class="text-sm text-gray-700 mb-1">${Array.isArray(event.speakers) ? event.speakers.join(', ') : event.speakers}</p>` : ''}
+                                                    ${event.speakers ? `<p class="text-sm text-gray-700 mb-1">${highlightedSpeakers}</p>` : ''}
                                                     ${event.location ? `<p class="text-sm text-gray-500 mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${highlightedLocation}</p>` : ''}
                                                     ${event.link ? `<p class="text-sm drupal-blue-text mb-1"><a href="${event.link}" target="_blank" class="hover:underline" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>` : ''}
                                                     <p class="text-sm text-gray-600 mb-1">${fullDateTime}</p>
