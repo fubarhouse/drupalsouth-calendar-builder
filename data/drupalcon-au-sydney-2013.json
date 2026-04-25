@@ -1,0 +1,873 @@
+{
+  "event": {
+    "designation": "DrupalCon",
+    "location": "Sydney",
+    "year": "2013",
+    "website": "https://sydney2013.drupal.org/",
+    "region": "Australia",
+    "scheduleURL": "https://sydney2013.drupal.org/program/schedule",
+    "venue": "Coogee Bay Hotel",
+    "timezone": "Australia/Sydney",
+    "columns": 3,
+    "startDate": "2013-02-05T21:00:00Z",
+    "endDate": "2013-02-09T06:45:00Z"
+  },
+  "items": [
+    {
+      "startTime": "2013-02-05T21:00:00Z",
+      "endTime": "2013-02-06T06:30:00Z",
+      "duration": "P570M",
+      "title": "Registration",
+      "location": "Foyer (Registration)",
+      "link": "https://sydney2013.drupal.org/registration",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-05T22:00:00Z",
+      "endTime": "2013-02-06T07:00:00Z",
+      "duration": "P540M",
+      "title": "Training: Plan, Build, Launch: Real-World Drupal",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/training/real-world-drupal",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-05T22:00:00Z",
+      "endTime": "2013-02-06T05:00:00Z",
+      "duration": "P420M",
+      "title": "Drupal Business Day",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/drupal-business-day",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-06T00:45:00Z",
+      "endTime": "2013-02-06T02:00:00Z",
+      "duration": "P75M",
+      "title": "Lunch",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/lunch",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-06T05:00:00Z",
+      "endTime": "2013-02-06T08:00:00Z",
+      "duration": "P180M",
+      "title": "Opening Night Drinks",
+      "location": "Oceans Bar",
+      "link": "https://sydney2013.drupal.org/opening-night-drinks",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-06T20:30:00Z",
+      "endTime": "2013-02-07T06:30:00Z",
+      "duration": "P600M",
+      "title": "Registration",
+      "location": "Foyer (Registration)",
+      "link": "https://sydney2013.drupal.org/registration",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-06T22:00:00Z",
+      "endTime": "2013-02-06T23:15:00Z",
+      "duration": "P75M",
+      "title": "Keynote: Dries Buytaert",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/keynote/dries-buytaert",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-06T23:15:00Z",
+      "endTime": "2013-02-06T23:45:00Z",
+      "duration": "P30M",
+      "title": "Break",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/break",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-06T23:45:00Z",
+      "endTime": "2013-02-07T00:45:00Z",
+      "duration": "P60M",
+      "title": "Designing for Uncertainty",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/designing-uncertainty",
+      "track": "Frontend",
+      "speakers": [
+        "jpamental"
+      ]
+    },
+    {
+      "startTime": "2013-02-06T23:45:00Z",
+      "endTime": "2013-02-07T00:45:00Z",
+      "duration": "P60M",
+      "title": "Applied agile for Drupal projects",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/applied-agile-drupal-projects",
+      "track": "Business",
+      "speakers": [
+        "wesku"
+      ]
+    },
+    {
+      "startTime": "2013-02-06T23:45:00Z",
+      "endTime": "2013-02-07T00:45:00Z",
+      "duration": "P60M",
+      "title": "The Naked Node: code-free Drupal",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/naked-node-code-free-drupal",
+      "track": "Sitebuilding",
+      "speakers": [
+        "ericaordinary"
+      ]
+    },
+    {
+      "startTime": "2013-02-06T23:45:00Z",
+      "endTime": "2013-02-07T00:45:00Z",
+      "duration": "P60M",
+      "title": "Drupal 8 Web Services",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/drupal-8-web-services",
+      "track": "Coding",
+      "speakers": [
+        "moshe weitzman"
+      ]
+    },
+    {
+      "startTime": "2013-02-06T23:45:00Z",
+      "endTime": "2013-02-07T00:45:00Z",
+      "duration": "P60M",
+      "title": "Zoos Victoria - Drupal for the whole herd",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/zoos-victoria-drupal-whole-herd",
+      "track": "Case",
+      "speakers": [
+        "Matt Fenton",
+        "aethr"
+      ]
+    },
+    {
+      "startTime": "2013-02-06T23:45:00Z",
+      "endTime": "2013-02-07T00:45:00Z",
+      "duration": "P60M",
+      "title": "Give Your Content Creators Reasons to Love You",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/give-your-content-creators-reasons-love-you",
+      "track": "Content",
+      "speakers": [
+        "davidseth"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T00:45:00Z",
+      "endTime": "2013-02-07T02:00:00Z",
+      "duration": "P75M",
+      "title": "Lunch",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/lunch",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-07T02:00:00Z",
+      "endTime": "2013-02-07T03:00:00Z",
+      "duration": "P60M",
+      "title": "Building for a Post-Mobile World",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/building-post-mobile-world",
+      "track": "Content",
+      "speakers": [
+        "eaton"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T02:00:00Z",
+      "endTime": "2013-02-07T03:00:00Z",
+      "duration": "P60M",
+      "title": "UX - how can you do it ?",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/ux-how-can-you-do-it",
+      "track": "Frontend",
+      "speakers": [
+        "Claire Sherrington"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T02:00:00Z",
+      "endTime": "2013-02-07T03:00:00Z",
+      "duration": "P60M",
+      "title": "It's not \"their Drupal\" - It's OUR Drupal",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/its-not-their-drupal-its-our-drupal",
+      "track": "Community",
+      "speakers": [
+        "mortendk"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T02:00:00Z",
+      "endTime": "2013-02-07T03:00:00Z",
+      "duration": "P60M",
+      "title": "Building an awesome e-commerce store in 25 minutes",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/building-awesome-e-commerce-store-25-minutes",
+      "track": "Sitebuilding",
+      "speakers": [
+        "andrewyager"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T02:00:00Z",
+      "endTime": "2013-02-07T03:00:00Z",
+      "duration": "P60M",
+      "title": "Symfony Components:  A Travel Guide",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/symfony-components-travel-guide",
+      "track": "Coding",
+      "speakers": [
+        "piers.warmers"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T02:00:00Z",
+      "endTime": "2013-02-07T03:00:00Z",
+      "duration": "P60M",
+      "title": "Moving a mountain",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/moving-mountain",
+      "track": "Case",
+      "speakers": [
+        "Tim Bennett",
+        "dturnbull",
+        "Jaza"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T03:15:00Z",
+      "endTime": "2013-02-07T04:15:00Z",
+      "duration": "P60M",
+      "title": "Benefits and challenges of Drupal Adoption for Multinational Organisations",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/benefits-and-challenges-drupal-adoption-multinational-organisations",
+      "track": "Business",
+      "speakers": [
+        "dokumori"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T03:15:00Z",
+      "endTime": "2013-02-07T04:15:00Z",
+      "duration": "P60M",
+      "title": "Patch Review",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/patch-review",
+      "track": "Community",
+      "speakers": [
+        "ZenDoodles",
+        "xjm"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T03:15:00Z",
+      "endTime": "2013-02-07T04:15:00Z",
+      "duration": "P60M",
+      "title": "User-centered design for Drupal sites",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/user-centered-design-drupal-sites",
+      "track": "Frontend",
+      "speakers": [
+        "xtfer"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T03:15:00Z",
+      "endTime": "2013-02-07T04:15:00Z",
+      "duration": "P60M",
+      "title": "Performance Tough Love",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/performance-tough-love",
+      "track": "Coding",
+      "speakers": [
+        "msonnabaum"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T03:15:00Z",
+      "endTime": "2013-02-07T04:15:00Z",
+      "duration": "P60M",
+      "title": "Creating dynamic and accessible content in Drupal 7 using WAI-ARIA",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/creating-dynamic-and-accessible-content-drupal-7-using-wai-aria",
+      "track": "Content",
+      "speakers": [
+        "stpulis"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T03:15:00Z",
+      "endTime": "2013-02-07T04:15:00Z",
+      "duration": "P60M",
+      "title": "Suncorp Group: Growing and Managing a Drupal Team in your Corporation",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/suncorp-group-growing-and-managing-drupal-team-your-corporation",
+      "track": "Case",
+      "speakers": [
+        "Chuong Vu"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T04:15:00Z",
+      "endTime": "2013-02-07T04:45:00Z",
+      "duration": "P30M",
+      "title": "Break",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/break",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-07T04:45:00Z",
+      "endTime": "2013-02-07T05:45:00Z",
+      "duration": "P60M",
+      "title": "Build better websites with Panels",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/build-better-websites-panels",
+      "track": "Sitebuilding",
+      "speakers": [
+        "jenlampton"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T04:45:00Z",
+      "endTime": "2013-02-07T05:45:00Z",
+      "duration": "P60M",
+      "title": "How to Create Ravenously Passionate Contributors",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/how-create-ravenously-passionate-contributors",
+      "track": "Community",
+      "speakers": [
+        "webchick"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T04:45:00Z",
+      "endTime": "2013-02-07T05:45:00Z",
+      "duration": "P60M",
+      "title": "10 Ways to Cost Drupal Projects",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/10-ways-cost-drupal-projects",
+      "track": "Business",
+      "speakers": [
+        "Mark Matuschka"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T04:45:00Z",
+      "endTime": "2013-02-07T05:45:00Z",
+      "duration": "P60M",
+      "title": "Content Strategists and Developers: We need each other!",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/content-strategists-and-developers-we-need-each-other",
+      "track": "Content",
+      "speakers": [
+        "angusg",
+        "rikki_iki"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T04:45:00Z",
+      "endTime": "2013-02-07T05:45:00Z",
+      "duration": "P60M",
+      "title": "Case Study: NovaFM",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/case-study-novafm",
+      "track": "Case",
+      "speakers": [
+        "jptaranto",
+        "cbiggins",
+        "nick_schuch"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T04:45:00Z",
+      "endTime": "2013-02-07T05:45:00Z",
+      "duration": "P60M",
+      "title": "Real world continuous integration for Drupal",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/real-world-continuous-integration-drupal",
+      "track": "Coding",
+      "speakers": [
+        "boztek"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T06:00:00Z",
+      "endTime": "2013-02-07T07:00:00Z",
+      "duration": "P60M",
+      "title": "Content strategy and the QUT web redevelopment project",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/content-strategy-and-qut-web-redevelopment-project",
+      "track": "Content",
+      "speakers": [
+        "JillyMagee"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T06:00:00Z",
+      "endTime": "2013-02-07T07:00:00Z",
+      "duration": "P60M",
+      "title": "CSS is for Clark Kent. Sass is for Superman.",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/css-clark-kent-sass-superman",
+      "track": "Frontend",
+      "speakers": [
+        "JohnAlbin"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T06:00:00Z",
+      "endTime": "2013-02-07T07:00:00Z",
+      "duration": "P60M",
+      "title": "Panopoly: Building a Powerful Base Distribution",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/panopoly-building-powerful-base-distribution",
+      "track": "Coding",
+      "speakers": [
+        "populist"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T06:00:00Z",
+      "endTime": "2013-02-07T07:00:00Z",
+      "duration": "P60M",
+      "title": "HTML mobile application development with Drupal backend.",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/html-mobile-application-development-drupal-backend",
+      "track": "Sitebuilding",
+      "speakers": [
+        "VladimirAus"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T06:00:00Z",
+      "endTime": "2013-02-07T07:00:00Z",
+      "duration": "P60M",
+      "title": "Sharing content between Drupal sites",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/sharing-content-between-drupal-sites",
+      "track": "Case",
+      "speakers": [
+        "Taz"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T06:00:00Z",
+      "endTime": "2013-02-07T07:00:00Z",
+      "duration": "P60M",
+      "title": "Running a Drupal Business",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/running-drupal-business",
+      "track": "Business",
+      "speakers": [
+        "andant"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T21:30:00Z",
+      "endTime": "2013-02-08T02:00:00Z",
+      "duration": "P270M",
+      "title": "Registration",
+      "location": "Foyer (Registration)",
+      "link": "https://sydney2013.drupal.org/registration",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-07T22:00:00Z",
+      "endTime": "2013-02-07T23:15:00Z",
+      "duration": "P75M",
+      "title": "Keynote: Senator Kate Lundy",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/keynote/senator-kate-lundy",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-07T23:00:00Z",
+      "endTime": "2013-02-08T04:30:00Z",
+      "duration": "P330M",
+      "title": "Sponsor Fair",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/sponsor-fair-0",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-07T23:15:00Z",
+      "endTime": "2013-02-07T23:45:00Z",
+      "duration": "P30M",
+      "title": "Break",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/break",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-07T23:45:00Z",
+      "endTime": "2013-02-08T00:45:00Z",
+      "duration": "P60M",
+      "title": "News & Media Case Study: South China Morning Post",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/news-media-case-study-south-china-morning-post",
+      "track": "Case",
+      "speakers": [
+        "Josh Waihi"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T23:45:00Z",
+      "endTime": "2013-02-08T00:45:00Z",
+      "duration": "P60M",
+      "title": "Climbing the Drupal Ladder",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/drupal-ladder-resources-meetups-help-members-learn-and-contribute",
+      "track": "Community",
+      "speakers": [
+        "add1sun"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T23:45:00Z",
+      "endTime": "2013-02-08T00:45:00Z",
+      "duration": "P60M",
+      "title": "Search All the Things",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/search-all-things",
+      "track": "Coding",
+      "speakers": [
+        "cyberswat"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T23:45:00Z",
+      "endTime": "2013-02-08T00:45:00Z",
+      "duration": "P60M",
+      "title": "Twig, and the new theme layer in Drupal 8",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/twig-and-new-theme-layer-drupal-8",
+      "track": "Frontend",
+      "speakers": [
+        "JohnAlbin",
+        "mortendk",
+        "jenlampton",
+        "piers.warmers"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T23:45:00Z",
+      "endTime": "2013-02-08T00:45:00Z",
+      "duration": "P60M",
+      "title": "Re-think Your Requirements",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/re-think-your-requirements",
+      "track": "Business",
+      "speakers": [
+        "pameeela"
+      ]
+    },
+    {
+      "startTime": "2013-02-07T23:45:00Z",
+      "endTime": "2013-02-08T00:45:00Z",
+      "duration": "P60M",
+      "title": "Configuration Management in Drupal 7",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/configuration-management-drupal-7",
+      "track": "Sitebuilding",
+      "speakers": [
+        "neoxavier"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T00:45:00Z",
+      "endTime": "2013-02-08T02:00:00Z",
+      "duration": "P75M",
+      "title": "Lunch",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/lunch",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-08T02:00:00Z",
+      "endTime": "2013-02-08T03:00:00Z",
+      "duration": "P60M",
+      "title": "Show me the tests! Writing Automated Tests for Drupal",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/show-me-tests-writing-automated-tests-drupal",
+      "track": "Coding",
+      "speakers": [
+        "larowlan"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T02:00:00Z",
+      "endTime": "2013-02-08T03:00:00Z",
+      "duration": "P60M",
+      "title": "State of the nation in mapping",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/state-nation-mapping",
+      "track": "Sitebuilding",
+      "speakers": [
+        "RdeBoer"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T02:00:00Z",
+      "endTime": "2013-02-08T03:00:00Z",
+      "duration": "P60M",
+      "title": "Citizen Journalist: blogs, media and your editorial team",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/citizen-journalist-blogs-media-and-your-editorial-team",
+      "track": "Content",
+      "speakers": [
+        "rbersten"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T02:00:00Z",
+      "endTime": "2013-02-08T03:00:00Z",
+      "duration": "P60M",
+      "title": "Real-Time Mobile Ecommerce in Drupal",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/real-time-mobile-ecommerce-drupal",
+      "track": "Case",
+      "speakers": [
+        "rcross",
+        "geoffreyr"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T02:00:00Z",
+      "endTime": "2013-02-08T03:00:00Z",
+      "duration": "P60M",
+      "title": "Core Conversations Summit",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/core-conversations",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-08T02:00:00Z",
+      "endTime": "2013-02-08T03:00:00Z",
+      "duration": "P60M",
+      "title": "Enterprise Drupal Migrations: Lessons from Large Scale Migrations",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/enterprise-drupal-migrations-lessons-large-scale-migrations",
+      "track": "Business",
+      "speakers": [
+        "jwalpole",
+        "chrisstrahl"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T03:15:00Z",
+      "endTime": "2013-02-08T04:15:00Z",
+      "duration": "P60M",
+      "title": "The Angry Themer",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/angry-themer",
+      "track": "Frontend",
+      "speakers": [
+        "mortendk"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T03:15:00Z",
+      "endTime": "2013-02-08T04:15:00Z",
+      "duration": "P60M",
+      "title": "Collaborating with the Public Sector",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/collaborating-public-sector",
+      "track": "Business",
+      "speakers": [
+        "DavidCalculli"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T03:15:00Z",
+      "endTime": "2013-02-08T04:15:00Z",
+      "duration": "P60M",
+      "title": "Information architecture for site builders",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/information-architecture-site-builders",
+      "track": "Sitebuilding",
+      "speakers": [
+        "murrayw"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T03:15:00Z",
+      "endTime": "2013-02-08T04:15:00Z",
+      "duration": "P60M",
+      "title": "Geek girls in the Philippines Meet Drupal!",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/geek-girls-philippines-meet-drupal",
+      "track": "Community",
+      "speakers": [
+        "Gemdev"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T03:15:00Z",
+      "endTime": "2013-02-08T04:15:00Z",
+      "duration": "P60M",
+      "title": "Improving your responsive workflow with style guides",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/improving-your-responsive-workflow-style-guides",
+      "track": "Frontend",
+      "speakers": [
+        "lukebrooker"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T04:15:00Z",
+      "endTime": "2013-02-08T04:45:00Z",
+      "duration": "P30M",
+      "title": "Break",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/break",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-08T04:45:00Z",
+      "endTime": "2013-02-08T05:45:00Z",
+      "duration": "P60M",
+      "title": "Fairly Local - A Drupal Powered iPhone App and Website",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/fairly-local-drupal-powered-iphone-app-and-website",
+      "track": "Frontend",
+      "speakers": [
+        "scottsanders"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T04:45:00Z",
+      "endTime": "2013-02-08T05:45:00Z",
+      "duration": "P60M",
+      "title": "Selling Drupal to Large Enterprises",
+      "location": "Coogee",
+      "link": "https://sydney2013.drupal.org/selling-drupal-large-enterprises",
+      "track": "Business",
+      "speakers": [
+        "frubim"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T04:45:00Z",
+      "endTime": "2013-02-08T05:45:00Z",
+      "duration": "P60M",
+      "title": "We need to look back to move forward",
+      "location": "Clovelly",
+      "link": "https://sydney2013.drupal.org/we-need-look-back-move-forward",
+      "track": "Community",
+      "speakers": [
+        "gordon"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T04:45:00Z",
+      "endTime": "2013-02-08T05:45:00Z",
+      "duration": "P60M",
+      "title": "Managing Code and Configuration with Update Functions (and staying sane)",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/managing-code-and-configuration-update-functions-and-staying-sane",
+      "track": "Coding",
+      "speakers": [
+        "aethr"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T04:45:00Z",
+      "endTime": "2013-02-08T05:45:00Z",
+      "duration": "P60M",
+      "title": "Turning mountains into molehills - large-scale content migration",
+      "location": "Oceanic Ballroom East",
+      "link": "https://sydney2013.drupal.org/turning-mountains-molehills-large-scale-content-migration",
+      "track": "Content",
+      "speakers": [
+        "cllagas"
+      ]
+    },
+    {
+      "startTime": "2013-02-08T06:00:00Z",
+      "endTime": "2013-02-08T06:30:00Z",
+      "duration": "P30M",
+      "title": "Closing Plenary",
+      "location": "Oceanic Ballroom West",
+      "link": "https://sydney2013.drupal.org/closing-plenary",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-08T22:00:00Z",
+      "endTime": "2013-02-09T02:00:00Z",
+      "duration": "P240M",
+      "title": "Community Tools Workshop",
+      "location": "Bronte",
+      "link": "https://sydney2013.drupal.org/sprints/community-tools-workshop",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-08T22:00:00Z",
+      "endTime": "2013-02-09T06:30:00Z",
+      "duration": "P510M",
+      "title": "Code Sprint",
+      "location": "Centennial",
+      "link": "https://sydney2013.drupal.org/code-sprint",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-08T23:15:00Z",
+      "endTime": "2013-02-09T00:45:00Z",
+      "duration": "P90M",
+      "title": "Break",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/break",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-09T00:45:00Z",
+      "endTime": "2013-02-09T02:00:00Z",
+      "duration": "P75M",
+      "title": "Lunch",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/lunch",
+      "track": "",
+      "speakers": null
+    },
+    {
+      "startTime": "2013-02-09T04:15:00Z",
+      "endTime": "2013-02-09T06:45:00Z",
+      "duration": "P150M",
+      "title": "Break",
+      "location": "",
+      "link": "https://sydney2013.drupal.org/break",
+      "track": "",
+      "speakers": null
+    }
+  ],
+  "result": "success",
+  "url": "https://sydney2013.drupal.org/program/schedule"
+}
