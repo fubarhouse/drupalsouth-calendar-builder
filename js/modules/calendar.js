@@ -1,6 +1,20 @@
 import state, { getStorageKey } from './state.js';
 import { formatDateForICS, escapeHtml } from './utils.js';
 
+function getCalendarDescriptionText(event) {
+  return event.full_description || event.description || event.summary || '';
+}
+
+function escapeIcsText(text) {
+  return String(text || '')
+    .replace(/\\/g, '\\\\')
+    .replace(/\r\n/g, '\n')
+    .replace(/\r/g, '\n')
+    .replace(/\n/g, '\\n')
+    .replace(/,/g, '\\,')
+    .replace(/;/g, '\\;');
+}
+
 export function updateDownloadButton() {
   const downloadButton = document.getElementById('downloadIcs');
   const googleButton = document.getElementById('addGoogleCalendar');
@@ -17,8 +31,8 @@ export function generateIcsContent(events) {
       const start = formatDateForICS(event.startTime);
       const end = formatDateForICS(event.endTime);
       const uid = `${event.id}@${state.currentEventFile.replace('.json', '')}`;
-      const urlPart = event.link ? `${event.link}\\n\\n` : '';
-      const description = urlPart + (event.description || '').replace(/\n/g, '\\n').replace(/,/g, '\\,');
+      const urlPart = event.link ? `${event.link}\n\n` : '';
+      const description = escapeIcsText(urlPart + getCalendarDescriptionText(event));
 
       return `BEGIN:VEVENT
 UID:${uid}
@@ -71,7 +85,7 @@ export function downloadSelectedEvents(events) {
 export function buildGoogleCalendarEventUrl(event) {
   const start = formatDateForICS(event.startTime);
   const end = formatDateForICS(event.endTime);
-  const details = [event.description || '', event.link || ''].filter(Boolean).join('\n\n');
+  const details = [getCalendarDescriptionText(event), event.link || ''].filter(Boolean).join('\n\n');
   const params = new URLSearchParams({
     action: 'TEMPLATE',
     text: event.title || 'Session',

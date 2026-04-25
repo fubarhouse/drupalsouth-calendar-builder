@@ -105,8 +105,9 @@ export function displayListView(events, container) {
                                     const highlightedLocation = event.location
                                       ? highlightKeywords(event.location, keywordsFilter)
                                       : '';
-                                    const highlightedDescription = event.description
-                                      ? highlightKeywords(event.description, keywordsFilter)
+                                    const descriptionText = event.summary || event.description || '';
+                                    const highlightedDescription = descriptionText
+                                      ? highlightKeywords(descriptionText, keywordsFilter)
                                       : '';
                                     const trackLabel = typeof event.track === 'string' ? event.track.trim() : '';
                                     const highlightedTrack = trackLabel ? highlightKeywords(trackLabel, keywordsFilter) : '';
@@ -140,7 +141,7 @@ export function displayListView(events, container) {
                                                         : ''
                                                     }
                                                     <p class="text-sm text-gray-600 mb-1">${fullDateTime}</p>
-                                                    ${event.description ? `<p class="text-sm text-gray-700 mb-1">${highlightedDescription}</p>` : ''}
+                                                    ${descriptionText ? `<p class="text-sm text-gray-700 mb-1">${highlightedDescription}</p>` : ''}
                                                     ${
                                                       trackLabel
                                                         ? `<p class="track-pill text-xs text-gray-600 bg-white bg-opacity-60 px-2 py-1 rounded inline-block">${highlightedTrack}</p>`
@@ -148,7 +149,7 @@ export function displayListView(events, container) {
                                                     }
                                                 </div>
                                             </div>
-                                            <span class="text-sm text-gray-500 ml-4">${formatDuration(event, event.duration)}</span>
+                                            <span class="text-xs text-gray-500 ml-2 whitespace-nowrap">${formatDuration(event, event.duration)}</span>
                                         </div>
                                     </div>`;
                                   })

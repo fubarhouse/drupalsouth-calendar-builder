@@ -23,19 +23,22 @@ export function getLocalDate(utcDateString) {
 }
 
 export function formatDuration(event, duration) {
-  console.log(event);
+  void event;
   const hoursMatch = duration.match(/(\d+)H/);
   const minutesMatch = duration.match(/(\d+)M/);
   const hours = hoursMatch ? parseInt(hoursMatch[1], 10) : 0;
   const minutes = minutesMatch ? parseInt(minutesMatch[1], 10) : 0;
 
   if (hours === 0) {
-    return `${minutes} minute${minutes !== 1 ? 's' : ''}`;
+    return `${minutes}m`;
   }
   if (minutes === 0) {
-    return `${hours} hour${hours !== 1 ? 's' : ''}`;
+    return `${hours}h`;
   }
-  return `${hours} hour${hours !== 1 ? 's' : ''} ${minutes} minute${minutes !== 1 ? 's' : ''}`;
+  if (minutes === 30) {
+    return `${hours}.5h`;
+  }
+  return `${hours}h${minutes}m`;
 }
 
 export function highlightKeywords(text, keywords) {

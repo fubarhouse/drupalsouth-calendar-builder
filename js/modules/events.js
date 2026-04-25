@@ -19,6 +19,9 @@ import {
   toggleEventSelection
 } from './calendar.js';
 
+const DRUPALSOUTH_LOGO_URL = new URL('../../img/drupalsouth-logo.png', import.meta.url).toString();
+const DRUPALGOV_LOGO_URL = new URL('../../img/drupalgov-logo.png', import.meta.url).toString();
+
 let updateSelectionOverview = () => {};
 let updateStageStats = () => {};
 
@@ -54,21 +57,31 @@ export function getManifestForCategory(category) {
   );
 }
 
-export function getHeaderBranding(category) {
+export function getHeaderBranding(category, eventMeta = null) {
+  const isDrupalGov =
+    eventMeta?.designation === 'DrupalGov' || (state.currentEventFile || '').startsWith('drupalgov-');
   if (category === 'DrupalSouth Community Day') {
     return {
       kicker: 'DrupalSouth Community Day',
       iconClass: 'fas fa-users',
       brandClass: 'brand-community',
-      logoUrl: 'https://drupalsouth.org/sites/default/files/logo_0.png'
+      logoUrl: DRUPALSOUTH_LOGO_URL
     };
   }
   if (category === 'DrupalSouth') {
+    if (isDrupalGov) {
+      return {
+        kicker: 'DrupalGov Schedule',
+        iconClass: 'fas fa-landmark',
+        brandClass: 'brand-drupalsouth',
+        logoUrl: DRUPALGOV_LOGO_URL
+      };
+    }
     return {
       kicker: 'DrupalSouth Schedule',
       iconClass: 'fas fa-water',
       brandClass: 'brand-drupalsouth',
-      logoUrl: 'https://drupalsouth.org/sites/default/files/logo_0.png'
+      logoUrl: DRUPALSOUTH_LOGO_URL
     };
   }
   return {
@@ -84,7 +97,7 @@ export function updateHeaderBranding(category) {
   const logoImage = document.getElementById('headerLogoImage');
   const logoIcon = document.getElementById('headerLogoIcon');
   const kicker = document.getElementById('headerKicker');
-  const branding = getHeaderBranding(category);
+  const branding = getHeaderBranding(category, state.eventMeta);
 
   logo.classList.remove('brand-drupalsouth', 'brand-community', 'brand-drupalcon');
   logo.classList.add(branding.brandClass);
@@ -158,6 +171,9 @@ export async function fetchEvents(filename) {
 export async function loadEvent(filename) {
   state.currentEventFile = filename;
   const events = await fetchEvents(filename);
+  if (state.currentEventCategory) {
+    updateHeaderBranding(state.currentEventCategory);
+  }
   const meta = state.eventMeta;
   state.eventColumns = Number(meta.columns) > 0 ? Number(meta.columns) : 3;
   const eventDisplayName = `${meta.designation} ${meta.location} ${meta.year}`;

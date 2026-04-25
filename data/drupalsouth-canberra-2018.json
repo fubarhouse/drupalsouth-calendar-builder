@@ -9,7 +9,8 @@
     "startDate": "2018-12-02T22:00:00Z",
     "scheduleURL": "https://drupalsouth.org/events/canberra-2018/schedule",
     "venue": "Hotel Realm",
-    "timezone": "Australia/Sydney"
+    "timezone": "Australia/Sydney",
+    "sourceCache": "cache/remote/2026-04-25T11-59-29Z/drupalsouth-canberra-2018-json-canberra-2018"
   },
   "items": [
     {
@@ -22,7 +23,9 @@
       "track": "UX & Content",
       "speakers": [
         "Jonathan Hunt"
-      ]
+      ],
+      "full_description": "CLAW is a digital repository based on Drupal 8 and Fedora Commons 4. It is increasingly used by libraries, museums, and universities to showcase digital collections and research outputs. Learn about using linked data, W3C standards, and micro-services, for your content collections.",
+      "summary": "CLAW is a digital repository based on Drupal 8 and Fedora Commons 4...."
     },
     {
       "startTime": "2018-12-02T22:00:00Z",
@@ -34,7 +37,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Ivan Zugec"
-      ]
+      ],
+      "full_description": "This session will focus on how to add media management functionality into a Drupal 8 site.\n\nUsing the following modules:\n\n- Entity browser\n\n- Entity Embed\n\n- DropzoneJS\n\n- Inline Entity Form\n\nUnfortunately, setting all this up isn't as simple as one thinks.",
+      "summary": "This session will focus on how to add media management functionality into a Drupal 8 site...."
     },
     {
       "startTime": "2018-12-02T22:00:00Z",
@@ -47,7 +52,9 @@
       "speakers": [
         "Toby Bellwood",
         "Nathan Wall"
-      ]
+      ],
+      "full_description": "As Government’s use of Drupal evolves, GovCMS continues to work with the community to focus on improving the experience for developers, site builders and content editors. In 2018 we delivered a new open source hosting platform and added Drupal 8 to our fully-managed SaaS service. What's next?",
+      "summary": "As Government’s use of Drupal evolves, GovCMS continues to work with the community to focus on improving the experience for developers, site builders and content editors...."
     },
     {
       "startTime": "2018-12-02T22:00:00Z",
@@ -60,7 +67,9 @@
       "speakers": [
         "Elisha Hulme",
         "Antoine Osanz"
-      ]
+      ],
+      "full_description": "It's struggle all projects have faced - finding the right mix of resources to complete a complex project in a short timeframe. Limited Drupal skills + resourcing + a regional location = things getting very interesting! How did a regional Qld uni & an experienced Drupal consultancy solve the problem?",
+      "summary": "It's struggle all projects have faced - finding the right mix of resources to complete a complex project in a short timeframe...."
     },
     {
       "startTime": "2018-12-02T22:45:00Z",
@@ -70,7 +79,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-02T23:00:00Z",
@@ -82,7 +93,9 @@
       "track": "Government",
       "speakers": [
         "Akhil Bhandari"
-      ]
+      ],
+      "full_description": "Public consultation is essential to getting government services and policy development right. But creating an effective, efficient, easy to use and manage platform seem like a mythical unicorn for citizen consultation platforms. Here's how far we come in trying to catch our Having Your Say unicorn.",
+      "summary": "Public consultation is essential to getting government services and policy development right...."
     },
     {
       "startTime": "2018-12-02T23:00:00Z",
@@ -94,7 +107,9 @@
       "track": "Front-end Development",
       "speakers": [
         "Eduardo Garcia"
-      ]
+      ],
+      "full_description": "How many times have you ever heard? \"Choose the right tool for the job\" or \"When all you have is a hammer, everything looks like a nail.\"\n\nLet me show how to transition from Traditional CMS to Headless CMS and even better to Static Site, always using Drupal as Data repository.",
+      "summary": "How many times have you ever heard?..."
     },
     {
       "startTime": "2018-12-02T23:00:00Z",
@@ -106,7 +121,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Ian Laslett"
-      ]
+      ],
+      "full_description": "Let's discuss firsthand on how Drupal has impacted organisations’ ability to service citizens and deliver amazing UX - how we can maximise its full potential including the challenges day to day. How and why Drupal can play a big part in addressing needs beyond simple content management.",
+      "summary": "Let's discuss firsthand on how Drupal has impacted organisations’ ability to service citizens and deliver amazing UX - how we can maximise its full potential including the challenges day to day...."
     },
     {
       "startTime": "2018-12-02T23:00:00Z",
@@ -118,7 +135,9 @@
       "track": "DevOps and Security",
       "speakers": [
         "Nick Santamaria"
-      ]
+      ],
+      "full_description": "This session will introduce HashiCorp Vault as a best-of-breed security tool, and showcase the Drupal integration suite including setup and demo of current feature set.",
+      "summary": "This session will introduce HashiCorp Vault as a best-of-breed security tool, and showcase the Drupal integration suite including setup and demo of current feature set...."
     },
     {
       "startTime": "2018-12-02T23:25:00Z",
@@ -131,7 +150,9 @@
       "speakers": [
         "Nick Trembath",
         "Alexis Cooper"
-      ]
+      ],
+      "full_description": "Developing applications within GovCMS was once uncharted territory. Find out how Adelphi Digital and Australian Sports Anti-Doping Authority (ASADA) teamed up to create an industry-first app pioneering behavioural change.",
+      "summary": "Developing applications within GovCMS was once uncharted territory...."
     },
     {
       "startTime": "2018-12-02T23:45:00Z",
@@ -141,7 +162,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-03T00:15:00Z",
@@ -153,7 +176,9 @@
       "track": "DevOps and Security",
       "speakers": [
         "Michael Richardson"
-      ]
+      ],
+      "full_description": "Come and witness the grand unveiling of Tokaido, the world's fastest local Drupal dev environment manager. It's cross platform, light-weight, and painfully fast. Tokaido will slash your caffeine consumption by giving you less time to drink coffee, and more time to code. Sorry about that (not really)",
+      "summary": "Come and witness the grand unveiling of Tokaido, the world's fastest local Drupal dev environment manager...."
     },
     {
       "startTime": "2018-12-03T00:15:00Z",
@@ -166,7 +191,9 @@
       "speakers": [
         "Si Hobbs",
         "Dan Laush"
-      ]
+      ],
+      "full_description": "For WorkSafe Victoria, a decoupled Drupal architecture allowed our project to be driven by Service Design. Our component library captures user interactions, branding and accessibility, while editors focus on content via Drupal. The result is rapid prototyping and design innovation.",
+      "summary": "For WorkSafe Victoria, a decoupled Drupal architecture allowed our project to be driven by Service Design...."
     },
     {
       "startTime": "2018-12-03T00:15:00Z",
@@ -178,7 +205,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Victoria Spagnolo"
-      ]
+      ],
+      "full_description": "An introduction to different methods of migrating, using drush. A comparison of using migrate_manifest, migrate_run and migrate_tools to run and develop migrations.\n\nExamples of each workflow will be show using the same Drupal 6 source site and performing the same tasks and individual migrations.",
+      "summary": "An introduction to different methods of migrating, using drush...."
     },
     {
       "startTime": "2018-12-03T00:15:00Z",
@@ -190,7 +219,9 @@
       "track": "UX & Content",
       "speakers": [
         "Richard Sison"
-      ]
+      ],
+      "full_description": "Though understated and often overlooked, microcopy is a powerful tool for improving product experiences. In this presentation we'll cover what microcopy is and how it can be used. The goal is to encourage design teams to consider their choice of words and its impact to the user experience.",
+      "summary": "Though understated and often overlooked, microcopy is a powerful tool for improving product experiences...."
     },
     {
       "startTime": "2018-12-03T00:40:00Z",
@@ -202,7 +233,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Sam Becker"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-03T00:40:00Z",
@@ -214,7 +247,9 @@
       "track": "UX & Content",
       "speakers": [
         "Fonda Le"
-      ]
+      ],
+      "full_description": "You hear it all the time - companies asking you for feedback, a rating, a review... but what should they be doing with this feedback? There’s a lot we can learn from companies who have successfully used feedback to their advantage to help increase customer satisfaction, retention and loyalty.",
+      "summary": "You hear it all the time - companies asking you for feedback, a rating, a review..."
     },
     {
       "startTime": "2018-12-03T01:00:00Z",
@@ -224,7 +259,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-03T01:15:00Z",
@@ -236,7 +273,9 @@
       "track": "Project Management",
       "speakers": [
         "Juliane Erben"
-      ]
+      ],
+      "full_description": "How to deliver agile projects in a less than perfect agile environment of fixed budgets and fixed expectations? While \"agile\" and \"SCRUM\" are the buzz words of our time, actually delivering \"agile\" often proves challenging in the \"real world\". These are my key lessons learned.",
+      "summary": "How to deliver agile projects in a less than perfect agile environment of fixed budgets and fixed expectations?..."
     },
     {
       "startTime": "2018-12-03T01:15:00Z",
@@ -248,7 +287,9 @@
       "track": "UX & Content",
       "speakers": [
         "Alexar Pendashteh"
-      ]
+      ],
+      "full_description": "Imagine a world where we don't create and consume content any more. Instead, we conceive, nurture and interact with it. And 'we' includes our machines and system processes too.\n\nImagine a world where the content has the life of its own.\n\nWe are witnessing the birth of intelligent content.",
+      "summary": "Imagine a world where we don't create and consume content any more...."
     },
     {
       "startTime": "2018-12-03T01:15:00Z",
@@ -261,7 +302,9 @@
       "speakers": [
         "Murray Woodman",
         "Toby Bellwood"
-      ]
+      ],
+      "full_description": "The newly released GovCMS8 distribution ships with a brand-new base theme, designed to deliver a great-looking, functional site - straight out of the box, with no theming or coding required. Suitable for government agencies, platform evaluators as well as site builders and themers.",
+      "summary": "The newly released GovCMS8 distribution ships with a brand-new base theme, designed to deliver a great-looking, functional site - straight out of the box, with no theming or coding required...."
     },
     {
       "startTime": "2018-12-03T01:15:00Z",
@@ -273,7 +316,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Max Pogonowski"
-      ]
+      ],
+      "full_description": "Have you ever wondered what’s under the hood of content_translation in Drupal 8? How does it prepend the language (and optionally country) code to the beginning of a path? What does it do to make sure search engines don’t penalise sites for having the same content across multiple URLs?\n\nThis session gets right down to the nuts and bolts of how to hijack the URL of anything in Drupal 8 and bend it to your will, keeping the treacherous world of SEO in mind.",
+      "summary": "Have you ever wondered what’s under the hood of content_translation in Drupal 8?..."
     },
     {
       "startTime": "2018-12-03T01:40:00Z",
@@ -285,7 +330,9 @@
       "track": "Project Management",
       "speakers": [
         "Vishal Sahody"
-      ]
+      ],
+      "full_description": "We know how flexible Drupal is as a tool. However, one of the biggest challenges we face when it comes to building online applications is the collaboration between teams. With real-life examples and solutions, let's find out how we make it as effective and collaborative from day to day.",
+      "summary": "We know how flexible Drupal is as a tool...."
     },
     {
       "startTime": "2018-12-03T02:00:00Z",
@@ -295,7 +342,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-03T03:00:00Z",
@@ -307,7 +356,9 @@
       "track": "DevOps and Security",
       "speakers": [
         "Thom Toogood"
-      ]
+      ],
+      "full_description": "Rebuilding simplytest.me with Kubernetes in 231 lines of code! An introduction to Kubernetes.",
+      "summary": "Rebuilding simplytest.me with Kubernetes in 231 lines of code!..."
     },
     {
       "startTime": "2018-12-03T03:00:00Z",
@@ -319,7 +370,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Jay Friendly"
-      ]
+      ],
+      "full_description": "Drupal 8 is built on PHP, but using new architecture paradigms that can be difficult to grasp for developers coming from a Drupal 7 background. This talk will aim to give an overview of Drupal 8 Services, Plugins, Vendor libraries, and other concepts new to Drupal 8.",
+      "summary": "Drupal 8 is built on PHP, but using new architecture paradigms that can be difficult to grasp for developers coming from a Drupal 7 background...."
     },
     {
       "startTime": "2018-12-03T03:00:00Z",
@@ -333,7 +386,9 @@
         "Megan Watson",
         "Jeremy Graham",
         "Julie Boulton"
-      ]
+      ],
+      "full_description": "Is your organisation stuck in the past? Do they print reports that just sit on bookshelves? Is a PDF available online the extent of ‘digital’ delivery? Do they throw their hands up in the air and cry “too hard!”?\n\nIf you answered yes to any of these this session is for you.",
+      "summary": "Is your organisation stuck in the past?..."
     },
     {
       "startTime": "2018-12-03T03:00:00Z",
@@ -346,7 +401,9 @@
       "speakers": [
         "Guy Owen",
         "Tim Yao"
-      ]
+      ],
+      "full_description": "Single Digital Presence (SDP) is one of the largest scale decoupled projects currently underway in this country. This talk will showcase the reusable Nuxt.js module created by SDP that can be leveraged by the government community to integrate a client side front-end and a content API (Drupal).",
+      "summary": "Single Digital Presence (SDP) is one of the largest scale decoupled projects currently underway in this country...."
     },
     {
       "startTime": "2018-12-03T04:00:00Z",
@@ -358,7 +415,9 @@
       "track": "Front-end Development",
       "speakers": [
         "Duarte Garin"
-      ]
+      ],
+      "full_description": "In this talk I will go through an approach to expose search engine functionality to decoupled frontend apps via Drupal. We will be talking about Search API, GraphQL and the new GraphQL Search API module to perform complex queries on an search engine while still leveraging the power of Drupal.",
+      "summary": "In this talk I will go through an approach to expose search engine functionality to decoupled frontend apps via Drupal...."
     },
     {
       "startTime": "2018-12-03T04:00:00Z",
@@ -370,7 +429,9 @@
       "track": "Government",
       "speakers": [
         "Jesse Boyd"
-      ]
+      ],
+      "full_description": "I'll tell the story of how the Digital Transformation Agency remade dta.gov.au, replacing a static Jekyll website using all of the tools we could muster: Drupal 8, GovCMS, the Design System, Github, Circle CI and cloud.gov.au, using an Agile workflow and adhering to the Digital Service Standard.",
+      "summary": "I'll tell the story of how the Digital Transformation Agency remade dta.gov.au, replacing a static Jekyll website using all of the tools we could muster: Drupal 8, GovCMS, the Design System, Github, Circle CI and cloud.g..."
     },
     {
       "startTime": "2018-12-03T04:00:00Z",
@@ -382,7 +443,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Adam Bramley"
-      ]
+      ],
+      "full_description": "A common problem that I’ve faced, is how to deliver the complex, component driven design that clients want while also giving content authors full flexibility with those components without creating an un-maintainable, or brittle product.\n\nIn this talk, we'll go over how to achieve just that!",
+      "summary": "A common problem that I’ve faced, is how to deliver the complex, component driven design that clients want while also giving content authors full flexibility with those components without creating an un-maintainable, or..."
     },
     {
       "startTime": "2018-12-03T04:00:00Z",
@@ -394,7 +457,9 @@
       "track": "Project Management",
       "speakers": [
         "Pamela Barone"
-      ]
+      ],
+      "full_description": "Many factors contribute to the success or failure of web projects, but the truth is that the client-vendor relationship is the most critical. As a client, it may seem like a lot of things are out of your control, and you are at the mercy of your agency. Clients, this is so not true.",
+      "summary": "Many factors contribute to the success or failure of web projects, but the truth is that the client-vendor relationship is the most critical...."
     },
     {
       "startTime": "2018-12-03T04:25:00Z",
@@ -406,7 +471,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Kim Pepper"
-      ]
+      ],
+      "full_description": "Using open source in your organisation and not contributing back? It could be the reason your projects aren't as successful as they could be.\n\nIn this session, I will talk through how to make the most out of Drupal, and what benefits this could bring to you and your organisation.",
+      "summary": "Using open source in your organisation and not contributing back?..."
     },
     {
       "startTime": "2018-12-03T04:45:00Z",
@@ -416,7 +483,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-03T05:15:00Z",
@@ -428,7 +497,9 @@
       "track": "Keynote",
       "speakers": [
         "Jithma Beneragama"
-      ]
+      ],
+      "full_description": "When faced with the challenges of tech and audience fragmentation, the costs of duplicated effort and inconsistent user experiences across government, what did the Victorian Department of Premier and Cabinet do? It developed Single Digital Presence as a flexible, open solution with collaboration and community built-in from the beginning.\n\nJithma Beneragama is an executive with more than 15 years’ experience in digital product management, delivery and marketing. Working within start-ups, large corporates to now government, he has international exposure driving businesses to innovate and has delivered compelling customer experience across multiple platforms. He has led teams to deliver a number of industry firsts and award winning products in categories such as innovation, customer experience and design.\n\nJithma joined the Victorian Public Service in March 2014 to focus on improving the Victorian Government’s digital experience; to make it easier for citizens, business and the community to interact with Government via digital channels.\n\nIn this session, Jithma will talk about why DPC chose Drupal 8, their philosophy around the product and how they hope development communities will contribute to delivering better outcomes for citizens.\n\nThis session is sponsored by ICEMEDIA",
+      "summary": "When faced with the challenges of tech and audience fragmentation, the costs of duplicated effort and inconsistent user experiences across government, what did the Victorian Department of Premier and Cabinet do?..."
     },
     {
       "startTime": "2018-12-03T06:00:00Z",
@@ -438,7 +509,9 @@
       "location": "Hotel Realm Sydney and Melbourne Foyers",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/salsaamazeeio-opening-cocktail-party",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "WHEN: Monday December 3rd, straight after the Keynote\n\nWHERE: Hotel Realm Sydney and Melbourne Foyers\n\nWhat better way to end Day One of DrupalSouth by joining Salsa Digital and Amazee.io for opening night drinks, jazz, and good times in the classy surrounds of the Hotel Realm.",
+      "summary": "WHEN: Monday December 3rd, straight after the Keynote WHERE: Hotel Realm Sydney and Melbourne Foyers What better way to end Day One of DrupalSouth by joining Salsa Digital and Amazee.io for opening night drinks, jazz, an..."
     },
     {
       "startTime": "2018-12-03T08:00:00Z",
@@ -448,7 +521,9 @@
       "location": "Belluci's Manuka",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/digital-leaders-dinner",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "Chris Skene (Platform.sh) and Piyush Poddar (Axelerant) are bringing back the Digital Leaders Dinner in Canberra this year, which will take place on Monday the 3rd of December.\n\nIf you are a Digital Leader at a Drupal Agency or Government, please join us for a special evening. Last year we had the dinner in Auckland and were joined by Leaders from GovCMS, Salsa Digital, PreviousNext, Amazee, Digital8 to name a few. You can read a recap at http://bit.ly/AgencyLeadersDinnerRecap\n\nWe organise this dinner to have meaningful discussions, share knowledge, fun stories and ideas around how to battle the common challenges faced by those seeking to innovate in the digital space.\n\nThe dinner will be held at Belluci's Manuka. It will be a three-course dinner followed by drinks.\n\nEVENT INFORMATION\n\nDate: Monday, December 3rd, 2018\n\nTime: 19:00-22:00\n\nLocation: Belluci's Manuka\n\nRSVP: Please book your seat via Eventbrite\n\nPrice: We will enjoy a three-course dinner and it will cost around AUD$50 per person.",
+      "summary": "Chris Skene (Platform.sh) and Piyush Poddar (Axelerant) are bringing back the Digital Leaders Dinner in Canberra this year, which will take place on Monday the 3rd of December...."
     },
     {
       "startTime": "2018-12-03T22:00:00Z",
@@ -460,7 +535,9 @@
       "track": "Keynote",
       "speakers": [
         "Charbel Zeaiter"
-      ]
+      ],
+      "full_description": "Understanding that our basic human needs barely change, how does the future of technology shape what we eat, how we communicate, how we commute or how we love?\n\nCharbel Zeaiter’s keynote presentation will hone in on what he considers to be “The Five Waves of Technology” and how emerging technologies will affect our core human reality. What will this mean for our world, our communities and our sense of self?\n\nStarting his career as a web designer in 1998, Charbel quickly specialised in Information Architecture and User Experience Design and worked around the world through the 2000s, culminating in a return to Sydney to start his own UX agency.\n\nSeeing a growing need in the market for professionally focused User Experience Design education, Charbel co-founded Academy Xi in 2015 to empower students to solve design problems for the real world. Academy Xi has now trained thousands of people across a diverse range of innovative courses.\n\nThrough all of this, Charbel he maintained his fascination with design, technology and its human impact in shaping our future. This wide ranging talk promises to challenge and inspire our perceptions of where technology is taking us.\n\nThis keynote session is sponsored by Today Design",
+      "summary": "Understanding that our basic human needs barely change, how does the future of technology shape what we eat, how we communicate, how we commute or how we love?..."
     },
     {
       "startTime": "2018-12-03T22:45:00Z",
@@ -470,7 +547,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-03T23:00:00Z",
@@ -482,7 +561,9 @@
       "track": "DevOps and Security",
       "speakers": [
         "Sean Hamlin"
-      ]
+      ],
+      "full_description": "With the number of exploits and poorly configured Drupal sites in the wild, having a WAF will allow you to weather the storm of script kiddies and bots, and free up resources on your origin. This session will go through best practice WAF tuning, and how you can adapt this to your site.",
+      "summary": "With the number of exploits and poorly configured Drupal sites in the wild, having a WAF will allow you to weather the storm of script kiddies and bots, and free up resources on your origin...."
     },
     {
       "startTime": "2018-12-03T23:00:00Z",
@@ -494,7 +575,9 @@
       "track": "Government",
       "speakers": [
         "Kurt Foster"
-      ]
+      ],
+      "full_description": "Using a UX led approach to features, content and design, the Single Digital Presence project is improving the way citizens interact with the Victorian Government online. This talk will showcase the current SDP websites and briefly discuss the technology that underpins them.",
+      "summary": "Using a UX led approach to features, content and design, the Single Digital Presence project is improving the way citizens interact with the Victorian Government online...."
     },
     {
       "startTime": "2018-12-03T23:00:00Z",
@@ -507,7 +590,9 @@
       "speakers": [
         "Brian Gilbert",
         "Stuart Clark"
-      ]
+      ],
+      "full_description": "Front-end development in Drupal got you down?\n\nTime to try a modern frontend framework?\n\nOr just want to see some real-time, visually test driven component development?\n\nIn this session Realityloop will be discussing alternative Front-end practices, and demoing their in development solution to simplify the creation of test driven, audit-able, component libraries.",
+      "summary": "Front-end development in Drupal got you down?..."
     },
     {
       "startTime": "2018-12-03T23:00:00Z",
@@ -519,7 +604,9 @@
       "track": "UX & Content",
       "speakers": [
         "Vladimir Roudakov"
-      ]
+      ],
+      "full_description": "I built same website using Wix, Wordpress and Drupal. This session compares 3 different technologies and their tools. There are number of things we can learn from Drupal alternatives and number of things Drupal can teach them.",
+      "summary": "I built same website using Wix, Wordpress and Drupal...."
     },
     {
       "startTime": "2018-12-03T23:25:00Z",
@@ -531,7 +618,9 @@
       "track": "Front-end Development",
       "speakers": [
         "Tony Comben"
-      ]
+      ],
+      "full_description": "Decoupled CMSs are the big buzz at the moment, but is it the best way forward? This talk will discuss considering partial decoupling as an alternative. Real-world examples from Transport for NSW's Motocap and ACCC's Energy made Easy sites will be used to make the case.",
+      "summary": "Decoupled CMSs are the big buzz at the moment, but is it the best way forward?..."
     },
     {
       "startTime": "2018-12-03T23:45:00Z",
@@ -541,7 +630,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-04T00:15:00Z",
@@ -553,7 +644,9 @@
       "track": "Front-end Development",
       "speakers": [
         "Keegan Street"
-      ]
+      ],
+      "full_description": "Front-end development can require many different build tools, such as Webpack, Babel, CSS pre/post processors, linters and test runners. This talk will explore the approach that Deloitte Digital takes to configure these tools once, and re-use them across projects as a single upgradeable package.",
+      "summary": "Front-end development can require many different build tools, such as Webpack, Babel, CSS pre/post processors, linters and test runners...."
     },
     {
       "startTime": "2018-12-04T00:15:00Z",
@@ -565,7 +658,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Jibran Ijaz"
-      ]
+      ],
+      "full_description": "Testing saves us money, time and hair loss. It fixes the problems we don't even know existed. Writing tests is always good for you and your website's health. The only side effect is you might enjoy writing tests more than writing actual code. This session is about writing tests for an existing site.",
+      "summary": "Testing saves us money, time and hair loss...."
     },
     {
       "startTime": "2018-12-04T00:15:00Z",
@@ -581,7 +676,9 @@
         "Nathan Wall",
         "Jithma Beneragama",
         "Amber Benjafield"
-      ]
+      ],
+      "full_description": "Open government promotes transparency, citizen participation/collaboration and accountability to produce better governments. Here in Australia we’re making headway in the digital arena to drive positive change and contribute to the open government movement.",
+      "summary": "Open government promotes transparency, citizen participation/collaboration and accountability to produce better governments...."
     },
     {
       "startTime": "2018-12-04T00:15:00Z",
@@ -593,7 +690,9 @@
       "track": "DevOps and Security",
       "speakers": [
         "Nick Schuch"
-      ]
+      ],
+      "full_description": "What would you do if your laptop was stolen?\n\nHave I got your attention? Yes? Good :)\n\nNow think about all the un-sanitised databases that were on that laptop.\n\nLets talk about packaging those up into sanitised, developer consumable artefacts.",
+      "summary": "What would you do if your laptop was stolen?..."
     },
     {
       "startTime": "2018-12-04T00:40:00Z",
@@ -605,7 +704,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Nigel Cunningham"
-      ]
+      ],
+      "full_description": "Webforms in Drupal 8 are awesome. Almost! Until now, you haven't been able to apply workflows, moderation or scheduled publishing to them because they're defined using configuration entities. This talk will introduce a module that addresses the issue and opens up other cool new possibilities too!",
+      "summary": "Webforms in Drupal 8 are awesome...."
     },
     {
       "startTime": "2018-12-04T01:00:00Z",
@@ -615,7 +716,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-04T01:15:00Z",
@@ -627,7 +730,9 @@
       "track": "Project Management",
       "speakers": [
         "Laura Munro"
-      ]
+      ],
+      "full_description": "Sick days are for sick brains too. Beginning a career in Drupal can be tough, but while battling depression and anxiety? Tougher! A career path with the black dog following may be a bit longer and wiggly, and but that doesn't make it any less cool and good.\n\nSo how can we reduce the stigma of mental illness in the workplace? What can we do as colleagues and bosses to help everyone have a successful career in tech?\n\nWith years of first-hand experience, Laura will speak openly and honestly about how mental health has an effect on our careers. She’ll educate and inspire those who battle the black dog, not to be disheartened by their illness, and give them some practical tools to help them in their journeys.",
+      "summary": "Sick days are for sick brains too...."
     },
     {
       "startTime": "2018-12-04T01:15:00Z",
@@ -639,7 +744,9 @@
       "track": "Government",
       "speakers": [
         "Danny Marlow"
-      ]
+      ],
+      "full_description": "The Department of Health delivers many campaign websites. Designing and developing each one in isolation increases lead-time, complexity, fragmentation and cost. See how we migrated existing sites and added new ones to a single GovCMS SaaS instance to standardise and speed up delivery.",
+      "summary": "The Department of Health delivers many campaign websites...."
     },
     {
       "startTime": "2018-12-04T01:15:00Z",
@@ -655,7 +762,9 @@
         "Jesse Boyd",
         "David Hawks",
         "Michael Schmid"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2018-12-04T01:15:00Z",
@@ -667,7 +776,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Arve Solland"
-      ]
+      ],
+      "full_description": "Learn how the Pacific iCLIM Project (a partnership between the Pacific Regional Environment Programme and Griffith University) used Drupal’s open source community and ease of deployment to create a regional go-to platform for publishing climate change information in the pacific region.",
+      "summary": "Learn how the Pacific iCLIM Project (a partnership between the Pacific Regional Environment Programme and Griffith University) used Drupal’s open source community and ease of deployment to create a regional go-to platfor..."
     },
     {
       "startTime": "2018-12-04T02:00:00Z",
@@ -677,7 +788,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-04T03:00:00Z",
@@ -689,7 +802,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Akhil Bhandari"
-      ]
+      ],
+      "full_description": "Given a plethora of social media platforms rise & fall daily, how do we better serve our Minister’s social content?\n\nWith an ‘easier said than done’ idea to add live social content to our Minister’s site we rebuilt it in GovCMS and integrated it with a 3rd party platform & added a clever theme layer.",
+      "summary": "Given a plethora of social media platforms rise & fall daily, how do we better serve our Minister’s social content?..."
     },
     {
       "startTime": "2018-12-04T03:00:00Z",
@@ -701,7 +816,9 @@
       "track": "Front-end Development",
       "speakers": [
         "Ajax McKerral"
-      ]
+      ],
+      "full_description": "There's a lot of talk about decoupled Drupal these days. If you can do React on the web with Drupal, then you can create cross platform apps with React Native and a Drupal backend. This talk introduces you to React Native and demonstrates a small app with Drupal 8 serving as a GraphQL backend.",
+      "summary": "There's a lot of talk about decoupled Drupal these days...."
     },
     {
       "startTime": "2018-12-04T03:00:00Z",
@@ -713,7 +830,9 @@
       "track": "UX & Content",
       "speakers": [
         "Ian Humble"
-      ]
+      ],
+      "full_description": "We can drastically improve the editor experience by treating the editor as a first class user of a Drupal site. This presentation will give practical tips on a GovCMS8 site to make the editor experience more accessible and powerful.",
+      "summary": "We can drastically improve the editor experience by treating the editor as a first class user of a Drupal site...."
     },
     {
       "startTime": "2018-12-04T03:00:00Z",
@@ -729,7 +848,9 @@
         "Piyush Poddar",
         "Bevan Wishart",
         "Amber Benjafield"
-      ]
+      ],
+      "full_description": "In this session, we will be discussing the following:\n\nWhy hire remote?\n\nWho to chose for a remote team?\n\nTools needed for making remote teams tick.\n\nWhy do some companies still insist on \"onsite\" employees.\n\nAnd more....",
+      "summary": "In this session, we will be discussing the following: Why hire remote?..."
     },
     {
       "startTime": "2018-12-04T03:25:00Z",
@@ -741,7 +862,9 @@
       "track": "Back-End Development",
       "speakers": [
         "Campbell Tilley"
-      ]
+      ],
+      "full_description": "This session will demonstrate to site builders how to setup and configure a simple integration between Drupal and Slack that will send notifications when Webform submissions are made.",
+      "summary": "This session will demonstrate to site builders how to setup and configure a simple integration between Drupal and Slack that will send notifications when Webform submissions are made...."
     },
     {
       "startTime": "2018-12-04T03:45:00Z",
@@ -751,7 +874,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-04T04:00:00Z",
@@ -763,7 +888,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Owen Lansbury"
-      ]
+      ],
+      "full_description": "With DrupalSouth now in its 10th year the Australia/NZ Drupal community is STILL solely driven by a relatively small group of ad-hoc volunteers. What strategies and best practices could be adopted to ensure we're all still here in another 10 years?",
+      "summary": "With DrupalSouth now in its 10th year the Australia/NZ Drupal community is STILL solely driven by a relatively small group of ad-hoc volunteers...."
     },
     {
       "startTime": "2018-12-04T04:00:00Z",
@@ -776,7 +903,9 @@
       "speakers": [
         "Alex Skrypnyk",
         "Stuart Rowlands"
-      ]
+      ],
+      "full_description": "Moving GovCMS SaaS and PaaS sites between Acquia and Lagoon shouldn’t be that hard, right? In this talk, we’ll discuss how we created system utilising AWX-based runners, building an automated workflow that can be continuously used and reused to easily migrate sites of different level of complexity.",
+      "summary": "Moving GovCMS SaaS and PaaS sites between Acquia and Lagoon shouldn’t be that hard, right?..."
     },
     {
       "startTime": "2018-12-04T04:00:00Z",
@@ -788,7 +917,9 @@
       "track": "Project Management",
       "speakers": [
         "Scott Anderson"
-      ]
+      ],
+      "full_description": "Drupal is a powerful tool, but from experience, the difference between a success and a disaster is not the quality of the code or brilliance of the design, but the ability to avoid dangers common to every project. This is a guide for dodging those landmines and increasing your chances of success.",
+      "summary": "Drupal is a powerful tool, but from experience, the difference between a success and a disaster is not the quality of the code or brilliance of the design, but the ability to avoid dangers common to every project...."
     },
     {
       "startTime": "2018-12-04T04:00:00Z",
@@ -800,7 +931,9 @@
       "track": "Front-end Development",
       "speakers": [
         "Berend de Boer"
-      ]
+      ],
+      "full_description": "With Behat you can write tests that visit your site as a user would. But there's an art to writing good Behat scripts. This session shows you how to get the most value out of behat tests: write tests that end users can read, and that developers can easily maintain.",
+      "summary": "With Behat you can write tests that visit your site as a user would...."
     },
     {
       "startTime": "2018-12-04T04:45:00Z",
@@ -810,7 +943,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-04T05:15:00Z",
@@ -822,7 +957,9 @@
       "track": "Keynote",
       "speakers": [
         "Sally Young"
-      ]
+      ],
+      "full_description": "Back in 2007, the very first iPhone was released, the last Harry Potter book was published, and Britney Spears had an extra tough year. Drupal 5 also shipped with jQuery!\n\nOver ten years later, not much has changed with Drupal's JavaScript architecture, but in the meantime the way we build websites has shifted hugely and, as a consequence, Drupal's role has shifted too.\n\nRoughly a year ago, an initiative was started to take a more modern approach to JavaScript, including adopting React. This session will look at the initiative's progress on a decoupled administration application to deliver a new content editor experience, as well as discuss some of the hard problems we're facing around the fundamental purpose of Drupal.\n\nThis keynote session is sponsored by OPC it.",
+      "summary": "Back in 2007, the very first iPhone was released, the last Harry Potter book was published, and Britney Spears had an extra tough year...."
     },
     {
       "startTime": "2018-12-04T06:00:00Z",
@@ -832,7 +969,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2018-12-04T06:30:00Z",
@@ -842,7 +981,9 @@
       "location": "Ostani, Hotel Realm",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/oakton-drupalsouth-closing-party",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "WHERE: Ostani, Hotel Realm\n\nWHEN: December 4th, 530pm till late\n\nSupported by:",
+      "summary": "WHERE: Ostani, Hotel Realm WHEN: December 4th, 530pm till late Supported by:..."
     },
     {
       "startTime": "2018-12-04T22:00:00Z",
@@ -852,9 +993,11 @@
       "location": "Hotel Realm",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/code-sprint",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "WHERE: Hotel Realm\n\nWHEN: Wednesday December 5th, 2018, from 9am\n\nWhat's a Sprint Day about anyway?\n\nContribution Sprints are a great opportunity to get involved in contributing to Drupal. Contributions don't have to be just about code. Issue triage, documentation, and manual testing are examples of non-code contributions.\n\nIf you are new to contributing, you can take a look at the New Contributor tasks on the Drupal.org Contributor Tasks page.\n\nWhile there will be experienced contributors there on the day to help, keep in mind, this is not a training session. :-)\n\nSet Up a Development Environment\n\nThere is more than one way to shear a sheep, and there is also more than one way to set up a local development environment for working on Drupal.\n\nWe've create a Drupal project starter kit for sprint attendees which should speed up this process. Head over to https://github.com/previousnext/drupal-project and follow the README.\n\nIf you have any issues, feel free to post them in the Github issue queue https://github.com/previousnext/drupal-project/issues and we'll try and resolve them before the day.\n\nFind Issues to Work On\n\nIf you want to see what might be an interesting issue to work on, head over to the Drupal.org Issue Queue and look for issues tagged with 'DrupalSouth 2018'. These are issues that others have tagged.\n\nYou can also tag an issue yourself to be added to the list.\n\nBeing face-to-face with fellow contributors is a great opportunity to have discussions and put forward ideas. Don't feel like you need to come away from the day having completed lines and lines of code.\n\nWe look forward to seeing you all there!",
+      "summary": "WHERE: Hotel Realm WHEN: Wednesday December 5th, 2018, from 9am What's a Sprint Day about anyway?..."
     }
   ],
-  "result": "\u2705",
+  "result": "✅",
   "url": "https://drupalsouth.org/events/canberra-2018/schedule"
 }

@@ -9,7 +9,8 @@
     "startDate": "2022-10-18T22:15:00Z",
     "scheduleURL": "https://drupalsouth.org/events/drupalsouth-brisbane-2022/schedule",
     "venue": "The Westin, Brisbane",
-    "timezone": "Australia/Brisbane"
+    "timezone": "Australia/Brisbane",
+    "sourceCache": "cache/remote/2026-04-25T11-46-36Z/drupalsouth-brisbane-2022-json-brisbane-2022"
   },
   "items": [
     {
@@ -20,7 +21,9 @@
       "location": "Foyer",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-18T22:55:00Z",
@@ -30,7 +33,9 @@
       "location": "Ballroom 1",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-18T23:05:00Z",
@@ -42,7 +47,9 @@
       "track": "Keynote",
       "speakers": [
         "Zaidul Alam"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-18T23:45:00Z",
@@ -52,7 +59,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-18T23:55:00Z",
@@ -65,7 +74,9 @@
       "speakers": [
         "Alistair O'Neill",
         "Yvonne Norris"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-18T23:55:00Z",
@@ -77,7 +88,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Mel Stubbings"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-18T23:55:00Z",
@@ -89,7 +102,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Karl Hepworth"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T00:30:00Z",
@@ -99,7 +114,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T01:00:00Z",
@@ -112,7 +129,9 @@
       "speakers": [
         "Akhil Bhandari",
         "Phillipa Martin"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T01:00:00Z",
@@ -124,7 +143,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Rikki Bochow"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T01:00:00Z",
@@ -136,7 +157,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Daniel Veza"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T01:20:00Z",
@@ -148,7 +171,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Griffyn Heels"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T01:35:00Z",
@@ -158,7 +183,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T01:45:00Z",
@@ -170,7 +197,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Adam Bramley"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T01:45:00Z",
@@ -183,7 +212,9 @@
       "speakers": [
         "Joseph Zhao",
         "Tara Wijayagunawardana"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T01:45:00Z",
@@ -195,7 +226,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "DrupalSouth committee members"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T02:20:00Z",
@@ -205,7 +238,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T03:20:00Z",
@@ -217,7 +252,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Kim Pepper"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T03:20:00Z",
@@ -229,7 +266,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Nigel Cunningham"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T03:20:00Z",
@@ -241,7 +280,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Eric Goodwin"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T03:55:00Z",
@@ -251,7 +292,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T04:05:00Z",
@@ -263,7 +306,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Morgan Strong"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T04:05:00Z",
@@ -275,7 +320,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Gian Wild"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T04:05:00Z",
@@ -287,7 +334,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Doug Courtney"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T04:40:00Z",
@@ -297,7 +346,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T04:50:00Z",
@@ -309,7 +360,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Murray Woodman"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T04:50:00Z",
@@ -321,7 +374,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Michael Strelan"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T04:50:00Z",
@@ -334,7 +389,9 @@
       "speakers": [
         "Julia Topliss",
         "Matthew Pirani"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T05:30:00Z",
@@ -344,7 +401,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T22:25:00Z",
@@ -354,7 +413,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T22:55:00Z",
@@ -364,7 +425,9 @@
       "location": "Ballroom 1",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T23:00:00Z",
@@ -376,7 +439,9 @@
       "track": "Keynote",
       "speakers": [
         "Sarah-Jane Peterschlingmann"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T23:35:00Z",
@@ -386,7 +451,9 @@
       "location": "Ballroom 1",
       "link": "",
       "track": "Sponsor",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T23:40:00Z",
@@ -396,7 +463,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-19T23:55:00Z",
@@ -408,7 +477,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Diana Campbell"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T23:55:00Z",
@@ -420,7 +491,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Sharyn Clarkson"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-19T23:55:00Z",
@@ -432,7 +505,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Toby Bellwood"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T00:30:00Z",
@@ -442,7 +517,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T01:00:00Z",
@@ -454,7 +531,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Michael Caddy"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T01:00:00Z",
@@ -466,7 +545,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Joshua Graham"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T01:00:00Z",
@@ -478,7 +559,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Andre Kakos"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T01:35:00Z",
@@ -488,7 +571,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T01:45:00Z",
@@ -500,7 +585,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Josh Waihi"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T01:45:00Z",
@@ -513,7 +600,9 @@
       "speakers": [
         "Suchi Garg",
         "Phillipa Martin"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T01:45:00Z",
@@ -525,7 +614,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Joseph Chin"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T02:20:00Z",
@@ -535,7 +626,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T03:20:00Z",
@@ -547,7 +640,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Arijit Dutta"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T03:20:00Z",
@@ -560,7 +655,9 @@
       "speakers": [
         "Andrew West",
         "Johanna Aranguren"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T03:20:00Z",
@@ -572,7 +669,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Lee Rowlands"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T03:55:00Z",
@@ -582,7 +681,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T04:05:00Z",
@@ -594,7 +695,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Jibran Ijaz"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T04:05:00Z",
@@ -606,7 +709,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Nick Schuch"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T04:05:00Z",
@@ -618,7 +723,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Phillipa Martin"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T04:40:00Z",
@@ -628,7 +735,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T05:10:00Z",
@@ -640,7 +749,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Govind Kumar Malu"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T05:10:00Z",
@@ -653,7 +764,9 @@
       "speakers": [
         "Juliane Erben",
         "Alex Skrypnyk"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T05:10:00Z",
@@ -665,7 +778,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Luhur Abdi Rizal"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T05:45:00Z",
@@ -675,7 +790,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T05:55:00Z",
@@ -687,7 +804,9 @@
       "track": "Showcases & Project Management",
       "speakers": [
         "Owen Lansbury"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T05:55:00Z",
@@ -699,7 +818,9 @@
       "track": "Web Tools & Technologies",
       "speakers": [
         "Sean Hamlin"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T05:55:00Z",
@@ -712,7 +833,9 @@
       "speakers": [
         "Arijit Dutta",
         "Mohammed Azharuddin Khan"
-      ]
+      ],
+      "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
+      "summary": "DrupalSouth conference in Australia and New Zealand...."
     },
     {
       "startTime": "2022-10-20T06:30:00Z",
@@ -722,7 +845,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T06:40:00Z",
@@ -732,7 +857,9 @@
       "location": "Ballroom 1",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2022-10-20T23:00:00Z",
@@ -742,7 +869,9 @@
       "location": "Elevate",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     }
   ],
   "result": "✅",

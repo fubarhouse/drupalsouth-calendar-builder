@@ -9,7 +9,8 @@
     "startDate": "2026-05-11T20:00:00Z",
     "scheduleURL": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule",
     "venue": "Harborside Function Centre",
-    "timezone": "Pacific/Auckland"
+    "timezone": "Pacific/Auckland",
+    "sourceCache": "cache/remote/2026-04-25T11-39-21Z/drupalsouth-wellington-2026-json-wellington-2026"
   },
   "items": [
     {
@@ -20,7 +21,9 @@
       "location": "Venue: 93E Cuba St, Te Aro",
       "link": "https://maps.apple.com/place?address=93+Cuba+St%2C+Te+Aro%2C+Wellington+6011%2C+New+Zealand&coordinate=-41.2921403%2C174.7765393&name=93+Cuba+St",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T20:00:00Z",
@@ -30,7 +33,9 @@
       "location": "Main Room",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T21:00:00Z",
@@ -40,7 +45,9 @@
       "location": "Main Room",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T21:30:00Z",
@@ -52,7 +59,9 @@
       "track": "Keynote",
       "speakers": [
         "TBA"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T22:00:00Z",
@@ -62,7 +71,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T22:10:00Z",
@@ -74,7 +85,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Sean Hamlin"
-      ]
+      ],
+      "full_description": "Automated traffic on the internet has evolved well beyond simple crawlers and brute-force attacks. Modern bots use headless browsers, residential proxy networks, and AI-driven scraping that deliberately mimic real users, making traditional IP blocking and rate limiting increasingly ineffective.\n\nThis session explores how Drupal teams can respond to this new reality using pragmatic, layered defences. In addition to Drupal modules such as Perimeter, CrowdSec, AbuseIPDB, and Facet Bot Blocker, the talk demonstrates how to place Anubis in front of a Drupal site to selectively protect high-cost or high-risk endpoints such as forms, search, pagination, and authenticated flows.\n\nRather than attempting to block all bots, this talk focuses on reducing abuse where it hurts most, understanding trade-offs, and integrating modern bot controls without breaking accessibility, SEO, or legitimate users.",
+      "summary": "Automated traffic on the internet has evolved well beyond simple crawlers and brute-force attacks...."
     },
     {
       "startTime": "2026-05-12T22:10:00Z",
@@ -86,7 +99,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Lana Gibson"
-      ]
+      ],
+      "full_description": "Digital teams put huge effort into designing flexible content models, accessible templates, and scalable platforms - but how do we know what’s actually working for users?\n\nGoogle Analytics 4 can help teams understand audience needs, prioritise improvements, and make better decisions with limited time and budget. But GA4 data can be hard to interpret, and even harder to turn into action.\n\nThis talk focuses on how to use GA4 and other insight tools to improve website content and user experience. We’ll look at how AI-driven search (including Google’s AI Overviews) is changing how users discover content, and what that means for measurement. You’ll learn how to move beyond page-level metrics to understand journeys, content performance at scale, and real user needs.\n\nDrawing on real-world examples from large, content-heavy organisations, Lana will show how analytics has informed content strategy, information architecture, and UX decisions - leading to measurable improvements, not just better reports.\n\nTopics include:\n\nWhat data is actually useful for digital teams\n\nAI-driven discovery\n\nSite-wide vs page-level performance\n\nUsing audience insight to inform content decisions\n\nWhat’s next for digital analytics",
+      "summary": "Digital teams put huge effort into designing flexible content models, accessible templates, and scalable platforms - but how do we know what’s actually working for users?..."
     },
     {
       "startTime": "2026-05-12T22:10:00Z",
@@ -96,7 +111,9 @@
       "location": "Breakout 3",
       "link": "",
       "track": "Sponsor",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T22:40:00Z",
@@ -106,7 +123,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T23:00:00Z",
@@ -118,7 +137,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Daniel Veza"
-      ]
+      ],
+      "full_description": "Keyword-based search has served us well for years, but it often falls short when users ask natural language or exploratory questions. Semantic search improves relevance by understanding intent, meaning and context, while Retrieval-Augmented Generation (RAG) goes a step further by transforming search results into clear, human friendly answers.\n\nThis talk will explore how OpenSearch and Skpr enable semantic search by understanding the meaning behind content and queries, rather than just matching keywords, with the RAG processor layering generative AI on top of retrieved results. We’ll walk through a practical end-to-end flow: indexing and chunking content, generating the embeddings for semantic search, retrieving the most relevant search results, and using RAG to produce concise summaries and answers grounded directly in search results.\n\nAlong with answering questions, RAG can be also be used to summarise multiple documents, highlight key themes, and reduce information overload, while staying grounded in the indexed content without AI hallucinations.\n\nBy the end of the session, you’ll understand when semantic search is a better fit than traditional search, how OpenSearch’s RAG processor enables summarised, clear and contextual responses, and how these approaches can deliver faster access to accurate information, increase user engagement, and create search experiences that go beyond a simple list of links.",
+      "summary": "Keyword-based search has served us well for years, but it often falls short when users ask natural language or exploratory questions...."
     },
     {
       "startTime": "2026-05-12T23:00:00Z",
@@ -130,7 +151,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "George Bonnici-Carter"
-      ]
+      ],
+      "full_description": "Premium Drupal themes have matured dramatically with companies like Dripyard now shipping production-ready component libraries, styled paragraph types, and layout-builder configurations that would have been a week of bespoke work just a years ago.\n\nIn this talk, I'll show you what these themes actually look like under the hood. We'll crack open a premium theme like NeonByte, look at how it's structured, and see what you're getting on day one — a full component library, clean pure CSS and JS with no build tools, and enough flexibility to take you to enterprise-grade output without fighting the framework. I'll walk through using one alongside Drupal Canvas to stand up a real page, and share some honest numbers from my own projects about where the time is actually going now.\n\nI'll also touch on how AI tooling layers on top of this — Canvas AI & Context Ai — as practical ways to compress the remaining last-mile work even further.\n\nThis is applicable to all marketers, agencies, and Drupal enthusiasts, giving practical techniques you can apply immediately.",
+      "summary": "Premium Drupal themes have matured dramatically with companies like Dripyard now shipping production-ready component libraries, styled paragraph types, and layout-builder configurations that would have been a week of bes..."
     },
     {
       "startTime": "2026-05-12T23:00:00Z",
@@ -142,7 +165,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Adam Bramley"
-      ]
+      ],
+      "full_description": "Addressing the inefficiencies of traditional Drupal theming—where logic, markup, and styling are fragmented—the Pinto module by PreviousNext provides an entirely new theming paradigm for Drupal by enabling the reuse of design system components across the entire site using predictable, object-oriented patterns.\n\nIt’s a component-first approach that incorporates modern concepts like props and slots with complete type safety for fast and efficient theming.\n\nPinto components consist of a PHP object definition, CSS, JS and Twig. They can then be rendered anywhere in Drupal.\n\nFor both frontenders and backenders, this talk will cover Pinto’s simple setup, how to write a Pinto component, rendering, unit testing, best practices and integration with Storybook.\n\nWe will also showcase how Pinto objects can be used directly as Drupal Canvas components, without requiring a Single Directory Component (SDC).",
+      "summary": "Addressing the inefficiencies of traditional Drupal theming—where logic, markup, and styling are fragmented—the Pinto module by PreviousNext provides an entirely new theming paradigm for Drupal by enabling the reuse of d..."
     },
     {
       "startTime": "2026-05-12T23:30:00Z",
@@ -152,7 +177,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-12T23:40:00Z",
@@ -164,7 +191,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Gareth Jones"
-      ]
+      ],
+      "full_description": "This session tells the story of how Ackama’s open source contributions to OSV Scanner on open source vulnerability detection evolved and the 2025 collaboration with OSV (a Google supported project) and Drupal Security Team. The project was an open source contribution from Gareth Jones that developed into a proud Ackama partnership with OSV.\n\nWe will cover:\n\n-The launch of OSV - what problems does the project address and why did Ackama recognise the value of the tool.\n\n-Demonstration of the OSV service\n\n-Why OSV Scanner has value beyond the existing Drupal Security Advisories approach\n\n-Collaboration & Community: Working with the Drupal Security Team to develop a proposal and gain buy-in\n\n-Real-world Impact: How you can use OSV-based tools today to automate security monitoring\n\n-Happier CISO and security auditors\n\n-Better automation in the future. Tools that already support OSV advisories could eventually use this new database to do automatic security updates of Drupal packages.",
+      "summary": "This session tells the story of how Ackama’s open source contributions to OSV Scanner on open source vulnerability detection evolved and the 2025 collaboration with OSV (a Google supported project) and Drupal Security Te..."
     },
     {
       "startTime": "2026-05-12T23:40:00Z",
@@ -176,7 +205,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Angus Gordon"
-      ]
+      ],
+      "full_description": "Links are great: they’re what makes the web a connected network, rather than just a bunch of documents. But sometimes, our users aren’t looking for connections. They don’t want to ‘see also’ or ‘read more’ or go down a rabbit hole. They just want an answer to a question or help with a task.\n\nThis talk is about the ways in which good intentions – our desire to offer choice and avoid the appearance of a dead end – can actually harm users’ confidence that they’ve reached their destination. We’ll get some practice spotting moments of uncertainty and frustration, and we’ll talk about how to fix them by designing encapsulated content – content that conveys a sense of clarity, containment and completeness.",
+      "summary": "Links are great: they’re what makes the web a connected network, rather than just a bunch of documents...."
     },
     {
       "startTime": "2026-05-12T23:40:00Z",
@@ -188,7 +219,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Alex Skrypnyk"
-      ]
+      ],
+      "full_description": "AI tools are everywhere - but despite the hype, they are neither autonomous builders nor replacements for experienced developers.\n\nIn this talk, we’ll look at a realistic, production-tested workflow where developers stay firmly in control, and AI agents act as fast, tireless implementers of clearly defined ideas.\n\nUsing real examples from consumer-facing Drupal sites, we’ll walk through a feature development lifecycle that starts with human planning and ends with tested, reviewable code. This includes:\n\n- Planning features before prompting\n\n- Using AI agents (including cloud-based code agents) to implement scoped tasks\n\n- Generating tests, wiring integrations, and linking code - without skipping engineering fundamentals\n\n- Reviewing, refining, and owning the final outcome as a developer\n\nRather than treating AI as a magic button, this session shows how to use it as a force multiplier: accelerating delivery while preserving code quality, architectural intent, and developer accountability.\n\nAttendees will leave with a clear mental model for where AI fits into modern Drupal development - and where it absolutely does not.",
+      "summary": "AI tools are everywhere - but despite the hype, they are neither autonomous builders nor replacements for experienced developers...."
     },
     {
       "startTime": "2026-05-13T00:20:00Z",
@@ -200,7 +233,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Jason Kiss"
-      ]
+      ],
+      "full_description": "The Centralised Web Accessibility Checker, or CWAC, is open-source software created by the New Zealand Government Chief Digital Officer (GCDO). It scans websites for accessibility issues to help ensure that government web content can be used by disabled people. CWAC tests several things, but primarily checks for failures to conform to the Web Content Accessibility Guidelines (WCAG) 2.2, something that government agencies continue to find challenging. Being open source, we didn’t need to procure any IT and the project required minimal budget. CWAC is open to developer contributions from the community, and is free and available for government agencies and others to use. Results from the CWAC scans of NZ Government websites are openly published as open data on Data.govt.nz. The greatest challenge has been presenting and translating the results into action for agencies that often outsource the bulk of their IT needs.",
+      "summary": "The Centralised Web Accessibility Checker, or CWAC, is open-source software created by the New Zealand Government Chief Digital Officer (GCDO)...."
     },
     {
       "startTime": "2026-05-13T00:20:00Z",
@@ -212,7 +247,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Emma Kelson"
-      ]
+      ],
+      "full_description": "\"How can we help Governments rein in the content chaos by creating structure and consistency for the business and for users and for AI? At Weave, we believe that codifying information in ways that are meaningful to users and documenting this through a content design system are key to solving these challenges.\n\nIn this talk, Emma details the work Weave completed to bring clarity, structure and a shared central source of truth to an Australian state government website by creating a comprehensive, scalable content design system\"",
+      "summary": "\"How can we help Governments rein in the content chaos by creating structure and consistency for the business and for users and for AI?..."
     },
     {
       "startTime": "2026-05-13T00:20:00Z",
@@ -224,7 +261,9 @@
       "track": "Other",
       "speakers": [
         "Rox Flame"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T00:50:00Z",
@@ -234,7 +273,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T01:50:00Z",
@@ -246,7 +287,9 @@
       "track": "People & Culture",
       "speakers": [
         "Ian Laslett"
-      ]
+      ],
+      "full_description": "Governments across Australia and New Zealand are under increasing pressure to deliver reliable, secure, and citizen‑centred digital services—often with shrinking budgets and rising expectations. Drupal has become a strategic enabler for many of these platforms, but genuine success depends on more than technology. It requires clear vision, strong governance, disciplined delivery practices, and the ability to align digital platforms with policy and organisational outcomes.\n\nIn this session, I’ll share perspectives from leading large‑scale government digital programs—what creates sustainable success, what commonly derails it, and how to build platforms that support long‑term service transformation. We’ll look at operating models, multisite and content governance approaches, risk and security considerations, and the organisational capabilities required to get value from Drupal at enterprise scale. Whether you’re a digital leader, program manager, strategist, architect or advisor, you’ll leave with practical insights to strengthen your digital agenda and translate platform investments into meaningful business outcomes.",
+      "summary": "Governments across Australia and New Zealand are under increasing pressure to deliver reliable, secure, and citizen‑centred digital services—often with shrinking budgets and rising expectations...."
     },
     {
       "startTime": "2026-05-13T01:50:00Z",
@@ -258,7 +301,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Ruth Hendry"
-      ]
+      ],
+      "full_description": "How do we structure content so it’s found by AI? How do we measure success with citations replace clicks? Do we even need a CMS anymore?\n\nYour content stakeholders are navigating a fundamental shift in how content works. They're being told to restructure everything for ‘machine readability’, chase GEO metrics they don’t fully understand, and prepare for ‘content warehouses’ that may or may not replace their current systems. Behind the AI jargon, they're wrestling with new tensions on top of their existing workload. They need your technical insight to move forward. This session explores what content teams are actually thinking about and why it’s time for content and engineers to become each other’s biggest supporters.\n\nOn producing content for AI: The world of digital content has been turned upside down. Content creators are wondering: Where do I get started on structuring content? If our CMS becomes an ‘edge system’, what’s the centre? How do we balance ‘optimising for AI’ with creating content humans actually want to read?\n\nOn content operations: Content teams are hearing conflicting advice about AI: “It can speed up content production” versus “All AI content is rubbish”. They want to know where they can include AI in their content ops to bring value to their business, great content to their customers and joy to their team.\n\nWhy this matters for developers: Content stakeholders are making decisions right now, about what to structure, what to rebuild, and where to invest, often without fully understanding the technical implications. When you understand what they're actually concerned about you can guide better architecture decisions, speed up time to release, and help future-proof technical choices to support content ambitions.\n\nWe’ll explore real-world examples of what content teams and decision-makers working with large content sets are grappling with, so you can use your knowledge to support them, increase your influence and drive better decisions.",
+      "summary": "How do we structure content so it’s found by AI?..."
     },
     {
       "startTime": "2026-05-13T01:50:00Z",
@@ -270,7 +315,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Murray Woodman"
-      ]
+      ],
+      "full_description": "The Drupal Marketplace is a new initiative where Drupal agencies are able to showcase site “Templates” which wrap up best practice patterns for enhanced site building. Templates encapsulate many of the new directions in Drupal: Drupal CMS, Canvas, Recipes and SDCs. Being part of Drupal CMS they also touch on areas such as Artificial Intelligence, enhanced editor workflows and advanced component driven designs. The Marketplace and Templates are a showcase of what is coming in Drupal and points to new skills and approaches which will need to be adopted.\n\nThe Drupal community as a whole needs to adapt to these new ways of working. In a sense it is similar to the changes we saw from moving to Drupal 8. New patterns and ways of working will need to be learnt. There is a lot to take in. The presentation aims to bring site builders and developers up to speed with the main changes and gotchas along the way.\n\nAims\n\nGet agencies and developers up to speed with what is coming\n\nIdentify the challenges and opportunities ahead.\n\nThe presentation will cover\n\nOverview of the Marketplace and the moving parts\n\nRequirements of the Marketplace and Templates\n\nSingle Directory Components - The basics\n\nCanvas - A new way of thinking\n\nFinding the middle ground between Canvas and Paragraphs\n\nMental model adjustments for design and build.\n\nThe presentation will draw some conclusions on:\n\nThe positioning of Drupal in the wider marketplace\n\nThe competing drivers of contents vs presentation\n\nThe presentation has been listed in the Development track, as there will be helpful introductory material for devs getting up to speed. There will be value for agency owners and clients who would like to get their head around the bigger picture.",
+      "summary": "The Drupal Marketplace is a new initiative where Drupal agencies are able to showcase site “Templates” which wrap up best practice patterns for enhanced site building...."
     },
     {
       "startTime": "2026-05-13T02:20:00Z",
@@ -280,7 +327,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T02:30:00Z",
@@ -292,7 +341,9 @@
       "track": "Other",
       "speakers": [
         "Emily Mills"
-      ]
+      ],
+      "full_description": "Discovery workshops are an essential starting point for Drupal projects, but too often they generate good discussion without clearly influencing what gets built.\n\nThis session focuses on how to run discovery workshops that directly inform development decisions, content and UI - not just high-level ideas. It explores how well-designed workshops help teams make clearer choices early, from technical approach and scope to content structure, interface patterns and delivery priorities.\n\nDrawing on real project experience, Emily will show how to plan and facilitate discovery sessions so they move beyond conversation and instead produce clear, build-ready outcomes. She’ll demonstrate practical ways to translate workshop insights into decisions that stick, helping teams avoid rework, late-stage debate and misalignment across streams.\n\nThis practical, delivery-focused session shares clear workshop structures, example activities and simple techniques for turning discovery outputs into actionable inputs for your next Drupal project.",
+      "summary": "Discovery workshops are an essential starting point for Drupal projects, but too often they generate good discussion without clearly influencing what gets built...."
     },
     {
       "startTime": "2026-05-13T02:30:00Z",
@@ -304,7 +355,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Billie-Mae Kennedy"
-      ]
+      ],
+      "full_description": "I've been doing user research for about 15 years now, across government, health, disability, education, all sorts of domains. For most of that time, research has been a discipline that was expensive, time-consuming, and gated behind a lot of process and methodological rigour, which was there for good reasons but also meant that a lot of teams just couldn't do it, or couldn't do enough of it.\n\nAI is changing that pretty fast. I've been using AI tools in my research practice over the past couple of years and some of it has been really useful. Things like synthesis, first-pass analysis, and drafting that used to take days can happen in hours now. Research that would have been too expensive for certain projects is suddenly possible, and I think that's worth being excited about.\n\nBut I've also seen AI get things confidently wrong in ways that are hard to spot if you don't already know what good research looks like, and I think that's the tension worth talking about. If AI makes research accessible to teams who couldn't afford it before, but they don't have the experience to know when the output is rubbish, are we actually better off?\n\nI'll share the tools I've been using and where I think they're great, the things I'm still worried about (especially around false confidence and the appearance of rigour), and the parts of research I'm not willing to hand over, like the actual conversations with people, the judgment calls about what matters versus what's noise, and the \"so what\" of turning findings into something useful. This is a bit of a commentary on where the research discipline is heading and what we need to hold onto as things get faster and cheaper.\n\nWhat people will take away:\n\n- AI tools and approaches that are actually working well for research right now\n\n- Where AI falls over and how to spot it\n\n- What parts of research still need a human, and why\n\n- Some questions about the future of the discipline that are worth sitting with",
+      "summary": "I've been doing user research for about 15 years now, across government, health, disability, education, all sorts of domains...."
     },
     {
       "startTime": "2026-05-13T02:30:00Z",
@@ -316,7 +369,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Jason Ryan Thompson"
-      ]
+      ],
+      "full_description": "The Pacific Dataviz Challenge is an initiative designed to raise awareness of social, economic, and environmental issues across Pacific communities through open data and impactful data visualisations. In this presentation, our team will demonstrate how Drupal served as the foundation for a platform that supports organizers, participants, and judges while promoting data literacy throughout the Pacific region.\n\nWe will present the development of a fully custom Tailwind CSS Drupal theme focused on clarity, performance, and responsiveness. A major architectural focus was balancing reusable content types with adaptable templates, enabling content editors to build varied layouts for each content section.\n\nThe submission system, built using Webform, is another central element. We will outline how we implemented structured data collection for datasets, narrative descriptions, and visual assets, along with careful attention to validation and user experience to ensure smooth submissions for participants of all skill levels.\n\nFor the judging process, the team developed a dedicated evaluation application built with Views, Voting API, and complementary modules to streamline scoring, feedback, and review states. Judge-specific dashboards and secure permission handling help maintain fairness, transparency, and efficiency throughout the evaluation cycle.\n\nWe will conclude by reflecting on an earlier prototype built using a decoupled Next.js architecture. While the approach offered advantages such as improved rendering and UI flexibility, it also introduced significant complexity in workflows, form handling, and content synchronisation. These lessons informed our decision to return to a more cohesive Drupal-based architecture for the final solution.",
+      "summary": "The Pacific Dataviz Challenge is an initiative designed to raise awareness of social, economic, and environmental issues across Pacific communities through open data and impactful data visualisations...."
     },
     {
       "startTime": "2026-05-13T03:00:00Z",
@@ -326,7 +381,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T03:10:00Z",
@@ -338,7 +395,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Simon Hobbs"
-      ]
+      ],
+      "full_description": "Most Shopify apps follow a familiar shape: a React UI, some API calls, and a small service behind the scenes. That works well for isolated features. But if you’re already running Drupal, adding more services and stacks can feel unnecessary - what if you just used Drupal?\n\nThis talk looks at using Drupal as the operational backend behind Shopify. Shopify handles the storefront, checkout, and payments, shipping, fulfillment. Drupal fills the gaps where you would normally be paying monthly fees through the Shopify app store.\n\nAt The Diggers Club, we’re placing heavy investment in Shopify, however we have some unique processes which are not supported out of the box. Examples include a customized Pickrun/Quarantine process, and custom label generation for seed packets.\n\nRather than building multiple custom Shopify apps with separate React frontends and Node backends, we keep the logic in one place and treat Drupal as the “private backend” for operations. The result is fewer moving parts, less duplicated code, and a stack the team already understands.\n\nThe session will cover the strategy for embedding a Drupal ERP solution into Shopify. How to make the experience as seemless as possible for users while taking advantage of your existing Drupal capabilities.",
+      "summary": "Most Shopify apps follow a familiar shape: a React UI, some API calls, and a small service behind the scenes...."
     },
     {
       "startTime": "2026-05-13T03:10:00Z",
@@ -350,7 +409,9 @@
       "track": "People & Culture",
       "speakers": [
         "Alex Matthews"
-      ]
+      ],
+      "full_description": "To realise the true cost and time benefits of agile delivery, Government leaders need to move beyond traditional procurement and delivery silos and be willing to work closely with development teams - often literally in the same room - solving problems together in real time. Equally, developers must be comfortable collaborating directly with non-technical leaders, rapidly testing ideas, assumptions, and solution pathways through hands-on experimentation.\n\nMany of the well-known failure modes of waterfall projects stem from separation: between business cases, clients, project managers, developers, and expectations, with an over-reliance on documentation to bridge those gaps. As GovTech leaders continue to shift internal culture toward agile, this talk is aimed at both decision-makers and the teams delivering for them.\n\nAlex will unpack the practical success patterns behind modern digital transformation, drawing on real-world case studies from the past 12 months that show how New Zealand Government agencies are “walking the talk.” These examples demonstrate how taking the right risks, embracing rapid prototyping, and working collaboratively unlocks the full potential of speed, cost effectiveness, and flexibility that the Government wants and needs.\n\nThe session explores why in-person, cross-disciplinary collaboration remains the “killer app” of agile - and why making it work requires a learned, often uncomfortable skillset. It also highlights how Drupal 11, as the world's most enterprise-ready, API-first open-source platform, is enabling ambitious government digital systems that go far beyond traditional websites.\n\nPractical examples include:\n\n- HQSC’s Health Measures Library\n\n- Department of Conservation’s Smart Weed Alert Tool\n\n- Proof-of-concept and rapid prototyping initiatives reshaping large, traditionally waterfall government programmes",
+      "summary": "To realise the true cost and time benefits of agile delivery, Government leaders need to move beyond traditional procurement and delivery silos and be willing to work closely with development teams - often literally in t..."
     },
     {
       "startTime": "2026-05-13T03:10:00Z",
@@ -362,7 +423,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Stewart West"
-      ]
+      ],
+      "full_description": "A lightning talk to explore the new Drupal CMS 2.0 (if no one else is doing it).\n\nWe'll go through the install process, show the new \"Site Templates\" and then see what's turned on in there.\n\nMain features include:\n\n- Playing with Canvas: Using the Drag & drop Library, adding components.\n\n- Looking at the available AI assistants, tools and the other cool features in CKEditor.\n\n- Ask the AI Builder agent to make a Canvas layout.\n\nReally just a very quick exposé for those who haven't tried it yet.",
+      "summary": "A lightning talk to explore the new Drupal CMS 2.0 (if no one else is doing it)...."
     },
     {
       "startTime": "2026-05-13T03:40:00Z",
@@ -372,7 +435,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T04:00:00Z",
@@ -384,7 +449,9 @@
       "track": "Keynote",
       "speakers": [
         "TBA"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T04:30:00Z",
@@ -394,7 +461,9 @@
       "location": "Main Room",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T04:40:00Z",
@@ -404,7 +473,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T05:00:00Z",
@@ -417,7 +488,9 @@
       "speakers": [
         "Michael Richardson",
         "Julia Topliss"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T07:00:00Z",
@@ -427,7 +500,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T20:00:00Z",
@@ -437,7 +512,9 @@
       "location": "Main Room",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T20:30:00Z",
@@ -447,7 +524,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T20:50:00Z",
@@ -457,7 +536,9 @@
       "location": "Main Room",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T21:00:00Z",
@@ -469,7 +550,9 @@
       "track": "Keynote",
       "speakers": [
         "TBA"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T21:30:00Z",
@@ -479,7 +562,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T21:40:00Z",
@@ -491,7 +576,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Marji Cermak"
-      ]
+      ],
+      "full_description": "The quality and security of content on government sites is of paramount importance. Content is required to flow through a number of checks and balances before it is published to the wider public. Website owners and senior stakeholders have a very strong interest in ensuring the accuracy and reliability of published content.\n\nIn a CMS such as Drupal, Content Moderation is the technical approach taken to enforce workflows between editors and approvers. It can be complex to set up as a number of different roles, states, transitions and access levels need to be coordinated. It is possibly the biggest area of misconfiguration on government sites and also the one with the most serious consequences. Ensuring a robust workflow is therefore attractive for ensuring trust and reputation.\n\nThis presentation will illustrate how automated tests using the Cypress framework can be configured to handle the complex checks which need to take place. This includes handing logged in user sessions, progressing content through a flow and validating access levels across a number of different user roles. Marji will demonstrate a simple library, open sourced by Morpht, that helps with simplifying the rule writing process. End to end tests will show how simple config errors can be easily caught for remediation.\n\nThis presentation will cover:\n\n* The top level concepts of peer review\n\n* The information security requires for government agencies\n\n* The basic content moderation setup in Drupal\n\n* Common problematic areas: technical and social\n\n* Brief introduction to Cypress testing framework\n\n* Introducing the open source helper library\n\n* Demonstration of the tests running\n\n* Ideas for the future on how Cypress can help in other areas.\n\nThe presentation will be of interest to site and platform owners who are interested in maximising accuracy of content. Developers with an interest in testing will also find it of interest.",
+      "summary": "The quality and security of content on government sites is of paramount importance...."
     },
     {
       "startTime": "2026-05-13T21:40:00Z",
@@ -503,7 +590,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Andrew Benbow"
-      ]
+      ],
+      "full_description": "Take the guesswork out of your CI/CD pipeline with reproducible software builds that result in the exact same environment for everyone, every time-- all without touching containers, udev rules, or virtual environments.\n\nUsing Nix, a cross-platform functional package manager, it is possible to develop, deploy, and maintain fully reproducible software environments (and even entire operating systems) with a single text file on native hardware. In this talk we'll explore both the technical and practical aspects of using Nix to handle different parts of the CI/CD pipeline including a new way of solving the \"well, it works on my machine\" problem, building reproducible Drupal environments you can actually share with your colleagues, and running production-grade Drupal websites on the exact same software platform they were built on.\n\nWe'll cover some common pitfalls of modern solutions like Docker and K8s, as well as some of the benefits (and a few unique challenges) that using Nix presents, such as how to work with immutable file systems, how to build truly reproducible software, and the possible impacts of using functional programming in your systems architecture.",
+      "summary": "Take the guesswork out of your CI/CD pipeline with reproducible software builds that result in the exact same environment for everyone, every time-- all without touching containers, udev rules, or virtual environments...."
     },
     {
       "startTime": "2026-05-13T21:40:00Z",
@@ -515,7 +604,9 @@
       "track": "People & Culture",
       "speakers": [
         "Owen Lansbury"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T22:10:00Z",
@@ -525,7 +616,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T22:30:00Z",
@@ -537,7 +630,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Suchi Garg"
-      ]
+      ],
+      "full_description": "AI can generate text, designs and interfaces at lightning speed — but without the right context, results are often off-brand, non-compliant, or just plain 'meh'. Context is the difference between “AI that guesses” and “AI that gets it,” turning outputs into authentic, on-voice, and intentional meaningful results.\n\nDrupal’s Context Control Center Module provides a single hub to capture and manage your organisation’s rules, policies and guidelines, then map them directly to AI features. Need government compliance, brand consistency or a specific tone? Context Control Center ensures every AI output aligns with your requirements.\n\nImagine being able to say:\n\n“Every article summary must be 3 sentences under 300 characters.”\n\n“Never use these restricted words.X, Y, Z ”\n\n“Match accessibility standards WCAG X.XX automatically.”\n\n“Keep all content at an 8th-grade reading level.”\n\n“Always use our brand colours and typography.”\n\nInstead of scattered style guides, briefs or prompts, Context Center centralises these rules so AI results are consistent, compliant and compelling.\n\nIn this session, we’ll explore why context is the missing ingredient for meaningful AI, which types of context have the biggest impact, real-world use cases, and how Drupal’s Context Control Center makes it simple to manage and deliver. You’ll leave with practical insights and a clear path to elevating your AI from “meh” to meaningful.\n\nLearning objectives\n\nAt the end of this session, attendees will be able to:\n\n* Apply context engineering principles to make AI outputs more authentic, consistent and aligned with their organisation’s goals\n\n* Identify and categorise different types of context that improve AI performance in real-world Drupal use cases\n\n* Use Drupal’s Context Control Center to organise and deliver context to specific AI agents for improved results",
+      "summary": "AI can generate text, designs and interfaces at lightning speed — but without the right context, results are often off-brand, non-compliant, or just plain 'meh'...."
     },
     {
       "startTime": "2026-05-13T22:30:00Z",
@@ -549,7 +644,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Brynn Briedis"
-      ]
+      ],
+      "full_description": "CSS is no longer just about layout and styling, it’s becoming a powerful tool for interaction and behaviour. Container queries, :has(), view transitions, scroll-driven animations, anchor positioning and more are changing what’s possible without touching JavaScript.\n\nThis talk explores the newest CSS capabilities and demonstrates how they can replace many JavaScript-driven UI patterns. Through practical examples, you’ll see how modern CSS can simplify your frontend architecture and change how you approach building interfaces.",
+      "summary": "CSS is no longer just about layout and styling, it’s becoming a powerful tool for interaction and behaviour...."
     },
     {
       "startTime": "2026-05-13T22:30:00Z",
@@ -559,7 +656,9 @@
       "location": "Breakout 3",
       "link": "",
       "track": "Sponsor",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T23:00:00Z",
@@ -569,7 +668,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T23:10:00Z",
@@ -579,7 +680,9 @@
       "location": "Breakout 1",
       "link": "",
       "track": "Sponsor",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T23:10:00Z",
@@ -592,7 +695,9 @@
       "speakers": [
         "Jonathan Hunt",
         "Chris Burgess"
-      ]
+      ],
+      "full_description": "Drupal can be a complex codebase and issues can be challenging to diagnose. Fortunately, tooling for Observability (o11y) is available, to give you greater insight into application behaviour. We've been exploring observability using OpenTelemetry (OT) and Grafana to expose Drupal metrics, logs, and traces. This talk introduces observability concepts, outlines how OpenTelemetry can be implemented in Drupal, and how Grafana can aggregate logs and display key application metrics and traces. We'll show how to generate custom metrics, parse logs, and gain new understanding of what is happening \"under the hood\".",
+      "summary": "Drupal can be a complex codebase and issues can be challenging to diagnose...."
     },
     {
       "startTime": "2026-05-13T23:10:00Z",
@@ -606,7 +711,9 @@
         "Quinn Hart",
         "Tamara Ross",
         "Matthew Meisel-Dennis"
-      ]
+      ],
+      "full_description": "Quality isn’t something we tack on at the end of a Drupal project - it’s built into our approach from the very start.\n\nIn this talk, we’ll explore how getting testers involved early helps us avoid misunderstandings, reduce rework, and keep the whole team aligned. We’ll share how our developers and testers work together - walking through features, asking the tricky “what if…?” questions, and keeping communication open so issues get sorted quickly.\n\nWe’ll take you behind the scenes of real Drupal projects we’ve tested - no deep technical rabbit holes, just practical insights, real world examples, and lessons that shaped our process.\n\nPlus, you’ll get a look at the tools that help us stay organised and thorough: Zephyr for test management, BrowserStack for checking all the browsers (yes, even that one), and the collaborative practices that help us deliver stable, reliable, quality Drupal.\n\nIf you want to deliver better Drupal, strengthen teamwork, and avoid those 5pm Friday bug discoveries - this session is for you.",
+      "summary": "Quality isn’t something we tack on at the end of a Drupal project - it’s built into our approach from the very start...."
     },
     {
       "startTime": "2026-05-13T23:40:00Z",
@@ -616,7 +723,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T23:50:00Z",
@@ -628,7 +737,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Michael Strelan"
-      ]
+      ],
+      "full_description": "For many years agencies and organisations have tackled the problem of packaging a \"standard\" Drupal distribution and installing it across multiple sites. We've seen GovCMS in Australian government, custom university distributions, and global community projects like Lightning and Commerce Kickstart.\n\nTraditional distributions promised faster launches, reduced decision fatigue, and consistent user experience through opinionated defaults, but often resulted in rigid architectures, difficult upgrades, and awkward long-term maintenance. Drupal is now entering a new phase with Recipes and Site Templates, offering a modular and composable approach where teams can intentionally layer functionality, reuse proven patterns, and evolve sites over time without starting from scratch.\n\nIn this session we'll explore what it actually means to build and use recipes and site templates in practice. We'll cover how recipes are structured, how configuration and dependencies are packaged and applied, and how site templates fit into modern Composer-based workflows. We'll also examine the architectural decisions teams need to make to avoid recreating the limitations of traditional distributions.\n\nThis talk is aimed at developers, solution architects, and technical decision-makers who want to understand where Drupal site building is heading, and how to take advantage of it without repeating the mistakes of the past.",
+      "summary": "For many years agencies and organisations have tackled the problem of packaging a \"standard\" Drupal distribution and installing it across multiple sites...."
     },
     {
       "startTime": "2026-05-13T23:50:00Z",
@@ -638,7 +749,9 @@
       "location": "Breakout 2",
       "link": "",
       "track": "Sponsor",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-13T23:50:00Z",
@@ -650,7 +763,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Leo Goldie-Anderson"
-      ]
+      ],
+      "full_description": "Leo has worked in a range of roles in disability health, equity, and communications. Leo is Chief Advisor Disability at Health New Zealand, working across the organisation to improve the design and delivery of health services so that they work better for disabled people.\n\nThis talk will introduce a range of perspectives on disability communities and equity that digital teams should understand when embarking on service design, user-centred design, digital development projects.\n\nLeo will talk to their experiences in a number of digital projects, and talk to the understanding and insights that they have gained ensuring disability is catered to. These include:\n\n- accessible information and translation to alternative formats\n\n- the value in disability-led research and insights to reflect the voices of disabled New Zealanders\n\n- addressing gaps in disability data and progress on the issue\n\n- experiences working alongside a range of digital web and product teams",
+      "summary": "Leo has worked in a range of roles in disability health, equity, and communications...."
     },
     {
       "startTime": "2026-05-14T00:20:00Z",
@@ -660,7 +775,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T01:20:00Z",
@@ -672,7 +789,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Max Pogonowski"
-      ]
+      ],
+      "full_description": "Redis/Valkey can really improve your site's responsiveness by holding recently used cache object in-memory. Join Max as he recounts an adventure in squeezing the best performance possible out of this technology for a large Drupal platform.\n\nWe'll talk through the combination of factors which led to the need to make improvements - particularly the distributed nature of containerised deployments, the failed attempts, and finally the key improvement which you can also use to wring that last drop of performance out of your in-memory cache.",
+      "summary": "Redis/Valkey can really improve your site's responsiveness by holding recently used cache object in-memory...."
     },
     {
       "startTime": "2026-05-14T01:20:00Z",
@@ -684,7 +803,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Toby Bellwood"
-      ]
+      ],
+      "full_description": "Most organizations approach AI integration by starting with use cases and then scrambling to find infrastructure that meets their security and compliance needs. We took the opposite approach: we built a comprehensive AI platform first, then developed a suite of Drupal-based tools and modules to demonstrate its capabilities.\n\nThis talk will explore how amazee.ai created (and open-sourced) an AI infrastructure, designed around LiteLLM, to support multiple AI providers while maintaining complete data sovereignty. We'll discuss the key architectural decisions that went into building a platform that handles authentication, vector databases, and multi-region deployment - all while ensuring no data is stored or used for model training.\n\nThen, we'll showcase how we leveraged this platform to develop practical Drupal integrations, including:\n\n* A custom Drupal AI Provider module that enables one-click setup without managing API keys\n\n* Default integration with Drupal CMS 2.0 and the Drupal AI module ecosystem for content generation, accessibility improvements, and multilingual support\n\n* Real-world implementations solving challenges like batch alt-text generation for 10k+ product catalogs, interactive chatbots powered by vector databases and more!\n\n* And we’ll even cover how (and why!) we used Drupal as the base for our private AI Assistant\n\nAttendees will learn why choosing and building infrastructure first - rather than bolting it on later - supports more flexible, secure, and scalable AI solutions. We'll share lessons learned from our platform-first approach, including technical decisions around user management & reporting, regional compliance, and provider-agnostic architecture.",
+      "summary": "Most organizations approach AI integration by starting with use cases and then scrambling to find infrastructure that meets their security and compliance needs...."
     },
     {
       "startTime": "2026-05-14T01:20:00Z",
@@ -699,7 +820,9 @@
         "Chris Burgess",
         "Margery Tongway",
         "Vladimir Roudakov"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T01:50:00Z",
@@ -709,7 +832,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T02:00:00Z",
@@ -721,7 +846,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Naveen Prakash Duraisamy"
-      ]
+      ],
+      "full_description": "Synopsis:\n\nThe web is undergoing a seismic shift. While automated AI traffic surges—straining server performance and increasing infrastructure costs—human direct traffic is declining as users turn to AI \"Answer Engines.\" Drupal sites are caught in the crossfire. This session provides a dual-strategy framework: how to identify and mitigate aggressive, resource-draining AI crawlers while simultaneously optimizing your Drupal architecture for Answer Engine Optimization (AEO) to capture high-intent referral traffic and grow revenue.\n\nDescription:\n\nModern Drupal sites, particularly those leveraging Views and Facets, are primary targets for aggressive AI crawlers. These bots often trigger \"denial-of-service\" style loads by following every possible query parameter combination. However, blocking all AI traffic is no longer a viable business strategy. This session dives into the technical and strategic \"balancing act\" required for 2026.\n\nThe Bot Surge & Mitigation::\n\nWhy faceted search and arbitrary query strings are majorly crawled?\n\nDrupal-native solutions like the Facet Bot Blocker and strategic robots.txt configurations.\n\nImplementing edge-layer defense using WAF (Web Application Firewall), rate-limiting and parameter count rules.\n\nWAF rules to identify, categorize the bots and block, recommended WAF Settings and Bot Management\n\nWinning the \"Answer War\" (AEO):\n\nTransitioning from SEO to AEO\n\nLeveraging the llms.txt standard to provide a \"GPS\" for legitimate AI agents.\n\nImplementing \"Answer-First\" architecture\n\nUsing Schema.org Metatag and Blueprints and Markdownify to serve LLM-friendly content.\n\nCreate dedicated AI-Summary fields on critical content types schema\n\nPerformance :\n\nWhy DOM-readiness and BigPipe are critical for AI ingestion depth?\n\nClosing the \"Content Gap\":\n\nTechnical foundations aren't enough if the content itself is thin. You need to audit content strategies and ensure the content is optimised to win the \"Answer War\".",
+      "summary": "Synopsis: The web is undergoing a seismic shift...."
     },
     {
       "startTime": "2026-05-14T02:00:00Z",
@@ -731,7 +858,9 @@
       "location": "Breakout 2",
       "link": "",
       "track": "Sponsor",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T02:00:00Z",
@@ -743,7 +872,9 @@
       "track": "Other",
       "speakers": [
         "Nathan ter Bogt"
-      ]
+      ],
+      "full_description": "Security doesn't have to mean you trade time against deliverables; and if you have an incident, automated security might just save you time, money and reputation.\n\nThis talk focuses on building automated security workflows that require an upfront investment but then run quietly in the background, alerting you only when something genuinely needs attention.\n\nIt starts by explaining the core concepts of Dynamic Application Security Testing (DAST) and Static Application Security Testing (SAST) — what they are, what problems they solve, and where they fit in a modern Drupal delivery pipeline. From there, it explores real-world tools such as OWASP ZAP, Trivy and dependency analysis, with an emphasis on how they complement rather than replace each other.\n\nThe talk is deliberately practical for Drupal developers and SysOps engineers. It walks through how these tools can be wired into GitHub Actions so they run automatically on pull requests and on a scheduled basis, without slowing developers down. You'll see how to configure Trivy to scan source code, dependencies, and container images; how to automate ZAP scans against deployed environments; and how to use Dependabot or Renovate to keep Drupal core, contrib modules, and container dependencies up to date with minimal noise.",
+      "summary": "Security doesn't have to mean you trade time against deliverables; and if you have an incident, automated security might just save you time, money and reputation...."
     },
     {
       "startTime": "2026-05-14T02:30:00Z",
@@ -753,7 +884,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T02:40:00Z",
@@ -765,7 +898,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Nick Schuch"
-      ]
+      ],
+      "full_description": "\"Performance testing is a powerful way to build confidence in how systems behave under real-world conditions. This talk introduces what performance testing is, why it matters, and the core principles behind it, including understanding system behaviour under load, uncovering bottlenecks early, and treating performance as an ongoing part of delivery rather than a last-minute concern.\n\nThe session then shares how PreviousNext approaches performance testing in practice. It looks at how we execute performance testing across projects and introduces k6 as our primary tool, covering how easy it is to get started and how we use it throughout local development, CI pipelines, and production-like environments to continuously validate performance.\n\nFinally, the talk focuses on turning performance insights into action. It explores common open source tools and techniques that developers and system administrators can use to debug and diagnose performance issues across the stack, from local development profiling to infrastructure, platform-level monitoring, and observability. Attendees leave with practical approaches they can take back to their own teams.\"",
+      "summary": "\"Performance testing is a powerful way to build confidence in how systems behave under real-world conditions...."
     },
     {
       "startTime": "2026-05-14T02:40:00Z",
@@ -777,7 +912,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Joshua Stuart Graham"
-      ]
+      ],
+      "full_description": "You might have done a Drupal tutorial that uses DDev, but do you know to reuse it in your other projects that have specific requirements? For example, how do you set the PHP version or add in SOLR ? Well, this session is for you!\n\nWe will cover:\n\n- What is DDev? Why use it? What problem is it trying to solve?\n\n- What is the file structure, how do I commit the configuration?\n\n- How does it compare to Lando?\n\n- What are the DDev commands and how add more custom cli commands\n\n- How to change the software versions of the service like PHP, switch between nginx and Apache web server and MySQL and MariaDB\n\n- How to add extra custom services like SOLR for search, or NodeJS\n\n- How to add custom SSL certificates like Zscaler to the docker containers\n\n- How to add additional programs like PV (PV is a pipe viewer program, to show file transfer progress - especially great if you want to speed up database import and by importing directly and thereby skipping drush)\n\n- Linked resources will include pygmy integration & GovCMS replication as well, time permitting.\n\nPresentation and resources:\n\nhttps://github.com/silverham/Presentation-DDev-intro\n\nContact:\n\nhttps://www.linkedin.com/in/grahamjoshua",
+      "summary": "You might have done a Drupal tutorial that uses DDev, but do you know to reuse it in your other projects that have specific requirements?..."
     },
     {
       "startTime": "2026-05-14T02:40:00Z",
@@ -791,7 +928,9 @@
         "Millie Clery",
         "Anna Morgan",
         "Jeannie Panting"
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T03:10:00Z",
@@ -801,7 +940,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T03:30:00Z",
@@ -813,7 +954,9 @@
       "track": "",
       "speakers": [
         null
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T03:30:00Z",
@@ -825,7 +968,9 @@
       "track": "",
       "speakers": [
         null
-      ]
+      ],
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2026-05-14T03:30:00Z",
@@ -837,7 +982,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Alistair O'Neill"
-      ]
+      ],
+      "full_description": "With a bit of sentiment running through the veins, Alistair is coming armed with a virtualised old school Windows setup. It will be a bit of a look back to how the web once was and an attempt to use some back in the day tools to make and run something locally. Can he still do it by hand? How do some of these older browsers work when connecting to modern websites? Can Alistair make his first computer's hard drive work and recover a previous lifetime or will he have to make a fresh virtual machine to try and replicate that old feeling? Alistair will also background his experience and how he got started.\n\nHappy for this to be a 30 or 45 minute session. Happy for this to be under People and Culture or Other too, however you might want to split it. I am flexible.",
+      "summary": "With a bit of sentiment running through the veins, Alistair is coming armed with a virtualised old school Windows setup...."
     },
     {
       "startTime": "2026-05-14T04:00:00Z",
@@ -847,9 +994,11 @@
       "location": "Main Room",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     }
   ],
-  "result": "\u2705",
+  "result": "✅",
   "url": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule"
 }

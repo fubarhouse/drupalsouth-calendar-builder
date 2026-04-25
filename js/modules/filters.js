@@ -46,7 +46,9 @@ export function filterEvents(events, clickedFilterName, skipAnalytics = false) {
     const matchesKeywords =
       !keywordsFilter ||
       event.title.toLowerCase().includes(keywordsFilter) ||
+      (event.summary && event.summary.toLowerCase().includes(keywordsFilter)) ||
       (event.description && event.description.toLowerCase().includes(keywordsFilter)) ||
+      (event.full_description && event.full_description.toLowerCase().includes(keywordsFilter)) ||
       normalizedTrack.toLowerCase().includes(keywordsFilter) ||
       event.location.toLowerCase().includes(keywordsFilter) ||
       speakersText.toLowerCase().includes(keywordsFilter);

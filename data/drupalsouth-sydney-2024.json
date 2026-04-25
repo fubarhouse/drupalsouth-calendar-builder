@@ -9,7 +9,8 @@
     "startDate": "2024-03-19T21:00:00Z",
     "scheduleURL": "https://drupalsouth.org/events/drupalsouth-sydney-2024/schedule",
     "venue": "Sydney Masonic Centre",
-    "timezone": "Australia/Sydney"
+    "timezone": "Australia/Sydney",
+    "sourceCache": "cache/remote/2026-04-25T11-45-04Z/drupalsouth-sydney-2024-json-sydney-2024"
   },
   "items": [
     {
@@ -20,7 +21,9 @@
       "location": "Foyer",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-19T22:00:00Z",
@@ -30,7 +33,9 @@
       "location": "Grand Lodge",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-19T22:10:00Z",
@@ -40,7 +45,9 @@
       "location": "Grand Lodge",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-19T22:20:00Z",
@@ -52,7 +59,9 @@
       "track": "Keynote",
       "speakers": [
         "Dries Buytaert"
-      ]
+      ],
+      "full_description": "In this very special keynote kicking off DrupalSouth Sydney 2024, Dries will present an update on the project and the development of Drupal.\n\nIn case you didn't know, here's a little more about Dries and Drupal from his website:\n\n\"I'm the Founder of Drupal. Drupal is Open Source software for building websites and digital experiences. Currently, around 2% of all websites worldwide are built with Drupal. In the enterprise, that number is 1 out of 10 websites. Drupal is one of the largest and most active Open Source projects in the world. I've been working on Drupal for more than two decades, and continue to lead the project today as Drupal's Project Lead.\"",
+      "summary": "In this very special keynote kicking off DrupalSouth Sydney 2024, Dries will present an update on the project and the development of Drupal...."
     },
     {
       "startTime": "2024-03-19T23:05:00Z",
@@ -62,7 +71,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-19T23:15:00Z",
@@ -74,7 +85,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Morgan Strong"
-      ]
+      ],
+      "full_description": "This talk will take the audience through a cutting-edge AI project, and how headless Drupal is a key component to delivering this app.\n\nThe Queensland Art Gallery | Gallery of Modern Art (QAGOMA) has embarked on an ambitious project: leveraging sophisticated AI mechanisms to make our digital content easily accessible on personal devices. Our product, entirely built on open-source tech and built in-house, employs computer vision to recognise artworks with high accuracy (>98%) and rapidity (averaging 200ms) across thousands of pieces. The Galley visitor can simply point their mobile phone at any work on display, and the AI will recognise the art object and return all relevant content, as well as inviting engagement and extra layers of meaning with the work. This negates the need for markers such as QR codes, label keys, or other intricate technological tools.\n\nCentral to our Web App's functionality is its computer vision recognition feature. By pointing a mobile device at an artwork—be it 2D or 3D—the artwork is identified within a few hundred of milliseconds to return related digital content, such as descriptions, colour and shape analyses, interactive components, and interactive questions.\n\nIn this presentation, I’ll guide attendees through our holistic journey, from the technological foundation to the pilot phase, taking insights from lessons learned and discussing our vision for a museum-wide rollout.\n\nImportantly this talk will be anchored in what is providing the data – a Drupal 10 instance providing a custom data API, and many specific endpoints. During AI inference training this was delivering 100,000s of responses in a day and scaling appropriately.",
+      "summary": "This talk will take the audience through a cutting-edge AI project, and how headless Drupal is a key component to delivering this app...."
     },
     {
       "startTime": "2024-03-19T23:15:00Z",
@@ -87,7 +100,9 @@
       "speakers": [
         "Hasitha Guruge",
         "Josh Fisher"
-      ]
+      ],
+      "full_description": "Like many other local governments in Australia, the public website of City of Boroondara is a Drupal 10 based website hosted on Acquia. Microsoft based infrastructure and tools are not very uncommon for a government organisation and City of Boroondara also was looking for opportunities to leverage the current infrastructure and tools inherited from Microsoft and Atlassian to improve the development and deployment cycle of the website.\n\nIn this presentation, we are planning to introduce DevOps practices, processes and benefits of it to the beginner level participants and present how to integrate Azure DevOps processes and practices with Drupal developments and deployments while connecting the dots among different tools and platforms such as Azure, Acquia and Jira. We are planning to demo how the Azure DevOps web hooks, Jira automations and Acquia hooks can help to make the end to end integration and DevOps process smoother. Also, we'll be discussing any areas to be improved and any other alternative methods to be used in a similar integration and implementation.",
+      "summary": "Like many other local governments in Australia, the public website of City of Boroondara is a Drupal 10 based website hosted on Acquia...."
     },
     {
       "startTime": "2024-03-19T23:15:00Z",
@@ -99,7 +114,9 @@
       "track": "People & Culture",
       "speakers": [
         "Jibran Ijaz"
-      ]
+      ],
+      "full_description": "As a developer, it's easier to stay in your lane and keep working on the code, and with the natural progression, you go from a junior developer to a senior developer. But what's next after this journey?\n\nThis talk takes a deep dive into the next steps of a developer's career. A role that doesn't involve being a full-time coder. A role in which you have to talk to some non-technical people. A role where you have to think about the bigger picture. A role where you get to help new developers. A role where you get to form the direction of a new software. How do you stay relevant with current technology? How do you not keep reinventing the wheel and how do you reinvent the wheel?",
+      "summary": "As a developer, it's easier to stay in your lane and keep working on the code, and with the natural progression, you go from a junior developer to a senior developer...."
     },
     {
       "startTime": "2024-03-19T23:45:00Z",
@@ -109,7 +126,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T00:15:00Z",
@@ -121,7 +140,9 @@
       "track": "People & Culture",
       "speakers": [
         "Mike Richardson"
-      ]
+      ],
+      "full_description": "This year at DrupalSouth Sydney, we're joined by several members of the Drupal Association leadership team, who have kindly agreed to take some time to answer our questions big and small.\n\nSo join us for an exclusive panel session where you can ask your own questions directly. We'll be exploring Drupal's direction in the coming years, how they're executing that vision, and what we can do to help.\n\nThe panelists include:\n\n- Dries Buytaert - Drupal Founder, Association Founding Director, and Project Lead\n\n- Owen Lansbury - Drupal Association Chair\n\n- Tim Doyle - Drupal Association CEO",
+      "summary": "This year at DrupalSouth Sydney, we're joined by several members of the Drupal Association leadership team, who have kindly agreed to take some time to answer our questions big and small...."
     },
     {
       "startTime": "2024-03-20T00:15:00Z",
@@ -133,7 +154,9 @@
       "track": "Drupal Development",
       "speakers": [
         "xjm"
-      ]
+      ],
+      "full_description": "Improve your teams' peer code review process, your code maintainability, and your Drupal contributions. Learn from a Drupal core release manager—with over ten years of Drupal core experience—how to give an efficient and effective peer code review.\n\nPeer code reviews are essential, improving maintainability, increasing productivity, and reducing costs. They can reduce the rate of defects (bugs) introduced into a codebase by as much as 80-90 percent. Most importantly, they build a shared understanding of the application within a team, and are an opportunity for developers to mentor each other.\n\nIn this session, you will also discover research and psychological principles for when code review is effective and when it is not. You will learn how to structure your change sets for reviewers, which can improve the whole team's code and maintainability. Finally, you will learn about automation and tooling that can help reviewers focus on what's most important.",
+      "summary": "Improve your teams' peer code review process, your code maintainability, and your Drupal contributions...."
     },
     {
       "startTime": "2024-03-20T00:15:00Z",
@@ -146,7 +169,9 @@
       "speakers": [
         "Amber Henry",
         "Matt Commons"
-      ]
+      ],
+      "full_description": "As site owners and builders, we have all experienced projects with a tight deadline and challenges to deliver the project on time.\n\nIn this presentation, we will review a number of strategies and techniques to rapidly deliver on time sensitive projects.\n\nThe challenge was to design and implement a new design and IA within three weeks before a national campaign launch. The campaign was still being created and the content embargoed, so how did we achieve this uplift in such a short timeframe?\n\nUsing the existing Australian Government design system and branding assets, we extended the design system with the use of colour palettes, components and modifiers to create a new look for the National Office of Child Safety site. After conducting user testing, we made improvements to enrich the user experience to easily locate important information and resources.\n\nThis presentation is suitable for digital designers, site builders and communications teams.",
+      "summary": "As site owners and builders, we have all experienced projects with a tight deadline and challenges to deliver the project on time...."
     },
     {
       "startTime": "2024-03-20T01:00:00Z",
@@ -156,7 +181,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T01:15:00Z",
@@ -168,7 +195,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Kim Pepper"
-      ]
+      ],
+      "full_description": "The Drupal major version release cycle is every 2 years. There is a lot of frustration out there for users who find the process cumbersome and confusing.\n\nAs module maintainers, how do we make it easier for our users to upgrade?\n\nIn this session we discuss the various ways you can make life easier for users of your module upgrade through major version updates.\n\nI will discuss:\n\n* How to manage deprecations\n\n* Composer dependency management\n\n* Strategies for targeting Drupal core major version compatibility\n\n* Config upgrades\n\n* Automated tools to help the upgrade process\n\nThis session is intended for Drupal module developers who want to support multiple versions of Drupal core, and make the upgrade process easier for their module users.",
+      "summary": "The Drupal major version release cycle is every 2 years...."
     },
     {
       "startTime": "2024-03-20T01:15:00Z",
@@ -180,7 +209,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Sean Hamlin"
-      ]
+      ],
+      "full_description": "Following on from the session back in Drupalsouth Brisbane 2022 (blog post at https://www.pixelite.co.nz/article/drupal-and-the-open-web-in-the-australian-government-2022/ ) , this session will review the CMS landscape in the Australian government in 2024.\n\nThe presentation will focus on the movers and shakers in the CMS landscape, find out which high profile government departments are moving to Drupal, or away from it.\n\nAs in 2022, a state by state breakdown will be done, and we can even compare the total amount of Drupal running in each state, through a lens of PageRank. We will be able to see which states (and at the federal level) are making a broader adoption of Drupal.",
+      "summary": "Following on from the session back in Drupalsouth Brisbane 2022 (blog post at https://www.pixelite.co.nz/article/drupal-and-the-open-web-in-the-australian-government-2022/ ) , this session will review the CMS landscape i..."
     },
     {
       "startTime": "2024-03-20T01:15:00Z",
@@ -193,7 +224,9 @@
       "speakers": [
         "Guy Frawley",
         "William O'keeffe"
-      ]
+      ],
+      "full_description": "Our session focuses on the crucial role of client relationships in technology projects. We open with the fundamental question: \"Why are we here?\" and assert that our role extends beyond technical support to being strategic partners in our clients' success.\n\nWe then explore strategies for building and enriching client relationships. We discuss how to tailor solutions to client needs, manage expectations, and translate technical capabilities into business value.\n\nThe session highlights the importance of understanding the 'why' behind our services, showcasing case studies where a client-centric approach in projects led to notable successes. When we pivot our thinking from a service delivery perspective to a hospitality oriented approach we all benefit. In reality our client’s success is our success.\n\nWe conclude with a roadmap for ongoing client engagement, advocating for proactive strategies and solutions that align with clients' business goals. This session is a guide to leveraging technology not merely as a tool, but as a foundation for driving enduring and successful relationships. If we’re not here to help our clients succeed then why are we here?",
+      "summary": "Our session focuses on the crucial role of client relationships in technology projects...."
     },
     {
       "startTime": "2024-03-20T01:45:00Z",
@@ -203,7 +236,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T02:45:00Z",
@@ -215,7 +250,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Jonathan Hunt"
-      ]
+      ],
+      "full_description": "Catalyst is engaged by NZ Ministry for Culture & Heritage to help update nzhistory.govt.nz and teara.govt.nz from Drupal 7 to Drupal 10. The sites incorporate an encyclopedia of NZ, Dictionary of NZ Biography, datasets of Treaty signatories and Suffragist signatures, soldiers, memorials, and more.\n\nThis presentation describes the extensive migration effort, covering aspects such as:\n\n* refactoring the data model to be more semantic and aligned with external standards\n\n* migration logic to map to new data models, synthesize media references, etc.\n\n* incorporation of numerous unmanaged files to be Drupal media\n\n* introduction of custom media types for remote audio, panoramas, and other interactives\n\n* adoption of IIIF for tiled image zooming\n\n* parsing of HTML to build media instances and replace inline iframes\n\n* reducing the extent of custom code.",
+      "summary": "Catalyst is engaged by NZ Ministry for Culture & Heritage to help update nzhistory.govt.nz and teara.govt.nz from Drupal 7 to Drupal 10...."
     },
     {
       "startTime": "2024-03-20T02:45:00Z",
@@ -227,7 +264,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Roman Barbun"
-      ]
+      ],
+      "full_description": "Site360 uses a collection of the world’s best APIs for analysing security, performance, accessibility, SEO and patching metrics. The application brings all the metrics together, giving you a single report that’s simple, clear and easy to understand.\n\nAs the primary architect and developer on Site360, Roman will take attendees through the problem space that informed the inception of the concept before doing a technical deep dive underneath the engine’s hood.\n\nHe’ll cover:\n\n- The technical process of bringing together all the third-party metrics into one dashboard\n\n- Architecture and integration considerations\n\n- Security measures\n\n- Performance and scalability aspects\n\n- Challenges - past and present",
+      "summary": "Site360 uses a collection of the world’s best APIs for analysing security, performance, accessibility, SEO and patching metrics...."
     },
     {
       "startTime": "2024-03-20T02:45:00Z",
@@ -239,7 +278,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Heike Theis"
-      ]
+      ],
+      "full_description": "This talk is a conversation with myself reflecting on designing for other people as an architect, digital designer, web designer, digital producer and content creator for over 30 years both in Europe and New Zealand. Why is this relevant? I am not sure about the relevance, but I thought you might need a few laughs. Because this is what this industry needs—we need to look at ourselves and have a good long laugh. Ah and yes, I am also the product owner of the New Zealand-based Sector Drupal Distribution.",
+      "summary": "This talk is a conversation with myself reflecting on designing for other people as an architect, digital designer, web designer, digital producer and content creator for over 30 years both in Europe and New Zealand...."
     },
     {
       "startTime": "2024-03-20T03:15:00Z",
@@ -249,7 +290,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T03:30:00Z",
@@ -261,7 +304,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Steven Worley"
-      ]
+      ],
+      "full_description": "Drupal is the swiss-army-knife of content management systems. It provides the flexibility to build pretty much any site you want. This is why so many of us choose Drupal for our backend technology.\n\n**Jamstack vs Static**\n\nYou can find tons of resources on Drupal with React, Gatsby, Next, Vue and Nuxt, yet not so much static-focused non-Jamstack content beyond using the Drupal Tome module (which is a great tool!). Why are JavaScript frameworks such a hot Drupal topic yet simple static frontends not so much? I think static Drupal has a marketing problem!\n\n**Benefits of Static**\n\nDrupal provides the tools and workflows that content editors want. With Paragraphs and Layout Builder and Views, there is much to love. But for many sites, they would also reap the benefits of having a fully or mostly static frontend such as:\n\n* Enhanced security\n\n* Increased performance\n\n* Better scalability\n\n* Less CO2 emissions\n\n* Higher Lighthouse scores\n\n* Improved user engagement\n\nIt’s often more cost-effective too!\n\nAlthough you can’t use static for everything, it’s not unusual to be able to leverage a static frontend for a good part of your website while routing dynamic pages back to the Drupal backend. This provides the best of both worlds:\n\n1) Drupal with its flexibility and features, and\n\n2) static with its speed, security, scalability, and better environmental footprint.\n\nLet’s discuss how to leverage a fully or partially static frontend for your Drupal website for all the wins!",
+      "summary": "Drupal is the swiss-army-knife of content management systems...."
     },
     {
       "startTime": "2024-03-20T03:30:00Z",
@@ -273,7 +318,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Kelvin Wong"
-      ]
+      ],
+      "full_description": "I am sure we all heard about Twig and some of us could be very familiar with it. For a while, I have been using it as another language to handle HTML and PHP. However, the more I delve into it, the more I discover its power and capabilities.\n\nTwig as a modern template engine, enhancing the quality of frontend development. It helps to define templates cleanly and have them in structure.\n\nIn my session, I would like to share some useful tools for building sites with Twig. How templates can be structured to maintain consistency across content types while allowing room for customisation on individual needs.",
+      "summary": "I am sure we all heard about Twig and some of us could be very familiar with it...."
     },
     {
       "startTime": "2024-03-20T03:45:00Z",
@@ -285,7 +332,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Chris Burgess"
-      ]
+      ],
+      "full_description": "Composability is a long-term trend that Drupal has had at its core for a long time. The Recipes initiative, one of Drupal's core strategic initiatives, is a vision for creating bundles of functionality to build with.\n\nWe'll look at some practical examples for Recipes, compare with how you might be tackling these challenges today, consider common challenges of re-use between projects and where Recipes fits best in the developer's toolkit, and see what Recipes has in store for building Drupal sites in the future.",
+      "summary": "Composability is a long-term trend that Drupal has had at its core for a long time...."
     },
     {
       "startTime": "2024-03-20T03:30:00Z",
@@ -298,7 +347,9 @@
       "speakers": [
         "Griffyn Heels",
         "Nathan Greenway"
-      ]
+      ],
+      "full_description": "From kick-off in late 2021 to launch in November 2022, Bond University and PreviousNext teamed up to rebuild bond.edu.au. It was an adventure filled with victories, challenges and sprint planning sessions.\n\nJoin Nathan Greenway, Head of Enterprise Application Services at Bond University and Griffyn Heels, Agile Delivery Manager at PreviousNext, as they discuss the ‘year that was’ from their own perspectives - technical and non-technical.\n\nIn sharing this experience, you’ll learn how you, too, can bridge any technical divide to build a strong and collaborative working relationship for your next large-scale Drupal project.",
+      "summary": "From kick-off in late 2021 to launch in November 2022, Bond University and PreviousNext teamed up to rebuild bond.edu.au...."
     },
     {
       "startTime": "2024-03-20T04:00:00Z",
@@ -308,7 +359,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T04:20:00Z",
@@ -320,7 +373,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Joshua Li"
-      ]
+      ],
+      "full_description": "In the realm of modern website development, website performance stands as a crucial metric. This session delves into the intricacies of website performance, exploring the factors that influence it and the scenarios in which it plays a pivotal role. The session embarks on a journey, tracing the path of website requests from the browser's initiation to the web server's response and back. Along this journey, we'll unravel the architectural underpinnings of website performance and uncover best practices to optimize performance. By the end of this session, you'll gain a deeper understanding of why website performance matters and how to elevate it to new heights.\n\nIn the session, the audience will find the answers to the below commonly asked questions:\n\n- What are the entities that may be involved in the journey\n\n- How are the requests and responses cached in different entities\n\n- Where is my cached data from? Browser, CDN, Redis, Varnish, Drupal cache, Drupal db? Wait, what are these things?\n\n- The conceptions that are used to invalidate the cache in different entities\n\n- How can I debug?\n\n- Why it is NOT OK to clear the cache and why my content is still not showing after clearing the cache?\n\n- Is decoupled Drupal better in performance?\n\n- In the end, what is the best practice in website performance with Drupal?",
+      "summary": "In the realm of modern website development, website performance stands as a crucial metric...."
     },
     {
       "startTime": "2024-03-20T04:20:00Z",
@@ -332,7 +387,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Brynn Briedis"
-      ]
+      ],
+      "full_description": "Take a lively journey through the world of CSS. This presentation is all about showing how CSS has become more fun and powerful over the years.\n\nWe start with a quick look at what CSS is and how it has grown. Then, we dive into the cool new stuff CSS can do. Think of Flexbox and Grid as your new superpowers for making websites look neat and work well on all devices. We also talk about CSS Custom Properties and Subgrid, which are like secret tricks to make your web design even better.\n\nI'll show you some real examples of how these new tools work. It's like a before-and-after picture: you'll see how things used to be done and how much easier they are now with these new CSS features.\n\nThen, we take a quick peek into the future. What's next for web design? How is CSS keeping up? This part is like looking into a crystal ball to see what exciting things are coming up.\n\nThis presentation isn't just about learning, it's about getting excited about making pretty things with CSS. Whether you're just starting or you've been creating websites for a while, there's something here to spark your creativity and make web design a fun adventure.",
+      "summary": "Take a lively journey through the world of CSS...."
     },
     {
       "startTime": "2024-03-20T04:20:00Z",
@@ -344,7 +401,9 @@
       "track": "People & Culture",
       "speakers": [
         "Jim Koutsouris"
-      ]
+      ],
+      "full_description": "Having been involved in support for years, from Level 1 through to being a Support manager through to the guy getting that call at 3:15am on a Sunday morning because everything has turned to poop.\n\nI often see the same mistakes happening again and again.\n\nAll this does is:\n\n- waste everyone's time with unnecessary back-and-forward\n\n- increase frustration and stress\n\n- devalue the larger experience\n\nIn this session I will be covering the main points that increase the odds of a happy outcome with a minimum of fuss.",
+      "summary": "Having been involved in support for years, from Level 1 through to being a Support manager through to the guy getting that call at 3:15am on a Sunday morning because everything has turned to poop...."
     },
     {
       "startTime": "2024-03-20T04:50:00Z",
@@ -354,7 +413,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T05:00:00Z",
@@ -364,7 +425,9 @@
       "location": "Grand Lodge",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T06:00:00Z",
@@ -374,7 +437,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T08:00:00Z",
@@ -384,7 +449,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T21:30:00Z",
@@ -394,7 +461,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T21:50:00Z",
@@ -404,7 +473,9 @@
       "location": "Grand Lodge",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T22:00:00Z",
@@ -416,7 +487,9 @@
       "track": "Keynote",
       "speakers": [
         "Girls in Tech Australia"
-      ]
+      ],
+      "full_description": "Join the Girls in Tech Australia team as they share practical strategies and insights to foster what genuine inclusivity looks like at the workplace.\n\nDiscover how we can move beyond surface-level discussions to create meaningful change and build truly inclusive workplaces where everyone has the opportunity to thrive and unpack the critical distinction between diversity and inclusion.\n\nModerated by Renece Brewster, Co-MD of Girls in Tech Australia, join panellists Karen Katz, Jess Ransley and Michelle Lie for a very special DrupalSouth Keynote.\n\nhttps://australia.girlsintech.org/",
+      "summary": "Join the Girls in Tech Australia team as they share practical strategies and insights to foster what genuine inclusivity looks like at the workplace...."
     },
     {
       "startTime": "2024-03-20T22:45:00Z",
@@ -426,7 +499,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T23:00:00Z",
@@ -438,7 +513,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Dmitry Mikhailov"
-      ]
+      ],
+      "full_description": "This session is a must-attend for professionals seeking insights into web management operations within small web teams in large organisations and learning how to achieve scalable growth while delivering high-impact and meaningful outcomes for clients.\n\nFounded in 1946 and situated in Canberra, The Australian National University is a prestigious public research university and a member of the Group of Eight. ANU currently enrols 17,380 undergraduate and postgraduate students and employs 4,500 staff members.\n\nIn web management, ANU stands as a vast, decentralised organisation comprised by seven colleges and research institutes. Despite the size, our small web team of 4 people is responsible for providing web services to 38 websites and serving the diverse needs of hundreds of staff and students from the Colleges of Science, Health, and Medicine.\n\nWith a wealth of over 15 years of experience in the higher education sector, we have successfully developed a flexible Drupal multisite solution that comprehensively addresses the content management requirements of research schools, institutes, and centres. We have also incorporated good practices from the agile methodology to manage client relationships, backlog, team processes and leadership. This has allowed to ensure a sustainable future for the team and technology.\n\nThis session will include:\n\n- Content architecture of education and research institutions.\n\n- Site standardisation and synchronisation of multisites.\n\n- User training and permission setting for optimal operation and disaster recovery.\n\n- Negotiation of requirements and management of client expectations.\n\n- Agile methodology for small team management.\n\n- Migration of Drupal 7 sites.",
+      "summary": "This session is a must-attend for professionals seeking insights into web management operations within small web teams in large organisations and learning how to achieve scalable growth while delivering high-impact and m..."
     },
     {
       "startTime": "2024-03-20T23:00:00Z",
@@ -451,7 +528,9 @@
       "speakers": [
         "Gaurav Garg",
         "Govind Kumar Malu"
-      ]
+      ],
+      "full_description": "In the world of Drupal, testing complexities often hinder development efficiency. This session aims to demystify and streamline Drupal testing using Cypress and Cucumber automation.\n\nCypress, renowned for front-end testing, joins forces with Cucumber, allowing tests to be written in plain language. This synergy empowers teams to express test scenarios in human-readable Gherkin syntax, fostering collaboration among technical and non-technical stakeholders.\n\nAttendees will discover the seamless integration of Cypress and Cucumber into Drupal projects, leveraging the power of Gherkin's simplicity to articulate comprehensive test scenarios. Step definitions bridge the gap between Gherkin's plain language and executable code, enabling actions described in feature files to be automated effectively.\n\nThe session will showcase practical examples, illustrating how Cypress commands interact with Drupal sites within step definitions. Attendees will learn strategies for executing tests, analyzing results, and maintaining synchronisation between evolving Drupal applications and the test suite.\n\nEmphasis will be placed on best practices, including the use of page objects, fixtures for efficient data handling, and tags for organised test execution. Participants will leave empowered to adopt a more efficient and effective testing approach in their Drupal projects.\n\nJoin this session to unlock the potential of Cypress and Cucumber, simplifying Drupal testing and fostering a more collaborative, efficient, and robust development cycle.\n\nThis summary provides a snapshot of what attendees can expect from the session, highlighting the integration of Cypress and Cucumber, the benefits of Gherkin syntax, and the emphasis on practical implementation and best practices in Drupal testing.",
+      "summary": "In the world of Drupal, testing complexities often hinder development efficiency...."
     },
     {
       "startTime": "2024-03-20T23:00:00Z",
@@ -463,7 +542,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Nathan ter Bogt"
-      ]
+      ],
+      "full_description": "It’s just a list of links right… <ul><li><a …/></li></ul>... how hard can it be.\n\nIn this session we’ll talk about what goes into making a UI component available on nsw.gov.au, covering the business processes behind them and the technical implementation at a high level.\n\nWe’ll go into UI design and decision making, Editor experience, how we test various stages of the process, how we implement the components and the separation of content modelling from display and why it matters.\n\nThis talk is about ensuring the best outcome for the visitors to the website, improving the experience of our content editors, and doing it consistently. We'll specifically look at our 'link list' component which is one of 30+ components on the website.",
+      "summary": "It’s just a list of links right… <ul><li><a …/></li></ul>..."
     },
     {
       "startTime": "2024-03-20T23:30:00Z",
@@ -473,7 +554,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-20T23:50:00Z",
@@ -485,7 +568,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Nick Schuch"
-      ]
+      ],
+      "full_description": "Local environments are a pivotal piece of infrastructure that allow us, as developers, to build and debug efficiently with confidence.\n\nPreviousNext have been on a journey toward local development nirvana for a decade and built up a list of patterns along the way.\n\nThis talk will provide attendees with a set of actionable patterns to improve their local development environment workflow.\n\nPresentation Outline:\n\n- Introduction\n\nWho am I?\n\nI edit my code on production. Why do I need a local development environment?\n\n- The local development landscape\n\n- Patterns\n\nKeep it Simple\n\nTime to 200 Metric\n\nImage Composition\n\nNetworking\n\nSetting.php\n\nDatabase Images\n\nCI/CD Integration\n\n- Questions",
+      "summary": "Local environments are a pivotal piece of infrastructure that allow us, as developers, to build and debug efficiently with confidence...."
     },
     {
       "startTime": "2024-03-20T23:50:00Z",
@@ -497,7 +582,9 @@
       "track": "People & Culture",
       "speakers": [
         "Dave Sparks"
-      ]
+      ],
+      "full_description": "We are in the problem solving business. Often there are differences between people in how to best solve each problem, and competing interests around the amount of time and money required to do this.\n\nDisagreements may persist around the relative importance of various factors, the priority of outcomes, and who gets what. It is fairly common that different people want different things. This can lead to conflict.\n\nThis may be within teams, between client and vendor, across open source communities or online. It may be a small matter or of great material consequence. It is sometimes upsetting, and different people have widely varying responses to conflict situations.\n\nI am not a conflict resolution specialist, a trained mental health professional or interpersonal mediator. This talk does not address violence, bullying or mental duress - none of which should be present in the workplace.\n\nThis talk will share my professional approach to unpacking conflict, developing a better understanding of people who want different things to you, and offer tools for the equitable and rational advocacy of what you want. The purpose of this is not to “win” in conflict with others, but to maintain professional equilibrium and integrity, clear space to focus on better solutions, and deliver better outcomes for all involved.\n\nThe talk welcomes questions from the audience. It will present an easy-to-understand framework with simplicity and clarity, using practical examples where relevant, delivered with humour and empathy. It has a positive message that focuses on what the individual can control in order to do better and feel better when encountering conflict in the workplace. This talk is grounded in experiences delivering Drupal in a commercial context for the public and private sector.",
+      "summary": "We are in the problem solving business...."
     },
     {
       "startTime": "2024-03-20T23:50:00Z",
@@ -509,7 +596,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Suchi Garg"
-      ]
+      ],
+      "full_description": "This is a session that is run in every DrupalCon, to prepare first-time contributors for the Code sprint.\n\nDynamics of Mentored Contribution:\n\n- Find a table / join a team\n\n- Find something to work on (an issue, etc)\n\n- If an issue, update issue\n\n- Decide what everyone will do\n\n- Keep issue updated\n\n- After event is over, keep contributing!\n\nAgenda:\n\n- Why contribute\n\n- Benefits of contributing\n\n- Types of Contributions\n\n- Initiatives\n\n- Issue queue 101 / etiquette\n\n- Merge Requests\n\n- Tooling and documentation",
+      "summary": "This is a session that is run in every DrupalCon, to prepare first-time contributors for the Code sprint...."
     },
     {
       "startTime": "2024-03-21T00:35:00Z",
@@ -519,7 +608,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-21T00:45:00Z",
@@ -531,7 +622,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Ming Quah"
-      ]
+      ],
+      "full_description": "In today's digital landscape with continually evolving cyber threats, ensuring your Drupal website's security is crucial.\n\nThe NIST Cybersecurity Framework (NIST CSF) is recognised globally as one of the leading standards for organisational cybersecurity management. The NIST CSF covers the following five domains:\n\nIdentify\n\nProtect\n\nDetect\n\nRespond and\n\nRecover\n\nThis presentation will include an overview of the NIST domains. Then we’ll look at what Drupal developers and DevOps specialists need to do to comply with NIST CSF, with a focus on Drupal and hosting.\n\nWe’ll also briefly cover seven key layers for Drupal security:\n\nLayer 1 — infrastructure\n\nLayer 2 — container hosting\n\nLayer 3 — Drupal application\n\nLayer 4 — edge protection\n\nLayer 5 — content delivery\n\nLayer 6 — people\n\nLayer 7 — process\n\nAttendees will leave with a better understanding of security practices and how they can make their Drupal websites and platforms more secure and resilient.",
+      "summary": "In today's digital landscape with continually evolving cyber threats, ensuring your Drupal website's security is crucial...."
     },
     {
       "startTime": "2024-03-21T00:45:00Z",
@@ -543,7 +636,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Vladimir Roudakov"
-      ]
+      ],
+      "full_description": "“Previously, the main way to contribute source code changes to a Drupal project repository was via patch files. As of November 2020, we have a new workflow available, similar to what open-source contributors commonly use on sites like GitHub.” according to Drupal help.\n\nWhile looking over the cover core and contrib issues queue I still find many patch files being uploaded. You can even find issues with both gitlab merge requests and patch files mixed together with one or the other being outdated.\n\nThis sessions is trying to solve two issues:\n\n1.To guide you how to start and get more comfortable with gitlab and merge requests If you are still contributing using patches.\n\n2. To share tips and tricks that I collected over the last few years using github daily over the last few years.",
+      "summary": "“Previously, the main way to contribute source code changes to a Drupal project repository was via patch files...."
     },
     {
       "startTime": "2024-03-21T00:45:00Z",
@@ -555,7 +650,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Josh Waihi"
-      ]
+      ],
+      "full_description": "Content silos in organisations occur for many reasons from governance and technology to acquisition. Though rarely are they an outcome of a tailored customer experience. Federated search has been the gold standard for the past decade in helping bridge across these silos but with retrieval augmented generation (RAG) emerging, generative AI and headless technology maybe the shiny new veneer of customer experience UIs.\n\nAt Acquia we've been exploring generative AI technology and how it could revolutionise how our customer experience works. In this presentation I'll show how these new AI components fit into an ecosystem of content silos with a headless veneer.",
+      "summary": "Content silos in organisations occur for many reasons from governance and technology to acquisition...."
     },
     {
       "startTime": "2024-03-21T01:15:00Z",
@@ -565,7 +662,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-21T02:15:00Z",
@@ -577,7 +676,9 @@
       "track": "People & Culture",
       "speakers": [
         "Dave Sparks"
-      ]
+      ],
+      "full_description": "The DrupalSouth steering committee oversees the conference organisation and assists with a range of Drupal community initiatives in Australia and New Zealand. This session will comprise an update from the panel members on recent activities, announce new panel members and discuss options for future events. Discussion will be opened to attendees to ask questions and contribute ideas.\n\nThe DrupalSouth Committee members are: Dave Sparks, Mike Richardson, Julia Topliss, Margery Tongway, Chris Burgess.",
+      "summary": "The DrupalSouth steering committee oversees the conference organisation and assists with a range of Drupal community initiatives in Australia and New Zealand...."
     },
     {
       "startTime": "2024-03-21T02:15:00Z",
@@ -590,7 +691,9 @@
       "speakers": [
         "Joseph Zhao",
         "Steven Worley"
-      ]
+      ],
+      "full_description": "Come join us at DrupalSouth Sydney 2024 to learn about testing on the GovCMS platform. We'll show you simple and smart ways to make sure government websites are strong, safe, and easy to use. This session will cover practical testing methods and tools, helping government agencies deliver top-notch digital services.\n\nKey Points:\n\n1. Easy Testing Strategies: Find out how to test GovCMS websites in a simple way. We'll talk about different tests to make sure everything works well and how to do it without too much hassle.\n\n2. Keeping Things Safe: Learn why security is super important for government websites. We'll share easy ways to check for problems and keep everything safe and following the rules.\n\n3. Making Websites Faster: Discover tricks to make GovCMS websites faster and smoother. We'll help you understand and fix any issues so citizens can easily use the websites.\n\n4. Testing Made Easier with Automation: See how to make testing quicker by using special tools.\n\n5. Working Together: Learn why it's important for everyone in the team to work together. We'll share tips on how developers, testers, and others can talk and work together to make testing and building websites better.\n\nJoin us at DrupalSouth Sydney 2024 to explore these simple testing ideas and help make GovCMS websites awesome. Whether you're a developer or just interested in making websites better, this session is for you!",
+      "summary": "Come join us at DrupalSouth Sydney 2024 to learn about testing on the GovCMS platform...."
     },
     {
       "startTime": "2024-03-21T02:15:00Z",
@@ -602,7 +705,9 @@
       "track": "People & Culture",
       "speakers": [
         "Dallas Ramsden"
-      ]
+      ],
+      "full_description": "In 2004, Dallas was declared clinically dead after a traumatic train accident in Thailand. Through a lengthy recovery process, he exemplified the incredible strength of the human spirit. Since rebuilding his life, Dallas has navigated many changes - relearning how to walk, launching global ventures powered by Drupal, living in diverse cultures, and managing teams worldwide. In this uplifting session, Dallas shares the mindsets and connections that enabled him to overcome difficulties and use challenges as catalysts for growth.\n\nAttendees will come away with insights they can apply to nurture team connections, invigorate organisations, and unite communities as we move into the Drupal 10 and 11 era.\n\nThrough personal stories and actionable tips, this talk explores how to tap into the human spirit's incredible capacity for growth and resilience.",
+      "summary": "In 2004, Dallas was declared clinically dead after a traumatic train accident in Thailand...."
     },
     {
       "startTime": "2024-03-21T02:45:00Z",
@@ -612,7 +717,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-21T03:00:00Z",
@@ -624,7 +731,9 @@
       "track": "Drupal Development",
       "speakers": [
         "Ivan Zugec"
-      ]
+      ],
+      "full_description": "Webform is a native form builder for Drupal. It offers a powerful user interface for building forms and managing their fields.\n\nWebform can create a contact us form, all the way to a complex multi-page form with conditional field logic.\n\nIn this session, you'll learn the following:\n\n- Introduction to Webform\n\n- Contact a form\n\n- Manage fields on the form\n\n- Add conditional logic to fields\n\n- Add confirmation step\n\n- Manage submissions\n\n- Embed forms into pages\n\nBy the end, you'll have the necessary skills to build custom forms directly within Drupal.",
+      "summary": "Webform is a native form builder for Drupal...."
     },
     {
       "startTime": "2024-03-21T03:00:00Z",
@@ -636,7 +745,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Karl Hepworth"
-      ]
+      ],
+      "full_description": "Docker is a large and evolving open-source project.\n\nIn recent times, agencies have been hit hard with licensing changes preventing them from being able to use, develop, and manage all of their projects on existing contracts - this change is systemic!\n\nIn this talk, we explore the state of Docker for local development, its alternatives in detail, and how each would work with your workflow. We will also explore the architecture of each of these solutions.\n\nIt's aimed at technical users who have or will lose control over their working environment due to these licensing changes, such as enterprise users, government, and small businesses. We will work to help you regain control and access to your projects in your local environment.",
+      "summary": "Docker is a large and evolving open-source project...."
     },
     {
       "startTime": "2024-03-21T03:15:00Z",
@@ -648,7 +759,9 @@
       "track": "Web Tools & Complementary Technologies",
       "speakers": [
         "Lee Rowlands"
-      ]
+      ],
+      "full_description": "Front end developers outside Drupal have lots of nice things:\n\n* near instant reloading\n\n* zero config setup for compiling sass/postcss to css\n\n* zero config setup for transpiling Javascript\n\n* component driven design with Storybook\n\n* interaction testing.\n\nFor a long time it felt like these weren't possible with Drupal front-end development without secret sauce and workarounds or duplication of your markup between Drupal and a design system.\n\nBut with the release of Vite Plugin Twig Drupal everyone can have nice things with little effort.\n\nIn this lightning talk we will do a hands on demo of setting up a project for component driven design with Vite, Storybook and Twig.\n\nYou deserve nice things, and now you can have them!",
+      "summary": "Front end developers outside Drupal have lots of nice things: * near instant reloading * zero config setup for compiling sass/postcss to css * zero config setup for transpiling Javascript * component driven design with S..."
     },
     {
       "startTime": "2024-03-21T03:00:00Z",
@@ -660,7 +773,9 @@
       "track": "People & Culture",
       "speakers": [
         "Marcus Duhon"
-      ]
+      ],
+      "full_description": "Drawing on my experience as a Solutions Engineer at Acquia and competing for sales against some of the most well-known and flashiest CMS vendors on the market, I want to discuss the importance of growing the community of Drupalists to include passionate marketeers and the steps that need to be taken in order to do so. I can offer perspectives on why organisations choose other CMS platforms even when Drupal is backed by organisations that offer the additional security and 'peace of mind' that comes from doing business with an established vendor. The presentation will also address how current feature sets, marketing efforts and tools can improve to attract the types of marketing 'influencers' or champions within organisations that can help to ensure Drupal is their CMS of choice, not just now but at subsequent/future organisations they work with as well.",
+      "summary": "Drawing on my experience as a Solutions Engineer at Acquia and competing for sales against some of the most well-known and flashiest CMS vendors on the market, I want to discuss the importance of growing the community of..."
     },
     {
       "startTime": "2024-03-21T03:15:00Z",
@@ -672,7 +787,9 @@
       "track": "People & Culture",
       "speakers": [
         "Murray Woodman"
-      ]
+      ],
+      "full_description": "Each project brings its own challenges and learnings. Success comes from repeating the good, fixing the bad and avoiding the ugly. That's the theory anyway.\n\nThis presentation takes a lighthearted look back over hundreds of Drupal projects and will analyse them through the lense of the burn up chart. The jagged line tells a story of wins and losses, successes and failures, profit and loss. Along the way a lot of lessons have been learnt and no doubt missed as well. The presenter will provide some insights into some of the lowlights and highlights of delivering Drupal projects.\n\nThe session is suitable for business owners, project managers, developers and clients alike. There should be something relatable in it for everyone.",
+      "summary": "Each project brings its own challenges and learnings...."
     },
     {
       "startTime": "2024-03-21T03:30:00Z",
@@ -682,7 +799,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-21T04:00:00Z",
@@ -695,7 +814,9 @@
       "speakers": [
         "Amey Mudras",
         "Govind Kumar Malu"
-      ]
+      ],
+      "full_description": "In this session, we unravel the power and advantages of embracing Drupal's Single Directory Component Approach. The focus is on simplifying the complex web of structures in Drupal , and we'll explore how consolidating components into a single directory can be a game-changer for your projects.\n\nKey Points:\n\n1. Organizational Elegance:\n\n- Discover how a unified directory structure brings order to the chaos, making it easier to locate and manage components.\n\n- Illustrate the elegance of simplicity in code organization and its positive impact on project clarity.\n\n2. Enhanced Maintainability:\n\n- Explore how a streamlined structure facilitates efficient code maintenance, reducing the risk of errors and making updates more straightforward.\n\n- Showcase real-world examples of projects that have benefited from improved maintainability.\n\n3. Collaborative Development:\n\n- Discuss the collaborative advantages of a single directory approach, fostering better teamwork among developers.\n\n- Share insights on how a clear structure can enhance communication and streamline collaborative efforts.\n\n4. Efficiency Gains:\n\n- Highlight the efficiency gains achieved by adopting this approach, leading to faster development cycles and quicker project delivery.\n\n- Provide practical tips on optimizing workflows for maximum efficiency.\n\n5. Scalability Considerations:\n\n- Delve into how a simplified structure sets the foundation for scalable Drupal projects.\n\n- Discuss strategies for scaling projects seamlessly while maintaining code integrity.\n\nTakeaways:\n\n- Attendees will leave with a clear understanding of the benefits of Drupal's Single Directory Component Approach.\n\n- Armed with practical insights, developers can immediately apply these concepts to enhance their Drupal projects.\n\nWhether you're a seasoned Drupal developer or new to the framework, this session promises to shed light on a structural approach that can revolutionize the way you build and maintain Drupal applications.",
+      "summary": "In this session, we unravel the power and advantages of embracing Drupal's Single Directory Component Approach...."
     },
     {
       "startTime": "2024-03-21T04:00:00Z",
@@ -707,7 +828,9 @@
       "track": "User Experience & Content",
       "speakers": [
         "Janna Malikova"
-      ]
+      ],
+      "full_description": "WYSIWYG (short for What You See IS What You Get) editors are the backbone of the open source content management systems. While Drupal is powered by CKEditor 5, WordPress is using a community edition of Tiny editor. Both editors are survivors of what used to be a flourishing frontend industry of content editor tools.\n\nI would like to share the accessibility insights I discovered while teaching content editors to use both editors. The session will include a practical demonstration on how two of the world's most popular WYSIWYG editors can be even better and how we can help.\n\nResources:\n\n- https://gitlab.com/testudio/a11y-by-designhttps://youtu.be/nrQjaPZ09oo\n\n- https://docs.google.com/presentation/u/1/d/1NUCLepwa8txKw7LPcnPhBkPkWowSVcN8uVHvcAW4rkM/edit",
+      "summary": "WYSIWYG (short for What You See IS What You Get) editors are the backbone of the open source content management systems...."
     },
     {
       "startTime": "2024-03-21T04:00:00Z",
@@ -719,7 +842,9 @@
       "track": "People & Culture",
       "speakers": [
         "Amjadkhan Pathan"
-      ]
+      ],
+      "full_description": "In this session, I'll share my unique and humorous journey through Drupal. As a tech lead with over a decade of experience, I've encountered many situations, challenges, and triumphs that have shaped my career. I'll take you through the early days of grappling with Drupal's complexities, the exhilarating moments of solving challenging problems, and the satisfaction of seeing projects come to life. Expect anecdotes that amuse and provide insights into the Drupal ecosystem and its vibrant community.\n\nWe'll explore how Drupal has evolved over the years from the perspective of someone who's grown alongside it. I'll discuss how the platform's changes have impacted developers, businesses, and the community. This will include a look at the technical advancements, the shift in market trends, and the evolving skill sets required to stay relevant.\n\nMoreover, I'll delve into the cultural aspects of being part of the Drupal community. From the collaborative projects to the lively meetups and conferences, I'll highlight how these experiences have enriched my professional life and offered continuous learning and networking opportunities.\n\nTowards the end, I'll offer advice to budding Drupal developers based on my own experiences – from navigating the learning curve to seizing opportunities and overcoming common hurdles in the industry. The session will be a narrative of my journey and a guide to help others carve their path in the Drupal world.\n\nOverall, my talk aims to entertain, educate, and inspire. Whether you're a seasoned professional or just starting, I hope to provide a fresh perspective on what it means to be a part of the ever-evolving and exciting Drupal community.",
+      "summary": "In this session, I'll share my unique and humorous journey through Drupal...."
     },
     {
       "startTime": "2024-03-21T04:30:00Z",
@@ -729,7 +854,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-21T04:45:00Z",
@@ -739,7 +866,9 @@
       "location": "Grand Lodge",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-21T05:00:00Z",
@@ -749,7 +878,9 @@
       "location": "",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     },
     {
       "startTime": "2024-03-21T22:00:00Z",
@@ -759,7 +890,9 @@
       "location": "Northcott Room, Level 4, Sydney Masonic Centre",
       "link": "",
       "track": "Other",
-      "speakers": null
+      "speakers": null,
+      "full_description": "",
+      "summary": ""
     }
   ],
   "result": "✅",
