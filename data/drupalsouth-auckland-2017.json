@@ -1,0 +1,776 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Auckland",
+    "year": "2017",
+    "website": "https://drupalsouth2017.drupal.org.nz/",
+    "region": "New Zealand – Auckland",
+    "scheduleURL": "https://drupalsouth2017.drupal.org.nz/conference/schedule",
+    "venue": "Aotea Centre",
+    "timezone": "Pacific/Auckland",
+    "startDate": "2017-03-15T19:30:00Z",
+    "endDate": "2017-03-17T04:50:00Z",
+    "sourceCache": "cache/wayback/drupalsouth-2017/raw"
+  },
+  "items": [
+    {
+      "startTime": "2017-03-15T19:30:00Z",
+      "endTime": "2017-03-15T20:00:00Z",
+      "duration": "P30M",
+      "title": "Pōwhiri",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/powhiri",
+      "track": "General",
+      "speakers": [
+        "Ngāti Whātua Orakei"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T20:00:00Z",
+      "endTime": "2017-03-15T21:00:00Z",
+      "duration": "P60M",
+      "title": "The Future of Drupal",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/future-drupal",
+      "track": "General",
+      "speakers": [
+        "Michael Schmid"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T21:00:00Z",
+      "endTime": "2017-03-15T21:40:00Z",
+      "duration": "P40M",
+      "title": "Build beautiful relationships in Drupal 8 using Entity Browser",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/build-beautiful-relationships-drupal-8-using-entity-browser",
+      "track": "Development",
+      "speakers": [
+        "Roland Molnar"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T21:00:00Z",
+      "endTime": "2017-03-15T21:40:00Z",
+      "duration": "P40M",
+      "title": "OK Drupal - using Drupal and api.ai to power the conversational interfaces of the future",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/ok-drupal-using-drupal-and-apiai-power-conversational-interfaces-future",
+      "track": "Development",
+      "speakers": [
+        "Lee Rowlands"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T21:00:00Z",
+      "endTime": "2017-03-15T21:40:00Z",
+      "duration": "P40M",
+      "title": "The Challenges and Rewards of Cloud-native Drupal",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/challenges-and-rewards-cloud-native-drupal",
+      "track": "Development",
+      "speakers": [
+        "Scott Anderson",
+        "Mike Richardson"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T22:10:00Z",
+      "endTime": "2017-03-15T23:00:00Z",
+      "duration": "P50M",
+      "title": "Can You Keep a Secret?",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/can-you-keep-secret",
+      "track": "Development",
+      "speakers": [
+        "Nick Santamaria"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T22:10:00Z",
+      "endTime": "2017-03-15T23:00:00Z",
+      "duration": "P50M",
+      "title": "How to unit test your code in Drupal 8",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/how-unit-test-your-code-drupal-8",
+      "track": "Development, Other",
+      "speakers": [
+        "Daniel Nitsche"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T22:10:00Z",
+      "endTime": "2017-03-15T23:00:00Z",
+      "duration": "P50M",
+      "title": "Resisting Algorithms of Mass Destruction with Drupal",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/resisting-algorithms-mass-destruction-drupal",
+      "track": "Other",
+      "speakers": [
+        "Lyndsey Jackson"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T23:00:00Z",
+      "endTime": "2017-03-15T23:30:00Z",
+      "duration": "P30M",
+      "title": "Busting Drupal 8 Cache",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/busting-drupal-8-cache",
+      "track": "Development",
+      "speakers": [
+        "Leonard O'Sullivan",
+        "Daniel Caldeweyher"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T23:00:00Z",
+      "endTime": "2017-03-15T23:40:00Z",
+      "duration": "P40M",
+      "title": "How you really should use Behat for website testing",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/how-you-really-should-use-behat-website-testing",
+      "track": "Development",
+      "speakers": [
+        "Berend de Boer"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T23:00:00Z",
+      "endTime": "2017-03-15T23:40:00Z",
+      "duration": "P40M",
+      "title": "Open as a verb",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/open-verb",
+      "track": "Other",
+      "speakers": [
+        "Dave Sparks"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-15T23:30:00Z",
+      "endTime": "2017-03-15T23:40:00Z",
+      "duration": "P10M",
+      "title": "Future of Content: Intelligent Content",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/future-content-intelligent-content",
+      "track": "UX/UI/Design, Development, Other",
+      "speakers": [
+        "Alexar Pendashteh"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T00:30:00Z",
+      "endTime": "2017-03-16T01:00:00Z",
+      "duration": "P30M",
+      "title": "Drupal 8: what's in it for Site Builders?",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/drupal-8-whats-it-site-builders",
+      "track": "Development, Other",
+      "speakers": [
+        "David Parrott"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T00:30:00Z",
+      "endTime": "2017-03-16T01:20:00Z",
+      "duration": "P50M",
+      "title": "Drupal vs Bureaucracy",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/drupal-vs-bureaucracy",
+      "track": "Other",
+      "speakers": [
+        "Thomas Murphy"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T00:30:00Z",
+      "endTime": "2017-03-16T01:20:00Z",
+      "duration": "P50M",
+      "title": "Headless Drupal at scale: managing 100,000+ in-store displays for Vodafone",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/headless-drupal-scale-managing-100000-store-displays-vodafone",
+      "track": "Development, Showcase, Other",
+      "speakers": [
+        "Cameron Tod"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T01:00:00Z",
+      "endTime": "2017-03-16T01:20:00Z",
+      "duration": "P20M",
+      "title": "Ranking Content With Drank",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/ranking-content-drank",
+      "track": "Showcase",
+      "speakers": [
+        "Maedi Prichard"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T01:20:00Z",
+      "endTime": "2017-03-16T02:00:00Z",
+      "duration": "P40M",
+      "title": "A new way to theme: Introducing Modifiers and Looks",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/new-way-theme-introducing-modifiers-and-looks",
+      "track": "UX/UI/Design, Development",
+      "speakers": [
+        "Murray Woodman"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T01:20:00Z",
+      "endTime": "2017-03-16T02:00:00Z",
+      "duration": "P40M",
+      "title": "Put the employee experience at the heart of the digital workplace",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/put-employee-experience-heart-digital-workplace",
+      "track": "UX/UI/Design",
+      "speakers": [
+        "Rebecca Rodgers"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T01:20:00Z",
+      "endTime": "2017-03-16T02:00:00Z",
+      "duration": "P40M",
+      "title": "Site auditing without the suck with Drutiny",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/site-auditing-without-suck-drutiny",
+      "track": "Development",
+      "speakers": [
+        "Sean Hamlin"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T02:30:00Z",
+      "endTime": "2017-03-16T03:20:00Z",
+      "duration": "P50M",
+      "title": "govCMS8 - building a government community-led Drupal8 distribution",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/govcms8-building-government-community-led-drupal8-distribution",
+      "track": "Development, Showcase",
+      "speakers": [
+        "Toby Bellwood"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T02:30:00Z",
+      "endTime": "2017-03-16T02:40:00Z",
+      "duration": "P10M",
+      "title": "Introduction to Composer for Drupal",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/introduction-composer-drupal",
+      "track": "Development",
+      "speakers": [
+        "Max Pogonowski"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T02:30:00Z",
+      "endTime": "2017-03-16T03:00:00Z",
+      "duration": "P30M",
+      "title": "Theming Drupal in 2017: A New Hope",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/theming-drupal-2017-new-hope",
+      "track": "UX/UI/Design, Development",
+      "speakers": [
+        "Laura Munro"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T02:40:00Z",
+      "endTime": "2017-03-16T03:20:00Z",
+      "duration": "P40M",
+      "title": "Dependency Injection in PHP and Drupal",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/dependency-injection-php-and-drupal",
+      "track": "Development",
+      "speakers": [
+        "Hussain Abbas"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T03:00:00Z",
+      "endTime": "2017-03-16T03:20:00Z",
+      "duration": "P20M",
+      "title": "Twig ninja tactics",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/twig-ninja-tactics",
+      "track": "Development",
+      "speakers": [
+        "Jack Taranto"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T03:20:00Z",
+      "endTime": "2017-03-16T04:00:00Z",
+      "duration": "P40M",
+      "title": "How to be a self rescuing Princess",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/how-be-self-rescuing-princess",
+      "track": "Development",
+      "speakers": [
+        "Simon Cooper",
+        "Kristy Devries"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T03:20:00Z",
+      "endTime": "2017-03-16T03:40:00Z",
+      "duration": "P20M",
+      "title": "Inline SVG in themes for aesthetics, accessibility & performance",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/inline-svg-themes-aesthetics-accessibility-performance",
+      "track": "Development",
+      "speakers": [
+        "Keegan Street"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T03:20:00Z",
+      "endTime": "2017-03-16T04:10:00Z",
+      "duration": "P50M",
+      "title": "The secrets of high-performance development teams",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/secrets-high-performance-development-teams",
+      "track": "Development",
+      "speakers": [
+        "Christopher Skene"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T03:40:00Z",
+      "endTime": "2017-03-16T04:00:00Z",
+      "duration": "P20M",
+      "title": "Theming with Gulp",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/theming-gulp",
+      "track": "Development",
+      "speakers": [
+        "Yi Jiang"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T04:10:00Z",
+      "endTime": "2017-03-16T04:50:00Z",
+      "duration": "P40M",
+      "title": "Fear itself",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/fear-itself",
+      "track": "Other",
+      "speakers": [
+        "Laura Bell"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T20:10:00Z",
+      "endTime": "2017-03-16T21:00:00Z",
+      "duration": "P50M",
+      "title": "Drupal's next decade",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/drupals-next-decade",
+      "track": "General",
+      "speakers": [
+        "Preston So"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T21:00:00Z",
+      "endTime": "2017-03-16T21:40:00Z",
+      "duration": "P40M",
+      "title": "How to Win Friends and Influence People (on the Programming Team)",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/how-win-friends-and-influence-people-programming-team",
+      "track": "Other",
+      "speakers": [
+        "Hannah Del Porto"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T21:00:00Z",
+      "endTime": "2017-03-16T21:10:00Z",
+      "duration": "P10M",
+      "title": "Install profile driven development",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/install-profile-driven-development",
+      "track": "Development",
+      "speakers": [
+        "Bevan Wishart"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T21:00:00Z",
+      "endTime": "2017-03-16T21:40:00Z",
+      "duration": "P40M",
+      "title": "Workflow: A new tool in the toolbox",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/workflow-new-tool-toolbox",
+      "track": "Development",
+      "speakers": [
+        "Kim Pepper"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T21:10:00Z",
+      "endTime": "2017-03-16T21:40:00Z",
+      "duration": "P30M",
+      "title": "Configuration Management in Drupal 8 - Panel Discussion",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/configuration-management-drupal-8-panel-discussion",
+      "track": "Development",
+      "speakers": [
+        "Dieuwe de Boer and Ben Denham"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T22:10:00Z",
+      "endTime": "2017-03-16T23:00:00Z",
+      "duration": "P50M",
+      "title": "A drop in the digital tide of enterprise",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/drop-digital-tide-enterprise",
+      "track": "Showcase, Other",
+      "speakers": [
+        "Josh Waihi"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T22:10:00Z",
+      "endTime": "2017-03-16T22:30:00Z",
+      "duration": "P20M",
+      "title": "How to monitor and update the version of Drupal and installed modules across many websites",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/how-monitor-and-update-version-drupal-and-installed-modules-across-many-websites",
+      "track": "Other",
+      "speakers": [
+        "Gavin Porter"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T22:10:00Z",
+      "endTime": "2017-03-16T23:00:00Z",
+      "duration": "P50M",
+      "title": "Sailing with Kubernetes and Drupal 8",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/sailing-kubernetes-and-drupal-8",
+      "track": "Development",
+      "speakers": [
+        "Nicholas Schuch"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T22:30:00Z",
+      "endTime": "2017-03-16T23:00:00Z",
+      "duration": "P30M",
+      "title": "Reasons why your site got hacked and how to avoid them",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/reasons-why-your-site-got-hacked-and-how-avoid-them",
+      "track": "Development, Other",
+      "speakers": [
+        "Ben Chad",
+        "Sean Hamlin"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T23:00:00Z",
+      "endTime": "2017-03-16T23:40:00Z",
+      "duration": "P40M",
+      "title": "10 tips for continuous integration",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/10-tips-continuous-integration",
+      "track": "Other",
+      "speakers": [
+        "Vladimir Roudakov"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T23:00:00Z",
+      "endTime": "2017-03-16T23:40:00Z",
+      "duration": "P40M",
+      "title": "Highly Available Drupal - Achieving fault-tolerance in the AWS Cloud",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/highly-available-drupal-achieving-fault-tolerance-aws-cloud",
+      "track": "Development",
+      "speakers": [
+        "Benjamin Arntzen"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-16T23:00:00Z",
+      "endTime": "2017-03-16T23:40:00Z",
+      "duration": "P40M",
+      "title": "How can open source contribute to a stronger, kinder, more resilient NZ?",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/how-can-open-source-contribute-stronger-kinder-more-resilient-nz",
+      "track": "Other",
+      "speakers": [
+        "Aimee Whitcroft"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T00:30:00Z",
+      "endTime": "2017-03-17T00:50:00Z",
+      "duration": "P20M",
+      "title": "Continuous Collaboration with Probo.CI",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/continuous-collaboration-proboci",
+      "track": "Development",
+      "speakers": [
+        "Thom Toogood"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T00:30:00Z",
+      "endTime": "2017-03-17T01:20:00Z",
+      "duration": "P50M",
+      "title": "From Content Strategy to Modular Design: Kick starting your Drupal Projects",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/content-strategy-modular-design-kick-starting-your-drupal-projects",
+      "track": "UX/UI/Design, Showcase, Other",
+      "speakers": [
+        "Heike Theis",
+        "Tom Grinsted"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T00:30:00Z",
+      "endTime": "2017-03-17T00:40:00Z",
+      "duration": "P10M",
+      "title": "Using ES6 patterns in JavaScript libraries - incorporating modern front end development into drupal theming",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/using-es6-patterns-javascript-libraries-incorporating-modern-front-end-development-drupal",
+      "track": "Development",
+      "speakers": [
+        "Tilanka Munasinghhe"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T00:40:00Z",
+      "endTime": "2017-03-17T01:20:00Z",
+      "duration": "P40M",
+      "title": "Emerging patterns in Styleguides and Drupal 8",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/emerging-patterns-styleguides-and-drupal-8",
+      "track": "UX/UI/Design, Development",
+      "speakers": [
+        "Simon Hobbs"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T00:50:00Z",
+      "endTime": "2017-03-17T01:20:00Z",
+      "duration": "P30M",
+      "title": "CRM Core - framework to build Drupal-native CRM solutions",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/crm-core-framework-build-drupal-native-crm-solutions",
+      "track": "Development, Showcase, Other",
+      "speakers": [
+        "Kirill Roskolii"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T01:20:00Z",
+      "endTime": "2017-03-17T02:00:00Z",
+      "duration": "P40M",
+      "title": "Building better data-driven Drupal8 websites with dvf and govCMS",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/building-better-data-driven-drupal8-websites-dvf-and-govcms",
+      "track": "Development, Showcase",
+      "speakers": [
+        "Jorge Castro and Toby Bellwood"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T01:20:00Z",
+      "endTime": "2017-03-17T02:00:00Z",
+      "duration": "P40M",
+      "title": "Developing Developers: finding & growing new tech talent",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/developing-developers-finding-growing-new-tech-talent",
+      "track": "Other",
+      "speakers": [
+        "Ruth McDavit"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T01:20:00Z",
+      "endTime": "2017-03-17T02:00:00Z",
+      "duration": "P40M",
+      "title": "Drupal 8 and the Symfony Event Dispatcher",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/drupal-8-and-symfony-event-dispatcher",
+      "track": "Development",
+      "speakers": [
+        "Eric Smith"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T02:30:00Z",
+      "endTime": "2017-03-17T02:40:00Z",
+      "duration": "P10M",
+      "title": "Benefits of an introvert Scrum Master",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/benefits-introvert-scrum-master",
+      "track": "Other",
+      "speakers": [
+        "Fonda"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T02:30:00Z",
+      "endTime": "2017-03-17T03:20:00Z",
+      "duration": "P50M",
+      "title": "Drupal, 🐛 to 🦋",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/drupal",
+      "track": "Other",
+      "speakers": [
+        "Dave Hall"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T02:30:00Z",
+      "endTime": "2017-03-17T03:20:00Z",
+      "duration": "P50M",
+      "title": "Know everything about Drupal Ajax Framework",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/know-everything-about-drupal-ajax-framework",
+      "track": "Development",
+      "speakers": [
+        "Mahesh Sankhala"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T02:40:00Z",
+      "endTime": "2017-03-17T03:20:00Z",
+      "duration": "P40M",
+      "title": "Communication skills for everyone",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/communication-skills-everyone",
+      "track": "Other",
+      "speakers": [
+        "Donna Benjamin"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T03:20:00Z",
+      "endTime": "2017-03-17T04:10:00Z",
+      "duration": "P50M",
+      "title": "Front-end performance improvements with Drupal 8 Asset Libraries",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/front-end-performance-improvements-drupal-8-asset-libraries",
+      "track": "Development",
+      "speakers": [
+        "Rikki Bochow"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T03:20:00Z",
+      "endTime": "2017-03-17T04:10:00Z",
+      "duration": "P50M",
+      "title": "How to convert a Drupal webform into a Chatbot?",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/how-convert-drupal-webform-chatbot",
+      "track": "UX/UI/Design, Development",
+      "speakers": [
+        "Arijit Dutta"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T03:20:00Z",
+      "endTime": "2017-03-17T04:00:00Z",
+      "duration": "P40M",
+      "title": "Lies, Damned Lies and Drupal Statistics",
+      "location": "Rangatira Theatre",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/lies-damned-lies-and-drupal-statistics",
+      "track": "Other",
+      "speakers": [
+        "Owen Lansbury"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T04:10:00Z",
+      "endTime": "2017-03-17T04:50:00Z",
+      "duration": "P40M",
+      "title": "Case Study: Migrating QuakeStudies to Islandora",
+      "location": "Vault",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/case-study-migrating-quakestudies-islandora",
+      "track": "Showcase",
+      "speakers": [
+        "Jonathan Hunt"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2017-03-17T04:10:00Z",
+      "endTime": "2017-03-17T04:50:00Z",
+      "duration": "P40M",
+      "title": "Decoupled Drupal and Responsive VR",
+      "location": "Loft",
+      "link": "https://drupalsouth2017.drupal.org.nz/session/decoupled-drupal-and-responsive-vr",
+      "track": "UX/UI/Design, Development, Showcase",
+      "speakers": [
+        "Stuart Clark"
+      ],
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Melbourne",
+    "year": "2012",
+    "website": "http://2012.drupaldownunder.org/",
+    "region": "Australia – Melbourne",
+    "scheduleURL": "http://2012.drupaldownunder.org/program/session-schedule/all",
+    "venue": "Melbourne",
+    "timezone": "Australia/Melbourne",
+    "startDate": "2012-01-12T22:00:00Z",
+    "endDate": "2012-01-16T05:30:00Z",
+    "sourceCache": "cache/wayback/drupalsouth-2012/raw"
+  },
+  "items": [
+    {
+      "startTime": "2012-01-12T22:00:00Z",
+      "endTime": "2012-01-13T01:30:00Z",
+      "duration": "P210M",
+      "title": "Drupal 7 in a Day",
+      "location": "Coders Lounge",
+      "link": "http://2012.drupaldownunder.org/drupal-7-day",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-12T22:00:00Z",
+      "endTime": "2012-01-13T01:30:00Z",
+      "duration": "P210M",
+      "title": "MySQL - Query Design",
+      "location": "BOF Room 5",
+      "link": "http://2012.drupaldownunder.org/mysql-query-design",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-12T22:00:00Z",
+      "endTime": "2012-01-13T01:30:00Z",
+      "duration": "P210M",
+      "title": "Object-Oriented Programming in PHP",
+      "location": "BOF Room 6",
+      "link": "http://2012.drupaldownunder.org/object-oriented-programming-php",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T01:30:00Z",
+      "endTime": "2012-01-13T02:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch break",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/lunch-break",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T01:30:00Z",
+      "endTime": "2012-01-13T02:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch break",
+      "location": "BOF Room 5, BOF Room 6, Coders Lounge",
+      "link": "http://2012.drupaldownunder.org/lunch-break",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T02:30:00Z",
+      "endTime": "2012-01-13T06:00:00Z",
+      "duration": "P210M",
+      "title": "Drupal 7 in a Day",
+      "location": "Coders Lounge",
+      "link": "http://2012.drupaldownunder.org/drupal-7-day-0",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T02:30:00Z",
+      "endTime": "2012-01-13T06:00:00Z",
+      "duration": "P210M",
+      "title": "MySQL - Server Tuning",
+      "location": "BOF Room 5",
+      "link": "http://2012.drupaldownunder.org/mysql-server-tuning",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T02:30:00Z",
+      "endTime": "2012-01-13T06:00:00Z",
+      "duration": "P210M",
+      "title": "Object-Oriented Programming in PHP",
+      "location": "BOF Room 6",
+      "link": "http://2012.drupaldownunder.org/object-oriented-programming-php-0",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T04:30:00Z",
+      "endTime": "2012-01-13T06:00:00Z",
+      "duration": "P90M",
+      "title": "Hello Drupal!",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/hello-drupal",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T06:00:00Z",
+      "endTime": "2012-01-13T08:00:00Z",
+      "duration": "P120M",
+      "title": "Pre-Conference Drinks",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/pre-conference-drinks",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T06:00:00Z",
+      "endTime": "2012-01-13T08:00:00Z",
+      "duration": "P120M",
+      "title": "Pre-Conference Drinks",
+      "location": "BOF Room 5, BOF Room 6, Coders Lounge",
+      "link": "http://2012.drupaldownunder.org/pre-conference-drinks",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T23:15:00Z",
+      "endTime": "2012-01-13T23:45:00Z",
+      "duration": "P30M",
+      "title": "Morning tea",
+      "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
+      "link": "http://2012.drupaldownunder.org/saturday-morning-tea",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-13T23:45:00Z",
+      "endTime": "2012-01-14T00:30:00Z",
+      "duration": "P45M",
+      "title": "Views API Exposed",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/views-api-exposed",
+      "track": "Code, Core and Contrib",
+      "speakers": [
+        "Michael Strelan"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T00:45:00Z",
+      "endTime": "2012-01-14T01:30:00Z",
+      "duration": "P45M",
+      "title": "Field, Widgets and Formatters - oh my!",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/field-widgets-and-formatters-oh-my",
+      "track": "Code, Core and Contrib",
+      "speakers": [
+        "Lee Rowlands"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T00:45:00Z",
+      "endTime": "2012-01-14T01:30:00Z",
+      "duration": "P45M",
+      "title": "jQuery for Designers & Themers",
+      "location": "CrossFunctional Room",
+      "link": "http://2012.drupaldownunder.org/session/jquery-designers-themers",
+      "track": "Theming and Design",
+      "speakers": [
+        "Bevan Rudge"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T01:30:00Z",
+      "endTime": "2012-01-14T02:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
+      "link": "http://2012.drupaldownunder.org/saturday-lunch",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T02:30:00Z",
+      "endTime": "2012-01-14T03:15:00Z",
+      "duration": "P45M",
+      "title": "Aegir - Skynet for Drupal",
+      "location": "CrossFunctional Room",
+      "link": "http://2012.drupaldownunder.org/session/aegir-skynet-drupal",
+      "track": "Building Sites and Systems",
+      "speakers": [
+        "Miguel Jacq"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T02:30:00Z",
+      "endTime": "2012-01-14T03:15:00Z",
+      "duration": "P45M",
+      "title": "The Dark Arts of Business Analysis: Requirements Gathering with Mind Maps for a Drupal Project",
+      "location": "Powerful CMS Room",
+      "link": "http://2012.drupaldownunder.org/session/dark-arts-business-analysis-requirements-gathering-mind-maps-drupal-project",
+      "track": "The Business of Drupal",
+      "speakers": [
+        "Jason Brooks"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T03:30:00Z",
+      "endTime": "2012-01-14T04:15:00Z",
+      "duration": "P45M",
+      "title": "Drupal Commerce Group Buy: A Case Study Disaster",
+      "location": "CrossFunctional Room",
+      "link": "http://2012.drupaldownunder.org/session/drupal-commerce-group-buy-case-study-disaster",
+      "track": "Stories and Case Studies",
+      "speakers": [
+        "John Kennedy"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T03:30:00Z",
+      "endTime": "2012-01-14T04:15:00Z",
+      "duration": "P45M",
+      "title": "Love and Devotion",
+      "location": "Melbourne room",
+      "link": "http://2012.drupaldownunder.org/session/love-and-devotion",
+      "track": "Government, Education and NFP's",
+      "speakers": [
+        "Richard Hayward"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T03:30:00Z",
+      "endTime": "2012-01-14T04:15:00Z",
+      "duration": "P45M",
+      "title": "Node.js and Drupal",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/nodejs-and-drupal",
+      "track": "Code, Core and Contrib",
+      "speakers": [
+        "Justin Randell"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T03:30:00Z",
+      "endTime": "2012-01-14T04:15:00Z",
+      "duration": "P45M",
+      "title": "Simple and powerful site deployment with capistrano",
+      "location": "Powerful CMS Room",
+      "link": "http://2012.drupaldownunder.org/session/simple-and-powerful-site-deployment-capistrano",
+      "track": "Building Sites and Systems",
+      "speakers": [
+        "Kim Pepper"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T04:15:00Z",
+      "endTime": "2012-01-14T04:45:00Z",
+      "duration": "P30M",
+      "title": "Afternoon tea",
+      "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
+      "link": "http://2012.drupaldownunder.org/saturday-afternoon-tea",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T04:45:00Z",
+      "endTime": "2012-01-14T05:30:00Z",
+      "duration": "P45M",
+      "title": "Responsive Design",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/responsive-design",
+      "track": "Theming and Design",
+      "speakers": [
+        "Geoffrey Roberts"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T04:45:00Z",
+      "endTime": "2012-01-14T05:30:00Z",
+      "duration": "P45M",
+      "title": "Scaling out your Drupal and Database Infrastructure, Affordably",
+      "location": "CrossFunctional Room",
+      "link": "http://2012.drupaldownunder.org/session/scaling-out-your-drupal-and-database-infrastructure-affordably",
+      "track": "Building Sites and Systems",
+      "speakers": [
+        "Arjen Lentz"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T23:15:00Z",
+      "endTime": "2012-01-14T23:45:00Z",
+      "duration": "P30M",
+      "title": "Morning tea",
+      "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
+      "link": "http://2012.drupaldownunder.org/sunday-morning-tea",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T23:45:00Z",
+      "endTime": "2012-01-15T00:30:00Z",
+      "duration": "P45M",
+      "title": "HTML5 video specifications",
+      "location": "CrossFunctional Room",
+      "link": "http://2012.drupaldownunder.org/session/html5-video-specifications",
+      "track": "Building Sites and Systems",
+      "speakers": [
+        "Silvia Pfeiffer"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T23:45:00Z",
+      "endTime": "2012-01-15T00:30:00Z",
+      "duration": "P45M",
+      "title": "Poppin' forms that clients love.",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/poppin-forms-clients-love",
+      "track": "Code, Core and Contrib",
+      "speakers": [
+        "Simon Hobbs"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-14T23:45:00Z",
+      "endTime": "2012-01-15T00:30:00Z",
+      "duration": "P45M",
+      "title": "Small is beautiful",
+      "location": "Powerful CMS Room",
+      "link": "http://2012.drupaldownunder.org/session/small-beautiful",
+      "track": "The Business of Drupal",
+      "speakers": [
+        "Campbell Angus"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T00:45:00Z",
+      "endTime": "2012-01-15T01:30:00Z",
+      "duration": "P45M",
+      "title": "eGility: Drupal ERP based Shopping Cart",
+      "location": "Melbourne room",
+      "link": "http://2012.drupaldownunder.org/session/egility-drupal-erp-based-shopping-cart",
+      "track": "Building Sites and Systems",
+      "speakers": [
+        "Martin Fuggle"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T00:45:00Z",
+      "endTime": "2012-01-15T01:30:00Z",
+      "duration": "P45M",
+      "title": "Ezy-bake Drupal: Cooking sites with Distributions",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/ezy-bake-drupal-cooking-sites-distributions",
+      "track": "Building Sites and Systems",
+      "speakers": [
+        "Stuart Clark"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T01:30:00Z",
+      "endTime": "2012-01-15T02:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
+      "link": "http://2012.drupaldownunder.org/sunday-lunch",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T02:30:00Z",
+      "endTime": "2012-01-15T03:15:00Z",
+      "duration": "P45M",
+      "title": "Crowdsourcing Historical Research",
+      "location": "Melbourne room",
+      "link": "http://2012.drupaldownunder.org/session/crowdsourcing-historical-research",
+      "track": "Stories and Case Studies",
+      "speakers": [
+        "Claudine Chionh"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T02:30:00Z",
+      "endTime": "2012-01-15T03:15:00Z",
+      "duration": "P45M",
+      "title": "Drupal, Web Typography, and You",
+      "location": "CrossFunctional Room",
+      "link": "http://2012.drupaldownunder.org/session/drupal-web-typography-and-you",
+      "track": "Theming and Design",
+      "speakers": [
+        "Simon Pascal Klein"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T02:30:00Z",
+      "endTime": "2012-01-15T03:15:00Z",
+      "duration": "P45M",
+      "title": "Re-imagining CRM systems with Drupal",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/re-imagining-crm-systems-drupal",
+      "track": "Code, Core and Contrib",
+      "speakers": [
+        "Michael Priest"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T03:30:00Z",
+      "endTime": "2012-01-15T04:15:00Z",
+      "duration": "P45M",
+      "title": "CDNs made simple, fast & cheap",
+      "location": "Powerful CMS Room",
+      "link": "http://2012.drupaldownunder.org/session/cdns-made-simple-fast-cheap",
+      "track": "Building Sites and Systems",
+      "speakers": [
+        "Murray Woodman"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T04:15:00Z",
+      "endTime": "2012-01-15T04:45:00Z",
+      "duration": "P30M",
+      "title": "Afternoon tea",
+      "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
+      "link": "http://2012.drupaldownunder.org/sunday-afternoon-lunch",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T04:45:00Z",
+      "endTime": "2012-01-15T06:00:00Z",
+      "duration": "P75M",
+      "title": "Lightning Talks",
+      "location": "PreviousNext Keynote",
+      "link": "http://2012.drupaldownunder.org/session/lightning-talks",
+      "track": "Keynote Presentation",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2012-01-15T22:30:00Z",
+      "endTime": "2012-01-16T05:30:00Z",
+      "duration": "P420M",
+      "title": "Code Sprint",
+      "location": "Statewide Resources Center - Meeting Room A & B",
+      "link": "http://2012.drupaldownunder.org/code-sprint-0",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    }
+  ]
+}

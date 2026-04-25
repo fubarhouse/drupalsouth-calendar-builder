@@ -1,0 +1,511 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Australia",
+    "year": "2011",
+    "website": "http://2011.drupaldownunder.org/",
+    "region": "Australia (Drupal Down Under / DDU)",
+    "scheduleURL": "http://2011.drupaldownunder.org/schedule",
+    "venue": "",
+    "timezone": "Australia/Sydney",
+    "startDate": "2011-01-21T21:00:00Z",
+    "endDate": "2011-01-23T06:30:00Z",
+    "sourceCache": "cache/wayback/drupalsouth-2011/raw"
+  },
+  "items": [
+    {
+      "startTime": "2011-01-21T21:00:00Z",
+      "endTime": "2011-01-21T21:30:00Z",
+      "duration": "P30M",
+      "title": "Registration",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/registration",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-21T22:00:00Z",
+      "endTime": "2011-01-21T22:45:00Z",
+      "duration": "P45M",
+      "title": "Exportables",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/exportables",
+      "track": "Coder",
+      "speakers": [
+        "sime"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-21T22:00:00Z",
+      "endTime": "2011-01-21T22:45:00Z",
+      "duration": "P45M",
+      "title": "From zero to rockstar (contributing to Drupal)",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/zero-rockstar-contributing-drupal",
+      "track": "Drupal Community",
+      "speakers": [
+        "realityloop"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-21T22:00:00Z",
+      "endTime": "2011-01-21T22:45:00Z",
+      "duration": "P45M",
+      "title": "jQuery for Designers and Themers",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/jquery-designers-and-themers",
+      "track": "Theming",
+      "speakers": [
+        "bevan"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-21T23:00:00Z",
+      "endTime": "2011-01-21T23:45:00Z",
+      "duration": "P45M",
+      "title": "Keynote: Now you're in business: making a living with Drupal",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/making-a-living-with-drupal",
+      "track": "Drupal Community",
+      "speakers": [
+        "Allie"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-21T23:45:00Z",
+      "endTime": "2011-01-22T00:15:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/morning-tea",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T00:15:00Z",
+      "endTime": "2011-01-22T01:00:00Z",
+      "duration": "P45M",
+      "title": "Building Distributions with Drupal 7",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/building-distributions-drupal-7",
+      "track": "Implementation & Config",
+      "speakers": [
+        "skwashd"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T00:15:00Z",
+      "endTime": "2011-01-22T01:00:00Z",
+      "duration": "P45M",
+      "title": "Inkscape: mockup that site",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/inkscape-mockup-site",
+      "track": "Design & UX",
+      "speakers": [
+        "kattekrab"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T00:15:00Z",
+      "endTime": "2011-01-22T01:00:00Z",
+      "duration": "P45M",
+      "title": "Pantheon: Best Practice Development, Testing and High-Performance Deployment",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/session-josh-koenig",
+      "track": "Coder",
+      "speakers": [
+        "Josh Koenig"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T01:00:00Z",
+      "endTime": "2011-01-22T02:00:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/lunch",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T02:00:00Z",
+      "endTime": "2011-01-22T02:20:00Z",
+      "duration": "P20M",
+      "title": "Group Session plus Photo",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/group-session-plus-photo-0",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T02:20:00Z",
+      "endTime": "2011-01-22T03:05:00Z",
+      "duration": "P45M",
+      "title": "Keynote: Goodbye Centralization, Hello Distribution: An Introduction to Git",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/keynote-goodbye-centralization-hello-distribution-introduction-git",
+      "track": "Coder",
+      "speakers": [
+        "Josh Waihi"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T03:15:00Z",
+      "endTime": "2011-01-22T04:00:00Z",
+      "duration": "P45M",
+      "title": "Better practices for writing CSS",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/better-practices-writing-css",
+      "track": "Theming",
+      "speakers": [
+        "rimian"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T03:15:00Z",
+      "endTime": "2011-01-22T04:00:00Z",
+      "duration": "P45M",
+      "title": "MySQL server tuning, not an optional extra",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/mysql-server-tuning-not-optional-extra",
+      "track": "Implementation & Config",
+      "speakers": [
+        "arjen"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T03:15:00Z",
+      "endTime": "2011-01-22T04:00:00Z",
+      "duration": "P45M",
+      "title": "Paid Membership Sites",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/paid-membership-sites",
+      "track": "Implementation & Config",
+      "speakers": [
+        "univate"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T04:00:00Z",
+      "endTime": "2011-01-22T04:30:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/afternoon-tea",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T04:30:00Z",
+      "endTime": "2011-01-22T05:15:00Z",
+      "duration": "P45M",
+      "title": "Fields in Core: How to create a custom field",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/fields-core-how-create-custom-field",
+      "track": "Coder",
+      "speakers": [
+        "zugec"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T04:30:00Z",
+      "endTime": "2011-01-22T05:15:00Z",
+      "duration": "P45M",
+      "title": "Migrating to a Drupal Web Environment",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/migrating-drupal-web-environment",
+      "track": "Implementation & Config",
+      "speakers": [
+        "fionabush"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T04:30:00Z",
+      "endTime": "2011-01-22T05:15:00Z",
+      "duration": "P45M",
+      "title": "Selling Drupal into Large Enterprise & Government",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/selling-drupal-large-enterprise-government",
+      "track": "Business & Strategy",
+      "speakers": [
+        "owenlansbury"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T05:30:00Z",
+      "endTime": "2011-01-22T07:00:00Z",
+      "duration": "P90M",
+      "title": "Drupal: history, coummunity, future",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/dries-keynote",
+      "track": "Drupal Community",
+      "speakers": [
+        "Dries"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T22:00:00Z",
+      "endTime": "2011-01-22T22:45:00Z",
+      "duration": "P45M",
+      "title": "Building a document management system in drupal",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/building-document-management-system-drupal",
+      "track": "Implementation & Config",
+      "speakers": [
+        "jzornig"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T22:00:00Z",
+      "endTime": "2011-01-22T22:45:00Z",
+      "duration": "P45M",
+      "title": "Drush: from Beginner to Advanced",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/drush-intro-installation-and-basics",
+      "track": "Coder",
+      "speakers": [
+        "matthew.lechleider"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T22:00:00Z",
+      "endTime": "2011-01-22T22:45:00Z",
+      "duration": "P45M",
+      "title": "New Drupal Technology: Theming without coding!",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/theming-without-coding-impossible-you-say",
+      "track": "Theming",
+      "speakers": [
+        "Jeff"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T23:00:00Z",
+      "endTime": "2011-01-22T23:45:00Z",
+      "duration": "P45M",
+      "title": "Archimedes - Application Monitoring",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/archimedes-application-monitoring",
+      "track": "Implementation & Config",
+      "speakers": [
+        "Josh Waihi"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T23:00:00Z",
+      "endTime": "2011-01-22T23:45:00Z",
+      "duration": "P45M",
+      "title": "Fancy Pants WYSIWYG Editing",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/fancy-pants-wysiwyg-editing",
+      "track": "Implementation & Config",
+      "speakers": [
+        "boztek"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T23:00:00Z",
+      "endTime": "2011-01-22T23:45:00Z",
+      "duration": "P45M",
+      "title": "Turbo charge your Drupal site",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/turbo-charge-your-drupal-site",
+      "track": "Coder",
+      "speakers": [
+        "kim.pepper"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-22T23:45:00Z",
+      "endTime": "2011-01-23T00:15:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/morning-tea-0",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T00:15:00Z",
+      "endTime": "2011-01-23T01:45:00Z",
+      "duration": "P90M",
+      "title": "Q&A Panel",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/session-dries",
+      "track": "Drupal Community",
+      "speakers": [
+        "Dries"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T01:45:00Z",
+      "endTime": "2011-01-23T02:45:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/lunch-0",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T02:45:00Z",
+      "endTime": "2011-01-23T03:30:00Z",
+      "duration": "P45M",
+      "title": "Accepting payments online: A building block approach",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/accepting-payments-online",
+      "track": "Coder",
+      "speakers": [
+        "Allie"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T02:45:00Z",
+      "endTime": "2011-01-23T03:30:00Z",
+      "duration": "P45M",
+      "title": "Adding live data sources to your content",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/adding-live-data-sources-your-content",
+      "track": "Coder",
+      "speakers": [
+        "jaime"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T02:45:00Z",
+      "endTime": "2011-01-23T03:30:00Z",
+      "duration": "P45M",
+      "title": "Horizontally Scaling Drupal",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/horizontally-scaling-drupal",
+      "track": "Implementation & Config",
+      "speakers": [
+        "skwashd"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T03:45:00Z",
+      "endTime": "2011-01-23T04:30:00Z",
+      "duration": "P45M",
+      "title": "An overview of Fusion Theme",
+      "location": "PreviousNext Room 1",
+      "link": "http://2011.drupaldownunder.org/session/overview-fusion-theme",
+      "track": "Theming",
+      "speakers": [
+        "bernie.cram"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T03:45:00Z",
+      "endTime": "2011-01-23T04:30:00Z",
+      "duration": "P45M",
+      "title": "Case-Study: ABC Dig Music",
+      "location": "Glo Digital Room",
+      "link": "http://2011.drupaldownunder.org/session/case-studies-nswgov-and-abc",
+      "track": "Implementation & Config",
+      "speakers": [
+        "davidseth"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T03:45:00Z",
+      "endTime": "2011-01-23T04:30:00Z",
+      "duration": "P45M",
+      "title": "Code Sprint",
+      "location": "PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/code-sprint",
+      "track": "Coder",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T04:30:00Z",
+      "endTime": "2011-01-23T05:00:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/content/afternoon-tea-0",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T05:00:00Z",
+      "endTime": "2011-01-23T05:45:00Z",
+      "duration": "P45M",
+      "title": "Keynote: Drupal as the future Web Platform",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/josh-koenigs-keynote",
+      "track": "Coder",
+      "speakers": [
+        "Josh Koenig"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2011-01-23T05:45:00Z",
+      "endTime": "2011-01-23T06:30:00Z",
+      "duration": "P45M",
+      "title": "Lightning Talks",
+      "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
+      "link": "http://2011.drupaldownunder.org/session/lightning-talks",
+      "track": "Drupal Community",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    }
+  ]
+}

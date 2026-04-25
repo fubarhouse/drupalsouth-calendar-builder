@@ -1,0 +1,44 @@
+export const EVENT_MANIFEST = [
+  // DrupalCon
+  { file: 'drupalcon-us-chicago-2026.json', label: 'DrupalCon America 2026: Chicago' },
+  { file: 'drupalcon-us-atlanta-2025.json', label: 'DrupalCon America 2025: Atlanta' },
+  { file: 'drupalcon-us-portland-2024.json', label: 'DrupalCon America 2024: Portland' },
+  { file: 'drupalcon-us-pittsburgh-2023.json', label: 'DrupalCon America 2023: Pittsburgh' },
+  { file: 'drupalcon-us-portland-2022.json', label: 'DrupalCon America 2022: Portland' },
+  { file: 'drupalcon-la-bogota-2015.json', label: 'DrupalCon Latin America 2015: Bogotá' },
+  { file: 'drupalcon-us-austin-2014.json', label: 'DrupalCon America 2014: Austin' },
+  { file: 'drupalcon-us-portland-2013.json', label: 'DrupalCon America 2013: Portland' },
+  { file: 'drupalcon-us-denver-2012.json', label: 'DrupalCon America 2012: Denver' },
+  { file: 'drupalcon-us-chicago-2011.json', label: 'DrupalCon America 2011: Chicago' },
+  { file: 'drupalcon-asia-nara-2025.json', label: 'DrupalCon Asia 2025: Nara' },
+  { file: 'drupalcon-asia-singapore-2024.json', label: 'DrupalCon Asia 2024: Singapore' },
+  { file: 'drupalcon-asia-mumbai-2016.json', label: 'DrupalCon Asia 2016: Mumbai' },
+  { file: 'drupalcon-eu-vienna-2025.json', label: 'DrupalCon Europe 2025: Vienna' },
+  { file: 'drupalcon-eu-barcelona-2024.json', label: 'DrupalCon Europe 2024: Barcelona' },
+  { file: 'drupalcon-eu-lille-2023.json', label: 'DrupalCon Europe 2023: Lille' },
+  { file: 'drupalcon-eu-prague-2022.json', label: 'DrupalCon Europe 2022: Prague' },
+  { file: 'drupalcon-eu-amsterdam-2019.json', label: 'DrupalCon Europe 2019: Amsterdam' },
+  // DrupalSouth
+  { file: 'drupalsouth-wellington-2026.json', label: 'DrupalSouth 2026: Wellington', default: true },
+  { file: 'drupalsouth-melbourne-2025.json', label: 'DrupalSouth 2025: Melbourne' },
+  { file: 'drupalsouth-sydney-2024.json', label: 'DrupalSouth 2024: Sydney' },
+  { file: 'drupalsouth-wellington-2023.json', label: 'DrupalSouth 2023: Wellington' },
+  { file: 'drupalsouth-brisbane-2022.json', label: 'DrupalSouth 2022: Brisbane' },
+  { file: 'drupalsouth-shorts-2021.json', label: 'DrupalSouth Shorts 2021: Online (Drupal@20)' },
+  { file: 'drupalgov-2020.json', label: 'DrupalGov 2020: Online' },
+  { file: 'drupalsouth-hobart-2019.json', label: 'DrupalSouth 2019: Hobart' },
+  { file: 'drupalsouth-canberra-2018.json', label: 'DrupalSouth 2018: Canberra' },
+  { file: 'drupalsouth-auckland-2017.json', label: 'DrupalSouth 2017: Auckland' },
+  { file: 'drupalsouth-gold-coast-2016.json', label: 'DrupalSouth 2016: Gold Coast' },
+  { file: 'drupalsouth-melbourne-2015.json', label: 'DrupalSouth 2015: Melbourne' },
+  { file: 'drupalsouth-wellington-2014.json', label: 'DrupalSouth 2014: Wellington' },
+  { file: 'drupalcon-au-sydney-2013.json', label: 'DrupalCon Australia 2013: Sydney' },
+  { file: 'drupalsouth-melbourne-2012.json', label: 'DrupalSouth 2012: Melbourne (Drupal Downunder)' },
+  { file: 'drupalsouth-ddu-2011.json', label: 'DrupalSouth 2011: Drupal Down Under (DDU)' },
+  // DrupalSouth Community Day
+  { file: 'drupalsouth-community-day-2025.json', label: 'DrupalSouth Community Day 2025: Canberra' },
+  { file: 'drupalsouth-community-day-2024.json', label: 'DrupalSouth Community Day 2024: Canberra' },
+  { file: 'drupalsouth-community-day-2023.json', label: 'DrupalSouth Community Day 2023: Canberra' }
+];
+
+export const ENABLED_EVENT_CATEGORIES = ['DrupalSouth', 'DrupalSouth Community Day'];

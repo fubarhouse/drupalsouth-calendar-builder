@@ -1,0 +1,693 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Wellington",
+    "year": "2014",
+    "website": "http://drupalsouth2014.drupal.org.nz/",
+    "region": "New Zealand – Wellington",
+    "scheduleURL": "http://drupalsouth2014.drupal.org.nz/schedule",
+    "venue": "Te Papa Museum",
+    "timezone": "Pacific/Auckland",
+    "startDate": "2014-02-13T20:00:00Z",
+    "endDate": "2014-02-16T05:00:00Z",
+    "sourceCache": "cache/wayback/drupalsouth-2014/raw"
+  },
+  "items": [
+    {
+      "startTime": "2014-02-13T20:00:00Z",
+      "endTime": "2014-02-13T21:00:00Z",
+      "duration": "P60M",
+      "title": "Business Day",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/business-day",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": "The DrupalSouth Business day in a one-day business event which will be held on Friday, the 14th, February at the Te Papa Museum. This event is primarily aimed at business leaders who are evaluating, use or provide Drupal services. Join us for a candid peer discussion and networking with other Drupal executives."
+    },
+    {
+      "startTime": "2014-02-13T20:00:00Z",
+      "endTime": "2014-02-13T21:00:00Z",
+      "duration": "P60M",
+      "title": "Code sprint",
+      "location": "Icon",
+      "link": "http://drupalsouth2014.drupal.org.nz/code-sprint",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": "DrupalSouth opens on Valentine's Day, Friday the 14th of February. Show your love for the Drupal project and come along the code sprint and help make Drupal better. You don't have to be a PHP developer to contribute. There are lots of areas to contribute"
+    },
+    {
+      "startTime": "2014-02-13T20:00:00Z",
+      "endTime": "2014-02-13T21:00:00Z",
+      "duration": "P60M",
+      "title": "Drupal in a Day Course",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/drupal-day-course",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": "Get a solid introduction to Drupal 7 with this globally recognised introductory course that's been taken by thousands of people around the world, presented by PreviousNext."
+    },
+    {
+      "startTime": "2014-02-13T20:00:00Z",
+      "endTime": "2014-02-13T21:00:00Z",
+      "duration": "P60M",
+      "title": "Front End Development: From PSD to Drupal Theme Course",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/front-end-development-psd-drupal-theme-course",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": "You've just been handed a gorgeous, static Photoshop file. By tomorrow it needs to be a responsive, extensible, and compatible Drupal theme for some Web site you've never seen. *gulp* No worries!"
+    },
+    {
+      "startTime": "2014-02-13T20:00:00Z",
+      "endTime": "2014-02-13T21:00:00Z",
+      "duration": "P60M",
+      "title": "Site Builders Training Course",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/site-builders-training-course",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": "At the end of this course you will have created a fully functioning Drupal 7 site that is extendible, secure and contains a reusable suite of components with the flexibility to accommodate future requirements. It will open your imagination as to what is possible with Drupal 7."
+    },
+    {
+      "startTime": "2014-02-14T19:30:00Z",
+      "endTime": "2014-02-14T20:00:00Z",
+      "duration": "P30M",
+      "title": "Opening-Day Welcome",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/opening-day-welcome",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T20:00:00Z",
+      "endTime": "2014-02-14T21:00:00Z",
+      "duration": "P60M",
+      "title": "Adapting to the Enterprise",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/adapting-enterprise",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T20:00:00Z",
+      "endTime": "2014-02-14T21:00:00Z",
+      "duration": "P60M",
+      "title": "Case Study: University Of Queensland's Drupal Platform",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/case-study-university-queenslands-drupal-platform",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T20:00:00Z",
+      "endTime": "2014-02-14T21:00:00Z",
+      "duration": "P60M",
+      "title": "I'm A Site Builder, Not A Nerd",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/im-site-builder-not-nerd",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T20:00:00Z",
+      "endTime": "2014-02-14T21:00:00Z",
+      "duration": "P60M",
+      "title": "Making Your Front End Workflow Awesome [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/making-your-front-end-workflow-awesome-featured",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T21:00:00Z",
+      "endTime": "2014-02-14T22:00:00Z",
+      "duration": "P60M",
+      "title": "Accessibility Is Not Disability",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/accessibility-not-disability",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T21:00:00Z",
+      "endTime": "2014-02-14T22:00:00Z",
+      "duration": "P60M",
+      "title": "Drupal At The ANU College Of Law",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/drupal-anu-college-law",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T21:00:00Z",
+      "endTime": "2014-02-14T22:00:00Z",
+      "duration": "P60M",
+      "title": "Everything You Wanted To Know About Drupal 8 But Were Too Afraid To Ask [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/everything-you-wanted-know-about-drupal-8-were-too-afraid-ask-featured",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T21:00:00Z",
+      "endTime": "2014-02-14T22:00:00Z",
+      "duration": "P60M",
+      "title": "Panopoly: Magical Mystery Tour",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/panopoly-magical-mystery-tour",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T22:00:00Z",
+      "endTime": "2014-02-14T22:30:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea - Saturday",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/morning-tea-saturday",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T22:30:00Z",
+      "endTime": "2014-02-14T23:30:00Z",
+      "duration": "P60M",
+      "title": "Better User Experience Through Personalisation [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/better-user-experience-through-personalisation-featured",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T22:30:00Z",
+      "endTime": "2014-02-14T23:30:00Z",
+      "duration": "P60M",
+      "title": "Foundation vs Bootstrap Death Match: Responsive Frameworks in Drupal",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/foundation-vs-bootstrap-death-match-responsive-frameworks-drupal",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T22:30:00Z",
+      "endTime": "2014-02-14T23:30:00Z",
+      "duration": "P60M",
+      "title": "Multilingual Site Setup and Management",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/multilingual-site-setup-and-management",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T22:30:00Z",
+      "endTime": "2014-02-14T23:30:00Z",
+      "duration": "P60M",
+      "title": "Scaling Drupal with MariaDB Galera Clustering",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/scaling-drupal-mariadb-galera-clustering",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T23:30:00Z",
+      "endTime": "2014-02-15T00:30:00Z",
+      "duration": "P60M",
+      "title": "Case Study: Māori Television",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/case-study-m%C4%81ori-television",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T23:30:00Z",
+      "endTime": "2014-02-15T00:30:00Z",
+      "duration": "P60M",
+      "title": "Collaboration As Marketing: Making Your Drupal Product A Hit",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/collaboration-marketing-making-your-drupal-product-hit",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T23:30:00Z",
+      "endTime": "2014-02-15T00:30:00Z",
+      "duration": "P60M",
+      "title": "Cross Browser Testing With SauceLabs And Selenium",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/cross-browser-testing-saucelabs-and-selenium",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-14T23:30:00Z",
+      "endTime": "2014-02-15T00:30:00Z",
+      "duration": "P60M",
+      "title": "Features 101: A Beginners Guide To Configuration Management [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/features-101-beginners-guide-configuration-management-featured",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T00:30:00Z",
+      "endTime": "2014-02-15T01:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch - Saturday",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/lunch-saturday",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T01:30:00Z",
+      "endTime": "2014-02-15T02:30:00Z",
+      "duration": "P60M",
+      "title": "Keynote: Emma Jane Westby",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/keynote-emma-jane-westby",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T02:30:00Z",
+      "endTime": "2014-02-15T03:30:00Z",
+      "duration": "P60M",
+      "title": "Keynote: Larry Garfield",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/keynote-larry-garfield",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T03:30:00Z",
+      "endTime": "2014-02-15T04:30:00Z",
+      "duration": "P60M",
+      "title": "Opening Day Reception",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/opening-day-reception",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T20:00:00Z",
+      "endTime": "2014-02-15T21:00:00Z",
+      "duration": "P60M",
+      "title": "Keynote: Jeffrey \"Jam\" McGuire",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/keynote-jeffrey-jam-mcguire",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T21:00:00Z",
+      "endTime": "2014-02-15T21:30:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea - Sunday",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/morning-tea-sunday",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T21:30:00Z",
+      "endTime": "2014-02-15T22:30:00Z",
+      "duration": "P60M",
+      "title": "Case Study: Sydney Living Museums",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/case-study-sydney-living-museums",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T21:30:00Z",
+      "endTime": "2014-02-15T22:30:00Z",
+      "duration": "P60M",
+      "title": "For The Love Of The Content Editors [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/love-content-editors-featured",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T21:30:00Z",
+      "endTime": "2014-02-15T22:30:00Z",
+      "duration": "P60M",
+      "title": "jQuery for Designers & Themers",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/jquery-designers-themers",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T21:30:00Z",
+      "endTime": "2014-02-15T22:30:00Z",
+      "duration": "P60M",
+      "title": "Migrate in core",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/migrate-core",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T22:30:00Z",
+      "endTime": "2014-02-15T23:30:00Z",
+      "duration": "P60M",
+      "title": "Building Amazing Searches with Search API",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/building-amazing-searches-search-api",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T22:30:00Z",
+      "endTime": "2014-02-15T23:30:00Z",
+      "duration": "P60M",
+      "title": "Can I TWIG It? Yes, You Can!",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/can-i-twig-it-yes-you-can",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T22:30:00Z",
+      "endTime": "2014-02-15T23:30:00Z",
+      "duration": "P60M",
+      "title": "How To Not Fail On Launch",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/how-not-fail-launch",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T22:30:00Z",
+      "endTime": "2014-02-15T23:30:00Z",
+      "duration": "P60M",
+      "title": "Wax On, Wax Off: The Tao Of Polishing Your Modules [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/wax-wax-tao-polishing-your-modules-featured",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-15T23:30:00Z",
+      "endTime": "2014-02-16T00:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch - Sunday",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/lunch-sunday",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T00:30:00Z",
+      "endTime": "2014-02-16T01:30:00Z",
+      "duration": "P60M",
+      "title": "A Tour Of The Tour Module",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/tour-tour-module",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T00:30:00Z",
+      "endTime": "2014-02-16T01:30:00Z",
+      "duration": "P60M",
+      "title": "Getting Inside Client's Heads - Mindreading 101",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/getting-inside-clients-heads-mindreading-101",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T00:30:00Z",
+      "endTime": "2014-02-16T01:30:00Z",
+      "duration": "P60M",
+      "title": "Hiring Bigfoot: Identifying Talent & Evaluating Drupal Skills",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/hiring-bigfoot-identifying-talent-evaluating-drupal-skills",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T00:30:00Z",
+      "endTime": "2014-02-16T01:30:00Z",
+      "duration": "P60M",
+      "title": "Managing Complex Projects with Design Components [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/managing-complex-projects-design-components-featured",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T01:30:00Z",
+      "endTime": "2014-02-16T02:30:00Z",
+      "duration": "P60M",
+      "title": "Drupal in the Public Sector Down Under [FEATURED]",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/drupal-public-sector-down-under-featured",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T01:30:00Z",
+      "endTime": "2014-02-16T02:30:00Z",
+      "duration": "P60M",
+      "title": "Geospatial Drupal: Mapping Without Coding",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/geospatial-drupal-mapping-without-coding",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T01:30:00Z",
+      "endTime": "2014-02-16T02:30:00Z",
+      "duration": "P60M",
+      "title": "Try Before You Buy: User Provisioned Sites Targeting Multiple Hosting Providers",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/try-you-buy-user-provisioned-sites-targeting-multiple-hosting-providers",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T01:30:00Z",
+      "endTime": "2014-02-16T02:30:00Z",
+      "duration": "P60M",
+      "title": "UX Spaces: A New Approach To Website Design And Development",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/ux-spaces-new-approach-website-design-and-development",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T02:30:00Z",
+      "endTime": "2014-02-16T03:00:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea - Sunday",
+      "location": "TBA",
+      "link": "http://drupalsouth2014.drupal.org.nz/afternoon-tea-sunday",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T03:00:00Z",
+      "endTime": "2014-02-16T04:00:00Z",
+      "duration": "P60M",
+      "title": "Form Enhances Function: How Design Can Improve User Experience",
+      "location": "Headfirst Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/form-enhances-function-how-design-can-improve-user-experience",
+      "track": "Frontend",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T03:00:00Z",
+      "endTime": "2014-02-16T04:00:00Z",
+      "duration": "P60M",
+      "title": "The Evolution of Media Creators on Drupal",
+      "location": "Catalyst Rangimarie Room 1",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/evolution-media-creators-drupal",
+      "track": "Business & Strategy",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T03:00:00Z",
+      "endTime": "2014-02-16T04:00:00Z",
+      "duration": "P60M",
+      "title": "The GLAM Question: How Drupal Can Answer The Big Data Problem",
+      "location": "Technocrat Oceania",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/glam-question-how-drupal-can-answer-big-data-problem",
+      "track": "Site Building",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T03:00:00Z",
+      "endTime": "2014-02-16T04:00:00Z",
+      "duration": "P60M",
+      "title": "Web Stacks For Local Development",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/web-stacks-local-development",
+      "track": "Coding & Development",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2014-02-16T04:00:00Z",
+      "endTime": "2014-02-16T05:00:00Z",
+      "duration": "P60M",
+      "title": "Closing Session",
+      "location": "PreviousNext Soundings Theatre",
+      "link": "http://drupalsouth2014.drupal.org.nz/closing-session",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    }
+  ]
+}

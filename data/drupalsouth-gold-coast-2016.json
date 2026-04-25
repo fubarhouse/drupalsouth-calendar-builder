@@ -1,0 +1,1018 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Gold Coast",
+    "year": "2016",
+    "website": "https://goldcoast2016.drupal.org.au/",
+    "region": "Australia – Gold Coast",
+    "scheduleURL": "https://goldcoast2016.drupal.org.au/conference/schedule/wed",
+    "venue": "Gold Coast",
+    "timezone": "Australia/Brisbane",
+    "startDate": "2016-03-01T22:30:00Z",
+    "endDate": "2016-03-04T07:45:00Z",
+    "sourceCache": "cache/wayback/drupalsouth-2016/raw"
+  },
+  "items": [
+    {
+      "startTime": "2016-03-01T22:30:00Z",
+      "endTime": "2016-03-01T23:00:00Z",
+      "duration": "P30M",
+      "title": "Registration",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-01T23:00:00Z",
+      "endTime": "2016-03-02T00:00:00Z",
+      "duration": "P60M",
+      "title": "Drupal 8 Development training",
+      "location": "Level 2 (RealityLoop room)",
+      "link": "https://goldcoast2016.drupal.org.au/training/module-development",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-01T23:00:00Z",
+      "endTime": "2016-03-02T00:00:00Z",
+      "duration": "P60M",
+      "title": "Registration",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T00:00:00Z",
+      "endTime": "2016-03-02T00:15:00Z",
+      "duration": "P15M",
+      "title": "Morning tea",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T00:15:00Z",
+      "endTime": "2016-03-02T02:00:00Z",
+      "duration": "P105M",
+      "title": "Code Sprint",
+      "location": "Level 2 (PreviousNext room)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/sprint",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T00:15:00Z",
+      "endTime": "2016-03-02T02:00:00Z",
+      "duration": "P105M",
+      "title": "Drupal 8 Development training",
+      "location": "Level 2 (RealityLoop room)",
+      "link": "https://goldcoast2016.drupal.org.au/training/module-development",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T02:00:00Z",
+      "endTime": "2016-03-02T03:00:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T03:00:00Z",
+      "endTime": "2016-03-02T05:00:00Z",
+      "duration": "P120M",
+      "title": "Acquia Summit",
+      "location": "Level 78 (Sky Point)",
+      "link": "https://www.acquia.com/acquia-technical-partner-summit-drupalsouth",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T03:00:00Z",
+      "endTime": "2016-03-02T05:00:00Z",
+      "duration": "P120M",
+      "title": "Code Sprint",
+      "location": "Level 2 (PreviousNext room)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/sprint",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T03:00:00Z",
+      "endTime": "2016-03-02T05:00:00Z",
+      "duration": "P120M",
+      "title": "Drupal 8 Development training",
+      "location": "Level 2 (RealityLoop room)",
+      "link": "https://goldcoast2016.drupal.org.au/training/module-development",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T05:00:00Z",
+      "endTime": "2016-03-02T05:30:00Z",
+      "duration": "P30M",
+      "title": "Acquia Summit",
+      "location": "Level 78 (Sky Point)",
+      "link": "https://www.acquia.com/acquia-technical-partner-summit-drupalsouth",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T05:00:00Z",
+      "endTime": "2016-03-02T05:30:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T05:30:00Z",
+      "endTime": "2016-03-02T07:30:00Z",
+      "duration": "P120M",
+      "title": "Acquia Summit",
+      "location": "Level 78 (Sky Point)",
+      "link": "https://www.acquia.com/acquia-technical-partner-summit-drupalsouth",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T05:30:00Z",
+      "endTime": "2016-03-02T07:30:00Z",
+      "duration": "P120M",
+      "title": "Code Sprint",
+      "location": "Level 2 (PreviousNext room)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/sprint",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T05:30:00Z",
+      "endTime": "2016-03-02T07:30:00Z",
+      "duration": "P120M",
+      "title": "Drupal 8 Development training",
+      "location": "Level 2 (RealityLoop room)",
+      "link": "https://goldcoast2016.drupal.org.au/training/module-development",
+      "track": "General",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T08:00:00Z",
+      "endTime": "2016-03-02T09:00:00Z",
+      "duration": "P60M",
+      "title": "Social Drinks with PreviousNext",
+      "location": "Longboards Bar, Hamilton Ave & Northcliffe Terrace, Surfers Paradise",
+      "link": "https://goldcoast2016.drupal.org.au/sponsor/previousnext",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T22:00:00Z",
+      "endTime": "2016-03-02T23:00:00Z",
+      "duration": "P60M",
+      "title": "Registration",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-02T23:00:00Z",
+      "endTime": "2016-03-03T00:00:00Z",
+      "duration": "P60M",
+      "title": "Keynote",
+      "location": "Main Stage (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T00:00:00Z",
+      "endTime": "2016-03-03T00:10:00Z",
+      "duration": "P10M",
+      "title": "Group photo",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T00:10:00Z",
+      "endTime": "2016-03-03T00:30:00Z",
+      "duration": "P20M",
+      "title": "Morning Tea",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T00:30:00Z",
+      "endTime": "2016-03-03T01:15:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T00:30:00Z",
+      "endTime": "2016-03-03T01:15:00Z",
+      "duration": "P45M",
+      "title": "Using SVGs in Drupal",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/using-svgs-drupal",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T00:30:00Z",
+      "endTime": "2016-03-03T01:15:00Z",
+      "duration": "P45M",
+      "title": "When Dogs Fly - How Flight Centre and Doghouse make outsource work in a large corporate environment",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/when-dogs-fly-how-flight-centre-and-doghouse-make-outsource-work-large-corporate",
+      "track": "Inventing / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T00:30:00Z",
+      "endTime": "2016-03-03T01:15:00Z",
+      "duration": "P45M",
+      "title": "Why estimations go wrong and how to avoid it",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/why-estimations-go-wrong-and-how-avoid-it",
+      "track": "Planning / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T01:15:00Z",
+      "endTime": "2016-03-03T01:30:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T01:30:00Z",
+      "endTime": "2016-03-03T02:15:00Z",
+      "duration": "P45M",
+      "title": "Beetbox - a next generation VM for local L*MP development",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/beetbox-next-generation-vm-local-lmp-development",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T01:30:00Z",
+      "endTime": "2016-03-03T02:15:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T01:30:00Z",
+      "endTime": "2016-03-03T02:15:00Z",
+      "duration": "P45M",
+      "title": "Client Management: Building Happy, Healthy Client Relationships",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/client-management-building-happy-healthy-client-relationships",
+      "track": "Planning / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T01:30:00Z",
+      "endTime": "2016-03-03T02:15:00Z",
+      "duration": "P45M",
+      "title": "Module a Week or: How I Learned to Stop Worrying and Love the Open Source",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/module-week-or-how-i-learned-stop-worrying-and-love-open-source",
+      "track": "Inventing / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T02:15:00Z",
+      "endTime": "2016-03-03T03:15:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T03:15:00Z",
+      "endTime": "2016-03-03T04:00:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T03:15:00Z",
+      "endTime": "2016-03-03T04:00:00Z",
+      "duration": "P45M",
+      "title": "Learn the new things in Drupal 8 via Debugging",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/learn-new-things-drupal-8-debugging",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T03:15:00Z",
+      "endTime": "2016-03-03T04:00:00Z",
+      "duration": "P45M",
+      "title": "Survive thrive and stay alive: Small business secrets",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/survive-thrive-and-stay-alive-small-business-secrets",
+      "track": "Planning / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T03:15:00Z",
+      "endTime": "2016-03-03T04:00:00Z",
+      "duration": "P45M",
+      "title": "Website performance and best practices in image optimisation to improve your Google ranking",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/website-performance-and-best-practices-image-optimisation-improve-your-google-ranking",
+      "track": "Inventing / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T04:00:00Z",
+      "endTime": "2016-03-03T04:15:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T04:15:00Z",
+      "endTime": "2016-03-03T05:00:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T04:15:00Z",
+      "endTime": "2016-03-03T05:00:00Z",
+      "duration": "P45M",
+      "title": "Test all the things! Making use of Drupal 8’s new testing tools",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/test-all-things-making-use-drupal-8s-new-testing-tools",
+      "track": "Building / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T04:15:00Z",
+      "endTime": "2016-03-03T05:00:00Z",
+      "duration": "P45M",
+      "title": "Transitioning to govCMS",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/transitioning-govcms",
+      "track": "Planning / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T04:15:00Z",
+      "endTime": "2016-03-03T05:00:00Z",
+      "duration": "P45M",
+      "title": "Up and Running with Kanban",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/and-running-kanban",
+      "track": "Planning / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T05:00:00Z",
+      "endTime": "2016-03-03T05:15:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T05:15:00Z",
+      "endTime": "2016-03-03T06:00:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T05:15:00Z",
+      "endTime": "2016-03-03T06:00:00Z",
+      "duration": "P45M",
+      "title": "Demo like a champ",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/demo-champ",
+      "track": "Planning / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T05:15:00Z",
+      "endTime": "2016-03-03T06:00:00Z",
+      "duration": "P45M",
+      "title": "Disruptive trends in the web 2016",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/disruptive-trends-web-2016",
+      "track": "Inventing / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T05:15:00Z",
+      "endTime": "2016-03-03T06:00:00Z",
+      "duration": "P45M",
+      "title": "Human vs Machine: A love story",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/human-vs-machine-love-story",
+      "track": "Building / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T06:00:00Z",
+      "endTime": "2016-03-03T06:30:00Z",
+      "duration": "P30M",
+      "title": "Afternoon Tea",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T06:30:00Z",
+      "endTime": "2016-03-03T07:30:00Z",
+      "duration": "P60M",
+      "title": "Keynote",
+      "location": "Main Stage (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T08:00:00Z",
+      "endTime": "2016-03-03T09:30:00Z",
+      "duration": "P90M",
+      "title": "Reception",
+      "location": "Level 78",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T22:00:00Z",
+      "endTime": "2016-03-03T23:00:00Z",
+      "duration": "P60M",
+      "title": "Registration",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-03T23:00:00Z",
+      "endTime": "2016-03-04T00:00:00Z",
+      "duration": "P60M",
+      "title": "Keynote",
+      "location": "Main Stage (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T00:00:00Z",
+      "endTime": "2016-03-04T00:30:00Z",
+      "duration": "P30M",
+      "title": "Morning Tea",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T00:30:00Z",
+      "endTime": "2016-03-04T01:15:00Z",
+      "duration": "P45M",
+      "title": "Advanced Performance Optimisation - A case study on adairs.com.au",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/advanced-performance-optimisation-case-study-adairscomau",
+      "track": "Building / Advanced",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T00:30:00Z",
+      "endTime": "2016-03-04T01:15:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T00:30:00Z",
+      "endTime": "2016-03-04T01:15:00Z",
+      "duration": "P45M",
+      "title": "Content as code: Ditching the canonical database",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/content-code-ditching-canonical-database",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T00:30:00Z",
+      "endTime": "2016-03-04T01:15:00Z",
+      "duration": "P45M",
+      "title": "govCMS CKAN: Data visualisation in Drupal 7 for everyone!",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/govcms-ckan-data-visualisation-drupal-7-everyone",
+      "track": "Inventing / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T01:15:00Z",
+      "endTime": "2016-03-04T01:30:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T01:30:00Z",
+      "endTime": "2016-03-04T02:15:00Z",
+      "duration": "P45M",
+      "title": "Backdrop CMS: What I love about it as a site builder. How is it different from Drupal 7 and 8.",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/backdrop-cms-what-i-love-about-it-site-builder-how-it-different-drupal-7-and-8",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T01:30:00Z",
+      "endTime": "2016-03-04T02:15:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T01:30:00Z",
+      "endTime": "2016-03-04T02:15:00Z",
+      "duration": "P45M",
+      "title": "Drupal content analysis: Elastic is here to help",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/drupal-content-analysis-elastic-here-help",
+      "track": "Inventing / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T01:30:00Z",
+      "endTime": "2016-03-04T02:15:00Z",
+      "duration": "P45M",
+      "title": "Medecins Sans Frontieres Australia - A Drupal Case Study",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/medecins-sans-frontieres-australia-drupal-case-study",
+      "track": "Planning / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T02:15:00Z",
+      "endTime": "2016-03-04T03:15:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T03:15:00Z",
+      "endTime": "2016-03-04T04:00:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T03:15:00Z",
+      "endTime": "2016-03-04T04:00:00Z",
+      "duration": "P45M",
+      "title": "BLT and Lightning - A project template for enterprise Drupal",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/blt-and-lightning-project-template-enterprise-drupal",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T03:15:00Z",
+      "endTime": "2016-03-04T04:00:00Z",
+      "duration": "P45M",
+      "title": "Does Drupal have an identity crisis? Drupal at 15",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/does-drupal-have-identity-crisis-drupal-15",
+      "track": "Inventing / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T03:15:00Z",
+      "endTime": "2016-03-04T04:00:00Z",
+      "duration": "P45M",
+      "title": "Personas - what are they good for?",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/personas-what-are-they-good",
+      "track": "Planning / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T04:00:00Z",
+      "endTime": "2016-03-04T04:15:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T04:15:00Z",
+      "endTime": "2016-03-04T05:00:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T04:15:00Z",
+      "endTime": "2016-03-04T05:00:00Z",
+      "duration": "P45M",
+      "title": "Drupal 8 and Microservices",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/drupal-8-and-microservices",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T04:15:00Z",
+      "endTime": "2016-03-04T05:00:00Z",
+      "duration": "P45M",
+      "title": "Drupal 8 on a really small Web server",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/drupal-8-really-small-web-server",
+      "track": "Inventing / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T04:15:00Z",
+      "endTime": "2016-03-04T05:00:00Z",
+      "duration": "P45M",
+      "title": "My Top 3 Secrets for Selling Drupal.",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/my-top-3-secrets-selling-drupal",
+      "track": "Planning / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T05:00:00Z",
+      "endTime": "2016-03-04T05:15:00Z",
+      "duration": "P15M",
+      "title": "Break",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T05:15:00Z",
+      "endTime": "2016-03-04T06:00:00Z",
+      "duration": "P45M",
+      "title": "Birds of Feather",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T05:15:00Z",
+      "endTime": "2016-03-04T06:00:00Z",
+      "duration": "P45M",
+      "title": "Drupal, Raspberry Pi and Alcohol!",
+      "location": "Realityloop (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/drupal-raspberry-pi-and-alcohol",
+      "track": "Inventing / Beginner",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T05:15:00Z",
+      "endTime": "2016-03-04T06:00:00Z",
+      "duration": "P45M",
+      "title": "Mapping and Geolocation with Drupal",
+      "location": "Doghouse Agency (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/mapping-and-geolocation-drupal",
+      "track": "Building / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T05:15:00Z",
+      "endTime": "2016-03-04T06:00:00Z",
+      "duration": "P45M",
+      "title": "Paragraphs without pain",
+      "location": "Acquia (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/session/paragraphs-without-pain",
+      "track": "Planning / Intermediate",
+      "speakers": [
+        "TBA"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T06:00:00Z",
+      "endTime": "2016-03-04T06:20:00Z",
+      "duration": "P20M",
+      "title": "Afternoon Tea",
+      "location": "Level 2",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T06:20:00Z",
+      "endTime": "2016-03-04T07:20:00Z",
+      "duration": "P60M",
+      "title": "Keynote",
+      "location": "Main Stage (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    },
+    {
+      "startTime": "2016-03-04T07:20:00Z",
+      "endTime": "2016-03-04T07:45:00Z",
+      "duration": "P25M",
+      "title": "Closing session",
+      "location": "Main Stage (Level 2)",
+      "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
+      "track": "General",
+      "speakers": [
+        "Event Team"
+      ],
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+        :root {
+            --bg-0: #07111d;
+            --bg-1: #0d1b2a;
+            --surface-0: rgba(11, 23, 37, 0.88);
+            --surface-1: rgba(20, 35, 52, 0.9);
+            --surface-2: rgba(30, 48, 69, 0.75);
+            --text-0: #e6edf7;
+            --text-1: #c9d7eb;
+            --text-2: #93abc8;
+            --line-0: #2b4360;
+            --accent: #2ea3ff;
+            --accent-strong: #4fb2ff;
+        }
+        .drupal-blue { background-color: rgb(0, 106, 169); }
+        .drupal-blue-hover:hover { background-color: rgb(0, 85, 135); }
+        .drupal-blue-text { color: var(--accent-strong); }
+        .drupal-blue-border { border-color: var(--accent); }
+        .drupal-blue-focus:focus { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+        .drupal-blue-bg-light { background-color: rgba(46, 163, 255, 0.18); }
+        .drupal-blue-border-light { border-color: rgba(79, 178, 255, 0.9); }
+        .keyword-highlight { 
+            background-color: #ff9f6b;
+            color: #08121c;
+            font-weight: 600;
+            border-radius: 4px;
+            padding: 0 2px;
+        }
+        body.theme-dark {
+            color: var(--text-0);
+            background:
+                radial-gradient(circle at 20% -10%, #1e3b63 0%, transparent 40%),
+                radial-gradient(circle at 90% 0%, #1a3458 0%, transparent 35%),
+                linear-gradient(170deg, var(--bg-0), var(--bg-1));
+        }
+        .theme-dark .bg-white {
+            background-color: var(--surface-0) !important;
+            border: 1px solid var(--line-0);
+            box-shadow: 0 14px 42px rgba(0, 0, 0, 0.28);
+            backdrop-filter: blur(5px);
+        }
+        .theme-dark .bg-gray-100 { background-color: transparent !important; }
+        .theme-dark .bg-black { background: linear-gradient(180deg, #0b1725, #09131f) !important; }
+        .theme-dark .border-gray-200,
+        .theme-dark .border-gray-300,
+        .theme-dark .border-gray-700 { border-color: var(--line-0) !important; }
+        .theme-dark .text-gray-900,
+        .theme-dark .text-gray-800,
+        .theme-dark .text-gray-700 { color: var(--text-0) !important; }
+        .theme-dark .text-gray-600,
+        .theme-dark .text-gray-500,
+        .theme-dark .text-gray-400 { color: var(--text-2) !important; }
+        .theme-dark input,
+        .theme-dark select {
+            background: var(--surface-1);
+            color: var(--text-0);
+            border-color: var(--line-0) !important;
+        }
+        .theme-dark option {
+            background: #0f2136;
+            color: var(--text-0);
+        }
+        .theme-dark #eventsContainer > div {
+            border-top: 1px dashed rgba(120, 165, 215, 0.22);
+            padding-top: 14px;
+        }
+        .slot-heading {
+            background: linear-gradient(90deg, rgba(23, 48, 75, 0.85), rgba(20, 35, 52, 0.78));
+            border: 1px solid rgba(101, 145, 193, 0.25);
+            border-radius: 0;
+            color: var(--text-1) !important;
+            backdrop-filter: blur(5px);
+        }
+        .slot-bg-a { background: linear-gradient(165deg, rgba(38, 61, 89, 0.75), rgba(22, 36, 55, 0.78)); }
+        .slot-bg-b { background: linear-gradient(165deg, rgba(50, 70, 96, 0.72), rgba(27, 42, 63, 0.78)); }
+        .event-card {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+            will-change: transform, box-shadow;
+        }
+        .event-card:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 12px 34px rgba(0, 0, 0, 0.25);
+        }
+        .track-pill {
+            background: rgba(255, 255, 255, 0.08) !important;
+            border: 1px solid rgba(162, 196, 232, 0.28);
+            color: #bcd4ef !important;
+        }
+        .theme-dark .hover\:bg-gray-50:hover {
+            background-color: rgba(74, 118, 163, 0.22) !important;
+        }
+        .event-tab {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-1);
+            border-color: var(--line-0);
+        }
+        .event-tab:hover {
+            background: rgba(84, 140, 197, 0.2);
+        }
+        .event-tab.is-active {
+            background: linear-gradient(180deg, rgba(62, 155, 236, 0.45), rgba(42, 120, 190, 0.45));
+            color: #eff6ff;
+            border-color: rgba(124, 188, 241, 0.75);
+        }
+        .event-tab.event-tab-disabled,
+        .event-tab:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+            background: rgba(255, 255, 255, 0.04);
+            color: #8ea3bc;
+            border-color: rgba(95, 121, 148, 0.45);
+            pointer-events: none;
+        }
+        .event-tab.event-tab-disabled:hover,
+        .event-tab:disabled:hover {
+            background: rgba(255, 255, 255, 0.04);
+        }
+        .header-shell {
+            background:
+                radial-gradient(circle at 12% 30%, rgba(152, 209, 255, 0.2), transparent 34%),
+                radial-gradient(circle at 78% 10%, rgba(122, 193, 255, 0.22), transparent 40%),
+                linear-gradient(120deg, #0d4d81, #0a3e69 60%, #0a3559);
+            border-bottom: 1px solid rgba(169, 215, 255, 0.28);
+        }
+        .header-logo {
+            width: 52px;
+            height: 52px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 14px;
+            font-size: 1.25rem;
+            color: #ecf7ff;
+            border: 1px solid rgba(210, 235, 255, 0.32);
+            background: rgba(255, 255, 255, 0.12);
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
+            overflow: hidden;
+        }
+        .header-logo-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 4px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .header-kicker {
+            font-size: 0.72rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: rgba(224, 242, 255, 0.92);
+        }
+        .header-title {
+            font-size: clamp(1.35rem, 2.4vw, 2.2rem);
+            line-height: 1.15;
+            letter-spacing: 0.01em;
+            margin-top: 2px;
+            color: #f6fbff;
+            text-wrap: balance;
+            text-shadow: 0 2px 18px rgba(0, 0, 0, 0.25);
+        }
+        .header-title .header-suffix {
+            color: rgba(188, 226, 255, 0.92);
+            font-weight: 500;
+            margin-left: 0.35rem;
+        }
+        .header-title .header-event {
+            font-weight: 700;
+        }
+        .brand-drupalsouth { background: linear-gradient(150deg, rgba(91, 177, 242, 0.45), rgba(24, 87, 142, 0.55)); }
+        .brand-community { background: linear-gradient(150deg, rgba(86, 196, 184, 0.45), rgba(28, 105, 120, 0.55)); }
+        .brand-drupalcon { background: linear-gradient(150deg, rgba(160, 170, 196, 0.35), rgba(78, 93, 121, 0.55)); }
