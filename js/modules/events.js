@@ -114,6 +114,73 @@ export function updateHeaderBranding(category) {
   }
 }
 
+function renderEventMediaPromo(eventMeta = null) {
+  const container = document.getElementById('eventMediaPromo');
+  if (!container) return;
+
+  const promo = eventMeta?.mediaPromo;
+  if (!promo || !promo.groupUrl) {
+    container.innerHTML = '';
+    container.classList.add('hidden');
+    return;
+  }
+
+  const isFutureEvent = Boolean(eventMeta?.startDate && new Date(eventMeta.startDate) > new Date());
+  const mode = promo.mode || (isFutureEvent ? 'cta' : 'archive');
+  const title = promo.title || (mode === 'cta' ? 'Share Your Event Photos' : 'Event Photos');
+  const text =
+    promo.text ||
+    (mode === 'cta'
+      ? 'Join the photo group and share your shots from the event.'
+      : 'Explore photos shared by the community.');
+  const buttonLabel = promo.buttonLabel || (mode === 'cta' ? 'Open Flickr Group' : 'View Photos');
+  const platformLabel = (promo.platform || 'media').toUpperCase();
+
+  const card = document.createElement('div');
+  card.className =
+    'rounded-lg border border-gray-300 bg-white p-3 sm:p-4 flex gap-3 sm:gap-4 items-start';
+
+  if (promo.image) {
+    const image = document.createElement('img');
+    image.src = promo.image;
+    image.alt = promo.imageAlt || `${platformLabel} promo image`;
+    image.className = 'w-[142px] h-[106px] rounded-md object-cover border border-gray-300 bg-white shrink-0';
+    card.appendChild(image);
+  }
+
+  const body = document.createElement('div');
+  body.className = 'min-w-0 flex-1';
+
+  const platform = document.createElement('div');
+  platform.className = 'text-xs font-semibold tracking-wide text-gray-600';
+  platform.textContent = platformLabel;
+  body.appendChild(platform);
+
+  const heading = document.createElement('h3');
+  heading.className = 'text-sm sm:text-base font-semibold text-gray-900 mt-0.5';
+  heading.textContent = title;
+  body.appendChild(heading);
+
+  const copy = document.createElement('p');
+  copy.className = 'text-sm text-gray-700 mt-1';
+  copy.textContent = text;
+  body.appendChild(copy);
+
+  const action = document.createElement('a');
+  action.href = promo.groupUrl;
+  action.target = '_blank';
+  action.rel = 'noopener noreferrer';
+  action.className =
+    'inline-flex items-center mt-2 px-3 py-1.5 rounded-md text-sm font-medium text-white drupal-blue drupal-blue-hover transition-colors';
+  action.textContent = buttonLabel;
+  body.appendChild(action);
+
+  card.appendChild(body);
+  container.innerHTML = '';
+  container.appendChild(card);
+  container.classList.remove('hidden');
+}
+
 export function setActiveTab(category) {
   document.querySelectorAll('.event-tab').forEach((button) => {
     button.classList.toggle('is-active', button.dataset.category === category);
@@ -187,6 +254,7 @@ export async function loadEvent(filename) {
   const websiteURL = meta.website.replace('/schedule', '');
   document.getElementById('creditsEventLink').innerHTML =
     `This is a custom schedule builder for <a href="${websiteURL}" target="_blank" class="drupal-blue-text">${eventDisplayName}</a>. It is not affiliated with ${eventDisplayName}.`;
+  renderEventMediaPromo(meta);
 
   events.forEach((event) => {
     event.id = `${event.startTime}-${event.location}-${event.title}`.replace(/[^a-zA-Z0-9-]/g, '-');

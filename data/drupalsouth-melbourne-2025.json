@@ -10,7 +10,17 @@
     "scheduleURL": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule",
     "venue": "ACMI (Australian Centre for the Moving Image)",
     "timezone": "Australia/Melbourne",
-    "sourceCache": "cache/remote/2026-04-25T11-43-17Z/drupalsouth-melbourne-2025-json-melbourne-2025"
+    "sourceCache": "cache/remote/2026-04-25T11-43-17Z/drupalsouth-melbourne-2025-json-melbourne-2025",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/3gLH9x",
+      "title": "DrupalSouth Melbourne 2025 Photos",
+      "text": "Browse community photos from DrupalSouth Melbourne 2025 in the official Flickr group.",
+      "image": "./img/drupalsouth-logo.png",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "View Flickr Photos",
+      "mode": "archive"
+    }
   },
   "items": [
     {

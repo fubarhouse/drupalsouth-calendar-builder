@@ -10,7 +10,17 @@
     "scheduleURL": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule",
     "venue": "Harborside Function Centre",
     "timezone": "Pacific/Auckland",
-    "sourceCache": "cache/remote/2026-04-25T11-39-21Z/drupalsouth-wellington-2026-json-wellington-2026"
+    "sourceCache": "cache/remote/2026-04-25T11-39-21Z/drupalsouth-wellington-2026-json-wellington-2026",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/3gCxkw",
+      "title": "Share Your DrupalSouth 2026 Photos",
+      "text": "Join the official Flickr group and add your photos before, during, and after the event.",
+      "image": "./img/drupalsouth-logo.png",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "Open Flickr Group",
+      "mode": "cta"
+    }
   },
   "items": [
     {
