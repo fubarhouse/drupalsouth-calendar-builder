@@ -10,7 +10,17 @@
     "scheduleURL": "https://drupalsouth.org/community-day-2024-schedule",
     "venue": "Canberra Southern Cross Club, Woden, ACT",
     "timezone": "Australia/Sydney",
-    "sourceCache": "cache/remote/2026-04-25T12-06-45Z/drupalsouth-community-day-2024-json-community-day-2024"
+    "sourceCache": "cache/remote/2026-04-25T12-06-45Z/drupalsouth-community-day-2024-json-community-day-2024",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://www.flickr.com/groups/14868937@N24/",
+      "title": "Share Your DrupalSouth Community Day 2024 Photos",
+      "text": "Join the official Flickr group and add your photos before, during, and after the event.",
+      "image": "./img/flickr/dscd/2024.jpg",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "Open Flickr Group",
+      "mode": "cta"
+    }
   },
   "items": [
     {

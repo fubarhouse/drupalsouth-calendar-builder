@@ -10,7 +10,17 @@
     "scheduleURL": "https://drupalsouth.org/community-day-2025-schedule",
     "venue": "Canberra Southern Cross Club, Woden, ACT",
     "timezone": "Australia/Sydney",
-    "sourceCache": "cache/remote/2026-04-25T12-06-46Z/drupalsouth-community-day-2025-json-community-day-2025"
+    "sourceCache": "cache/remote/2026-04-25T12-06-46Z/drupalsouth-community-day-2025-json-community-day-2025",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/3h7WG3",
+      "title": "Share Your DrupalSouth Community Day 2025 Photos",
+      "text": "Join the official Flickr group and add your photos before, during, and after the event.",
+      "image": "./img/flickr/dscd/2025.jpg",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "Open Flickr Group",
+      "mode": "cta"
+    }
   },
   "items": [
     {
@@ -23,7 +33,8 @@
       "track": "General",
       "speakers": null,
       "full_description": "",
-      "summary": ""
+      "summary": "",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-05T22:00:00Z",
@@ -37,7 +48,8 @@
         "Marge"
       ],
       "full_description": "",
-      "summary": ""
+      "summary": "",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-05T22:05:00Z",
@@ -52,7 +64,8 @@
         "Julia Topliss"
       ],
       "full_description": "Keynote, sponsored by Salsa Digital\nAI Keynote Personalisation UX\nAI as your next UX persona? Salsa Digital unpacks what that actually means - no pitch, just perspective.\nDiscover how AI agents are becoming the newest UX personas, reshaping digital journeys with smarter, more adaptive, and more human-centred experiences. AI agents are emerging as a new kind of persona in website and UX design, not just abstract tools, but active partners in shaping user journeys.\nSalsa Digital introduces the AI Agent persona concept to expand traditional persona frameworks, enable more adaptive and personalised experiences and open up fresh opportunities for designers to create smarter, more human-centred digital interactions today and into the future.",
-      "summary": "Keynote, sponsored by Salsa Digital AI Keynote Personalisation UX AI as your next UX persona?..."
+      "summary": "Keynote, sponsored by Salsa Digital AI Keynote Personalisation UX AI as your next UX persona?...",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-05T22:30:00Z",
@@ -66,7 +79,8 @@
         "David Flores-Condezo"
       ],
       "full_description": "Case Study GovCMS Personalisation UX\nThe Reef Knowledge System (RKS) curates data and information from across the Reef 2050 Integrated Monitoring and Reporting Program (RIMReP). The primary aim of the Reef Knowledge System is to serve as a first port of call for Reef intelligence, providing a comprehensive platform for integrating and sharing knowledge about the Great Barrier Reef.\nEarlier this year, the legacy RKS site underwent a complete rebuild from the ground up to improve areas of usability, accessibility, and future scalability, ensuring the platform could grow alongside the needs of its diverse audience.\nA major highlight of the rebuild was the introduction of personalisation on the site. Particularly, a recommendation engine was configured and installed to recommend content to users based on their browsing history. This presentation will take you behind the scenes of the RKS rebuild to explore the design and implementation process that brought this innovative approach to life.\nThe presentation will be of benefit to:\nSite owners interested in pushing the envelope with content personalisation on GovCMS SaaS\nDevelopers interested in integration approaches for a recommendation engine.\nNo technical expertise is required for this presentation.",
-      "summary": "Case Study GovCMS Personalisation UX The Reef Knowledge System (RKS) curates data and information from across the Reef 2050 Integrated Monitoring and Reporting Program (RIMReP)...."
+      "summary": "Case Study GovCMS Personalisation UX The Reef Knowledge System (RKS) curates data and information from across the Reef 2050 Integrated Monitoring and Reporting Program (RIMReP)....",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-05T22:30:00Z",
@@ -80,7 +94,8 @@
         "Vladimir Roudakov"
       ],
       "full_description": "Analytics Data Performance Privacy\nLet’s explore open source alternatives to Google Analytics for Drupal websites, highlighting how organisations can gain insights without sending their data to third-party providers. We will look at the benefits of using privacy-focused analytics solutions and why many teams are retaining control of their data.\nThe session will focus on Matomo, a powerful and widely adopted open source analytics platform, with a demonstration tailored for Drupal.\nWe’ll cover custom metrics such as tracking per-user role activity and capturing search results, showing how these features can provide deeper and more meaningful insights into site performance and user behaviour.",
-      "summary": "Analytics Data Performance Privacy Let’s explore open source alternatives to Google Analytics for Drupal websites, highlighting how organisations can gain insights without sending their data to third-party providers...."
+      "summary": "Analytics Data Performance Privacy Let’s explore open source alternatives to Google Analytics for Drupal websites, highlighting how organisations can gain insights without sending their data to third-party providers....",
+      "video_url": "https://youtu.be/4KQ09DkKijw"
     },
     {
       "startTime": "2025-11-05T23:05:00Z",
@@ -94,7 +109,8 @@
         "Maddi Collings"
       ],
       "full_description": "Accessibility Content Research UX\nAfter hundreds of hours watching real people use government websites, you start to notice patterns.\nThis talk shares a few of the things users consistently struggle with—regardless of department or design system—and what we can learn from them. It’s not just about empathy.\nIt’s about fixing the stuff that gets in their way.",
-      "summary": "Accessibility Content Research UX After hundreds of hours watching real people use government websites, you start to notice patterns...."
+      "summary": "Accessibility Content Research UX After hundreds of hours watching real people use government websites, you start to notice patterns....",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-05T23:05:00Z",
@@ -108,7 +124,8 @@
         "Marji Cermak"
       ],
       "full_description": "Automation GovCMS Performance Testing\nHow do you catch problems before they become public? How can you quickly identify the needle in the proverbial haystack? How can you demonstrate to the client that there have been no regressions in a recent feature or upgrade? Visual regression testing provides the answer to these questions and can be an invaluable tool for maintaining consistency and quality on sites.\nIn this presentation, the BackstopJS visual regression testing tool will be introduced. Attendees will learn how it can be incorporated into developer and release workflows to ensure that nothing has visually changed on a site.\nA practical setup will be shown for GovCMS SaaS working with custom commands using ahoy. Attendees will see how to:\nDefine effective test cases\nPrepare a reference environment for comparison\nUpdate Docker images to work with the testing tools\nConfigure ahoy commands to trigger the test procedure.\nThis presentation will be of benefit to:\nSite owners who would like to easily review wide sweeping changes on their site\nDevelopers and project managers who want to improve their testing chops.\nThe presentation will be technical in nature and is best suited to a technical audience. However, there will be value for attendees who want to understand the principles and outcomes.",
-      "summary": "Automation GovCMS Performance Testing How do you catch problems before they become public?..."
+      "summary": "Automation GovCMS Performance Testing How do you catch problems before they become public?...",
+      "video_url": "https://youtu.be/OlJi_hUIuOI"
     },
     {
       "startTime": "2025-11-05T23:35:00Z",
@@ -120,7 +137,8 @@
       "track": "General",
       "speakers": null,
       "full_description": "",
-      "summary": ""
+      "summary": "",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T00:00:00Z",
@@ -134,7 +152,8 @@
         "Toby Wild"
       ],
       "full_description": "Community Education Game Interactive\nThe main section will be a game of Jeopardy based on Drupal topics. Four contestants would be picked out of the crowd to participate, everyone else watches along.\nWill include: Acronyms, Famous Faces, Module Mania, Code Corner, GovCMS Central, Community Club.\nWhoever wins the most points gets a trophy!",
-      "summary": "Community Education Game Interactive The main section will be a game of Jeopardy based on Drupal topics...."
+      "summary": "Community Education Game Interactive The main section will be a game of Jeopardy based on Drupal topics....",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T00:25:00Z",
@@ -149,7 +168,8 @@
         "McGee Noble"
       ],
       "full_description": "Content Content Strategy Design Systems Governance\nMany government jurisdictions face similar challenges in managing complex digital ecosystems made up often of hundreds of websites and services, managed by different teams with varying levels of expertise.\nWhen this goes wrong, there is chaos for those managing the sites and worse still, for the users visiting them. Now, as AI tools proliferate, the stakes for this content chaos is higher.\nHow can we help Governments rein in the content chaos by creating structure and consistency for the business and for users and for AI? At Weave, we believe that a whole of government approach and documented content design systems are key to solving these problems.\nIn this talk, we detail the work we completed at Weave Content Strategy and Design to bring clarity, structure and a shared central source of truth to a state government’s digital presence through a Whole of Government content framework, content strategy, proposition, information model and content design system.",
-      "summary": "Content Content Strategy Design Systems Governance Many government jurisdictions face similar challenges in managing complex digital ecosystems made up often of hundreds of websites and services, managed by different tea..."
+      "summary": "Content Content Strategy Design Systems Governance Many government jurisdictions face similar challenges in managing complex digital ecosystems made up often of hundreds of websites and services, managed by different tea...",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T00:25:00Z",
@@ -163,7 +183,8 @@
         "Vladimir Roudakov"
       ],
       "full_description": "AI Automation Governance Workshop\nThis hands-on workshop introduces the ECA (Event-Condition-Action) module in Drupal, a no-code rules engine that helps site builders and administrators to create powerful automations without writing a single line of code.\nParticipants will learn the fundamentals of no-code automation with Drupal and ECA 3.0, including how the module supports Business Process Model and Notation (BPMN) standards for designing and visualising workflows.\nWe will explore two practical scenarios: modifying Drupal behavior through event-driven rules and creating new content dynamically based on user interactions.\nThe workshop will also demonstrate how to extend ECA with AI-driven capabilities, opening new possibilities for automated decision-making within Drupal.",
-      "summary": "AI Automation Governance Workshop This hands-on workshop introduces the ECA (Event-Condition-Action) module in Drupal, a no-code rules engine that helps site builders and administrators to create powerful automations wit..."
+      "summary": "AI Automation Governance Workshop This hands-on workshop introduces the ECA (Event-Condition-Action) module in Drupal, a no-code rules engine that helps site builders and administrators to create powerful automations wit...",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T01:30:00Z",
@@ -177,7 +198,8 @@
         "Murray Woodman"
       ],
       "full_description": "CSS Frontend GovCMS Theming\nWhat goes into building out a starter theme? What theme level tools can be built to help with accelerated site delivery? Drupal is about leveraging out-of-the-box tools and handling complexity. How can the theme layer make this a reality?\nIn this presentation, we will share some of the techniques and approaches which can be used for building out the backend of a starter theme. The following areas will be covered:\nFoundation theme selection\nThe power of CSS Variables\nComponents and Classes, breaking the BEM conventions\nColour palettes\nDark mode\nUser Interface\nThis presentation will be helpful for those working on GovCMS SaaS, where the environment is a little more constrained. You will find out how to trick out the theme layer to build a more functional interface for ambitious sitebuilders. Drupal devs may also gain some insights into how a theme can be structured and organised for maximum flexibility.",
-      "summary": "CSS Frontend GovCMS Theming What goes into building out a starter theme?..."
+      "summary": "CSS Frontend GovCMS Theming What goes into building out a starter theme?...",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T01:30:00Z",
@@ -191,7 +213,8 @@
         "Alex Skrypnyk"
       ],
       "full_description": "Case Study CI/CD Performance Testing\nIn 2018, Swinburne University commissioned the Mental Health Online platform — a Drupal-based service delivering evidence-backed programs, therapist–client interactions, and research capabilities. Development was completed the same year on Drupal 8, but for internal and business reasons the platform remained behind closed doors and used only internally for five years.\nThe challenge: keeping a large, complex platform (150+ modules, permissions, messaging, multi-user workflows) production-ready for half a decade without ever going public. Instead of freezing, the platform was continuously maintained and progressively upgraded — from Drupal 8 to 9 to 10.\nAutomated testing and CI/CD pipelines ensured every change was validated, while Behat and PHPUnit coverage safeguarded critical functionality. Rector accelerated code upgrades, with regression tests providing confidence at each step.\nWhen the university was ready in 2023, the site launched immediately on Drupal 10 — stable, secure, and future-proof. Since then, the same practices have allowed it to be upgraded further to Drupal 11, proving the long-term sustainability of this approach.\nDuring this session, we’ll walk through the processes and tooling that made this possible: how test coverage, CI/CD, and progressive upgrades can keep a complex Drupal project healthy and launch-ready for years — even when real-world delays get in the way.",
-      "summary": "Case Study CI/CD Performance Testing In 2018, Swinburne University commissioned the Mental Health Online platform — a Drupal-based service delivering evidence-backed programs, therapist–client interactions, and research..."
+      "summary": "Case Study CI/CD Performance Testing In 2018, Swinburne University commissioned the Mental Health Online platform — a Drupal-based service delivering evidence-backed programs, therapist–client interactions, and research...",
+      "video_url": "https://youtu.be/Lc4n4goSSvw"
     },
     {
       "startTime": "2025-11-06T02:00:00Z",
@@ -203,7 +226,8 @@
       "track": "General",
       "speakers": null,
       "full_description": "",
-      "summary": ""
+      "summary": "",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T02:50:00Z",
@@ -217,7 +241,8 @@
         "Al O'Neill"
       ],
       "full_description": "Community Game Education Interactive\nIts a session about Drupal but the blanks are filled in by the crowd, mad libs style: https://en.wikipedia.org/wiki/Mad_Libs\nWe will have the bones of a session, but it will be up to you to help us tell a story.\nWhether it makes sense will depend on your creativity during the session. We will aim for some classics like nouns, verbs and look to through in some drupalisms too.\nIf you can think of a word then this session is for you!",
-      "summary": "Community Game Education Interactive Its a session about Drupal but the blanks are filled in by the crowd, mad libs style: https://en.wikipedia.org/wiki/Mad_Libs We will have the bones of a session, but it will be up to..."
+      "summary": "Community Game Education Interactive Its a session about Drupal but the blanks are filled in by the crowd, mad libs style: https://en.wikipedia.org/wiki/Mad_Libs We will have the bones of a session, but it will be up to...",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T03:15:00Z",
@@ -231,7 +256,8 @@
         "Julia Topliss"
       ],
       "full_description": "Accessibility Content GovCMS Governance\nClear, accurate, and accessible content is essential to building trust with citizens. But without strong governance, content quickly becomes outdated, inconsistent, or hard to use.\nThis session shows how to use Drupal (GovCMS) to keep content accurate, accessible, and trusted. This session will cover simple, actionable steps, a governance checklist and insights into tools you can use to help your team deliver content that people can rely on.",
-      "summary": "Accessibility Content GovCMS Governance Clear, accurate, and accessible content is essential to building trust with citizens...."
+      "summary": "Accessibility Content GovCMS Governance Clear, accurate, and accessible content is essential to building trust with citizens....",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T03:15:00Z",
@@ -245,7 +271,8 @@
         "Brynn Briedis"
       ],
       "full_description": "Accessibility Design Systems Frontend Web Components\nDrupal’s Single Directory Components (SDC) open the door to a more modern, component-driven way of building frontends. But how do we take that even further by integrating Web Components — a browser-native standard for encapsulating markup, styles, and behaviour?\nIn this session, we’ll explore how Web Components and SDC can work together to create reusable, framework-agnostic building blocks that fit seamlessly into Drupal’s theming layer.\nWe’ll cover why Web Components are worth considering, how they align with design systems, and practical approaches for integrating them into a Drupal project. Along the way, we’ll look at real examples, common pitfalls, and tips for making sure your components are accessible, maintainable, and future-friendly.\nYou’ll leave with a clear picture of how to use Web Components with SDC to modernise your Drupal frontend architecture.",
-      "summary": "Accessibility Design Systems Frontend Web Components Drupal’s Single Directory Components (SDC) open the door to a more modern, component-driven way of building frontends...."
+      "summary": "Accessibility Design Systems Frontend Web Components Drupal’s Single Directory Components (SDC) open the door to a more modern, component-driven way of building frontends....",
+      "video_url": "https://youtu.be/4fIlgolXPXg"
     },
     {
       "startTime": "2025-11-06T03:50:00Z",
@@ -260,7 +287,8 @@
         "Matt Commons"
       ],
       "full_description": "Design GovCMS Prototyping UX\nProject outcomes are improved when the discovery, design and implementation phases are unified and working together. When your research, prototype, design and build tools are all working together, the process becomes a lot more efficient with iterative steps leading to better and faster outcomes.\nIn this presentation, such a toolchain will be demonstrated from technical and practical perspectives.\nThe following aspects will be shown:\nDesign system with key components\nColour palette abstraction for branding and accessibility\nFigma templates with strong alignment to the design system\nFigma prototypes capturing the information architecture\nOptimal Workshop leveraging Figma for quantitative and qualitative research\nData analysis for iterative updates to design\nDrupal implementation for the rapid delivery of design\nThe presentation will be relevant for:\nSite owners who wish to understand the project lifecycle through the Design, Alpha and Beta stages\nUX designers who wish to see some practical use of tools\nDevelopers may gain insight into what UX designers do throughout their working day.\nThe presentation requires no technical background - just a passion for designing and delivering better sites.",
-      "summary": "Design GovCMS Prototyping UX Project outcomes are improved when the discovery, design and implementation phases are unified and working together...."
+      "summary": "Design GovCMS Prototyping UX Project outcomes are improved when the discovery, design and implementation phases are unified and working together....",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T03:50:00Z",
@@ -274,7 +302,8 @@
         "Pat Roberts"
       ],
       "full_description": "Accessibility GovCMS Performance SEO\nEvery site has a body - some are lean and lightning-fast, others a little sluggish and bloated. In this session, we’ll take a closer look at the anatomy of a perfect Lighthouse score and what makes a website truly healthy. From performance and accessibility to best practices and SEO, you’ll learn how to diagnose common issues, apply the right fixes, and get your Drupal or GovCMS site feeling fit, fast, and full of life.",
-      "summary": "Accessibility GovCMS Performance SEO Every site has a body - some are lean and lightning-fast, others a little sluggish and bloated...."
+      "summary": "Accessibility GovCMS Performance SEO Every site has a body - some are lean and lightning-fast, others a little sluggish and bloated....",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T04:20:00Z",
@@ -288,7 +317,8 @@
         "Marge"
       ],
       "full_description": "",
-      "summary": ""
+      "summary": "",
+      "video_url": ""
     },
     {
       "startTime": "2025-11-06T04:30:00Z",
@@ -300,7 +330,8 @@
       "track": "General",
       "speakers": null,
       "full_description": "",
-      "summary": ""
+      "summary": "",
+      "video_url": ""
     }
   ],
   "result": "success",

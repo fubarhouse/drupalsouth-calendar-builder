@@ -10,7 +10,17 @@
     "scheduleURL": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule",
     "venue": "Canberra Rex Hotel, Canberra",
     "timezone": "Australia/Sydney",
-    "sourceCache": "cache/remote/2026-04-25T12-06-45Z/drupalsouth-community-day-2023-json-community-day-2023"
+    "sourceCache": "cache/remote/2026-04-25T12-06-45Z/drupalsouth-community-day-2023-json-community-day-2023",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/3gpn3e",
+      "title": "Share Your DrupalSouth Community Day 2023 Photos",
+      "text": "Join the official Flickr group and add your photos before, during, and after the event.",
+      "image": "./img/flickr/dscd/2023.jpg",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "Open Flickr Group",
+      "mode": "cta"
+    }
   },
   "items": [
     {

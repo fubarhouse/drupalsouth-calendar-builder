@@ -140,6 +140,11 @@ export function displayListView(events, container) {
                                                         ? `<p class="text-sm drupal-blue-text mb-1"><a href="${event.link}" target="_blank" class="hover:underline" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>`
                                                         : ''
                                                     }
+                                                    ${
+                                                      event.video_url
+                                                        ? `<p class="text-sm mb-1"><a href="${event.video_url}" target="_blank" class="drupal-blue-text hover:underline inline-flex items-center" onclick="event.stopPropagation()"><i class="fab fa-youtube mr-1"></i>Watch recording</a></p>`
+                                                        : ''
+                                                    }
                                                     <p class="text-sm text-gray-600 mb-1">${fullDateTime}</p>
                                                     ${descriptionText ? `<p class="text-sm text-gray-700 mb-1">${highlightedDescription}</p>` : ''}
                                                     ${
