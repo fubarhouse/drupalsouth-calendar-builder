@@ -73,9 +73,11 @@ export function getEventCategory(eventManifestItem) {
   if (eventManifestItem.file.startsWith('drupalsouth-community-day-')) {
     return 'DrupalSouth Community Day';
   }
+  if (eventManifestItem.file.startsWith('drupalgov-') || eventManifestItem.file.startsWith('drupalgovau-')) {
+    return 'DrupalGovAU';
+  }
   if (
     eventManifestItem.file.startsWith('drupalsouth-') ||
-    eventManifestItem.file.startsWith('drupalgov-') ||
     eventManifestItem.file.startsWith('drupalcon-au-')
   ) {
     return 'DrupalSouth';
@@ -118,7 +120,9 @@ function renderCategoryTabs(categories) {
 
 export function getHeaderBranding(category, eventMeta = null) {
   const isDrupalGov =
-    eventMeta?.designation === 'DrupalGov' || (state.currentEventFile || '').startsWith('drupalgov-');
+    eventMeta?.designation === 'DrupalGov' ||
+    (state.currentEventFile || '').startsWith('drupalgov-') ||
+    (state.currentEventFile || '').startsWith('drupalgovau-');
   const isDrupalConSingapore = (state.currentEventFile || '') === 'drupalcon-asia-singapore-2024.json';
   if (category === 'DrupalSouth Community Day') {
     return {
@@ -146,6 +150,15 @@ export function getHeaderBranding(category, eventMeta = null) {
       brandClass: 'brand-drupalsouth',
       logoUrl: drupalSouthLogo,
       logoAlt: 'DrupalSouth logo'
+    };
+  }
+  if (category === 'DrupalGovAU' || isDrupalGov) {
+    return {
+      kicker: 'DrupalGovAU Schedule',
+      iconClass: 'fas fa-landmark',
+      brandClass: 'brand-drupalsouth',
+      logoUrl: DRUPALGOV_LOGO_URL,
+      logoAlt: 'DrupalGovAU logo'
     };
   }
   return {

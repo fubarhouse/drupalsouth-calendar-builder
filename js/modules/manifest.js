@@ -19,6 +19,12 @@ export const EVENT_MANIFEST = [
   { file: 'drupalcon-eu-lille-2023.json', label: 'DrupalCon Europe 2023: Lille' },
   { file: 'drupalcon-eu-prague-2022.json', label: 'DrupalCon Europe 2022: Prague' },
   { file: 'drupalcon-eu-amsterdam-2019.json', label: 'DrupalCon Europe 2019: Amsterdam' },
+  // DrupalGovAU
+  { file: 'drupalgovau-2020-online.json', label: 'DrupalGov 2020: Online', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
+  { file: 'drupalgovau-2017-canberra.json', label: 'DrupalGov 2017: Canberra', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
+  { file: 'drupalgovau-2016-canberra.json', label: 'DrupalGov 2016: Canberra', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
+  { file: 'drupalgovau-2014-canberra.json', label: 'DrupalGov 2014: Canberra', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
+  { file: 'drupalgovau-2013-canberra.json', label: 'DrupalGov 2013: Canberra', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   // DrupalSouth
   { file: 'drupalsouth-2026-wellington.json', label: 'DrupalSouth 2026: Wellington', default: true, flagImage: './img/flags/nz.svg', flagAlt: 'New Zealand flag' },
   { file: 'drupalsouth-2025-melbourne.json', label: 'DrupalSouth 2025: Melbourne', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
@@ -26,7 +32,6 @@ export const EVENT_MANIFEST = [
   { file: 'drupalsouth-2023-wellington.json', label: 'DrupalSouth 2023: Wellington', flagImage: './img/flags/nz.svg', flagAlt: 'New Zealand flag' },
   { file: 'drupalsouth-2022-brisbane.json', label: 'DrupalSouth 2022: Brisbane', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   { file: 'drupalsouth-2021-online.json', label: 'DrupalSouth Shorts 2021: Online (Drupal@20)', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
-  { file: 'drupalgovau-2020-online.json', label: 'DrupalSouth: DrupalGov 2020: Online', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   { file: 'drupalsouth-2019-hobart.json', label: 'DrupalSouth 2019: Hobart', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   { file: 'drupalsouth-2018-canberra.json', label: 'DrupalSouth 2018: Canberra', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   { file: 'drupalsouth-2017-auckland.json', label: 'DrupalSouth 2017: Auckland', flagImage: './img/flags/nz.svg', flagAlt: 'New Zealand flag' },
@@ -45,4 +50,4 @@ export const EVENT_MANIFEST = [
   { file: 'drupalsouth-community-day-2023-canberra.json', label: 'DrupalSouth Community Day 2023: Canberra', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' }
 ];
 
-export const ENABLED_EVENT_CATEGORIES = ['DrupalSouth', 'DrupalSouth Community Day'];
+export const ENABLED_EVENT_CATEGORIES = ['DrupalSouth', 'DrupalGovAU', 'DrupalSouth Community Day'];
