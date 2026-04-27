@@ -520,7 +520,8 @@
       "link": "https://drupalsouth2017.drupal.org.nz/session/configuration-management-drupal-8-panel-discussion",
       "track": "Development",
       "speakers": [
-        "Dieuwe de Boer and Ben Denham"
+        "Dieuwe de Boer",
+        "Ben Denham"
       ],
       "full_description": "Have questions for the panel? Ask them now: https://goo.gl/forms/1aOEj1RfpVKjhwmC3. Join us for a panel discussion around configuration management in Drupal 8. We will aim to look into what was promised with regards to config in Drupal 8, what was delivered in core, and what the current best practises are. Rather than the usual slideshow-driven talks, we’d like to have a more interactive discussion with real-world examples of what site builders are doing when it comes to configuration management.",
       "summary": "Have questions for the panel?...",
@@ -717,7 +718,8 @@
       "link": "https://drupalsouth2017.drupal.org.nz/session/building-better-data-driven-drupal8-websites-dvf-and-govcms",
       "track": "Development, Showcase",
       "speakers": [
-        "Jorge Castro and Toby Bellwood"
+        "Jorge Castro",
+        "Toby Bellwood"
       ],
       "full_description": "The govCMS-CKAN module for Drupal 7, built by Doghouse for govCMS, brought a new dimension to dynamic data-driven content for Drupal websites. We are collaborating again for the Drupal 8 evolution of the module, now called the Data Visualisation Framework. This suite of modules deliver greater customisability and control, increasing the number of the data types consumed by the module, and providing more accessibility for developers.",
       "summary": "The govCMS-CKAN module for Drupal 7, built by Doghouse for govCMS, brought a new dimension to dynamic data-driven content for Drupal websites....",
