@@ -186,6 +186,16 @@ export function closeSessionModal() {
   lastFocusedElementBeforeModal = null;
 }
 
+export function handleSessionCardKeydown(event, eventId) {
+  if (event.target !== event.currentTarget) {
+    return;
+  }
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    openSessionModal(eventId);
+  }
+}
+
 export function groupEventsByDate(events) {
   return events.reduce((groups, event) => {
     const date = getLocalDate(event.startTime);
@@ -341,25 +351,19 @@ export function displayListView(events, container) {
             <div class="event-card h-full p-4 rounded-md transition-colors cursor-pointer border-2 ${cardExtraClass} ${bgColor} ${hoverColor} ${
             isSelected ? 'drupal-blue-border-light' : 'border-transparent'
           }"
+                 role="button"
+                 tabindex="0"
+                 aria-haspopup="dialog"
+                 aria-label="${escapeHtml(event.title || 'Session')}. Open session details."
                  onclick="openSessionModal('${event.id}')"
+                 onkeydown="handleSessionCardKeydown(event, '${event.id}')"
                  ${cardStyle}>
                 <div class="flex justify-between items-stretch h-full">
                     <div class="flex items-start space-x-3 flex-1 self-stretch">
                         <div class="flex-1 flex flex-col h-full">
                             <h3 class="font-medium text-gray-900 mb-1">${highlightedSummary}</h3>
-                            <p class="text-sm mb-1"><button type="button" class="schedule-link" onclick="event.stopPropagation(); openSessionModal('${event.id}')">Open details</button></p>
                             ${event.speakers ? `<p class="text-sm text-gray-700 mb-1">${highlightedSpeakers}</p>` : ''}
                             ${event.location ? `<p class="text-sm text-gray-500 mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${highlightedLocation}</p>` : ''}
-                            ${
-                              event.link
-                                ? `<p class="text-sm mb-1"><a href="${event.link}" target="_blank" class="schedule-link" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>`
-                                : ''
-                            }
-                            ${
-                              event.video_url
-                                ? `<p class="text-sm mb-1"><a href="${event.video_url}" target="_blank" class="schedule-link inline-flex items-center" onclick="event.stopPropagation()"><i class="fab fa-youtube mr-1"></i>Watch recording</a></p>`
-                                : ''
-                            }
                             ${
                               isDrupalConDesign
                                 ? `<p class="text-xs text-gray-500 mb-1">${timelineTime}</p>`
@@ -371,8 +375,18 @@ export function displayListView(events, container) {
                                 : '<div class="mb-1"></div>'
                             }
                             ${
+                              event.link
+                                ? `<p class="text-sm mb-1"><a href="${event.link}" target="_blank" class="schedule-link" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>`
+                                : ''
+                            }
+                            ${
+                              event.video_url
+                                ? `<p class="text-sm mb-1"><a href="${event.video_url}" target="_blank" class="schedule-link inline-flex items-center" onclick="event.stopPropagation()"><i class="fab fa-youtube mr-1"></i>Watch recording</a></p>`
+                                : ''
+                            }
+                            ${
                               trackLabel
-                                ? `<p class="${trackClass} mt-auto self-start">${highlightedTrack}</p>`
+                                ? `<div class="mt-auto pt-[5px]"><p class="${trackClass} self-start">${highlightedTrack}</p></div>`
                                 : ''
                             }
                         </div>
@@ -435,3 +449,4 @@ export function displayEvents(events) {
 
 window.openSessionModal = openSessionModal;
 window.closeSessionModal = closeSessionModal;
+window.handleSessionCardKeydown = handleSessionCardKeydown;
