@@ -1,5 +1,5 @@
 import state, { getStorageKey } from './state.js';
-import { debounce, getLocalDate, announceStatus } from './utils.js';
+import { debounce, getLocalDate, announceStatus, normalizeTracks } from './utils.js';
 import { displayEvents } from './render.js';
 import { updateDownloadButton } from './calendar.js';
 
@@ -35,8 +35,9 @@ export function filterEvents(events, clickedFilterName, skipAnalytics = false, a
 
   const filteredEvents = events.filter((event) => {
     const matchesDate = !dateFilter || getLocalDate(event.startTime) === dateFilter;
-    const matchesTrack = !trackFilter || event.track === trackFilter;
-    const normalizedTrack = typeof event.track === 'string' ? event.track : '';
+    const eventTracks = normalizeTracks(event.track);
+    const matchesTrack = !trackFilter || eventTracks.includes(trackFilter);
+    const normalizedTrack = eventTracks.join(' ');
     const speakersText = Array.isArray(event.speakers)
       ? event.speakers.join(' ')
       : typeof event.speakers === 'string'

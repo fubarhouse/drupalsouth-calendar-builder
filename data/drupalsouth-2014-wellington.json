@@ -30,7 +30,9 @@
       "title": "Business Day",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/business-day",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -43,7 +45,9 @@
       "title": "Code sprint",
       "location": "Icon",
       "link": "http://drupalsouth2014.drupal.org.nz/code-sprint",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -56,7 +60,9 @@
       "title": "Drupal in a Day Course",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/drupal-day-course",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -69,7 +75,9 @@
       "title": "Front End Development: From PSD to Drupal Theme Course",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/front-end-development-psd-drupal-theme-course",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -82,7 +90,9 @@
       "title": "Site Builders Training Course",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/site-builders-training-course",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -95,7 +105,9 @@
       "title": "Opening-Day Welcome",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/opening-day-welcome",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -108,7 +120,9 @@
       "title": "Adapting to the Enterprise",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/adapting-enterprise",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -121,7 +135,9 @@
       "title": "Case Study: University Of Queensland's Drupal Platform",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/case-study-university-queenslands-drupal-platform",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -134,7 +150,9 @@
       "title": "I'm A Site Builder, Not A Nerd",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/im-site-builder-not-nerd",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -147,7 +165,9 @@
       "title": "Making Your Front End Workflow Awesome [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/making-your-front-end-workflow-awesome-featured",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -160,7 +180,9 @@
       "title": "Accessibility Is Not Disability",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/accessibility-not-disability",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -173,7 +195,9 @@
       "title": "Drupal At The ANU College Of Law",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/drupal-anu-college-law",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -186,7 +210,9 @@
       "title": "Everything You Wanted To Know About Drupal 8 But Were Too Afraid To Ask [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/everything-you-wanted-know-about-drupal-8-were-too-afraid-ask-featured",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -199,7 +225,9 @@
       "title": "Panopoly: Magical Mystery Tour",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/panopoly-magical-mystery-tour",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -212,7 +240,9 @@
       "title": "Morning Tea - Saturday",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/morning-tea-saturday",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -225,7 +255,9 @@
       "title": "Better User Experience Through Personalisation [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/better-user-experience-through-personalisation-featured",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -238,7 +270,9 @@
       "title": "Foundation vs Bootstrap Death Match: Responsive Frameworks in Drupal",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/foundation-vs-bootstrap-death-match-responsive-frameworks-drupal",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -251,7 +285,9 @@
       "title": "Multilingual Site Setup and Management",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/multilingual-site-setup-and-management",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -264,7 +300,9 @@
       "title": "Scaling Drupal with MariaDB Galera Clustering",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/scaling-drupal-mariadb-galera-clustering",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -277,7 +315,9 @@
       "title": "Case Study: Māori Television",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/case-study-m%C4%81ori-television",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -290,7 +330,9 @@
       "title": "Collaboration As Marketing: Making Your Drupal Product A Hit",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/collaboration-marketing-making-your-drupal-product-hit",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -303,7 +345,9 @@
       "title": "Cross Browser Testing With SauceLabs And Selenium",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/cross-browser-testing-saucelabs-and-selenium",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -316,7 +360,9 @@
       "title": "Features 101: A Beginners Guide To Configuration Management [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/features-101-beginners-guide-configuration-management-featured",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -329,7 +375,9 @@
       "title": "Lunch - Saturday",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/lunch-saturday",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -342,7 +390,9 @@
       "title": "Keynote: Emma Jane Westby",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/keynote-emma-jane-westby",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -355,7 +405,9 @@
       "title": "Keynote: Larry Garfield",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/keynote-larry-garfield",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -368,7 +420,9 @@
       "title": "Opening Day Reception",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/opening-day-reception",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -381,7 +435,9 @@
       "title": "Keynote: Jeffrey \"Jam\" McGuire",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/keynote-jeffrey-jam-mcguire",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -394,7 +450,9 @@
       "title": "Morning Tea - Sunday",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/morning-tea-sunday",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -407,7 +465,9 @@
       "title": "Case Study: Sydney Living Museums",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/case-study-sydney-living-museums",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -420,7 +480,9 @@
       "title": "For The Love Of The Content Editors [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/love-content-editors-featured",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -433,7 +495,9 @@
       "title": "jQuery for Designers & Themers",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/jquery-designers-themers",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -446,7 +510,9 @@
       "title": "Migrate in core",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/migrate-core",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -459,7 +525,9 @@
       "title": "Building Amazing Searches with Search API",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/building-amazing-searches-search-api",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -472,7 +540,9 @@
       "title": "Can I TWIG It? Yes, You Can!",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/can-i-twig-it-yes-you-can",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -485,7 +555,9 @@
       "title": "How To Not Fail On Launch",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/how-not-fail-launch",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -498,7 +570,9 @@
       "title": "Wax On, Wax Off: The Tao Of Polishing Your Modules [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/wax-wax-tao-polishing-your-modules-featured",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -511,7 +585,9 @@
       "title": "Lunch - Sunday",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/lunch-sunday",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -524,7 +600,9 @@
       "title": "A Tour Of The Tour Module",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/tour-tour-module",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -537,7 +615,9 @@
       "title": "Getting Inside Client's Heads - Mindreading 101",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/getting-inside-clients-heads-mindreading-101",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -550,7 +630,9 @@
       "title": "Hiring Bigfoot: Identifying Talent & Evaluating Drupal Skills",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/hiring-bigfoot-identifying-talent-evaluating-drupal-skills",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -563,7 +645,9 @@
       "title": "Managing Complex Projects with Design Components [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/managing-complex-projects-design-components-featured",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -576,7 +660,9 @@
       "title": "Drupal in the Public Sector Down Under [FEATURED]",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/drupal-public-sector-down-under-featured",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -589,7 +675,9 @@
       "title": "Geospatial Drupal: Mapping Without Coding",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/geospatial-drupal-mapping-without-coding",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -602,7 +690,9 @@
       "title": "Try Before You Buy: User Provisioned Sites Targeting Multiple Hosting Providers",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/try-you-buy-user-provisioned-sites-targeting-multiple-hosting-providers",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -615,7 +705,9 @@
       "title": "UX Spaces: A New Approach To Website Design And Development",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/ux-spaces-new-approach-website-design-and-development",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -628,7 +720,9 @@
       "title": "Afternoon Tea - Sunday",
       "location": "TBA",
       "link": "http://drupalsouth2014.drupal.org.nz/afternoon-tea-sunday",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -641,7 +735,9 @@
       "title": "Form Enhances Function: How Design Can Improve User Experience",
       "location": "Headfirst Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/frontend/form-enhances-function-how-design-can-improve-user-experience",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -654,7 +750,9 @@
       "title": "The Evolution of Media Creators on Drupal",
       "location": "Catalyst Rangimarie Room 1",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/business-strategy/evolution-media-creators-drupal",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -667,7 +765,9 @@
       "title": "The GLAM Question: How Drupal Can Answer The Big Data Problem",
       "location": "Technocrat Oceania",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/site-building/glam-question-how-drupal-can-answer-big-data-problem",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -680,7 +780,9 @@
       "title": "Web Stacks For Local Development",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/sessions/coding-development/web-stacks-local-development",
-      "track": "Coding & Development",
+      "track": [
+        "Coding & Development"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -693,7 +795,9 @@
       "title": "Closing Session",
       "location": "PreviousNext Soundings Theatre",
       "link": "http://drupalsouth2014.drupal.org.nz/closing-session",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],

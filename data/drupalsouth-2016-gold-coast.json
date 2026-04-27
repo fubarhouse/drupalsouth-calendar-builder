@@ -30,7 +30,9 @@
       "title": "Registration",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -43,7 +45,9 @@
       "title": "Drupal 8 Development training",
       "location": "Level 2 (RealityLoop room)",
       "link": "https://goldcoast2016.drupal.org.au/training/module-development",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -56,7 +60,9 @@
       "title": "Registration",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -69,7 +75,9 @@
       "title": "Morning tea",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -82,7 +90,9 @@
       "title": "Code Sprint",
       "location": "Level 2 (PreviousNext room)",
       "link": "https://goldcoast2016.drupal.org.au/conference/sprint",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -95,7 +105,9 @@
       "title": "Drupal 8 Development training",
       "location": "Level 2 (RealityLoop room)",
       "link": "https://goldcoast2016.drupal.org.au/training/module-development",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -108,7 +120,9 @@
       "title": "Lunch",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -121,7 +135,9 @@
       "title": "Acquia Summit",
       "location": "Level 78 (Sky Point)",
       "link": "https://www.acquia.com/acquia-technical-partner-summit-drupalsouth",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -134,7 +150,9 @@
       "title": "Code Sprint",
       "location": "Level 2 (PreviousNext room)",
       "link": "https://goldcoast2016.drupal.org.au/conference/sprint",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -147,7 +165,9 @@
       "title": "Drupal 8 Development training",
       "location": "Level 2 (RealityLoop room)",
       "link": "https://goldcoast2016.drupal.org.au/training/module-development",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -160,7 +180,9 @@
       "title": "Acquia Summit",
       "location": "Level 78 (Sky Point)",
       "link": "https://www.acquia.com/acquia-technical-partner-summit-drupalsouth",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -173,7 +195,9 @@
       "title": "Afternoon Tea",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -186,7 +210,9 @@
       "title": "Acquia Summit",
       "location": "Level 78 (Sky Point)",
       "link": "https://www.acquia.com/acquia-technical-partner-summit-drupalsouth",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -199,7 +225,9 @@
       "title": "Code Sprint",
       "location": "Level 2 (PreviousNext room)",
       "link": "https://goldcoast2016.drupal.org.au/conference/sprint",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -212,7 +240,9 @@
       "title": "Drupal 8 Development training",
       "location": "Level 2 (RealityLoop room)",
       "link": "https://goldcoast2016.drupal.org.au/training/module-development",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -225,7 +255,9 @@
       "title": "Social Drinks with PreviousNext",
       "location": "Longboards Bar, Hamilton Ave & Northcliffe Terrace, Surfers Paradise",
       "link": "https://goldcoast2016.drupal.org.au/sponsor/previousnext",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -238,7 +270,9 @@
       "title": "Registration",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -251,7 +285,9 @@
       "title": "Keynote",
       "location": "Main Stage (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -264,7 +300,9 @@
       "title": "Group photo",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -277,7 +315,9 @@
       "title": "Morning Tea",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -290,7 +330,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -303,7 +345,9 @@
       "title": "Using SVGs in Drupal",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/using-svgs-drupal",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -316,7 +360,9 @@
       "title": "When Dogs Fly - How Flight Centre and Doghouse make outsource work in a large corporate environment",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/when-dogs-fly-how-flight-centre-and-doghouse-make-outsource-work-large-corporate",
-      "track": "Inventing / Intermediate",
+      "track": [
+        "Inventing / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -329,7 +375,9 @@
       "title": "Why estimations go wrong and how to avoid it",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/why-estimations-go-wrong-and-how-avoid-it",
-      "track": "Planning / Beginner",
+      "track": [
+        "Planning / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -342,7 +390,9 @@
       "title": "Break",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -355,7 +405,9 @@
       "title": "Beetbox - a next generation VM for local L*MP development",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/beetbox-next-generation-vm-local-lmp-development",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -368,7 +420,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -381,7 +435,9 @@
       "title": "Client Management: Building Happy, Healthy Client Relationships",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/client-management-building-happy-healthy-client-relationships",
-      "track": "Planning / Beginner",
+      "track": [
+        "Planning / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -394,7 +450,9 @@
       "title": "Module a Week or: How I Learned to Stop Worrying and Love the Open Source",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/module-week-or-how-i-learned-stop-worrying-and-love-open-source",
-      "track": "Inventing / Beginner",
+      "track": [
+        "Inventing / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -407,7 +465,9 @@
       "title": "Lunch",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -420,7 +480,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -433,7 +495,9 @@
       "title": "Learn the new things in Drupal 8 via Debugging",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/learn-new-things-drupal-8-debugging",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -446,7 +510,9 @@
       "title": "Survive thrive and stay alive: Small business secrets",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/survive-thrive-and-stay-alive-small-business-secrets",
-      "track": "Planning / Intermediate",
+      "track": [
+        "Planning / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -459,7 +525,9 @@
       "title": "Website performance and best practices in image optimisation to improve your Google ranking",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/website-performance-and-best-practices-image-optimisation-improve-your-google-ranking",
-      "track": "Inventing / Intermediate",
+      "track": [
+        "Inventing / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -472,7 +540,9 @@
       "title": "Break",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -485,7 +555,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -498,7 +570,9 @@
       "title": "Test all the things! Making use of Drupal 8’s new testing tools",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/test-all-things-making-use-drupal-8s-new-testing-tools",
-      "track": "Building / Beginner",
+      "track": [
+        "Building / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -511,7 +585,9 @@
       "title": "Transitioning to govCMS",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/transitioning-govcms",
-      "track": "Planning / Beginner",
+      "track": [
+        "Planning / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -524,7 +600,9 @@
       "title": "Up and Running with Kanban",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/and-running-kanban",
-      "track": "Planning / Beginner",
+      "track": [
+        "Planning / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -537,7 +615,9 @@
       "title": "Break",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -550,7 +630,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -563,7 +645,9 @@
       "title": "Demo like a champ",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/demo-champ",
-      "track": "Planning / Beginner",
+      "track": [
+        "Planning / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -576,7 +660,9 @@
       "title": "Disruptive trends in the web 2016",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/disruptive-trends-web-2016",
-      "track": "Inventing / Beginner",
+      "track": [
+        "Inventing / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -589,7 +675,9 @@
       "title": "Human vs Machine: A love story",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/human-vs-machine-love-story",
-      "track": "Building / Beginner",
+      "track": [
+        "Building / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -602,7 +690,9 @@
       "title": "Afternoon Tea",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -615,7 +705,9 @@
       "title": "Keynote",
       "location": "Main Stage (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -628,7 +720,9 @@
       "title": "Reception",
       "location": "Level 78",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -641,7 +735,9 @@
       "title": "Registration",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -654,7 +750,9 @@
       "title": "Keynote",
       "location": "Main Stage (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -667,7 +765,9 @@
       "title": "Morning Tea",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -680,7 +780,9 @@
       "title": "Advanced Performance Optimisation - A case study on adairs.com.au",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/advanced-performance-optimisation-case-study-adairscomau",
-      "track": "Building / Advanced",
+      "track": [
+        "Building / Advanced"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -693,7 +795,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -706,7 +810,9 @@
       "title": "Content as code: Ditching the canonical database",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/content-code-ditching-canonical-database",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -719,7 +825,9 @@
       "title": "govCMS CKAN: Data visualisation in Drupal 7 for everyone!",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/govcms-ckan-data-visualisation-drupal-7-everyone",
-      "track": "Inventing / Intermediate",
+      "track": [
+        "Inventing / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -732,7 +840,9 @@
       "title": "Break",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -745,7 +855,9 @@
       "title": "Backdrop CMS: What I love about it as a site builder. How is it different from Drupal 7 and 8.",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/backdrop-cms-what-i-love-about-it-site-builder-how-it-different-drupal-7-and-8",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -758,7 +870,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -771,7 +885,9 @@
       "title": "Drupal content analysis: Elastic is here to help",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/drupal-content-analysis-elastic-here-help",
-      "track": "Inventing / Intermediate",
+      "track": [
+        "Inventing / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -784,7 +900,9 @@
       "title": "Medecins Sans Frontieres Australia - A Drupal Case Study",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/medecins-sans-frontieres-australia-drupal-case-study",
-      "track": "Planning / Intermediate",
+      "track": [
+        "Planning / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -797,7 +915,9 @@
       "title": "Lunch",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -810,7 +930,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -823,7 +945,9 @@
       "title": "BLT and Lightning - A project template for enterprise Drupal",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/blt-and-lightning-project-template-enterprise-drupal",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -836,7 +960,9 @@
       "title": "Does Drupal have an identity crisis? Drupal at 15",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/does-drupal-have-identity-crisis-drupal-15",
-      "track": "Inventing / Intermediate",
+      "track": [
+        "Inventing / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -849,7 +975,9 @@
       "title": "Personas - what are they good for?",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/personas-what-are-they-good",
-      "track": "Planning / Intermediate",
+      "track": [
+        "Planning / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -862,7 +990,9 @@
       "title": "Break",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -875,7 +1005,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -888,7 +1020,9 @@
       "title": "Drupal 8 and Microservices",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/drupal-8-and-microservices",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -901,7 +1035,9 @@
       "title": "Drupal 8 on a really small Web server",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/drupal-8-really-small-web-server",
-      "track": "Inventing / Intermediate",
+      "track": [
+        "Inventing / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -914,7 +1050,9 @@
       "title": "My Top 3 Secrets for Selling Drupal.",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/my-top-3-secrets-selling-drupal",
-      "track": "Planning / Beginner",
+      "track": [
+        "Planning / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -927,7 +1065,9 @@
       "title": "Break",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -940,7 +1080,9 @@
       "title": "Birds of Feather",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -953,7 +1095,9 @@
       "title": "Drupal, Raspberry Pi and Alcohol!",
       "location": "Realityloop (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/drupal-raspberry-pi-and-alcohol",
-      "track": "Inventing / Beginner",
+      "track": [
+        "Inventing / Beginner"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -966,7 +1110,9 @@
       "title": "Mapping and Geolocation with Drupal",
       "location": "Doghouse Agency (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/mapping-and-geolocation-drupal",
-      "track": "Building / Intermediate",
+      "track": [
+        "Building / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -979,7 +1125,9 @@
       "title": "Paragraphs without pain",
       "location": "Acquia (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/session/paragraphs-without-pain",
-      "track": "Planning / Intermediate",
+      "track": [
+        "Planning / Intermediate"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -992,7 +1140,9 @@
       "title": "Afternoon Tea",
       "location": "Level 2",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -1005,7 +1155,9 @@
       "title": "Keynote",
       "location": "Main Stage (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -1018,7 +1170,9 @@
       "title": "Closing session",
       "location": "Main Stage (Level 2)",
       "link": "https://goldcoast2016.drupal.org.au/conference/schedule",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],

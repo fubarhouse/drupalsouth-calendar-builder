@@ -30,7 +30,9 @@
       "title": "Contributing to Drupal",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#contributing",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Owen Lansbury",
         "Griffyn Heels"
@@ -45,7 +47,9 @@
       "title": "ECA deep dive: Rules replacement for Drupal 10",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#eca",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -59,7 +63,9 @@
       "title": "Onboarding a new PaaS Site",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#onboarding",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Simon Hobbs"
       ],
@@ -73,7 +79,9 @@
       "title": "Preparing for content migrations",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#migration",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Margery Tongway"
       ],
@@ -87,7 +95,9 @@
       "title": "Lunch",
       "location": "Venue",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": ""
@@ -99,7 +109,9 @@
       "title": "Advanced dev - modern/headless",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#modern",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Max Pogonowski"
       ],
@@ -113,7 +125,9 @@
       "title": "CivicTheme design system for Drupal 10",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#civic",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Akhil Bhandari",
         "Alex Skrypnyk"
@@ -128,7 +142,9 @@
       "title": "Future roadmap including AI: Get hands on with generative AI",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule#future",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Murray Woodman"
       ],
@@ -142,7 +158,9 @@
       "title": "Team Communication",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-community-day-2023/schedule",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Julia Topliss"
       ],

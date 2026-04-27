@@ -20,7 +20,7 @@
       "title": "Registration",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -30,7 +30,7 @@
       "title": "Opening Plenary",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -40,7 +40,7 @@
       "title": "Keynote: Catherine McNally (courtesy Phase2 Consulting)",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -50,7 +50,9 @@
       "title": "Conversational Interface: The coming face of the web",
       "location": "Adelphi",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/conversational-interface-coming-face-web",
-      "track": "Accessibility & UX , Back-end , Data , Front-end",
+      "track": [
+        "Accessibility & UX , Back-end , Data , Front-end"
+      ],
       "speakers": [
         "Arijit Dutta"
       ],
@@ -63,7 +65,9 @@
       "title": "govCMS Q&A Session",
       "location": "Classroom",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/govcms-qa-session",
-      "track": "Culture , Distributions , Drupal 7 , Governance , Hosting , Project management",
+      "track": [
+        "Culture , Distributions , Drupal 7 , Governance , Hosting , Project management"
+      ],
       "speakers": [
         "Glenn Martin"
       ],
@@ -76,7 +80,9 @@
       "title": "JSON API: What is it and why is it important?",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/json-api-what-it-and-why-it-important",
-      "track": "Back-end , Drupal 8 , Front-end",
+      "track": [
+        "Back-end , Drupal 8 , Front-end"
+      ],
       "speakers": [
         "Kim Pepper"
       ],
@@ -89,7 +95,9 @@
       "title": "Revolutionising the Government Intranet with Drupal",
       "location": "Salsa",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/revolutionising-government-intranet-drupal",
-      "track": "Case study , Distributions , Drupal 7 , Governance",
+      "track": [
+        "Case study , Distributions , Drupal 7 , Governance"
+      ],
       "speakers": [
         "Ian Laslett"
       ],
@@ -102,7 +110,7 @@
       "title": "Morning tea",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -112,7 +120,9 @@
       "title": "ACIAR: Case Study – UX for GovCMS",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/transforming-printed-maps-amazing-online-experience",
-      "track": "Back-end , Case study , Data , Drupal 7 , Front-end",
+      "track": [
+        "Back-end , Case study , Data , Drupal 7 , Front-end"
+      ],
       "speakers": [
         "Vishal Sahody",
         "Andrew Mackay"
@@ -126,7 +136,9 @@
       "title": "Drupal 8 and Microservices",
       "location": "Classroom",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/drupal-8-and-microservices",
-      "track": "Back-end , Data , Drupal 8 , Front-end",
+      "track": [
+        "Back-end , Data , Drupal 8 , Front-end"
+      ],
       "speakers": [
         "Nick Schuch"
       ],
@@ -139,7 +151,9 @@
       "title": "Drupal 8: Can we handle it?",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/drupal-8-can-we-handle-it",
-      "track": "Case study , Drupal 8 , Project management",
+      "track": [
+        "Case study , Drupal 8 , Project management"
+      ],
       "speakers": [
         "Henry Singleton"
       ],
@@ -152,7 +166,9 @@
       "title": "govCMS and the open data movement",
       "location": "Adelphi",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/govcms-and-open-data-movement",
-      "track": "Data , Drupal 7",
+      "track": [
+        "Data , Drupal 7"
+      ],
       "speakers": [
         "Gavin Tapp"
       ],
@@ -165,7 +181,9 @@
       "title": "To Inhouse, or Outsource; that is the Question",
       "location": "Salsa",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/inhouse-or-outsource-question",
-      "track": "Culture , Governance",
+      "track": [
+        "Culture , Governance"
+      ],
       "speakers": [
         "Adam Malone"
       ],
@@ -178,7 +196,7 @@
       "title": "Changeover",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -188,7 +206,9 @@
       "title": "A Continuous Delivery Culture: The Next Step for Agile in Government?",
       "location": "Adelphi",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/continuous-delivery-culture-next-step-agile-government",
-      "track": "Culture , Governance , Project management",
+      "track": [
+        "Culture , Governance , Project management"
+      ],
       "speakers": [
         "Jason Coghlan"
       ],
@@ -201,7 +221,9 @@
       "title": "Boost your site with type",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/boost-your-site-type",
-      "track": "Accessibility & UX , Front-end",
+      "track": [
+        "Accessibility & UX , Front-end"
+      ],
       "speakers": [
         "Adrian Redman"
       ],
@@ -214,7 +236,9 @@
       "title": "Building a Drupal distribution for a group of government depts in New Zealand",
       "location": "Salsa",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/building-drupal-distribution-group-government-depts-new-zealand",
-      "track": "Case study , Culture , Distributions , Drupal 7 , Governance , Hosting , Project management",
+      "track": [
+        "Case study , Culture , Distributions , Drupal 7 , Governance , Hosting , Project management"
+      ],
       "speakers": [
         "Dave Sparks",
         "Heike Theis"
@@ -228,7 +252,9 @@
       "title": "From spaghetti to lasagne - writing clean code for Drupal 7 and 8 with Domain Driven Design",
       "location": "Classroom",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/spaghetti-lasagne-writing-clean-code-drupal-7-and-8-domain-driven",
-      "track": "Back-end , Drupal 7 , Drupal 8",
+      "track": [
+        "Back-end , Drupal 7 , Drupal 8"
+      ],
       "speakers": [
         "Lee Rowlands"
       ],
@@ -241,7 +267,9 @@
       "title": "Living Styleguides – The power of Zen",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/living-styleguides-%E2%80%93-power-zen",
-      "track": "Drupal 7 , Drupal 8 , Front-end",
+      "track": [
+        "Drupal 7 , Drupal 8 , Front-end"
+      ],
       "speakers": [
         "Alex Page"
       ],
@@ -254,7 +282,7 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -264,7 +292,9 @@
       "title": "Everything SaaSy",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/everything-saasy",
-      "track": "Back-end , Distributions , Drupal 7 , Governance , Hosting , Project management",
+      "track": [
+        "Back-end , Distributions , Drupal 7 , Governance , Hosting , Project management"
+      ],
       "speakers": [
         "Adrian Wong"
       ],
@@ -277,7 +307,9 @@
       "title": "How to keep a happy Drupal developer in government",
       "location": "Adelphi",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/how-keep-happy-drupal-developer-government",
-      "track": "Culture , Governance , Project management",
+      "track": [
+        "Culture , Governance , Project management"
+      ],
       "speakers": [
         "Joshua Li"
       ],
@@ -290,7 +322,9 @@
       "title": "Site Building: Lessons learned from govCMS and customers",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/site-building-lessons-learned-govcms-and-customers",
-      "track": "Case study , Culture , Distributions , Governance , Project management",
+      "track": [
+        "Case study , Culture , Distributions , Governance , Project management"
+      ],
       "speakers": [
         "Adam Leayr"
       ],
@@ -303,7 +337,9 @@
       "title": "The aGov Drupal 8 government distribution",
       "location": "Salsa",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/agov-drupal-8-government-distribution",
-      "track": "Accessibility & UX , Back-end , Distributions , Drupal 8 , Front-end",
+      "track": [
+        "Accessibility & UX , Back-end , Distributions , Drupal 8 , Front-end"
+      ],
       "speakers": [
         "Owen Lansbury"
       ],
@@ -316,7 +352,9 @@
       "title": "Update hook vs Post update hooks",
       "location": "Classroom",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/update-hook-vs-post-update-hooks",
-      "track": "Back-end , Drupal 8",
+      "track": [
+        "Back-end , Drupal 8"
+      ],
       "speakers": [
         "Jibran Ijaz"
       ],
@@ -329,7 +367,7 @@
       "title": "Changeover",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -339,7 +377,9 @@
       "title": "Agile & Scrum: Making it work with Drupal in government",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/agile-scrum-making-it-work-drupal-government",
-      "track": "Culture , Project management",
+      "track": [
+        "Culture , Project management"
+      ],
       "speakers": [
         "Morgan Ritchings"
       ],
@@ -352,7 +392,9 @@
       "title": "Australian State of the Environment Report 2016",
       "location": "Salsa",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/australian-state-environment-report-2016",
-      "track": "Case study , Culture , Data , Drupal 7",
+      "track": [
+        "Case study , Culture , Data , Drupal 7"
+      ],
       "speakers": [
         "Simon Gallant"
       ],
@@ -365,7 +407,9 @@
       "title": "Making Views with Drupal 7 and Drupal 8",
       "location": "Classroom",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/making-views-drupal-7-and-drupal-8",
-      "track": "Data , Drupal 7 , Drupal 8 , Front-end",
+      "track": [
+        "Data , Drupal 7 , Drupal 8 , Front-end"
+      ],
       "speakers": [
         "Donna Benjamin"
       ],
@@ -378,7 +422,9 @@
       "title": "The blueprint for secure Drupal 8 platform/builds with composer",
       "location": "Adelphi",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/blueprint-secure-drupal-8-platformbuilds-composer",
-      "track": "Back-end , Distributions , Drupal 8 , Governance , Hosting",
+      "track": [
+        "Back-end , Distributions , Drupal 8 , Governance , Hosting"
+      ],
       "speakers": [
         "Lee Rowlands"
       ],
@@ -391,7 +437,7 @@
       "title": "Afternoon Tea",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -401,7 +447,9 @@
       "title": "Digital eDeposit using Drupal at the National Library of Australia",
       "location": "Salsa",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/digital-edeposit-using-drupal-national-library-australia",
-      "track": "Back-end , Case study , Drupal 7 , Hosting",
+      "track": [
+        "Back-end , Case study , Drupal 7 , Hosting"
+      ],
       "speakers": [
         "Christopher Skene",
         "Colin Sweett"
@@ -415,7 +463,9 @@
       "title": "Drupal 8 roadmap for govCMS",
       "location": "Adelphi",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/drupal-8-roadmap-govcms",
-      "track": "Case study , Distributions , Drupal 8 , Governance , Hosting",
+      "track": [
+        "Case study , Distributions , Drupal 8 , Governance , Hosting"
+      ],
       "speakers": [
         "Adam Leayr / Nathan Wall"
       ],
@@ -428,7 +478,9 @@
       "title": "Media Management in Drupal 8",
       "location": "Deloitte",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/media-management-drupal-8",
-      "track": "Back-end , Data , Drupal 8 , Front-end",
+      "track": [
+        "Back-end , Data , Drupal 8 , Front-end"
+      ],
       "speakers": [
         "Ivan Zugec"
       ],
@@ -441,7 +493,9 @@
       "title": "Testing any day: guide to end to end test driven Drupal projects",
       "location": "Classroom",
       "link": "https://drupalgov.org/events/drupalgov-canberra-2017/testing-any-day-guide-end-end-test-driven-drupal-projects",
-      "track": "Back-end , Drupal 7 , Drupal 8 , Front-end",
+      "track": [
+        "Back-end , Drupal 7 , Drupal 8 , Front-end"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -454,7 +508,7 @@
       "title": "Changeover",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -464,7 +518,7 @@
       "title": "Panel with Sharyn Clarkson: Collaboration in Government",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -474,7 +528,7 @@
       "title": "Closing address",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     }
   ]

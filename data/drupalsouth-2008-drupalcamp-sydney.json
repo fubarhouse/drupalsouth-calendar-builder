@@ -20,7 +20,9 @@
       "title": "Welcome/Registration",
       "location": "University of Sydney",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -34,7 +36,9 @@
       "title": "Upcoming D7 Highlights",
       "location": "Track A",
       "link": "",
-      "track": "Track A",
+      "track": [
+        "Track A"
+      ],
       "speakers": [
         "Justin Randell"
       ],
@@ -50,7 +54,9 @@
       "title": "Drupal Basics",
       "location": "Track B",
       "link": "",
-      "track": "Track B",
+      "track": [
+        "Track B"
+      ],
       "speakers": [
         "Erle Pereira"
       ],
@@ -66,7 +72,9 @@
       "title": "Theming with CSS Frameworks",
       "location": "Track A",
       "link": "",
-      "track": "Track A",
+      "track": [
+        "Track A"
+      ],
       "speakers": [
         "Jeff h"
       ],
@@ -82,7 +90,9 @@
       "title": "Unit Testing",
       "location": "Track A",
       "link": "",
-      "track": "Track A",
+      "track": [
+        "Track A"
+      ],
       "speakers": [
         "lyricnz"
       ],
@@ -98,7 +108,9 @@
       "title": "Converting Static HTML to Theme",
       "location": "Track B",
       "link": "",
-      "track": "Track B",
+      "track": [
+        "Track B"
+      ],
       "speakers": [
         "Ivan"
       ],
@@ -114,7 +126,9 @@
       "title": "Theme Modifications",
       "location": "Track A",
       "link": "",
-      "track": "Track A",
+      "track": [
+        "Track A"
+      ],
       "speakers": [
         "Jeff h"
       ],
@@ -130,7 +144,9 @@
       "title": "Multi-Site Drupal",
       "location": "Track B",
       "link": "",
-      "track": "Track B",
+      "track": [
+        "Track B"
+      ],
       "speakers": [
         "dshaw"
       ],
@@ -146,7 +162,9 @@
       "title": "Panels 2.x",
       "location": "Track B",
       "link": "",
-      "track": "Track B",
+      "track": [
+        "Track B"
+      ],
       "speakers": [
         "Jeff H"
       ],
@@ -162,7 +180,9 @@
       "title": "Lunch",
       "location": "University of Sydney",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -176,7 +196,9 @@
       "title": "Domain Access Module",
       "location": "Track A",
       "link": "",
-      "track": "Track A",
+      "track": [
+        "Track A"
+      ],
       "speakers": [
         "peterx"
       ],
@@ -192,7 +214,9 @@
       "title": "Module Highlights: signwriter, editview, computed field, OO export, location/gmap",
       "location": "Track B",
       "link": "",
-      "track": "Track B",
+      "track": [
+        "Track B"
+      ],
       "speakers": [
         "Justin Freeman"
       ],
@@ -208,7 +232,9 @@
       "title": "Ecommerce",
       "location": "Track B",
       "link": "",
-      "track": "Track B",
+      "track": [
+        "Track B"
+      ],
       "speakers": [
         "gordonh"
       ],
@@ -224,7 +250,9 @@
       "title": "CVS, patches, and ques - oh my! + patch politics",
       "location": "Track A",
       "link": "",
-      "track": "Track A",
+      "track": [
+        "Track A"
+      ],
       "speakers": [
         "Jaza"
       ],
@@ -240,7 +268,9 @@
       "title": "Build-A-Site Workshop",
       "location": "Track B",
       "link": "",
-      "track": "Track B",
+      "track": [
+        "Track B"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -254,7 +284,9 @@
       "title": "Maintaining Drupal with Git",
       "location": "Track A",
       "link": "",
-      "track": "Track A",
+      "track": [
+        "Track A"
+      ],
       "speakers": [
         "gordonh"
       ],
@@ -270,7 +302,9 @@
       "title": "Wrap-up & move to the pub",
       "location": "University of Sydney",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",

@@ -30,7 +30,7 @@
       "title": "Early Arrival Drinks (pay your own way) / 早期到着者向けの交流会",
       "location": "Location Cafe Etranger NARAD",
       "link": "https://events.drupal.org/nara2025/session/early-arrival-drinks-pay-your-own-way-zaoqidaozhezhexiangkenojiaoliuhui",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Planning to arrive early to Nara, how about getting a drink with fellow Drupalers.\nVenue: CAFE ETRANGER NARAD\nwebsite: https://cafe-etranger.jp/\nmap: https://maps.app.goo.gl/xkDHtRgW7Uxdz34PA",
@@ -43,7 +43,7 @@
       "title": "DrupalCon Nara Treasure Hunt",
       "location": "Location Nara City Visitor's Centre",
       "link": "https://events.drupal.org/nara2025/session/drupalcon-nara-treasure-hunt",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Explore the beauty, fun, and nature of Nara City with your friends and family while completing challenges and collecting points, so that you might receive the title of the Ultimate Treasure Hunter.\nMore details at: https://events.drupal.org/nara2025/treasure-hunt",
@@ -56,7 +56,7 @@
       "title": "Registration",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/registration",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -69,7 +69,7 @@
       "title": "Welcome",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/welcome",
-      "track": "",
+      "track": [],
       "speakers": [
         "Gen Nakagawa",
         "Michael Richardson",
@@ -86,7 +86,7 @@
       "title": "A conversation with Drupal’s founder and project lead, Dries Buytaert",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/conversation-drupals-founder-and-project-lead-dries-buytaert",
-      "track": "",
+      "track": [],
       "speakers": [
         "Dries Buytaert"
       ],
@@ -101,7 +101,7 @@
       "title": "General Contribution Day 1",
       "location": "Location Contribution",
       "link": "https://events.drupal.org/nara2025/session/general-contribution-day-1",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -114,7 +114,7 @@
       "title": "Group Photo",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/group-photo",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -127,7 +127,7 @@
       "title": "Morning Break",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/morning-break",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -140,7 +140,7 @@
       "title": "First Time Contributors Workshop (English)",
       "location": "Location Contribution",
       "link": "https://events.drupal.org/nara2025/session/first-time-contributors-workshop-english",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Did you know that Drupal (the software) is built by people just like you and me? If you haven't contributed yet (or need a refresher), this is your opportunity to learn how to contribute, through code, documentation, project managing, marketing and more!\nThose who are new to the process and tools of contributing to Drupal, you are invited to attend this “First-Time Contributor Workshops”. Get up to speed with community tools: Drupal.org, issue queues, communication channels, and using cloud development tool options. Note you don't need to be a developer or use development tools to contribute to the project.",
@@ -153,7 +153,9 @@
       "title": "Drupal CMS now and beyond",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/drupal-cms-now-and-beyond",
-      "track": "drupal cms",
+      "track": [
+        "drupal cms"
+      ],
       "speakers": [
         "pameeela",
         "ckrina"
@@ -169,7 +171,9 @@
       "title": "First things to keep in mind when building a worldwide multi-site, multilingual site with Drupal",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/first-things-keep-mind-when-building-worldwide-multi-site-multilingual-site-drupal",
-      "track": "leadership and business / リーダーシップ、ビジネス",
+      "track": [
+        "leadership and business / リーダーシップ、ビジネス"
+      ],
       "speakers": [
         "ken_taguchi"
       ],
@@ -184,7 +188,9 @@
       "title": "How to sell Drupal in AI times",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/how-sell-drupal-ai-times",
-      "track": "leadership and business / リーダーシップ、ビジネス",
+      "track": [
+        "leadership and business / リーダーシップ、ビジネス"
+      ],
       "speakers": [
         "nielsaers"
       ],
@@ -199,7 +205,9 @@
       "title": "Backwards and in High Heels: Early adopter insights on Drupal in Japanese academia",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/backwards-and-high-heels-early-adopter-insights-drupal-japanese-academia",
-      "track": "community health / コミュニティヘルス",
+      "track": [
+        "community health / コミュニティヘルス"
+      ],
       "speakers": [
         "shinmaikeru"
       ],
@@ -214,7 +222,7 @@
       "title": "Lunch",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/lunch",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -227,7 +235,9 @@
       "title": "長期運用のためのDrupal開発入門",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/zhangqiyunyongnotamenodrupalkaifarumen",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "kazukomurata"
       ],
@@ -242,7 +252,9 @@
       "title": "That's Not a Theme, It's a Template",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/thats-not-theme-its-template",
-      "track": "ux, accessibility, and design / ux、アクセシビリティ、デザイン",
+      "track": [
+        "ux, accessibility, and design / ux、アクセシビリティ、デザイン"
+      ],
       "speakers": [
         "elliott.mower"
       ],
@@ -257,7 +269,9 @@
       "title": "Kintsugi for the Web: Repairing, Rebuilding, and Reimagining with Drupal",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/kintsugi-web-repairing-rebuilding-and-reimagining-drupal",
-      "track": "community health / コミュニティヘルス",
+      "track": [
+        "community health / コミュニティヘルス"
+      ],
       "speakers": [
         "dreambubbler"
       ],
@@ -272,7 +286,9 @@
       "title": "Beyond Iframes: Modern Embedding in Drupal with Media and oEmbed",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/beyond-iframes-modern-embedding-drupal-media-and-oembed",
-      "track": "site building / サイト構築",
+      "track": [
+        "site building / サイト構築"
+      ],
       "speakers": [
         "pcambra"
       ],
@@ -287,7 +303,9 @@
       "title": "Lessons from Integrating AI Into Real Marketing Teams",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/lessons-integrating-ai-real-marketing-teams",
-      "track": "content and marketing / コンテンツとマーケティング",
+      "track": [
+        "content and marketing / コンテンツとマーケティング"
+      ],
       "speakers": [
         "saxenaakansha30"
       ],
@@ -302,7 +320,9 @@
       "title": "ネスレグループ日本拠点のDrupal導入の事例： グローバル戦略と現場の運用を繋いでいく",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/nesurekurufuribenjudiannodrupaldaorunoshili",
-      "track": "sponsored session",
+      "track": [
+        "sponsored session"
+      ],
       "speakers": [
         "taishi",
         "Kozo Takada"
@@ -318,7 +338,7 @@
       "title": "Drupal Asia Steering Committee Panel",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/drupal-asia-steering-committee-panel",
-      "track": "",
+      "track": [],
       "speakers": [
         "Michael Richardson"
       ],
@@ -333,7 +353,7 @@
       "title": "Afternoon Break",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/afternoon-break",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -346,7 +366,9 @@
       "title": "Zero-downtime Drupal deployment with Kamal",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/zero-downtime-drupal-deployment-kamal",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "hktang"
       ],
@@ -361,7 +383,9 @@
       "title": "Drupalプロジェクトの成功は、プロジェクトマネージャー・スクラムマスター・UXデザイナーの力で加速する―多様な視点を巻き込むMeetupNaraの挑戦―",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session",
-      "track": "community health / コミュニティヘルス",
+      "track": [
+        "community health / コミュニティヘルス"
+      ],
       "speakers": [
         "Miki Yoshida",
         "Misako Fukagawa"
@@ -377,7 +401,9 @@
       "title": "改めて振り返るDrupalのモジュール/テーマのデバッグ方法",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/gaimetezhenrifanrudrupalnomoshiyurutemanotehatsukufangfa",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "otofu"
       ],
@@ -392,7 +418,9 @@
       "title": "Drupal Commerce's Starshot Roadmap",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/drupal-commerces-starshot-roadmap",
-      "track": "drupal showcase / drupalショーケース",
+      "track": [
+        "drupal showcase / drupalショーケース"
+      ],
       "speakers": [
         "zaporylie",
         "jsacksick"
@@ -408,7 +436,9 @@
       "title": "CMSに留まらない - AIを操るDrupalの新たな可能性",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/cmsniliumaranai-aiwocaorudrupalnoxintanakenengxing",
-      "track": "drupal showcase / drupalショーケース",
+      "track": [
+        "drupal showcase / drupalショーケース"
+      ],
       "speakers": [
         "Masami",
         "Akihito.Kimura@ntt.com"
@@ -424,7 +454,9 @@
       "title": "Global Reach, One Platform: The Journey to Implementing Multilingual in Drupal CMS",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/global-reach-one-platform-journey-implementing-multilingual-drupal-cms",
-      "track": "ux, accessibility, and design / ux、アクセシビリティ、デザイン",
+      "track": [
+        "ux, accessibility, and design / ux、アクセシビリティ、デザイン"
+      ],
       "speakers": [
         "anjali-rathod",
         "ygoex"
@@ -440,7 +472,7 @@
       "title": "Networking Drinks",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/networking-drinks",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -453,7 +485,7 @@
       "title": "General Contribution Day 2",
       "location": "Location Contribution",
       "link": "https://events.drupal.org/nara2025/session/general-contribution-day-2",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -466,7 +498,7 @@
       "title": "Welcome",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/welcome-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -479,7 +511,9 @@
       "title": "Inside Sharp: How a Global Brand Powers Digital Innovation with Drupal",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/inside-sharp-how-global-brand-powers-digital-innovation-drupal",
-      "track": "drupal showcase / drupalショーケース",
+      "track": [
+        "drupal showcase / drupalショーケース"
+      ],
       "speakers": [
         "Jason Cort"
       ],
@@ -494,7 +528,7 @@
       "title": "Morning Break",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/morning-break-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -507,7 +541,7 @@
       "title": "First Time Contributors Workshop (日本語）",
       "location": "Location Contribution",
       "link": "https://events.drupal.org/nara2025/session/first-time-contributors-workshop-ribenyu",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Did you know that Drupal (the software) is built by people just like you and me? If you haven't contributed yet (or need a refresher), this is your opportunity to learn how to contribute, through code, documentation, project managing, marketing and more!\nThose who are new to the process and tools of contributing to Drupal, you are invited to attend this “First-Time Contributor Workshops”. Get up to speed with community tools: Drupal.org, issue queues, communication channels, and using cloud development tool options. Note you don't need to be a developer or use development tools to contribute to the project.",
@@ -520,7 +554,9 @@
       "title": "Further Empowering Drupal with Single Directory Components using UI Suite",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/further-empowering-drupal-single-directory-components-using-ui-suite",
-      "track": "site building / サイト構築",
+      "track": [
+        "site building / サイト構築"
+      ],
       "speakers": [
         "drupak"
       ],
@@ -535,7 +571,9 @@
       "title": "Brilliant, But Doubting: Imposter Syndrome and the Experience of Women in Tech",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/brilliant-doubting-imposter-syndrome-and-experience-women-tech",
-      "track": "community health / コミュニティヘルス",
+      "track": [
+        "community health / コミュニティヘルス"
+      ],
       "speakers": [
         "gargsuchi",
         "JCT321"
@@ -551,7 +589,9 @@
       "title": "Next steps for Drupal Canvas",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/next-steps-drupal-canvas",
-      "track": "drupal cms",
+      "track": [
+        "drupal cms"
+      ],
       "speakers": [
         "lauriii"
       ],
@@ -566,7 +606,9 @@
       "title": "The future of Drupal core and the ecosystem in the age of Drupal CMS",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/future-drupal-core-and-ecosystem-age-drupal-cms",
-      "track": "drupal cms",
+      "track": [
+        "drupal cms"
+      ],
       "speakers": [
         "gábor hojtsy"
       ],
@@ -581,7 +623,9 @@
       "title": "Migrate APIで移行 (イコー)",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/migrate-apiteyixing-iko",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "Matthew Messmer",
         "aniketto"
@@ -597,7 +641,9 @@
       "title": "Don’t Write Code, Start Prompting! AI Orchestration of Digital Experiences",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/dont-write-code-start-prompting-ai-orchestration-digital-experiences",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "yas"
       ],
@@ -612,7 +658,7 @@
       "title": "Lunch",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/lunch-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -625,7 +671,9 @@
       "title": "Epic things you built with Drupal AI",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/epic-things-you-built-drupal-ai",
-      "track": "sponsored session",
+      "track": [
+        "sponsored session"
+      ],
       "speakers": [
         "schnitzel"
       ],
@@ -640,7 +688,9 @@
       "title": "Drupal in the Loop: チームで育てる学習データ",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/drupal-loop-chimuteyuteruxuexiteta",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "umekikazuya",
         "sachikonitta"
@@ -656,7 +706,9 @@
       "title": "Recipes: It's About Time!",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/recipes-its-about-time",
-      "track": "drupal cms",
+      "track": [
+        "drupal cms"
+      ],
       "speakers": [
         "mandclu"
       ],
@@ -671,7 +723,9 @@
       "title": "Drupal の拡張性を強化する Fastly 〜AI 時代のトラフィック増加に柔軟に対応する次世代 CDN〜",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/drupal-nokuozhangxingwoqianghuasuru-fastly-ai",
-      "track": "sponsored session",
+      "track": [
+        "sponsored session"
+      ],
       "speakers": [
         "晋平 加藤",
         "俊平 詫間"
@@ -687,7 +741,9 @@
       "title": "The Future of Workflow Optimization with AI & Drupal Canvas",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/future-workflow-optimization-ai-drupal-canvas",
-      "track": "sponsored session",
+      "track": [
+        "sponsored session"
+      ],
       "speakers": [
         "Maggie Schroeder",
         "shumpei"
@@ -703,7 +759,9 @@
       "title": "大規模Drupalサイトの成功事例：全豪オープンが毎分53万リクエスト以上を処理する仕組み",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session-0",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "jimmycann"
       ],
@@ -718,7 +776,9 @@
       "title": "Declarative Shadow DOM and the future of Drupal Theming",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/declarative-shadow-dom-and-future-drupal-theming",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "JohnAlbin"
       ],
@@ -733,7 +793,9 @@
       "title": "I’m Not a Front-End Dev: Building Clean UI in Drupal with SDCs and Shoelace",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/im-not-front-end-dev-building-clean-ui-drupal-sdcs-and-shoelace",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "yi_jiang"
       ],
@@ -748,7 +810,7 @@
       "title": "Afternoon Break",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/afternoon-break-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -761,7 +823,9 @@
       "title": "デジタル庁が取り組むDrupalを活用した共通CMSの構築",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/teshitarutingkaqurizumudrupalwohuoyongshitagongtongcmsnogouzhu",
-      "track": "ux, accessibility, and design / ux、アクセシビリティ、デザイン",
+      "track": [
+        "ux, accessibility, and design / ux、アクセシビリティ、デザイン"
+      ],
       "speakers": [
         "Akihiko Sakamoto",
         "Hirokazu Awaji"
@@ -777,7 +841,7 @@
       "title": "How to become a Drupal Certified Partner agency",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/how-become-drupal-certified-partner-agency",
-      "track": "",
+      "track": [],
       "speakers": [
         "Tim Doyle"
       ],
@@ -792,7 +856,9 @@
       "title": "AI Agents in Drupal CMS - Create your own agent",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/ai-agents-drupal-cms-create-your-own-agent",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "https://www.drupal.org/u/vincenzo-gambino"
       ],
@@ -807,7 +873,9 @@
       "title": "Smart Search, Safe Search: How Drupal + AI Work Together",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/smart-search-safe-search-how-drupal-ai-work-together",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "sachikonitta"
       ],
@@ -822,7 +890,9 @@
       "title": "\"当たり前\"を疑いましょ ~ フレームワークからドメインを守るDrupalアーキテクチャ ~",
       "location": "Location Hiten B",
       "link": "https://events.drupal.org/nara2025/session/dangtariqianwoyiimashiyo-furemuwakukaratomeinwoshourudrupalakitekuchiya",
-      "track": "site building / サイト構築",
+      "track": [
+        "site building / サイト構築"
+      ],
       "speakers": [
         "umekikazuya"
       ],
@@ -837,7 +907,9 @@
       "title": "Not Just a Comeback: Building a Sustainable Drupal Community in India",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/not-just-comeback-building-sustainable-drupal-community-india",
-      "track": "community health / コミュニティヘルス",
+      "track": [
+        "community health / コミュニティヘルス"
+      ],
       "speakers": [
         "nikitaaswani"
       ],
@@ -852,7 +924,9 @@
       "title": "One kilobyte of JS is enough to make a decoupled FE block in Drupal. And no Babels required!",
       "location": "Location Hiten A",
       "link": "https://events.drupal.org/nara2025/session/one-kilobyte-js-enough-make-decoupled-fe-block-drupal-and-no-babels-required",
-      "track": "development and coding / 開発とコーディング",
+      "track": [
+        "development and coding / 開発とコーディング"
+      ],
       "speakers": [
         "murz"
       ],
@@ -867,7 +941,7 @@
       "title": "Closing Ceremony",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/closing-ceremony",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -880,7 +954,7 @@
       "title": "Thank You After Party / サンキューパーティー",
       "location": "Location Cafe Etranger NARAD",
       "link": "https://events.drupal.org/nara2025/session/thank-you-after-party-sankiyuhatei",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "The event is done, it's time to party! Join us for the official DrupalCon Nara party.\nwebsite: https://cafe-etranger.jp/\nmap: https://maps.app.goo.gl/xkDHtRgW7Uxdz34PA",
@@ -893,7 +967,7 @@
       "title": "General Contribution Day 3",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/general-contribution-day-3",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -906,7 +980,7 @@
       "title": "Morning break",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/morning-break-1",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -919,7 +993,7 @@
       "title": "Lunch",
       "location": "Location Hiten C/D",
       "link": "https://events.drupal.org/nara2025/session/lunch-1",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",

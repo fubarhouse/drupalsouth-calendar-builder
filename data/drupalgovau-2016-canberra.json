@@ -20,7 +20,7 @@
       "title": "Opening plenary",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -30,7 +30,7 @@
       "title": "Keynote - Tom Burton",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Tom Burton"
       ]
@@ -42,7 +42,7 @@
       "title": "Data, data and microdata!",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Josh Waihi"
       ]
@@ -54,7 +54,7 @@
       "title": "DRY: Do not repeat yourself! Power of reusability",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Vladimir Roudakov"
       ]
@@ -66,7 +66,7 @@
       "title": "govCMS and the future of government websites",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Sharyn Clarkson"
       ]
@@ -78,7 +78,7 @@
       "title": "Morning tea",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -88,7 +88,7 @@
       "title": "Dissecting govCMS",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Kurt Foster"
       ]
@@ -100,7 +100,7 @@
       "title": "Migrating your site to Drupal 8",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Ben Dougherty"
       ]
@@ -112,7 +112,7 @@
       "title": "Site Preview and dealing with embargo content",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Paul Kilpatrick"
       ]
@@ -124,7 +124,7 @@
       "title": "Can content be code? A D8 case study @ Department of Justice & Regulation, Victoria",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Si Hobbs",
         "Samantha Presser"
@@ -137,7 +137,7 @@
       "title": "Git it Going",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Vaibhav Sagar"
       ]
@@ -149,7 +149,7 @@
       "title": "Transitioning to govCMS",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Glenn Martin"
       ]
@@ -161,7 +161,7 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -171,7 +171,7 @@
       "title": "Keynote - Senator Scott Ludlam",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -181,7 +181,7 @@
       "title": "Better Quality Assurance for the whole team",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Tim Siers"
       ]
@@ -193,7 +193,7 @@
       "title": "Revolutionising Museum displays: Large scale interactives at the War Memorial",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Snow"
       ]
@@ -205,7 +205,7 @@
       "title": "Single sign-on using Active Directory",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Francis Whittle"
       ]
@@ -217,7 +217,7 @@
       "title": "Better Quality Assurance for the whole team",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Tim Siers"
       ]
@@ -229,7 +229,7 @@
       "title": "How to eat an agile sandwich",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Kate McAlister"
       ]
@@ -241,7 +241,7 @@
       "title": "Turning stories into websites",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Donna Benjamin"
       ]
@@ -253,7 +253,7 @@
       "title": "Building aGov: a progress report and how to contribute",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Sam Becker"
       ]
@@ -265,7 +265,7 @@
       "title": "Building better content creation with WYSIWYG fields and custom formatters",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Stuart Clark"
       ]
@@ -277,7 +277,7 @@
       "title": "More than just search - when Drupal meets big data",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Joshua Li",
         "Josh Rich"
@@ -290,7 +290,7 @@
       "title": "Drupal and legal deposit: Drupal's role in the digital library",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Brendon McKinley"
       ]
@@ -302,7 +302,7 @@
       "title": "govCMS Content Migration and Creation",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Ian McCrabb"
       ]
@@ -314,7 +314,7 @@
       "title": "Open Data, Insights and Government. Drupal and CKAN together",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Steven De Costa"
       ]
@@ -326,7 +326,7 @@
       "title": "Afternoon tea",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -336,7 +336,7 @@
       "title": "Drupal for Learning Management in Government",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Andrew Barnes"
       ]
@@ -348,7 +348,7 @@
       "title": "How building Drupal with Agile changed my life (the good, bad and ugly)",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Adam Leayr"
       ]
@@ -360,7 +360,7 @@
       "title": "Mapping the unmappable: content geographies in Drupal",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Angus Gordon"
       ]
@@ -372,7 +372,7 @@
       "title": "Accessibility in Drupal 8",
       "location": "Room 2",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Jack Taranto"
       ]
@@ -384,7 +384,7 @@
       "title": "How building Drupal with Agile changed my life (the good, bad and ugly)",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Adam Leayr"
       ]
@@ -396,7 +396,7 @@
       "title": "Mapping the unmappable: content geographies in Drupal",
       "location": "Room 1",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Angus Gordon"
       ]
@@ -408,7 +408,7 @@
       "title": "Project Management Panel",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -418,7 +418,7 @@
       "title": "Closing address",
       "location": "Visions Theatre",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     }
   ]

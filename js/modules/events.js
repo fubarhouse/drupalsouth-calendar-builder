@@ -1,6 +1,6 @@
 import state, { getStorageKey } from './state.js';
 import { EVENT_MANIFEST, ENABLED_EVENT_CATEGORIES } from './manifest.js';
-import { getLocalDate, announceStatus } from './utils.js';
+import { getLocalDate, announceStatus, normalizeTracks } from './utils.js';
 import {
   filterEvents,
   debouncedFilterEvents,
@@ -555,7 +555,7 @@ export async function loadEvent(filename) {
     event.id = `${event.startTime}-${event.location}-${event.title}`.replace(/[^a-zA-Z0-9-]/g, '-');
   });
   const uniqueDates = [...new Set(events.map((event) => getLocalDate(event.startTime)))];
-  const uniqueTracks = [...new Set(events.map((event) => event.track))];
+  const uniqueTracks = [...new Set(events.flatMap((event) => normalizeTracks(event.track)))];
 
   const dateFilter = document.getElementById('dateFilter');
   dateFilter.innerHTML = '<option value="">All Days</option>';

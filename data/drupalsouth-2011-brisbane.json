@@ -30,7 +30,9 @@
       "title": "Registration",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/registration",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -43,7 +45,9 @@
       "title": "Exportables",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/exportables",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "sime"
       ],
@@ -56,7 +60,9 @@
       "title": "From zero to rockstar (contributing to Drupal)",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/zero-rockstar-contributing-drupal",
-      "track": "Drupal Community",
+      "track": [
+        "Drupal Community"
+      ],
       "speakers": [
         "realityloop"
       ],
@@ -69,7 +75,9 @@
       "title": "jQuery for Designers and Themers",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/jquery-designers-and-themers",
-      "track": "Theming",
+      "track": [
+        "Theming"
+      ],
       "speakers": [
         "bevan"
       ],
@@ -82,7 +90,9 @@
       "title": "Keynote: Now you're in business: making a living with Drupal",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/making-a-living-with-drupal",
-      "track": "Drupal Community",
+      "track": [
+        "Drupal Community"
+      ],
       "speakers": [
         "Allie"
       ],
@@ -95,7 +105,9 @@
       "title": "Morning Tea",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/morning-tea",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -108,7 +120,9 @@
       "title": "Building Distributions with Drupal 7",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/building-distributions-drupal-7",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "skwashd"
       ],
@@ -121,7 +135,9 @@
       "title": "Inkscape: mockup that site",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/inkscape-mockup-site",
-      "track": "Design & UX",
+      "track": [
+        "Design & UX"
+      ],
       "speakers": [
         "kattekrab"
       ],
@@ -134,7 +150,9 @@
       "title": "Pantheon: Best Practice Development, Testing and High-Performance Deployment",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/session-josh-koenig",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "Josh Koenig"
       ],
@@ -147,7 +165,9 @@
       "title": "Lunch",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/lunch",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -160,7 +180,9 @@
       "title": "Group Session plus Photo",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/group-session-plus-photo-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [],
       "description": ""
     },
@@ -171,7 +193,9 @@
       "title": "Keynote: Goodbye Centralization, Hello Distribution: An Introduction to Git",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/keynote-goodbye-centralization-hello-distribution-introduction-git",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "Josh Waihi"
       ],
@@ -184,7 +208,9 @@
       "title": "Better practices for writing CSS",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/better-practices-writing-css",
-      "track": "Theming",
+      "track": [
+        "Theming"
+      ],
       "speakers": [
         "rimian"
       ],
@@ -197,7 +223,9 @@
       "title": "MySQL server tuning, not an optional extra",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/mysql-server-tuning-not-optional-extra",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "arjen"
       ],
@@ -210,7 +238,9 @@
       "title": "Paid Membership Sites",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/paid-membership-sites",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "univate"
       ],
@@ -223,7 +253,9 @@
       "title": "Afternoon Tea",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/afternoon-tea",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -236,7 +268,9 @@
       "title": "Fields in Core: How to create a custom field",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/fields-core-how-create-custom-field",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "zugec"
       ],
@@ -249,7 +283,9 @@
       "title": "Migrating to a Drupal Web Environment",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/migrating-drupal-web-environment",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "fionabush"
       ],
@@ -262,7 +298,9 @@
       "title": "Selling Drupal into Large Enterprise & Government",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/selling-drupal-large-enterprise-government",
-      "track": "Business & Strategy",
+      "track": [
+        "Business & Strategy"
+      ],
       "speakers": [
         "owenlansbury"
       ],
@@ -275,7 +313,9 @@
       "title": "Drupal: history, coummunity, future",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/dries-keynote",
-      "track": "Drupal Community",
+      "track": [
+        "Drupal Community"
+      ],
       "speakers": [
         "Dries"
       ],
@@ -288,7 +328,9 @@
       "title": "Building a document management system in drupal",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/building-document-management-system-drupal",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "jzornig"
       ],
@@ -301,7 +343,9 @@
       "title": "Drush: from Beginner to Advanced",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/drush-intro-installation-and-basics",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "matthew.lechleider"
       ],
@@ -314,7 +358,9 @@
       "title": "New Drupal Technology: Theming without coding!",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/theming-without-coding-impossible-you-say",
-      "track": "Theming",
+      "track": [
+        "Theming"
+      ],
       "speakers": [
         "Jeff"
       ],
@@ -327,7 +373,9 @@
       "title": "Archimedes - Application Monitoring",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/archimedes-application-monitoring",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "Josh Waihi"
       ],
@@ -340,7 +388,9 @@
       "title": "Fancy Pants WYSIWYG Editing",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/fancy-pants-wysiwyg-editing",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "boztek"
       ],
@@ -353,7 +403,9 @@
       "title": "Turbo charge your Drupal site",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/turbo-charge-your-drupal-site",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "kim.pepper"
       ],
@@ -366,7 +418,9 @@
       "title": "Morning Tea",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/morning-tea-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -379,7 +433,9 @@
       "title": "Q&A Panel",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/session-dries",
-      "track": "Drupal Community",
+      "track": [
+        "Drupal Community"
+      ],
       "speakers": [
         "Dries"
       ],
@@ -392,7 +448,9 @@
       "title": "Lunch",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/lunch-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -405,7 +463,9 @@
       "title": "Accepting payments online: A building block approach",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/accepting-payments-online",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "Allie"
       ],
@@ -418,7 +478,9 @@
       "title": "Adding live data sources to your content",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/adding-live-data-sources-your-content",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "jaime"
       ],
@@ -431,7 +493,9 @@
       "title": "Horizontally Scaling Drupal",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/horizontally-scaling-drupal",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "skwashd"
       ],
@@ -444,7 +508,9 @@
       "title": "An overview of Fusion Theme",
       "location": "PreviousNext Room 1",
       "link": "http://2011.drupaldownunder.org/session/overview-fusion-theme",
-      "track": "Theming",
+      "track": [
+        "Theming"
+      ],
       "speakers": [
         "bernie.cram"
       ],
@@ -457,7 +523,9 @@
       "title": "Case-Study: ABC Dig Music",
       "location": "Glo Digital Room",
       "link": "http://2011.drupaldownunder.org/session/case-studies-nswgov-and-abc",
-      "track": "Implementation & Config",
+      "track": [
+        "Implementation & Config"
+      ],
       "speakers": [
         "davidseth"
       ],
@@ -470,7 +538,9 @@
       "title": "Code Sprint",
       "location": "PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/code-sprint",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -483,7 +553,9 @@
       "title": "Afternoon Tea",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/afternoon-tea-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -496,7 +568,9 @@
       "title": "Keynote: Drupal as the future Web Platform",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/josh-koenigs-keynote",
-      "track": "Coder",
+      "track": [
+        "Coder"
+      ],
       "speakers": [
         "Josh Koenig"
       ],
@@ -509,7 +583,9 @@
       "title": "Lightning Talks",
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/lightning-talks",
-      "track": "Drupal Community",
+      "track": [
+        "Drupal Community"
+      ],
       "speakers": [],
       "description": ""
     }

@@ -31,7 +31,9 @@
       "title": "Code sprint",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/code-sprint",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "The 2019 Drupal South sprint is shaping up to be the biggest contribution event in the Australia-Pacific region since Drupalcon Sydney 2013.\n\nThis year, core-contributors with over 3000 commit credits between them will be in attendance, including 3 members of the core committers team, 3 members of the Drupal security team, 7 core module/subsystem maintainers as well as maintainers of major contrib modules and command-line tools.\n\nWith Drupal 9 just around the corner, this will be a great chance to help the community get popular modules ready for Drupal 9, meet some great people and help shape the future of Drupal.\n\nThe PreviousNext team are sponsoring and helping to run the sprint day on Wednesday, November 27th 2019, and there are a few things you can do now to hit the ground running on the day.\n\nOriginally published on PreviousNext website",
       "summary": "The 2019 Drupal South sprint is shaping up to be the biggest contribution event in the Australia-Pacific region since Drupalcon Sydney 2013....",
@@ -44,7 +46,9 @@
       "title": "Introduction to CI/CD with Gitlab and Drupal 8",
       "location": "Oak",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/introduction-cicd-gitlab-and-drupal-8",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -59,7 +63,9 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -72,7 +78,9 @@
       "title": "Code sprint",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/code-sprint",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "The 2019 Drupal South sprint is shaping up to be the biggest contribution event in the Australia-Pacific region since Drupalcon Sydney 2013.\n\nThis year, core-contributors with over 3000 commit credits between them will be in attendance, including 3 members of the core committers team, 3 members of the Drupal security team, 7 core module/subsystem maintainers as well as maintainers of major contrib modules and command-line tools.\n\nWith Drupal 9 just around the corner, this will be a great chance to help the community get popular modules ready for Drupal 9, meet some great people and help shape the future of Drupal.\n\nThe PreviousNext team are sponsoring and helping to run the sprint day on Wednesday, November 27th 2019, and there are a few things you can do now to hit the ground running on the day.\n\nOriginally published on PreviousNext website",
       "summary": "The 2019 Drupal South sprint is shaping up to be the biggest contribution event in the Australia-Pacific region since Drupalcon Sydney 2013....",
@@ -85,7 +93,9 @@
       "title": "Introduction to CI/CD with Gitlab and Drupal 8",
       "location": "Oak",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/introduction-cicd-gitlab-and-drupal-8",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -100,7 +110,9 @@
       "title": "Closing remarks",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -113,7 +125,9 @@
       "title": "Hike / Walk",
       "location": "Hotel Grand Chancellor",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -126,7 +140,9 @@
       "title": "Opening remarks",
       "location": "Sassafras",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -139,7 +155,9 @@
       "title": "Consolidation: a GovCMS SaaS story",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/consolidation-govcms-saas-story",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Margery Tongway"
       ],
@@ -154,7 +172,9 @@
       "title": "The pursuit of automatic Drupal updates",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/pursuit-automatic-drupal-updates",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Blaize Kaye",
         "Thom Toogood"
@@ -170,7 +190,9 @@
       "title": "Why you need QA people, and why you need them NOW!",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/why-you-need-qa-people-and-why-you-need-them-now",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Daniel Carvalhinho"
       ],
@@ -185,7 +207,9 @@
       "title": "Highly processed migrations",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/highly-processed-migrations",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Eric Goodwin"
       ],
@@ -200,7 +224,9 @@
       "title": "5239 pages, 357 authors and counting: quality, consistency and flexibility at scale",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/5239-pages-357-authors-and-counting-quality-consistency-and",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Emma Cameron"
       ],
@@ -215,7 +241,9 @@
       "title": "Morning Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -228,7 +256,9 @@
       "title": "Content modeling with Drupal",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/content-modeling-drupal",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Si Hobbs"
       ],
@@ -243,7 +273,9 @@
       "title": "The Art of Parenting Applied to Challenging Clients",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/art-parenting-applied-challenging-clients",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Shelley L'Green"
       ],
@@ -258,7 +290,9 @@
       "title": "The New Zealand Govt Design System and Sector Drupal 8",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/new-zealand-govt-design-system-and-sector-drupal-8",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Heike Theis",
         "Daniel Veza"
@@ -274,7 +308,9 @@
       "title": "Deploying Drupal on Kubernetes",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/deploying-drupal-kubernetes",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Nick Schuch"
       ],
@@ -289,7 +325,9 @@
       "title": "Drupal 8 webforms: building Event registration",
       "location": "Oak",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-8-webforms-event-registration",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -304,7 +342,9 @@
       "title": "It takes two to tango: a true partnership approach",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/it-takes-two-tango-true-partnership-approach",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Juliane Erben",
         "Nathan Wall"
@@ -320,7 +360,9 @@
       "title": "WCAG 2.1, Web Accessibility and Drupal 8",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/wcag-21-web-accessibility-and-drupal-8",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Morgan Strong"
       ],
@@ -335,7 +377,9 @@
       "title": "Cordelta: The Delivery Game",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/cordelta-sponsor-slot",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Damian Tunney"
       ],
@@ -350,7 +394,9 @@
       "title": "Building your design system",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/building-your-design-system",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Jack Taranto"
       ],
@@ -365,7 +411,9 @@
       "title": "Modular distributions and the Sector add-on ecosystem",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/modular-distributions-and-sector-add-ecosystem",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Daniel Veza"
       ],
@@ -380,7 +428,9 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -393,7 +443,9 @@
       "title": "DevOps and Collaboration. How Devs and non-Devs can work together",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/keynote-michelle-mannering",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Michelle Mannering"
       ],
@@ -408,7 +460,9 @@
       "title": "Group photo",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -421,7 +475,9 @@
       "title": "Streamlining Drupal Delivery and Support: Our Journey at Deloitte Digital",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/deloitte-sponsor-slot",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Aaron Nichol",
         "Christopher Hopper"
@@ -437,7 +493,9 @@
       "title": "Decoupled: Why we're reinventing a worse wheel",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/decoupled-why-were-reinventing-worse-wheel",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Josh Waihi"
       ],
@@ -452,7 +510,9 @@
       "title": "Drupal, Cacheability, and all that",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-cacheability-and-all",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Jibran Ijaz"
       ],
@@ -467,7 +527,9 @@
       "title": "Design Systems for Agencies: The benefits of creating a shared language",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/design-systems-agencies-benefits-creating-shared-language",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Richard Sison"
       ],
@@ -482,7 +544,9 @@
       "title": "Python for Drupal Devs",
       "location": "Oak",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/python-drupal-devs",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": [
         "Dave Hall"
       ],
@@ -497,7 +561,9 @@
       "title": "Drupal meets the 3D World: On Closer Inspection",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-meets-3d-world-closer-inspection",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Melissa Stubbings",
         "Joshua Graham"
@@ -513,7 +579,9 @@
       "title": "How To (Not) Get Hacked",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/how-not-get-hacked",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Michael Richardson"
       ],
@@ -528,7 +596,9 @@
       "title": "Not all maps lead to treasure - but a good process map can lead to a successful project!",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/not-all-maps-lead-treasure-good-process-map-can-lead",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Akhil Bhandari"
       ],
@@ -543,7 +613,9 @@
       "title": "Learn and Contribute to Open Source by Writing Blog Posts",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/learn-and-contribute-open-source-writing-blog-posts",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Ivan Zugec"
       ],
@@ -558,7 +630,9 @@
       "title": "Dissecting a security audit: common issues and how to fix them",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/dissecting-security-audit-common-issues-and-how-fix-them",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Sam Becker"
       ],
@@ -573,7 +647,9 @@
       "title": "Let's keep this G rated - redevelopment of classification.gov.au on GovCMS",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/lets-keep-g-rated-redevelopment-classificationgovau-govcms",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Paul Morriss"
       ],
@@ -588,7 +664,9 @@
       "title": "Ultimate guide to Layout Builder",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/ultimate-guide-layout-builder",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Saul Willers"
       ],
@@ -603,7 +681,9 @@
       "title": "Afternoon Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -616,7 +696,9 @@
       "title": "Personalisation with Recombee",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/personalisation-recombee",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Murray Woodman"
       ],
@@ -631,7 +713,9 @@
       "title": "The 45 minute site audit",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/45-minute-site-audit",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Scott Anderson"
       ],
@@ -646,7 +730,9 @@
       "title": "Jumping into conversational AI - Alexa",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/jumping-conversational-ai-alexa",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Suchi Garg"
       ],
@@ -661,7 +747,9 @@
       "title": "Frontend Re-United: The energy of the people",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/frontend-re-united-energy-people",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Mathieu Spillebeen"
       ],
@@ -676,7 +764,9 @@
       "title": "Eighty Options Cocktail party at the HGC",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -689,7 +779,9 @@
       "title": "Women in Drupal coffee",
       "location": "",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/women-drupal",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "DrupalSouth conference in Australia and New Zealand. DrupalSouth Melbourne 2025: 11-13 March 2025.",
       "summary": "DrupalSouth conference in Australia and New Zealand....",
@@ -702,7 +794,9 @@
       "title": "Opening remarks",
       "location": "Sassafras",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -715,7 +809,9 @@
       "title": "The Scientific Wild-Ass Guess",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/scientific-wild-ass-guess",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Adam Malone"
       ],
@@ -730,7 +826,9 @@
       "title": "GovCMS: It's not just about Drupal, it's an ecosystem of tools",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/govcms-its-not-just-about-drupal-its-ecosystem-tools",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Toby Bellwood"
       ],
@@ -745,7 +843,9 @@
       "title": "Single Sign On across Drupal 8",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/single-sign-across-drupal-8",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Iwantha Lekamge"
       ],
@@ -760,7 +860,9 @@
       "title": "The future of Drupal theming?",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/future-drupal-theming",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Mathieu Spillebeen"
       ],
@@ -775,7 +877,9 @@
       "title": "Preparing for a high traffic event, simple steps to success",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/preparing-high-traffic-event-simple-steps-success",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Sean Hamlin"
       ],
@@ -790,7 +894,9 @@
       "title": "Morning Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -803,7 +909,9 @@
       "title": "Complexity of a Multi-language infrastructure - the CCAMLR story",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/complexity-multi-language-infrastructure-ccamlr-story",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Dane Cavanagh"
       ],
@@ -818,7 +926,9 @@
       "title": "Cloud Native Drupal Panel",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/cloud-native-drupal-panel",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Nick Santamaria",
         "Nick Schuch"
@@ -834,7 +944,9 @@
       "title": "Winning and retaining long term clients",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/winning-and-retaining-long-term-clients",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Owen Lansbury"
       ],
@@ -849,7 +961,9 @@
       "title": "Site search - A relevant case study",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/site-search-relevant-case-study",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Dominic Milburn"
       ],
@@ -864,7 +978,9 @@
       "title": "Practical theming in Drupal 8",
       "location": "Oak",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/practical-theming-drupal-8",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -879,7 +995,9 @@
       "title": "End to end testing decoupled Drupal sites",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/end-end-testing-decoupled-drupal-sites",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Dylan Kelly"
       ],
@@ -894,7 +1012,9 @@
       "title": "Debunking the Myths of Digital Governance",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/debunking-myths-digital-governance",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Morgan Ritchings"
       ],
@@ -909,7 +1029,9 @@
       "title": "Drupal confessions",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/drupal-confessions",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Bevan Wishart"
       ],
@@ -924,7 +1046,9 @@
       "title": "Better content workflow, moderation and audits in Drupal 8",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/better-content-workflow-moderation-and-audits-drupal-8",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Heike Theis"
       ],
@@ -939,7 +1063,9 @@
       "title": "Comprehensive local-ci-production workflow setup with DrupalDevops.io",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/comprehensive-local-ci-production-workflow-setup",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Alex Skrypnyk"
       ],
@@ -954,7 +1080,9 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -967,7 +1095,9 @@
       "title": "How Drupal.org is built",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/keynote-neil-drumm",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Neil Drumm"
       ],
@@ -982,7 +1112,9 @@
       "title": "Group photo",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -995,7 +1127,9 @@
       "title": "The new DrupalSouth Steering Committee - Goals and progress",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/new-drupalsouth-steering-committee-goals-and-progress",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": null,
       "full_description": "In mid 2019, the DrupalSouth Steering Committee was formed to provide continuity for the main conference and a means to initiate and fund other activities that support and grow the regional Drupal community and CMS adoption. This panel will introduce the Steering Committee members and provide an update on the goals and initiatives they're focusing on and how you can get involved to help drive things forward.",
       "summary": "In mid 2019, the DrupalSouth Steering Committee was formed to provide continuity for the main conference and a means to initiate and fund other activities that support and grow the regional Drupal community and CMS adopt...",
@@ -1008,7 +1142,9 @@
       "title": "A case study about Service NSW website",
       "location": "Huon",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/case-study-about-service-nsw-website",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Jibran Ijaz",
         "Tessa Penny",
@@ -1025,7 +1161,9 @@
       "title": "Easy Migration with Commerce",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/easy-migration-commerce",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Tiffany Tjan"
       ],
@@ -1040,7 +1178,9 @@
       "title": "Open source your work",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/open-source-your-work",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Ben Jackson"
       ],
@@ -1055,7 +1195,9 @@
       "title": "Content processing for site migration",
       "location": "Myrtle",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/content-processing-site-migration",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Kelvin Wong"
       ],
@@ -1070,7 +1212,9 @@
       "title": "Automated auditing",
       "location": "Blackwood",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/auditing-glance",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Karl Hepworth"
       ],
@@ -1085,7 +1229,9 @@
       "title": "Afternoon Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -1098,7 +1244,9 @@
       "title": "Core release manager and a member of the Drupal Security Team Security, Drupal 9, and Navigating the Changing Web Landscape",
       "location": "Sassafras",
       "link": "https://drupalsouth.org/events/drupalsouth-hobart-2019/sessions/keynote-jess-xjm",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "xjm"
       ],
@@ -1113,7 +1261,9 @@
       "title": "Lightning talks",
       "location": "Sassafras",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -1126,7 +1276,9 @@
       "title": "Closing remarks",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -1139,7 +1291,9 @@
       "title": "Pantheon After Party at Shambles Brewery",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",

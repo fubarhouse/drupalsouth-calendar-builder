@@ -20,7 +20,9 @@
       "title": "Registration",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/registration",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -33,7 +35,9 @@
       "title": "Drupal 8: What you need to know",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/drupal-8-what-you-need-know",
-      "track": "Drupal Futures",
+      "track": [
+        "Drupal Futures"
+      ],
       "speakers": [
         "Angela Byron"
       ],
@@ -46,7 +50,9 @@
       "title": "Morning tea",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/morning-tea",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -59,7 +65,11 @@
       "title": "Better Remote Work",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/better-remote-work",
-      "track": "Building with Drupal, Planning for Drupal, Business and strategy",
+      "track": [
+        "Building with Drupal",
+        "Planning for Drupal",
+        "Business and strategy"
+      ],
       "speakers": [
         "jOksanen"
       ],
@@ -72,7 +82,10 @@
       "title": "Contributing to Core without losing your mind",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/contributing-core-without-losing-your-mind",
-      "track": "Building with Drupal, Drupal Futures",
+      "track": [
+        "Building with Drupal",
+        "Drupal Futures"
+      ],
       "speakers": [
         "larowlan"
       ],
@@ -85,7 +98,10 @@
       "title": "Drupal and the future of the internet",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/drupal-and-future-internet",
-      "track": "Drupal Futures, Digital visions",
+      "track": [
+        "Drupal Futures",
+        "Digital visions"
+      ],
       "speakers": [
         "Tim Siers"
       ],
@@ -98,7 +114,11 @@
       "title": "Drupal as an Integration Hub",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/drupal-integration-hub",
-      "track": "Building with Drupal, Coding and development, The technical edge",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "The technical edge"
+      ],
       "speakers": [
         "James Purser"
       ],
@@ -111,7 +131,9 @@
       "title": "Compete to Collaborate - Exploring wider collaboration mechanisms in the Drupal space",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/compete-collaborate-exploring-wider-collaboration-mechanisms-drupal-space",
-      "track": "Business and strategy",
+      "track": [
+        "Business and strategy"
+      ],
       "speakers": [
         "Anoop John"
       ],
@@ -124,7 +146,17 @@
       "title": "Drupal and IoT",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/drupal-and-iot",
-      "track": "Building with Drupal, Coding and development, Site building, Drupal Futures, Digital visions, Drupal futures, The technical edge, Business and strategy, User experience",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "Site building",
+        "Drupal Futures",
+        "Digital visions",
+        "Drupal futures",
+        "The technical edge",
+        "Business and strategy",
+        "User experience"
+      ],
       "speakers": [
         "Steven Cooper"
       ],
@@ -137,7 +169,10 @@
       "title": "No CMS is an Island, Entire of Itself; What open source communities can teach each other",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/no-cms-island-entire-itself-what-open-source-communities-can-teach-each-other",
-      "track": "Drupal Futures, Drupal futures",
+      "track": [
+        "Drupal Futures",
+        "Drupal futures"
+      ],
       "speakers": [
         "The Web Princess"
       ],
@@ -150,7 +185,10 @@
       "title": "Why Drupal 8? Why now? PS - Drupal 7 is still awesome",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/why-drupal-8-why-now-ps-drupal-7-still-awesome",
-      "track": "Drupal Futures, Drupal futures",
+      "track": [
+        "Drupal Futures",
+        "Drupal futures"
+      ],
       "speakers": [
         "horncologne"
       ],
@@ -163,7 +201,9 @@
       "title": "Lunch",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/lunch",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -176,7 +216,10 @@
       "title": "2.9 million words in two months (and then what?)",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/29-million-words-two-months-and-then-what",
-      "track": "Business and strategy, User experience",
+      "track": [
+        "Business and strategy",
+        "User experience"
+      ],
       "speakers": [
         "Peter Henderson"
       ],
@@ -189,7 +232,9 @@
       "title": "Carrying the Can: Scaling Humans for Complex Drupal",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/carrying-can-scaling-humans-complex-drupal",
-      "track": "Business and strategy",
+      "track": [
+        "Business and strategy"
+      ],
       "speakers": [
         "ChrisO"
       ],
@@ -202,7 +247,9 @@
       "title": "Panel: Project manager war stories",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/panel-project-manager-war-stories",
-      "track": "Planning for Drupal",
+      "track": [
+        "Planning for Drupal"
+      ],
       "speakers": [
         "Murray"
       ],
@@ -215,7 +262,11 @@
       "title": "The DrupalCI initiative",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/drupalci-initiative",
-      "track": "Coding and development, Drupal Futures, Drupal futures",
+      "track": [
+        "Coding and development",
+        "Drupal Futures",
+        "Drupal futures"
+      ],
       "speakers": [
         "nick_schuch"
       ],
@@ -228,7 +279,12 @@
       "title": "Design pitfalls in responsive builds",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/design-pitfalls-responsive-builds",
-      "track": "Building with Drupal, Coding and development, Front-end, Business and strategy",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "Front-end",
+        "Business and strategy"
+      ],
       "speakers": [
         "meeli"
       ],
@@ -241,7 +297,9 @@
       "title": "Government as a Service: Architecting govCMS",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/government-service-architecting-govcms",
-      "track": "Planning for Drupal",
+      "track": [
+        "Planning for Drupal"
+      ],
       "speakers": [
         "typhonius"
       ],
@@ -254,7 +312,9 @@
       "title": "Services in Drupal 8: using Drupal as data storage for mobile apps, web apps and websites",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/services-drupal-8-using-drupal-data-storage-mobile-apps-web-apps-and-websites",
-      "track": "Drupal Futures",
+      "track": [
+        "Drupal Futures"
+      ],
       "speakers": [
         "VladimirAus",
         "jayturn"
@@ -268,7 +328,12 @@
       "title": "Style-guide-driven development",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/style-guide-driven-development",
-      "track": "Building with Drupal, Front-end, Drupal Futures, Digital visions",
+      "track": [
+        "Building with Drupal",
+        "Front-end",
+        "Drupal Futures",
+        "Digital visions"
+      ],
       "speakers": [
         "JohnAlbin"
       ],
@@ -281,7 +346,9 @@
       "title": "Afternoon tea",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/afternoon-tea",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -294,7 +361,11 @@
       "title": "Digital Local Government – why Drupal and how to make it work",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/digital-local-government-%E2%80%93-why-drupal-and-how-make-it-work",
-      "track": "Planning for Drupal, Business and strategy, Drupal public",
+      "track": [
+        "Planning for Drupal",
+        "Business and strategy",
+        "Drupal public"
+      ],
       "speakers": [
         "Fergal Coleman"
       ],
@@ -307,7 +378,10 @@
       "title": "How Everything is Connected - Drupal 8 and Schema.org",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/how-everything-connected-drupal-8-and-schemaorg",
-      "track": "Building with Drupal, Site building",
+      "track": [
+        "Building with Drupal",
+        "Site building"
+      ],
       "speakers": [
         "davidseth"
       ],
@@ -320,7 +394,10 @@
       "title": "Panel: Selling agile",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/panel-selling-agile",
-      "track": "Planning for Drupal, Business and strategy",
+      "track": [
+        "Planning for Drupal",
+        "Business and strategy"
+      ],
       "speakers": [
         "pameeela"
       ],
@@ -333,7 +410,10 @@
       "title": "Who said developers can't design!",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/who-said-developers-cant-design",
-      "track": "Building with Drupal, Front-end",
+      "track": [
+        "Building with Drupal",
+        "Front-end"
+      ],
       "speakers": [
         "rikki_iki"
       ],
@@ -346,7 +426,11 @@
       "title": "Connecting with Accessibility: compliance or confidence",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/connecting-accessibility-compliance-or-confidence",
-      "track": "Digital visions, Business and strategy, Drupal public",
+      "track": [
+        "Digital visions",
+        "Business and strategy",
+        "Drupal public"
+      ],
       "speakers": [
         "Michelle Stevens",
         "Tim Noonan"
@@ -360,7 +444,10 @@
       "title": "Enterprise Glue: Configuring and extending Shibboleth to integrate Drupal CMS, Python and Java web applications",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/enterprise-glue-configuring-and-extending-shibboleth-integrate-drupal-cms-python-and-java",
-      "track": "Building with Drupal, Coding and development",
+      "track": [
+        "Building with Drupal",
+        "Coding and development"
+      ],
       "speakers": [
         "Gavin Jackson"
       ],
@@ -373,7 +460,9 @@
       "title": "HTML5 Rocks: The best of the modern web",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/html5-rocks-best-modern-web",
-      "track": "Drupal Futures",
+      "track": [
+        "Drupal Futures"
+      ],
       "speakers": [
         "Sam Thorogood"
       ],
@@ -386,7 +475,9 @@
       "title": "The Dark Art of making a Non-Profit (beyond contact management)",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/dark-art-making-non-profit-beyond-contact-management",
-      "track": "Drupal public",
+      "track": [
+        "Drupal public"
+      ],
       "speakers": [
         "peter.davis"
       ],
@@ -399,7 +490,9 @@
       "title": "Technocrat drinks & nibbles",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/technocrat-drinks-nibbles",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -412,7 +505,9 @@
       "title": "Registration",
       "location": "Registration desk",
       "link": "http://melbourne2015.drupal.org.au/registration-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -425,7 +520,10 @@
       "title": "Keynote: True, real and ideal… designing for purpose, delivering with impact",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/keynote-true-real-and-ideal",
-      "track": "Planning for Drupal, User experience",
+      "track": [
+        "Planning for Drupal",
+        "User experience"
+      ],
       "speakers": [
         "Harriet Wakelam"
       ],
@@ -438,7 +536,9 @@
       "title": "Morning tea",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/morning-tea-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -451,7 +551,9 @@
       "title": "How to create a custom theme in Drupal 8",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/how-create-custom-theme-drupal-8",
-      "track": "Front-end",
+      "track": [
+        "Front-end"
+      ],
       "speakers": [
         "Magda Kostrzewa"
       ],
@@ -464,7 +566,11 @@
       "title": "Intro to GIT",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/intro-git",
-      "track": "Building with Drupal, Coding and development, Site building",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "Site building"
+      ],
       "speakers": [
         "garethhallnz"
       ],
@@ -477,7 +583,10 @@
       "title": "Open Source Enterprise Continuous Delivery for Drupal",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/open-source-enterprise-continuous-delivery-drupal",
-      "track": "Coding and development, The technical edge",
+      "track": [
+        "Coding and development",
+        "The technical edge"
+      ],
       "speakers": [
         "August1914"
       ],
@@ -490,7 +599,11 @@
       "title": "The Open Source Paradigm Shift",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/open-source-paradigm-shift",
-      "track": "Planning for Drupal, Business and strategy, Drupal public",
+      "track": [
+        "Planning for Drupal",
+        "Business and strategy",
+        "Drupal public"
+      ],
       "speakers": [
         "Kim Pepper"
       ],
@@ -503,7 +616,11 @@
       "title": "Best practices for configuration management in Drupal 8",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/best-practices-configuration-management-drupal-8",
-      "track": "Building with Drupal, Coding and development, Site building",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "Site building"
+      ],
       "speakers": [
         "beejeebus"
       ],
@@ -516,7 +633,10 @@
       "title": "Maps to the max: take your maps further with region-awareness and aggregations",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/maps-max-take-your-maps-further-region-awareness-and-aggregations",
-      "track": "Building with Drupal, Site building",
+      "track": [
+        "Building with Drupal",
+        "Site building"
+      ],
       "speakers": [
         "RdeBoer"
       ],
@@ -529,7 +649,12 @@
       "title": "Panel: Content strategy",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/panel-content-strategy",
-      "track": "Planning for Drupal, Business and strategy, Drupal public, User experience",
+      "track": [
+        "Planning for Drupal",
+        "Business and strategy",
+        "Drupal public",
+        "User experience"
+      ],
       "speakers": [
         "pameeela",
         "angusg",
@@ -545,7 +670,10 @@
       "title": "Scald media management - A New Hope",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/scald-media-management-new-hope",
-      "track": "Building with Drupal, Coding and development",
+      "track": [
+        "Building with Drupal",
+        "Coding and development"
+      ],
       "speakers": [
         "James Gollan"
       ],
@@ -558,7 +686,9 @@
       "title": "Lunch",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/lunch-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -571,7 +701,12 @@
       "title": "On a clear day you can View forever",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/clear-day-you-can-view-forever",
-      "track": "Building with Drupal, Coding and development, Front-end, Site building",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "Front-end",
+        "Site building"
+      ],
       "speakers": [
         "Anton Baggerman"
       ],
@@ -584,7 +719,11 @@
       "title": "The present and future of intranets",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/present-and-future-intranets",
-      "track": "Digital visions, Business and strategy, User experience",
+      "track": [
+        "Digital visions",
+        "Business and strategy",
+        "User experience"
+      ],
       "speakers": [
         "rebeccar"
       ],
@@ -597,7 +736,10 @@
       "title": "There is a PHP library for that",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/there-php-library",
-      "track": "Drupal Futures, The technical edge",
+      "track": [
+        "Drupal Futures",
+        "The technical edge"
+      ],
       "speakers": [
         "Josh Taylor"
       ],
@@ -610,7 +752,10 @@
       "title": "UX Is More than a Buzzword",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/ux-more-buzzword",
-      "track": "Planning for Drupal, User experience",
+      "track": [
+        "Planning for Drupal",
+        "User experience"
+      ],
       "speakers": [
         "sleepyscene"
       ],
@@ -623,7 +768,10 @@
       "title": "Power to the Editors: Introducing the Paragraphs module",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/power-editors-introducing-paragraphs-module",
-      "track": "Building with Drupal, Site building",
+      "track": [
+        "Building with Drupal",
+        "Site building"
+      ],
       "speakers": [
         "Ivan Zugec",
         "Murray"
@@ -637,7 +785,10 @@
       "title": "The accidental content strategist: Content modelling in Drupal",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/accidental-content-strategist-content-modelling-drupal",
-      "track": "Planning for Drupal, User experience",
+      "track": [
+        "Planning for Drupal",
+        "User experience"
+      ],
       "speakers": [
         "angusg"
       ],
@@ -650,7 +801,11 @@
       "title": "The future of Speed",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/future-speed",
-      "track": "Coding and development, Drupal Futures, The technical edge",
+      "track": [
+        "Coding and development",
+        "Drupal Futures",
+        "The technical edge"
+      ],
       "speakers": [
         "Peter"
       ],
@@ -663,7 +818,9 @@
       "title": "There and Back Again: An Unexpected Journey in Agile Documentation",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/there-and-back-again-unexpected-journey-agile-documentation",
-      "track": "Site building",
+      "track": [
+        "Site building"
+      ],
       "speakers": [
         "loquacity"
       ],
@@ -676,7 +833,9 @@
       "title": "Afternoon tea",
       "location": "Foyer",
       "link": "http://melbourne2015.drupal.org.au/afternoon-tea-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -689,7 +848,11 @@
       "title": "Create your own bespoke Views Style Plugins for Drupal 8",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/create-your-own-bespoke-views-style-plugins-drupal-8",
-      "track": "Building with Drupal, Coding and development, Site building",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "Site building"
+      ],
       "speakers": [
         "Jibran Ijaz"
       ],
@@ -702,7 +865,11 @@
       "title": "Performance: Not an Afterthought",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/performance-not-afterthought",
-      "track": "Building with Drupal, Coding and development, Site building",
+      "track": [
+        "Building with Drupal",
+        "Coding and development",
+        "Site building"
+      ],
       "speakers": [
         "Nick Santamaria"
       ],
@@ -715,7 +882,10 @@
       "title": "Prototyping in User Centered Design in Drupal",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/prototyping-user-centered-design-drupal",
-      "track": "Planning for Drupal, User experience",
+      "track": [
+        "Planning for Drupal",
+        "User experience"
+      ],
       "speakers": [
         "chloe"
       ],
@@ -728,7 +898,12 @@
       "title": "Site preview, the holy grail of Drupal",
       "location": "Microsoft - Room C",
       "link": "http://melbourne2015.drupal.org.au/session/site-preview-holy-grail-drupal",
-      "track": "Building with Drupal, Site building, Drupal Futures, Drupal futures",
+      "track": [
+        "Building with Drupal",
+        "Site building",
+        "Drupal Futures",
+        "Drupal futures"
+      ],
       "speakers": [
         "wiifm"
       ],
@@ -741,7 +916,10 @@
       "title": "Failing with Style - A practical guide to Continuous Integration",
       "location": "PreviousNext - Room E",
       "link": "http://melbourne2015.drupal.org.au/session/failing-style-practical-guide-continuous-integration",
-      "track": "Building with Drupal, Coding and development",
+      "track": [
+        "Building with Drupal",
+        "Coding and development"
+      ],
       "speakers": [
         "leex"
       ],
@@ -754,7 +932,9 @@
       "title": "Idealism embodied: Philosophy, Code, Empowerment",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/session/idealism-embodied-philosophy-code-empowerment",
-      "track": "Drupal Futures",
+      "track": [
+        "Drupal Futures"
+      ],
       "speakers": [
         "horncologne"
       ],
@@ -767,7 +947,12 @@
       "title": "Using Drupal in education: strategies, standalone vs collaboration",
       "location": "Doghouse - Room D",
       "link": "http://melbourne2015.drupal.org.au/session/using-drupal-education-strategies-standalone-vs-collaboration",
-      "track": "Drupal Futures, Digital visions, Planning for Drupal, Drupal public",
+      "track": [
+        "Drupal Futures",
+        "Digital visions",
+        "Planning for Drupal",
+        "Drupal public"
+      ],
       "speakers": [
         "VladimirAus",
         "Josh Martin",
@@ -782,7 +967,9 @@
       "title": "Conference close",
       "location": "Technocrat Auditorium",
       "link": "http://melbourne2015.drupal.org.au/conference-close",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -795,7 +982,9 @@
       "title": "Contribution sprints",
       "location": "Realityloop Sprints - Room A",
       "link": "http://melbourne2015.drupal.org.au/contribution-sprints",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],

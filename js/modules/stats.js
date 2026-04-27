@@ -1,5 +1,13 @@
 import state from './state.js';
-import { getLocalDate } from './utils.js';
+import { getLocalDate, normalizeTracks } from './utils.js';
+
+function parseDurationHours(duration = '') {
+  const hoursMatch = String(duration).match(/(\d+)H/);
+  const minutesMatch = String(duration).match(/(\d+)M/);
+  const hours = hoursMatch ? parseInt(hoursMatch[1], 10) : 0;
+  const minutes = minutesMatch ? parseInt(minutesMatch[1], 10) : 0;
+  return hours + minutes / 60;
+}
 
 export function updateSelectionOverview(events, updateStageStats) {
   const overviewPanel = document.getElementById('selectionOverview');
@@ -14,23 +22,22 @@ export function updateSelectionOverview(events, updateStageStats) {
 
   const trackStats = {};
   selectedEvents.forEach((event) => {
-    if (!trackStats[event.track]) {
-      trackStats[event.track] = { count: 0, duration: 0 };
-    }
-    trackStats[event.track].count++;
+    const trackValues = normalizeTracks(event.track);
+    const durationHours = parseDurationHours(event.duration);
 
-    const duration = event.duration;
-    const hoursMatch = duration.match(/(\d+)H/);
-    const minutesMatch = duration.match(/(\d+)M/);
-    const hours = hoursMatch ? parseInt(hoursMatch[1], 10) : 0;
-    const minutes = minutesMatch ? parseInt(minutesMatch[1], 10) : 0;
-    trackStats[event.track].duration += hours + minutes / 60;
+    trackValues.forEach((track) => {
+      if (!trackStats[track]) {
+        trackStats[track] = { count: 0, duration: 0 };
+      }
+      trackStats[track].count++;
+      trackStats[track].duration += durationHours;
+    });
   });
 
   updateStageStats(trackStats);
 
   const totalEvents = selectedEvents.length;
-  const totalDuration = Object.values(trackStats).reduce((sum, value) => sum + value.duration, 0);
+  const totalDuration = selectedEvents.reduce((sum, event) => sum + parseDurationHours(event.duration), 0);
 
   document.getElementById('totalEvents').textContent = totalEvents;
   document.getElementById('totalDuration').textContent = `${totalDuration.toFixed(1)} hours`;
@@ -43,45 +50,42 @@ export function updateStageStats() {
   const dailyStats = {};
   selectedEvents.forEach((event) => {
     const date = getLocalDate(event.startTime);
+    const trackValues = normalizeTracks(event.track);
+    const durationHours = parseDurationHours(event.duration);
     if (!dailyStats[date]) {
       dailyStats[date] = { count: 0, duration: 0, tracks: {} };
     }
     dailyStats[date].count++;
+    dailyStats[date].duration += durationHours;
 
-    const duration = event.duration;
-    const hoursMatch = duration.match(/(\d+)H/);
-    const minutesMatch = duration.match(/(\d+)M/);
-    const hours = hoursMatch ? parseInt(hoursMatch[1], 10) : 0;
-    const minutes = minutesMatch ? parseInt(minutesMatch[1], 10) : 0;
-    dailyStats[date].duration += hours + minutes / 60;
-
-    if (!dailyStats[date].tracks[event.track]) {
-      dailyStats[date].tracks[event.track] = { count: 0, duration: 0 };
-    }
-    dailyStats[date].tracks[event.track].count++;
-    dailyStats[date].tracks[event.track].duration += hours + minutes / 60;
+    trackValues.forEach((track) => {
+      if (!dailyStats[date].tracks[track]) {
+        dailyStats[date].tracks[track] = { count: 0, duration: 0 };
+      }
+      dailyStats[date].tracks[track].count++;
+      dailyStats[date].tracks[track].duration += durationHours;
+    });
   });
 
   const trackStats = {};
   selectedEvents.forEach((event) => {
-    if (!trackStats[event.track]) {
-      trackStats[event.track] = { count: 0, duration: 0, days: {} };
-    }
-    trackStats[event.track].count++;
-
-    const duration = event.duration;
-    const hoursMatch = duration.match(/(\d+)H/);
-    const minutesMatch = duration.match(/(\d+)M/);
-    const hours = hoursMatch ? parseInt(hoursMatch[1], 10) : 0;
-    const minutes = minutesMatch ? parseInt(minutesMatch[1], 10) : 0;
-    trackStats[event.track].duration += hours + minutes / 60;
-
+    const trackValues = normalizeTracks(event.track);
     const date = getLocalDate(event.startTime);
-    if (!trackStats[event.track].days[date]) {
-      trackStats[event.track].days[date] = { count: 0, duration: 0 };
-    }
-    trackStats[event.track].days[date].count++;
-    trackStats[event.track].days[date].duration += hours + minutes / 60;
+    const durationHours = parseDurationHours(event.duration);
+
+    trackValues.forEach((track) => {
+      if (!trackStats[track]) {
+        trackStats[track] = { count: 0, duration: 0, days: {} };
+      }
+      trackStats[track].count++;
+      trackStats[track].duration += durationHours;
+
+      if (!trackStats[track].days[date]) {
+        trackStats[track].days[date] = { count: 0, duration: 0 };
+      }
+      trackStats[track].days[date].count++;
+      trackStats[track].days[date].duration += durationHours;
+    });
   });
 
   const sortedDates = Object.keys(dailyStats).sort();

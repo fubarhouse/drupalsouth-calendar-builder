@@ -1,5 +1,5 @@
 import state, { getStorageKey } from './state.js';
-import { formatDateForICS, escapeHtml, announceStatus } from './utils.js';
+import { formatDateForICS, escapeHtml, announceStatus, normalizeTracks } from './utils.js';
 
 function getCalendarDescriptionText(event) {
   return event.full_description || event.description || event.summary || '';
@@ -153,7 +153,7 @@ export function toggleEventSelection(eventId, applyFilterFn, updateSelectionOver
   const event = state.allEvents.find((item) => item.id === eventId);
   if (!event) return;
   const sessionMetadata = { session: event.title };
-  const trackMetadata = { track: event.track };
+  const trackMetadata = { track: normalizeTracks(event.track).join(', ') };
 
   if (state.selectedEvents.has(eventId)) {
     state.selectedEvents.delete(eventId);

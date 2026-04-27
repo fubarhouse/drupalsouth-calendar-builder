@@ -19,7 +19,9 @@
       "title": "Networking, Social and Sponsor Booths",
       "location": "Main Stage",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -29,7 +31,9 @@
       "title": "Opening Remarks",
       "location": "Main Stage",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -39,7 +43,9 @@
       "title": "Government as a Platform",
       "location": "Main Stage",
       "link": "",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Lee Dowsett"
       ]
@@ -51,7 +57,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -61,7 +69,9 @@
       "title": "jGrants: Drupal-based grants management system for the Ministry of Economy, Trade and Industry of Japan",
       "location": "Main Stage",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Mori Sugimoto"
       ]
@@ -73,7 +83,9 @@
       "title": "The future of Drupal MultiSites",
       "location": "Stage 2",
       "link": "",
-      "track": "Web Tools & Technologies",
+      "track": [
+        "Web Tools & Technologies"
+      ],
       "speakers": [
         "Michael Schmid"
       ]
@@ -85,7 +97,9 @@
       "title": "Facelift your administrative experience - the future of Drupal Admin UI",
       "location": "Stage 3",
       "link": "",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Sascha Eggenberger"
       ]
@@ -97,7 +111,9 @@
       "title": "Birds of a Feather",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -107,7 +123,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -117,7 +135,9 @@
       "title": "Documentation is like a plant - you need to tend to it!",
       "location": "Main Stage",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Alanna Burke"
       ]
@@ -129,7 +149,9 @@
       "title": "How to classify & sort more than 200 documents in a single bulk upload",
       "location": "Stage 2",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Andre Kakos",
         "Queenie Robertson"
@@ -142,7 +164,9 @@
       "title": "Lego up a bootstrap Drupal theme",
       "location": "Stage 3",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Yi Yiang"
       ]
@@ -154,7 +178,9 @@
       "title": "Birds of a Feather",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -164,7 +190,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -174,7 +202,9 @@
       "title": "Helping immunisation professionals deliver good clinical care with GovCMS for the Department of Health",
       "location": "Main Stage",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Ranjeet Elkunchwar",
         "Anton Baggerman"
@@ -187,7 +217,9 @@
       "title": "Automated vs Manual Accessibility Testing: What's the Difference?",
       "location": "Stage 2",
       "link": "",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Danielle Sheffler"
       ]
@@ -199,7 +231,9 @@
       "title": "Creating High Performing Teams",
       "location": "Stage 3",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Nicole Ritchie"
       ]
@@ -211,7 +245,9 @@
       "title": "Meet the Moment: Delivering Results with WebOps",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Sponsor",
+      "track": [
+        "Sponsor"
+      ],
       "speakers": [
         "Drew Gorton"
       ]
@@ -223,7 +259,9 @@
       "title": "The Speedy Go-Live - A Front-End Performance Checklist Before Launch",
       "location": "Stage 3",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Anthony Comben"
       ]
@@ -235,7 +273,9 @@
       "title": "DruxtJS; An introduction to decoupling with Nuxt and Drupal",
       "location": "Main Stage",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Stuart Clark"
       ]
@@ -247,7 +287,9 @@
       "title": "Applying Agile in real-world scenarios",
       "location": "Stage 2",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "David Scott",
         "Elisa Berg"
@@ -260,7 +302,9 @@
       "title": "Drupal 9 and CiviCRM",
       "location": "Stage 3",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ]
@@ -272,7 +316,9 @@
       "title": "DrupalSouth Steering Committee - Panel Discussion",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Panel",
+      "track": [
+        "Panel"
+      ],
       "speakers": [
         "Owen Lansbury"
       ]
@@ -284,7 +330,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -294,7 +342,9 @@
       "title": "2020. That was epic! A tale of gargantuan scale.",
       "location": "Main Stage",
       "link": "",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Nathan Wall"
       ]
@@ -306,7 +356,9 @@
       "title": "Lunch Announcement",
       "location": "Main Stage",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -316,7 +368,9 @@
       "title": "Lunch, Networking, Social and Sponsor Booths",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -326,7 +380,9 @@
       "title": "The UX of Content Guidance",
       "location": "Main Stage",
       "link": "",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Matt Fenwick"
       ]
@@ -338,7 +394,9 @@
       "title": "Archives Central: A next-generation records repository",
       "location": "Stage 2",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Jonathan Hunt"
       ]
@@ -350,7 +408,9 @@
       "title": "Yes we can do modern Javascript development!",
       "location": "Stage 3",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Jack Taranto"
       ]
@@ -362,7 +422,9 @@
       "title": "Drupal Security Panel",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Panel",
+      "track": [
+        "Panel"
+      ],
       "speakers": [
         "Kim Pepper"
       ]
@@ -374,7 +436,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -384,7 +448,9 @@
       "title": "Crisis project management - 12 ways to successfully lead engagements in times of emergency",
       "location": "Main Stage",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Ian Laslett"
       ]
@@ -396,7 +462,9 @@
       "title": "Managing large (and smaller) site portfolios with Lagoon Insights",
       "location": "Stage 2",
       "link": "",
-      "track": "Web Tools & Technologies",
+      "track": [
+        "Web Tools & Technologies"
+      ],
       "speakers": [
         "Toby Bellwood"
       ]
@@ -408,7 +476,9 @@
       "title": "The weather is changing - a progressively decoupled approach in the BoM website",
       "location": "Stage 3",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Joshua Li",
         "Ben Di-Lorenzo"
@@ -421,7 +491,9 @@
       "title": "Content Planning & UX Panel",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Panel",
+      "track": [
+        "Panel"
+      ],
       "speakers": [
         "Kristy de Vries"
       ]
@@ -433,7 +505,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -443,7 +517,9 @@
       "title": "Running Workshops in 2020: How to Work Together in Isolation",
       "location": "Main Stage",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Richard Sison"
       ]
@@ -455,7 +531,9 @@
       "title": "Rapid Response: How we build some of Australia's most important COVID websites with Drupal",
       "location": "Stage 2",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Chris Skene"
       ]
@@ -467,7 +545,9 @@
       "title": "Strategies for Managing a Fleet of Drupal Projects",
       "location": "Stage 3",
       "link": "",
-      "track": "Web Tools & Technologies",
+      "track": [
+        "Web Tools & Technologies"
+      ],
       "speakers": [
         "Nick Santamaria"
       ]
@@ -479,7 +559,9 @@
       "title": "Birds of a Feather",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -489,7 +571,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -499,7 +583,9 @@
       "title": "Decoupled Drupal with JSON:API",
       "location": "Main Stage",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Swati Garg"
       ]
@@ -511,7 +597,9 @@
       "title": "Drupal and InfoSec Assurance",
       "location": "Stage 2",
       "link": "",
-      "track": "Web Tools & Technologies",
+      "track": [
+        "Web Tools & Technologies"
+      ],
       "speakers": [
         "Arjen Lentz"
       ]
@@ -523,7 +611,9 @@
       "title": "An analysis of Government sites in Australia",
       "location": "Stage 3",
       "link": "",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Murray Woodman"
       ]
@@ -535,7 +625,9 @@
       "title": "Securing and Scaling Drupal with Kubernetes Panel",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Panel",
+      "track": [
+        "Panel"
+      ],
       "speakers": [
         "Salim Lakhani"
       ]
@@ -547,7 +639,9 @@
       "title": "Integrating Lunr.js into Drupal for fast and fuzzy client side search",
       "location": "Main Stage",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Samuel Becker"
       ]
@@ -559,7 +653,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -569,7 +665,9 @@
       "title": "Adopt Automation Workflow in Higher Education",
       "location": "Main Stage",
       "link": "",
-      "track": "Web Tools & Technologies",
+      "track": [
+        "Web Tools & Technologies"
+      ],
       "speakers": [
         "Chris Wu"
       ]
@@ -581,7 +679,9 @@
       "title": "Understanding Automated Tests in Drupal",
       "location": "Stage 2",
       "link": "",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Ridhima Abrol",
         "Sujeet Verma"
@@ -594,7 +694,9 @@
       "title": "Improving UX with an interactive decision tree",
       "location": "Stage 3",
       "link": "",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Hugo Heuman"
       ]
@@ -606,7 +708,9 @@
       "title": "GovCMS and Drupal 9, roadmap and Q&A",
       "location": "Panels/BoFs",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": [
         "Joseph Zhao"
       ]
@@ -618,7 +722,9 @@
       "title": "Networking & Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -628,7 +734,9 @@
       "title": "Why Drupal accelerates digital transformation in the WA Public Service",
       "location": "Main Stage",
       "link": "",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Bill Bell"
       ]
@@ -640,7 +748,9 @@
       "title": "Closing Remarks",
       "location": "Main Stage",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     },
     {
@@ -650,7 +760,9 @@
       "title": "Networking, Social and Sponsor Booths",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null
     }
   ],

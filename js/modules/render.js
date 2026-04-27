@@ -1,5 +1,5 @@
 import state from './state.js';
-import { getLocalDate, formatDuration, highlightKeywords, escapeHtml } from './utils.js';
+import { getLocalDate, formatDuration, highlightKeywords, escapeHtml, normalizeTracks } from './utils.js';
 
 const SESSION_MODAL_ID = 'sessionDetailModal';
 let lastFocusedElementBeforeModal = null;
@@ -193,6 +193,8 @@ function renderSessionModalContent(event) {
   const speakersInfo = getSpeakersInfo(event.speakers);
   const speakersIcon = speakersInfo.isMultiple ? 'fa-users' : 'fa-user';
   const whenValue = `${escapeHtml(dayDate)}, ${escapeHtml(startTime)} - ${escapeHtml(endTime)}`;
+  const trackValues = normalizeTracks(event.track);
+  const trackText = trackValues.join(', ');
   const body = ensureSessionModal().querySelector('#sessionModalBody');
 
   body.innerHTML = `
@@ -211,8 +213,8 @@ function renderSessionModalContent(event) {
         : ''
     }
     ${
-      event.track
-        ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Track</span><span class="session-modal-meta-value">${escapeHtml(event.track)}</span></p>`
+      trackText
+        ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Track</span><span class="session-modal-meta-value">${escapeHtml(trackText)}</span></p>`
         : ''
     }
     ${
@@ -337,7 +339,7 @@ function getEventPalette(event) {
     ['#f59e0b', '#d97706'],
     ['#22c55e', '#15803d']
   ];
-  const seed = `${event.track || ''}|${event.title || ''}|${event.location || ''}`;
+  const seed = `${normalizeTracks(event.track).join('|')}|${event.title || ''}|${event.location || ''}`;
   return palettePairs[hashString(seed) % palettePairs.length];
 }
 
@@ -432,8 +434,14 @@ export function displayListView(events, container) {
           const descriptionText = getCardSummary(event);
           const hasDescription = hasSessionDescription(event);
           const highlightedDescription = descriptionText ? formatTextBlock(descriptionText, keywordsFilter) : '';
-          const trackLabel = typeof event.track === 'string' ? event.track.trim() : '';
-          const highlightedTrack = trackLabel ? highlightKeywords(trackLabel, keywordsFilter) : '';
+          const trackClass = isDrupalConDesign
+            ? 'track-pill track-pill-dc'
+            : 'track-pill text-xs text-gray-600 bg-white bg-opacity-60 px-2 py-1 rounded-sm inline-flex';
+          const trackLabels = normalizeTracks(event.track);
+          const highlightedTrack = trackLabels
+            .map((track) => highlightKeywords(escapeHtml(track), keywordsFilter))
+            .map((track) => `<span class="${trackClass}">${track}</span>`)
+            .join('');
           const durationText = formatDuration(event, event.duration);
           const [colorA, colorB] = getEventPalette(event);
 
@@ -441,7 +449,6 @@ export function displayListView(events, container) {
           const hoverColor = isSelected ? '' : 'hover:brightness-95';
           const cardStyle = isDrupalConDesign ? `style="--event-color-a: ${colorA}; --event-color-b: ${colorB};"` : '';
           const cardExtraClass = isDrupalConDesign ? 'event-card-dc' : '';
-          const trackClass = isDrupalConDesign ? 'track-pill track-pill-dc' : 'track-pill text-xs text-gray-600 bg-white bg-opacity-60 px-2 py-1 rounded inline-block';
           const selectedBadge = isSelected ? '<span class="session-selected-indicator" aria-hidden="true">Selected</span>' : '';
 
           return `
@@ -501,8 +508,8 @@ export function displayListView(events, container) {
                                 : ''
                             }
                             ${
-                              trackLabel
-                                ? `<div class="mt-auto pt-[5px]"><p class="${trackClass} self-start">${highlightedTrack}</p></div>`
+                              trackLabels.length > 0
+                                ? `<div class="mt-auto pt-[5px] flex flex-wrap gap-1">${highlightedTrack}</div>`
                                 : ''
                             }
                         </div>

@@ -30,7 +30,7 @@
       "title": "Registration",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/registration",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -43,7 +43,9 @@
       "title": "Beyond Boundaries: The Triumph of a Decoupled Web Portal for IDMC a part of the Norwegian Refugee Co",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/beyond-boundaries-triumph-decoupled-web-portal-idmc-part-norwegian-refugee-co",
-      "track": "drupal showcase",
+      "track": [
+        "drupal showcase"
+      ],
       "speakers": [
         "annamravingmailcom"
       ],
@@ -58,7 +60,9 @@
       "title": "Automating Behavior-Driven Development: Boosting Productivity with Template-Driven Test Experience",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/automating-behavior-driven-development-boosting-productivity-template-driven",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "yas"
       ],
@@ -73,7 +77,9 @@
       "title": "Server-side rendering a Drupal site with Next.js",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/server-side-rendering-drupal-site-nextjs",
-      "track": "development and coding",
+      "track": [
+        "development and coding"
+      ],
       "speakers": [
         "JohnAlbin"
       ],
@@ -88,7 +94,7 @@
       "title": "Morning tea",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/morning-tea",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -101,7 +107,7 @@
       "title": "Welcome",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/welcome",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Let's begin DrupalCon Singapore with Welcome note by Tim Doyle, Mike Richardson and Surabhi Gokte...",
@@ -114,7 +120,7 @@
       "title": "Driesnote",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/driesnote",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "https://www.youtube.com/watch?v=iPMXd5l_HkU",
       "full_description": "",
@@ -127,7 +133,7 @@
       "title": "Group Photo",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/group-photo",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -140,7 +146,9 @@
       "title": "The Path to Drupal Excellence: Delivery Success Through Professional Growth",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/path-drupal-excellence-delivery-success-through-professional-growth",
-      "track": "leadership, management and business",
+      "track": [
+        "leadership, management and business"
+      ],
       "speakers": [
         "Trupti Bhosale"
       ],
@@ -155,7 +163,9 @@
       "title": "Sustainable Digital Marketing with Drupal—Eco-Friendly Tech Solutions",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/sustainable-digital-marketing-drupal-eco-friendly-tech-solutions",
-      "track": "content and marketing",
+      "track": [
+        "content and marketing"
+      ],
       "speakers": [
         "Prevya C P"
       ],
@@ -170,7 +180,9 @@
       "title": "Building the future of Drupal: 11, 12 and Starshot",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/building-future-drupal-11-12-and-starshot",
-      "track": "user experience, accessibility and design drupal starshot",
+      "track": [
+        "user experience, accessibility and design drupal starshot"
+      ],
       "speakers": [
         "Gábor Hojtsy",
         "tim.plunkett"
@@ -186,7 +198,9 @@
       "title": "Level Up Your Impact: Building Socially-Driven Projects with Drupal as a Digital Public Good",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/level-your-impact-building-socially-driven-projects-drupal-digital-public",
-      "track": "community health",
+      "track": [
+        "community health"
+      ],
       "speakers": [
         "Shriaas"
       ],
@@ -201,7 +215,9 @@
       "title": "Implementation of automation system in Balochistan's Public Accounts Committee",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/implementation-automation-system-balochistans-public-accounts-committee",
-      "track": "drupal showcase",
+      "track": [
+        "drupal showcase"
+      ],
       "speakers": [
         "muhammad.tanweer"
       ],
@@ -216,7 +232,7 @@
       "title": "Lunch",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/lunch",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -229,7 +245,9 @@
       "title": "5 Varnish features that will improve the caching of your Drupal site",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/5-varnish-features-will-improve-caching-your-drupal-site",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "thijsferyn"
       ],
@@ -244,7 +262,9 @@
       "title": "Features of Fully Open Source Enterprise Hosting",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/features-fully-open-source-enterprise-hosting",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "tobybellwood"
       ],
@@ -259,7 +279,9 @@
       "title": "Adapting Hosting Platforms for Starshot’s Automatic Updates",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/adapting-hosting-platforms-starshots-automatic-updates",
-      "track": "devops drupal starshot",
+      "track": [
+        "devops drupal starshot"
+      ],
       "speakers": [
         "fubarhouse"
       ],
@@ -274,7 +296,9 @@
       "title": "Widening access to Justice using AI: A Case Study of some US based Legal Services Chatbot",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/widening-access-justice-using-ai-case-study-some-us-based-legal-services",
-      "track": "drupal showcase",
+      "track": [
+        "drupal showcase"
+      ],
       "speakers": [
         "ajv009"
       ],
@@ -289,7 +313,9 @@
       "title": "Making the Drupal Credit System Less Gamifiable",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/making-drupal-credit-system-less-gamifiable",
-      "track": "community health",
+      "track": [
+        "community health"
+      ],
       "speakers": [
         "msankhala"
       ],
@@ -304,7 +330,9 @@
       "title": "Beyond Accessibility: Crafting Empathetic Digital Experiences",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/beyond-accessibility-crafting-empathetic-digital-experiences",
-      "track": "user experience, accessibility and design",
+      "track": [
+        "user experience, accessibility and design"
+      ],
       "speakers": [
         "nikitaaswani"
       ],
@@ -319,7 +347,9 @@
       "title": "American Diabetes Association’s Digital Landscape Overhaul with Drupal 10 & Multisite Architecture",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/american-diabetes-associations-digital-landscape-overhaul-drupal-10-multisite",
-      "track": "drupal showcase",
+      "track": [
+        "drupal showcase"
+      ],
       "speakers": [
         "guptahemant"
       ],
@@ -334,7 +364,9 @@
       "title": "Being a Drupal developer in a small third world country",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/being-drupal-developer-small-third-world-country",
-      "track": "community health",
+      "track": [
+        "community health"
+      ],
       "speakers": [
         "nmeegama"
       ],
@@ -349,7 +381,9 @@
       "title": "End-to-end observability with decoupled Drupal and microservices? Yes, it’s possible now!",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/end-end-observability-decoupled-drupal-and-microservices-yes-its-possible-now",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "Murz"
       ],
@@ -364,7 +398,7 @@
       "title": "Afternoon tea",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/afternoon-tea",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -377,7 +411,9 @@
       "title": "Dance with Waterfall and Agile",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/dance-waterfall-and-agile",
-      "track": "leadership, management and business",
+      "track": [
+        "leadership, management and business"
+      ],
       "speakers": [
         "ken_taguchi"
       ],
@@ -392,7 +428,9 @@
       "title": "Enhancing Drupal with PHP 8: Exploring New Features and Compatibility",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/enhancing-drupal-php-8-exploring-new-features-and-compatibility",
-      "track": "development and coding",
+      "track": [
+        "development and coding"
+      ],
       "speakers": [
         "AjitS"
       ],
@@ -407,7 +445,9 @@
       "title": "Defining Drupal Starshot with user-centered design",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/defining-drupal-starshot-user-centered-design",
-      "track": "user experience, accessibility and design drupal starshot",
+      "track": [
+        "user experience, accessibility and design drupal starshot"
+      ],
       "speakers": [
         "Cristina Chumillas"
       ],
@@ -422,7 +462,9 @@
       "title": "Supercharge your company with an open source business model",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/supercharge-your-company-open-source-business-model",
-      "track": "leadership, management and business",
+      "track": [
+        "leadership, management and business"
+      ],
       "speakers": [
         "owenlansbury"
       ],
@@ -437,7 +479,9 @@
       "title": "What, Why, and When for Recipes & Distributions with Starshot",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/what-why-and-when-recipes-distributions-starshot",
-      "track": "development and coding drupal starshot",
+      "track": [
+        "development and coding drupal starshot"
+      ],
       "speakers": [
         "abhisekmazumdar"
       ],
@@ -452,7 +496,9 @@
       "title": "Let's write and expand your Drupal books from your local community!",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/lets-write-and-expand-your-drupal-books-your-local-community",
-      "track": "community health",
+      "track": [
+        "community health"
+      ],
       "speakers": [
         "takahiro-komatsu"
       ],
@@ -467,7 +513,7 @@
       "title": "Splash Awards",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/splash-awards",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "https://www.youtube.com/watch?v=H-oxW0l23iM",
       "full_description": "",
@@ -480,7 +526,7 @@
       "title": "Drupal CMS Candidate Release Party",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/drupal-cms-candidate-release-party",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Join us as we celebrate the launch of the highly anticipated Drupal CMS Release Candidate at DrupalCon Singapore!\nWhether you're a long-time Drupal enthusiast or new to the community, this event is the perfect opportunity to connect with developers, designers, and thought leaders who are shaping the future of web development.\nEnjoy an evening of networking, insightful discussions, and a look at what this new release means for the Drupal ecosystem. Expect great conversations, fun surprises, and a toast to the evolution of open-source innovation.\nThe Drupal CMS Release Party is sponsored by Previous Next, Optasy, Axelerant and Acquia.",
@@ -493,7 +539,7 @@
       "title": "Welcome",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/welcome-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -506,7 +552,7 @@
       "title": "Drupal CMS Panel: Key Leads Answer Your Questions",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/drupal-cms-panel-key-leads-answer-your-questions",
-      "track": "",
+      "track": [],
       "speakers": [
         "tim.plunkett",
         "Dries Buytaert",
@@ -528,7 +574,7 @@
       "title": "Morning Tea",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/morning-tea-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -541,7 +587,9 @@
       "title": "Mastering UI Patterns in Drupal 10: Building Reusable and Dynamic Components",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/mastering-ui-patterns-drupal-10-building-reusable-and-dynamic-components",
-      "track": "site building",
+      "track": [
+        "site building"
+      ],
       "speakers": [
         "thedrupalkid"
       ],
@@ -556,7 +604,9 @@
       "title": "Building Multi-Language Sites in Drupal: Unlocking Global Potential",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/building-multi-language-sites-drupal-unlocking-global-potential",
-      "track": "site building",
+      "track": [
+        "site building"
+      ],
       "speakers": [
         "Anjali Rathod"
       ],
@@ -571,7 +621,9 @@
       "title": "Panel: Meet the Drupal Asia Steering Committee and maybe join us?",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/panel-meet-drupal-asia-steering-committee-and-maybe-join-us",
-      "track": "community health",
+      "track": [
+        "community health"
+      ],
       "speakers": [
         "Michael Richardson",
         "surabhi-gokte",
@@ -591,7 +643,9 @@
       "title": "Navigating Tomorrow: The Future of Websites in the Age of AI and Content Proliferation",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/navigating-tomorrow-future-websites-age-ai-and-content-proliferation",
-      "track": "content and marketing",
+      "track": [
+        "content and marketing"
+      ],
       "speakers": [
         "_doyle_",
         "gaurav.goyal"
@@ -607,7 +661,9 @@
       "title": "Mutual Benefits: How Government Adoption of Drupal Spurs Local Communities and Unlocks Synergy",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/mutual-benefits-how-government-adoption-drupal-spurs-local-communities-and",
-      "track": "leadership, management and business",
+      "track": [
+        "leadership, management and business"
+      ],
       "speakers": [
         "tinto",
         "akmalfikri"
@@ -623,7 +679,9 @@
       "title": "First Time Contributor Workshop",
       "location": "Location Clover 6 +7 (BoF)",
       "link": "https://events.drupal.org//singapore2024/session/first-time-contributor-workshop",
-      "track": "community health",
+      "track": [
+        "community health"
+      ],
       "speakers": [
         "greggmarshall"
       ],
@@ -638,7 +696,9 @@
       "title": "Innovation and the future of Drupal",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/innovation-and-future-drupal",
-      "track": "leadership, management and business",
+      "track": [
+        "leadership, management and business"
+      ],
       "speakers": [
         "Alejandro Moreno Lopez",
         "Piyuesh Kumar",
@@ -657,7 +717,9 @@
       "title": "Enhanced User Experience of Batch Components in Drupal",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/enhanced-user-experience-batch-components-drupal",
-      "track": "development and coding",
+      "track": [
+        "development and coding"
+      ],
       "speakers": [
         "pooja_sharma"
       ],
@@ -672,7 +734,7 @@
       "title": "Lunch",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/lunch-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -685,7 +747,9 @@
       "title": "Accelerating Web Performance: The Power of Fastly and Drupal Integration",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/accelerating-web-performance-power-fastly-and-drupal-integration",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "Michael Richardson",
         "Shu Teng Loh"
@@ -701,7 +765,9 @@
       "title": "Consistency and Collaboration: The Future of Front-End Development with Design Tokens",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/consistency-and-collaboration-future-front-end-development-design-tokens",
-      "track": "user experience, accessibility and design",
+      "track": [
+        "user experience, accessibility and design"
+      ],
       "speakers": [
         "asmita26",
         "nikitaaswani"
@@ -717,7 +783,9 @@
       "title": "From 'them' to 'us': Demystifying Drupal contribution",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/them-us-demystifying-drupal-contribution",
-      "track": "community health",
+      "track": [
+        "community health"
+      ],
       "speakers": [
         "pameeela",
         "larowlan"
@@ -733,7 +801,9 @@
       "title": "Using Drupal’s AI module to power your Drupal websites and potential plans for Starshot.",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/using-drupals-ai-module-power-your-drupal-websites-and-potential-plans",
-      "track": "development and coding drupal starshot",
+      "track": [
+        "development and coding drupal starshot"
+      ],
       "speakers": [
         "yautja_cetanu",
         "Marcus_Johansson"
@@ -749,7 +819,9 @@
       "title": "Improved authoring experience with layout builder: balancing contrib and custom modules",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/improved-authoring-experience-layout-builder-balancing-contrib-and-custom",
-      "track": "site building",
+      "track": [
+        "site building"
+      ],
       "speakers": [
         "zoee-Y",
         "loziju"
@@ -765,7 +837,9 @@
       "title": "Deep Telemetry with eBPF and Rust",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/deep-telemetry-ebpf-and-rust",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "nick_schuch"
       ],
@@ -780,7 +854,9 @@
       "title": "The Drupal.org Engineering team: How we're building a new Drupal.org, contributor tools, and support",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/drupalorg-engineering-team-how-were-building-new-drupalorg-contributor-tools",
-      "track": "development and coding",
+      "track": [
+        "development and coding"
+      ],
       "speakers": [
         "lenny-moskalyk",
         "drumm"
@@ -796,7 +872,7 @@
       "title": "Afternoon Tea",
       "location": "Location Atrium",
       "link": "https://events.drupal.org//singapore2024/session/afternoon-tea-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -809,7 +885,9 @@
       "title": "Master the Multilingual Maze: Harnessing Drupal to Achieve Global Success",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/master-multilingual-maze-harnessing-drupal-achieve-global-success",
-      "track": "content and marketing",
+      "track": [
+        "content and marketing"
+      ],
       "speakers": [
         "amourow"
       ],
@@ -824,7 +902,9 @@
       "title": "Maximizing Potential: Our Journey with Drupal Internships at QED42",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/maximizing-potential-our-journey-drupal-internships-qed42",
-      "track": "leadership, management and business",
+      "track": [
+        "leadership, management and business"
+      ],
       "speakers": [
         "jaykandari"
       ],
@@ -839,7 +919,9 @@
       "title": "A Drupal core maintainer shares peer code review best practices",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/drupal-core-maintainer-shares-peer-code-review-best-practices",
-      "track": "development and coding",
+      "track": [
+        "development and coding"
+      ],
       "speakers": [
         "xjm"
       ],
@@ -854,7 +936,9 @@
       "title": "How to setup a disaster recovery of highly critical drupal sites in AWS",
       "location": "Location Clover 3",
       "link": "https://events.drupal.org//singapore2024/session/how-setup-disaster-recovery-highly-critical-drupal-sites-aws",
-      "track": "devops",
+      "track": [
+        "devops"
+      ],
       "speakers": [
         "fusionx1"
       ],
@@ -869,7 +953,9 @@
       "title": "Enhancing Drupal SEO with Real-Time Updates: Integrating Yoast SEO and Site Studio",
       "location": "Location Clover 4+5",
       "link": "https://events.drupal.org//singapore2024/session/enhancing-drupal-seo-real-time-updates-integrating-yoast-seo-and-site-studio",
-      "track": "development and coding",
+      "track": [
+        "development and coding"
+      ],
       "speakers": [
         "immaculatexavier"
       ],
@@ -884,7 +970,9 @@
       "title": "Experience Builder Initiative",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/experience-builder-initiative",
-      "track": "site building drupal starshot",
+      "track": [
+        "site building drupal starshot"
+      ],
       "speakers": [
         "lauriii"
       ],
@@ -899,7 +987,7 @@
       "title": "Closing Ceremony",
       "location": "Location Garden Ballroom",
       "link": "https://events.drupal.org//singapore2024/session/closing-ceremony",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -912,7 +1000,7 @@
       "title": "Training: Drupal: Zero to Hero in One Day with Pixel Onion",
       "location": "Location Palm Room 5",
       "link": "https://events.drupal.org//singapore2024/session/training-drupal-zero-hero-one-day-pixel-onion",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "For details check: https://events.drupal.org/singapore2024/training...",
@@ -925,7 +1013,7 @@
       "title": "Training: Headless Drupal with Axelerant",
       "location": "Location Palm Room 6",
       "link": "https://events.drupal.org//singapore2024/session/training-headless-drupal-axelerant",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "For details check: https://events.drupal.org/singapore2024/training...",
@@ -938,7 +1026,7 @@
       "title": "Contribution",
       "location": "Location Staytion Lounge Dhoby Ghaut (Different Venue)",
       "link": "https://events.drupal.org//singapore2024/session/contribution",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Mentored, First Time, and General Contribution sessions.\nPlease note the venue for contribution sprint is different:\nStaytion Lounge Dhoby Ghaut, 11 Orchard Rd, B1-13 Dhoby Ghaut, Singapore 238826 (Dhoby Ghaut MRT)\nFor details check Community > Contributions page.",
@@ -951,7 +1039,7 @@
       "title": "Lunch",
       "location": "Location Staytion Lounge Dhoby Ghaut (Different Venue)",
       "link": "https://events.drupal.org//singapore2024/session/lunch-1",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "",
@@ -964,7 +1052,7 @@
       "title": "Training: Drupal: Zero to Hero in One Day with Pixel Onion",
       "location": "Location Palm Room 5",
       "link": "https://events.drupal.org//singapore2024/session/training-drupal-zero-hero-one-day-pixel-onion-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "For details check: https://events.drupal.org/singapore2024/training...",
@@ -977,7 +1065,7 @@
       "title": "Training: Headless Drupal with Axelerant",
       "location": "Location Palm Room 6",
       "link": "https://events.drupal.org//singapore2024/session/training-headless-drupal-axelerant-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "For details check: https://events.drupal.org/singapore2024/training...",
@@ -990,7 +1078,7 @@
       "title": "Contribution",
       "location": "Location Staytion Lounge Dhoby Ghaut (Different Venue)",
       "link": "https://events.drupal.org//singapore2024/session/contribution-0",
-      "track": "",
+      "track": [],
       "speakers": null,
       "video_url": "",
       "full_description": "Mentored, First Time, and General Contribution sessions.\nPlease note the venue for contribution sprint is different:\nStaytion Lounge Dhoby Ghaut, 11 Orchard Rd, B1-13 Dhoby Ghaut, Singapore 238826 (Dhoby Ghaut MRT)\nFor details check Community > Contributions page.",

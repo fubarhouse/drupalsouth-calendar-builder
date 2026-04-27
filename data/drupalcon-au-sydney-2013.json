@@ -30,7 +30,7 @@
       "title": "Registration",
       "location": "Foyer (Registration)",
       "link": "https://sydney2013.drupal.org/registration",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -40,7 +40,7 @@
       "title": "Training: Plan, Build, Launch: Real-World Drupal",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/training/real-world-drupal",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -50,7 +50,7 @@
       "title": "Drupal Business Day",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/drupal-business-day",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -60,7 +60,7 @@
       "title": "Lunch",
       "location": "",
       "link": "https://sydney2013.drupal.org/lunch",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -70,7 +70,7 @@
       "title": "Opening Night Drinks",
       "location": "Oceans Bar",
       "link": "https://sydney2013.drupal.org/opening-night-drinks",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -80,7 +80,7 @@
       "title": "Registration",
       "location": "Foyer (Registration)",
       "link": "https://sydney2013.drupal.org/registration",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -90,7 +90,7 @@
       "title": "Keynote: Dries Buytaert",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/keynote/dries-buytaert",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -100,7 +100,7 @@
       "title": "Break",
       "location": "",
       "link": "https://sydney2013.drupal.org/break",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -110,7 +110,9 @@
       "title": "Designing for Uncertainty",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/designing-uncertainty",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "jpamental"
       ]
@@ -122,7 +124,9 @@
       "title": "Applied agile for Drupal projects",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/applied-agile-drupal-projects",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "wesku"
       ]
@@ -134,7 +138,9 @@
       "title": "The Naked Node: code-free Drupal",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/naked-node-code-free-drupal",
-      "track": "Sitebuilding",
+      "track": [
+        "Sitebuilding"
+      ],
       "speakers": [
         "ericaordinary"
       ]
@@ -146,7 +152,9 @@
       "title": "Drupal 8 Web Services",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/drupal-8-web-services",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "moshe weitzman"
       ]
@@ -158,7 +166,9 @@
       "title": "Zoos Victoria - Drupal for the whole herd",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/zoos-victoria-drupal-whole-herd",
-      "track": "Case",
+      "track": [
+        "Case"
+      ],
       "speakers": [
         "Matt Fenton",
         "aethr"
@@ -171,7 +181,9 @@
       "title": "Give Your Content Creators Reasons to Love You",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/give-your-content-creators-reasons-love-you",
-      "track": "Content",
+      "track": [
+        "Content"
+      ],
       "speakers": [
         "davidseth"
       ]
@@ -183,7 +195,7 @@
       "title": "Lunch",
       "location": "",
       "link": "https://sydney2013.drupal.org/lunch",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -193,7 +205,9 @@
       "title": "Building for a Post-Mobile World",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/building-post-mobile-world",
-      "track": "Content",
+      "track": [
+        "Content"
+      ],
       "speakers": [
         "eaton"
       ]
@@ -205,7 +219,9 @@
       "title": "UX - how can you do it ?",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/ux-how-can-you-do-it",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Claire Sherrington"
       ]
@@ -217,7 +233,9 @@
       "title": "It's not \"their Drupal\" - It's OUR Drupal",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/its-not-their-drupal-its-our-drupal",
-      "track": "Community",
+      "track": [
+        "Community"
+      ],
       "speakers": [
         "mortendk"
       ]
@@ -229,7 +247,9 @@
       "title": "Building an awesome e-commerce store in 25 minutes",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/building-awesome-e-commerce-store-25-minutes",
-      "track": "Sitebuilding",
+      "track": [
+        "Sitebuilding"
+      ],
       "speakers": [
         "andrewyager"
       ]
@@ -241,7 +261,9 @@
       "title": "Symfony Components:  A Travel Guide",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/symfony-components-travel-guide",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "piers.warmers"
       ]
@@ -253,7 +275,9 @@
       "title": "Moving a mountain",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/moving-mountain",
-      "track": "Case",
+      "track": [
+        "Case"
+      ],
       "speakers": [
         "Tim Bennett",
         "dturnbull",
@@ -267,7 +291,9 @@
       "title": "Benefits and challenges of Drupal Adoption for Multinational Organisations",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/benefits-and-challenges-drupal-adoption-multinational-organisations",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "dokumori"
       ]
@@ -279,7 +305,9 @@
       "title": "Patch Review",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/patch-review",
-      "track": "Community",
+      "track": [
+        "Community"
+      ],
       "speakers": [
         "ZenDoodles",
         "xjm"
@@ -292,7 +320,9 @@
       "title": "User-centered design for Drupal sites",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/user-centered-design-drupal-sites",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "xtfer"
       ]
@@ -304,7 +334,9 @@
       "title": "Performance Tough Love",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/performance-tough-love",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "msonnabaum"
       ]
@@ -316,7 +348,9 @@
       "title": "Creating dynamic and accessible content in Drupal 7 using WAI-ARIA",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/creating-dynamic-and-accessible-content-drupal-7-using-wai-aria",
-      "track": "Content",
+      "track": [
+        "Content"
+      ],
       "speakers": [
         "stpulis"
       ]
@@ -328,7 +362,9 @@
       "title": "Suncorp Group: Growing and Managing a Drupal Team in your Corporation",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/suncorp-group-growing-and-managing-drupal-team-your-corporation",
-      "track": "Case",
+      "track": [
+        "Case"
+      ],
       "speakers": [
         "Chuong Vu"
       ]
@@ -340,7 +376,7 @@
       "title": "Break",
       "location": "",
       "link": "https://sydney2013.drupal.org/break",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -350,7 +386,9 @@
       "title": "Build better websites with Panels",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/build-better-websites-panels",
-      "track": "Sitebuilding",
+      "track": [
+        "Sitebuilding"
+      ],
       "speakers": [
         "jenlampton"
       ]
@@ -362,7 +400,9 @@
       "title": "How to Create Ravenously Passionate Contributors",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/how-create-ravenously-passionate-contributors",
-      "track": "Community",
+      "track": [
+        "Community"
+      ],
       "speakers": [
         "webchick"
       ]
@@ -374,7 +414,9 @@
       "title": "10 Ways to Cost Drupal Projects",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/10-ways-cost-drupal-projects",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "Mark Matuschka"
       ]
@@ -386,7 +428,9 @@
       "title": "Content Strategists and Developers: We need each other!",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/content-strategists-and-developers-we-need-each-other",
-      "track": "Content",
+      "track": [
+        "Content"
+      ],
       "speakers": [
         "angusg",
         "rikki_iki"
@@ -399,7 +443,9 @@
       "title": "Case Study: NovaFM",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/case-study-novafm",
-      "track": "Case",
+      "track": [
+        "Case"
+      ],
       "speakers": [
         "jptaranto",
         "cbiggins",
@@ -413,7 +459,9 @@
       "title": "Real world continuous integration for Drupal",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/real-world-continuous-integration-drupal",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "boztek"
       ]
@@ -425,7 +473,9 @@
       "title": "Content strategy and the QUT web redevelopment project",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/content-strategy-and-qut-web-redevelopment-project",
-      "track": "Content",
+      "track": [
+        "Content"
+      ],
       "speakers": [
         "JillyMagee"
       ]
@@ -437,7 +487,9 @@
       "title": "CSS is for Clark Kent. Sass is for Superman.",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/css-clark-kent-sass-superman",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "JohnAlbin"
       ]
@@ -449,7 +501,9 @@
       "title": "Panopoly: Building a Powerful Base Distribution",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/panopoly-building-powerful-base-distribution",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "populist"
       ]
@@ -461,7 +515,9 @@
       "title": "HTML mobile application development with Drupal backend.",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/html-mobile-application-development-drupal-backend",
-      "track": "Sitebuilding",
+      "track": [
+        "Sitebuilding"
+      ],
       "speakers": [
         "VladimirAus"
       ]
@@ -473,7 +529,9 @@
       "title": "Sharing content between Drupal sites",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/sharing-content-between-drupal-sites",
-      "track": "Case",
+      "track": [
+        "Case"
+      ],
       "speakers": [
         "Taz"
       ]
@@ -485,7 +543,9 @@
       "title": "Running a Drupal Business",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/running-drupal-business",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "andant"
       ]
@@ -497,7 +557,7 @@
       "title": "Registration",
       "location": "Foyer (Registration)",
       "link": "https://sydney2013.drupal.org/registration",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -507,7 +567,7 @@
       "title": "Keynote: Senator Kate Lundy",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/keynote/senator-kate-lundy",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -517,7 +577,7 @@
       "title": "Sponsor Fair",
       "location": "",
       "link": "https://sydney2013.drupal.org/sponsor-fair-0",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -527,7 +587,7 @@
       "title": "Break",
       "location": "",
       "link": "https://sydney2013.drupal.org/break",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -537,7 +597,9 @@
       "title": "News & Media Case Study: South China Morning Post",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/news-media-case-study-south-china-morning-post",
-      "track": "Case",
+      "track": [
+        "Case"
+      ],
       "speakers": [
         "Josh Waihi"
       ]
@@ -549,7 +611,9 @@
       "title": "Climbing the Drupal Ladder",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/drupal-ladder-resources-meetups-help-members-learn-and-contribute",
-      "track": "Community",
+      "track": [
+        "Community"
+      ],
       "speakers": [
         "add1sun"
       ]
@@ -561,7 +625,9 @@
       "title": "Search All the Things",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/search-all-things",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "cyberswat"
       ]
@@ -573,7 +639,9 @@
       "title": "Twig, and the new theme layer in Drupal 8",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/twig-and-new-theme-layer-drupal-8",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "JohnAlbin",
         "mortendk",
@@ -588,7 +656,9 @@
       "title": "Re-think Your Requirements",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/re-think-your-requirements",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "pameeela"
       ]
@@ -600,7 +670,9 @@
       "title": "Configuration Management in Drupal 7",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/configuration-management-drupal-7",
-      "track": "Sitebuilding",
+      "track": [
+        "Sitebuilding"
+      ],
       "speakers": [
         "neoxavier"
       ]
@@ -612,7 +684,7 @@
       "title": "Lunch",
       "location": "",
       "link": "https://sydney2013.drupal.org/lunch",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -622,7 +694,9 @@
       "title": "Show me the tests! Writing Automated Tests for Drupal",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/show-me-tests-writing-automated-tests-drupal",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "larowlan"
       ]
@@ -634,7 +708,9 @@
       "title": "State of the nation in mapping",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/state-nation-mapping",
-      "track": "Sitebuilding",
+      "track": [
+        "Sitebuilding"
+      ],
       "speakers": [
         "RdeBoer"
       ]
@@ -646,7 +722,9 @@
       "title": "Citizen Journalist: blogs, media and your editorial team",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/citizen-journalist-blogs-media-and-your-editorial-team",
-      "track": "Content",
+      "track": [
+        "Content"
+      ],
       "speakers": [
         "rbersten"
       ]
@@ -658,7 +736,9 @@
       "title": "Real-Time Mobile Ecommerce in Drupal",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/real-time-mobile-ecommerce-drupal",
-      "track": "Case",
+      "track": [
+        "Case"
+      ],
       "speakers": [
         "rcross",
         "geoffreyr"
@@ -671,7 +751,7 @@
       "title": "Core Conversations Summit",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/core-conversations",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -681,7 +761,9 @@
       "title": "Enterprise Drupal Migrations: Lessons from Large Scale Migrations",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/enterprise-drupal-migrations-lessons-large-scale-migrations",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "jwalpole",
         "chrisstrahl"
@@ -694,7 +776,9 @@
       "title": "The Angry Themer",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/angry-themer",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "mortendk"
       ]
@@ -706,7 +790,9 @@
       "title": "Collaborating with the Public Sector",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/collaborating-public-sector",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "DavidCalculli"
       ]
@@ -718,7 +804,9 @@
       "title": "Information architecture for site builders",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/information-architecture-site-builders",
-      "track": "Sitebuilding",
+      "track": [
+        "Sitebuilding"
+      ],
       "speakers": [
         "murrayw"
       ]
@@ -730,7 +818,9 @@
       "title": "Geek girls in the Philippines Meet Drupal!",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/geek-girls-philippines-meet-drupal",
-      "track": "Community",
+      "track": [
+        "Community"
+      ],
       "speakers": [
         "Gemdev"
       ]
@@ -742,7 +832,9 @@
       "title": "Improving your responsive workflow with style guides",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/improving-your-responsive-workflow-style-guides",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "lukebrooker"
       ]
@@ -754,7 +846,7 @@
       "title": "Break",
       "location": "",
       "link": "https://sydney2013.drupal.org/break",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -764,7 +856,9 @@
       "title": "Fairly Local - A Drupal Powered iPhone App and Website",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/fairly-local-drupal-powered-iphone-app-and-website",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "scottsanders"
       ]
@@ -776,7 +870,9 @@
       "title": "Selling Drupal to Large Enterprises",
       "location": "Coogee",
       "link": "https://sydney2013.drupal.org/selling-drupal-large-enterprises",
-      "track": "Business",
+      "track": [
+        "Business"
+      ],
       "speakers": [
         "frubim"
       ]
@@ -788,7 +884,9 @@
       "title": "We need to look back to move forward",
       "location": "Clovelly",
       "link": "https://sydney2013.drupal.org/we-need-look-back-move-forward",
-      "track": "Community",
+      "track": [
+        "Community"
+      ],
       "speakers": [
         "gordon"
       ]
@@ -800,7 +898,9 @@
       "title": "Managing Code and Configuration with Update Functions (and staying sane)",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/managing-code-and-configuration-update-functions-and-staying-sane",
-      "track": "Coding",
+      "track": [
+        "Coding"
+      ],
       "speakers": [
         "aethr"
       ]
@@ -812,7 +912,9 @@
       "title": "Turning mountains into molehills - large-scale content migration",
       "location": "Oceanic Ballroom East",
       "link": "https://sydney2013.drupal.org/turning-mountains-molehills-large-scale-content-migration",
-      "track": "Content",
+      "track": [
+        "Content"
+      ],
       "speakers": [
         "cllagas"
       ]
@@ -824,7 +926,7 @@
       "title": "Closing Plenary",
       "location": "Oceanic Ballroom West",
       "link": "https://sydney2013.drupal.org/closing-plenary",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -834,7 +936,7 @@
       "title": "Community Tools Workshop",
       "location": "Bronte",
       "link": "https://sydney2013.drupal.org/sprints/community-tools-workshop",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -844,7 +946,7 @@
       "title": "Code Sprint",
       "location": "Centennial",
       "link": "https://sydney2013.drupal.org/code-sprint",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -854,7 +956,7 @@
       "title": "Break",
       "location": "",
       "link": "https://sydney2013.drupal.org/break",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -864,7 +966,7 @@
       "title": "Lunch",
       "location": "",
       "link": "https://sydney2013.drupal.org/lunch",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -874,7 +976,7 @@
       "title": "Break",
       "location": "",
       "link": "https://sydney2013.drupal.org/break",
-      "track": "",
+      "track": [],
       "speakers": null
     }
   ],

@@ -20,7 +20,9 @@
       "title": "Setup",
       "location": "Saturday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -34,7 +36,9 @@
       "title": "Registration, coffee",
       "location": "Saturday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -48,7 +52,9 @@
       "title": "Welcome",
       "location": "Saturday",
       "link": "http://drupalsouth.net.nz/session/welcome",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "jonathan.hunt"
       ],
@@ -64,7 +70,9 @@
       "title": "Drupal vs the rest",
       "location": "Saturday",
       "link": "http://drupalsouth.net.nz/session/drupal-vs-the-rest",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Julian Carver"
       ],
@@ -80,7 +88,9 @@
       "title": "Drupal and the Encyclopedia of Life - True Taxonomy",
       "location": "Saturday",
       "link": "http://drupalsouth.net.nz/session/something-about-drupal",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Dan dman"
       ],
@@ -96,7 +106,9 @@
       "title": "Drupal and CiviCRM for campaigns",
       "location": "Saturday",
       "link": "http://drupalsouth.net.nz/session/drupal-and-civicrm-for-campaigns",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Chris Burgess"
       ],
@@ -112,7 +124,9 @@
       "title": "JQuery UI interface development for Drupal",
       "location": "Saturday",
       "link": "http://drupalsouth.net.nz/session/cool-user-interfaces-using-jquery-ui",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "David Thomas"
       ],
@@ -128,7 +142,9 @@
       "title": "OpenID with Drupal",
       "location": "Saturday",
       "link": "http://drupalsouth.net.nz/session/openid-with-drupal",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Marek Kuziel"
       ],
@@ -144,7 +160,9 @@
       "title": "Lunch",
       "location": "Saturday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -158,7 +176,9 @@
       "title": "Unconference - Adhoc talks, demos, tutorials, hacking",
       "location": "Saturday",
       "link": "",
-      "track": "Unconference",
+      "track": [
+        "Unconference"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -172,7 +192,9 @@
       "title": "Wrap up",
       "location": "Saturday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -186,7 +208,9 @@
       "title": "Refreshments",
       "location": "Saturday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -200,7 +224,9 @@
       "title": "Cleanup",
       "location": "Saturday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -214,7 +240,9 @@
       "title": "Welcome",
       "location": "Sunday",
       "link": "http://drupalsouth.net.nz/session/welcome",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "jonathan.hunt"
       ],
@@ -230,7 +258,9 @@
       "title": "Google Maps in Drupal; The Hub Map",
       "location": "Sunday",
       "link": "http://drupalsouth.net.nz/session/google-maps-in-drupal-the-hub-map",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Bevan Rudge"
       ],
@@ -246,7 +276,9 @@
       "title": "Managing Drupal with Drupal",
       "location": "Sunday",
       "link": "http://drupalsouth.net.nz/session/managing-drupal-with-drupal",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Dave Lane"
       ],
@@ -262,7 +294,9 @@
       "title": "Drupal in Education",
       "location": "Sunday",
       "link": "http://drupalsouth.net.nz/session/drupal-in-education",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Josh Campbell"
       ],
@@ -278,7 +312,9 @@
       "title": "Drupal on Postgres",
       "location": "Sunday",
       "link": "http://drupalsouth.net.nz/session/drupal-on-postgres",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Brenda Shiny"
       ],
@@ -294,7 +330,9 @@
       "title": "NZ Government web standards and Drupal",
       "location": "Sunday",
       "link": "http://drupalsouth.net.nz/session/nz-government-web-standards-and-drupal",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Jonathan Hunt"
       ],
@@ -310,7 +348,9 @@
       "title": "Lunch",
       "location": "Sunday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -324,7 +364,9 @@
       "title": "Unconference",
       "location": "Sunday",
       "link": "",
-      "track": "Unconference",
+      "track": [
+        "Unconference"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -338,7 +380,9 @@
       "title": "Wrap up/Farewell",
       "location": "Sunday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -352,7 +396,9 @@
       "title": "Refreshments",
       "location": "Sunday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -366,7 +412,9 @@
       "title": "Cleanup",
       "location": "Sunday",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",

@@ -30,7 +30,9 @@
       "title": "Contribution Day sponsored by PreviousNext",
       "location": "Multicultural Hub, 506 Elizabeth St, Melbourne",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -43,7 +45,9 @@
       "title": "Varnish for Drupal developers: the hands-on workshop",
       "location": "Multicultural Hub, 506 Elizabeth St, Melbourne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3733",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Thijs Feryn"
       ],
@@ -58,7 +62,9 @@
       "title": "Agency Leaders Dinner (Invitation only, Managed by Ironstar)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -71,7 +77,9 @@
       "title": "Registration",
       "location": "Foyer",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -84,7 +92,9 @@
       "title": "Welcome to country",
       "location": "Cinema 1",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -97,7 +107,9 @@
       "title": "Official welcome / Group photo",
       "location": "Cinema 1",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -110,7 +122,9 @@
       "title": "Humanizing technology",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3643",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Nicola Nye"
       ],
@@ -125,7 +139,9 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -138,7 +154,9 @@
       "title": "Varnish for Drupal developers",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3730",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Thijs Feryn"
       ],
@@ -153,7 +171,9 @@
       "title": "Takeaways from teaching Drupal in college",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3563",
-      "track": "People & Culture",
+      "track": [
+        "People & Culture"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -168,7 +188,9 @@
       "title": "Dude, where's my users?",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3508",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Emily Mills"
       ],
@@ -183,7 +205,9 @@
       "title": "Morning Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -196,7 +220,9 @@
       "title": "Ready, Set, Drupal: Simplifying Development with Feature Recipes",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3475",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Richard Gaunt"
       ],
@@ -211,7 +237,9 @@
       "title": "Automating Attendance: How Georgia Tech Built an RFID Check-In System in Drupal",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3477",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Jimmy Kriigel"
       ],
@@ -226,7 +254,9 @@
       "title": "How inclusive can your documents get?",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3515",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Adrian Redman"
       ],
@@ -241,7 +271,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -254,7 +286,9 @@
       "title": "Building the experience builder experience",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3481",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Lee Rowlands"
       ],
@@ -269,7 +303,9 @@
       "title": "Managing emergencies with cutting edge technology",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3505",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Nigel Cunningham"
       ],
@@ -284,7 +320,9 @@
       "title": "AX: Turning your B2B tech strategy into content that converts",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3493",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Felicity Brand"
       ],
@@ -299,7 +337,9 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -312,7 +352,9 @@
       "title": "Avoiding CSS crime scenes - practical tips for maintainable styles.",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3512",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Tina Reymann"
       ],
@@ -327,7 +369,9 @@
       "title": "Automated AI Testing with Postman",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3556",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Michelle Parker"
       ],
@@ -342,7 +386,9 @@
       "title": "Writing for Australian Government websites",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3525",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Amber Henry"
       ],
@@ -357,7 +403,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -370,7 +418,9 @@
       "title": "Building Workflows into Drupal Webforms: A Practical Guide",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3527",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Philip Joseph"
       ],
@@ -385,7 +435,9 @@
       "title": "Drupal and the Open Web in the Australian Government - 2025 edition",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3559",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Sean Hamlin"
       ],
@@ -400,7 +452,9 @@
       "title": "Afternoon tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -413,7 +467,9 @@
       "title": "Drupal & Firebase: Real-time Config & Content for Android & iOS Apps",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3469",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Daynis Olman"
       ],
@@ -428,7 +484,9 @@
       "title": "Lead, Manage, Succeed: From Technical Lead to Drupal Project Manager",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3518",
-      "track": "People & Culture",
+      "track": [
+        "People & Culture"
+      ],
       "speakers": [
         "David Flores-Condezo"
       ],
@@ -443,7 +501,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -456,7 +516,9 @@
       "title": "Splash Awards and Community Recognition sponsored By Ironstar",
       "location": "Cinema 1",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -469,7 +531,9 @@
       "title": "Networking drinks",
       "location": "The Meadow, Beer DeLuxe, Federation Square",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -482,7 +546,9 @@
       "title": "Registration",
       "location": "Foyer",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -495,7 +561,9 @@
       "title": "Tea and coffee",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -508,7 +576,9 @@
       "title": "Introduction day 2",
       "location": "Cinema 1",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -521,7 +591,9 @@
       "title": "Sustaining Open Source Software: Tools For Change",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3718",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Justin Warren"
       ],
@@ -536,7 +608,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -549,7 +623,9 @@
       "title": "Transforming Drupal data workflows: An in-depth look at Data Pipelines and Search API",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3530",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Brynn Briedis"
       ],
@@ -564,7 +640,9 @@
       "title": "Building a Versatile Design System for Pacific Data Hub: Bridging Drupal Themes and Headless Frontends",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3565",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Rox Flame"
       ],
@@ -579,7 +657,9 @@
       "title": "Mindful connections: enhancing mental health awareness in a remote work culture",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3553",
-      "track": "People & Culture",
+      "track": [
+        "People & Culture"
+      ],
       "speakers": [
         "Angela Rako"
       ],
@@ -594,7 +674,9 @@
       "title": "Morning Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -607,7 +689,9 @@
       "title": "Launch your design system into hyperdrive with Starshot's Experience Builder",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3542",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Akhil Bhandari"
       ],
@@ -622,7 +706,9 @@
       "title": "Hashes and Nonces and Violations, Oh My! Everything you need to know about Content Security Policy (CSP)",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3513",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Michael Strelan"
       ],
@@ -637,7 +723,9 @@
       "title": "Let's bring new people to Drupal!",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3571",
-      "track": "People & Culture",
+      "track": [
+        "People & Culture"
+      ],
       "speakers": [
         "Daniel Carvalhinho"
       ],
@@ -652,7 +740,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -665,7 +755,9 @@
       "title": "My journey to becoming a Core maintainer",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3483",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Daniel Veza"
       ],
@@ -680,7 +772,9 @@
       "title": "Using generative tools to assist with software development",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3482",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -695,7 +789,9 @@
       "title": "Forming an AI strategy for a digital agency",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3544",
-      "track": "People & Culture",
+      "track": [
+        "People & Culture"
+      ],
       "speakers": [
         "Kurt Foster"
       ],
@@ -710,7 +806,9 @@
       "title": "Object Oriented theming with Pinto",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3572",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Adam Bramley"
       ],
@@ -725,7 +823,9 @@
       "title": "The Pygmy Stack: The Little Docker Helper Tool That Could",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3531",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Karl Hepworth"
       ],
@@ -740,7 +840,9 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -753,7 +855,9 @@
       "title": "How Drupal Plays Its Role in Modern Enterprise Digital Architecture",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3567",
-      "track": "Drupal Development",
+      "track": [
+        "Drupal Development"
+      ],
       "speakers": [
         "Weynham Zheng"
       ],
@@ -768,7 +872,9 @@
       "title": "Setup projects and onboard developers in minutes with Vortex",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3536",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Alex Skrypnyk"
       ],
@@ -783,7 +889,9 @@
       "title": "DrupalSouth Steering Committee - Panel & Open Discussion",
       "location": "Swinburne",
       "link": "",
-      "track": "People & Culture",
+      "track": [
+        "People & Culture"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -796,7 +904,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -809,7 +919,9 @@
       "title": "Making a splash with an accessible, consistent design system",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3510",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Melissa Coombs",
         "Kate Faulkner"
@@ -825,7 +937,9 @@
       "title": "Drupal F1 Trivia with Salsa Digital – Test Your Knowledge & Win Prizes!",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3782",
-      "track": "Sponsor",
+      "track": [
+        "Sponsor"
+      ],
       "speakers": [
         "Akhil Bhandari"
       ],
@@ -840,7 +954,9 @@
       "title": "Super-charging Drupal and GovCMS with ethical personalisation and content powered by Salesforce",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3498",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Chris Dodds"
       ],
@@ -855,7 +971,9 @@
       "title": "Afternoon tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -868,7 +986,9 @@
       "title": "Building digital experiences that align to Digital Service Standards",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3550",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Paul Morriss"
       ],
@@ -883,7 +1003,9 @@
       "title": "How we modernised our frontend tooling using Vite and Storybook",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3526",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Jack Taranto"
       ],
@@ -898,7 +1020,9 @@
       "title": "Two Suppliers, One Team: A case study on a collaborative Drupal project in the Digital Transformation of Catholic Schools NSW",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3491",
-      "track": "People & Culture",
+      "track": [
+        "People & Culture"
+      ],
       "speakers": [
         "Griffyn Heels",
         "Joanne Paterson (Folk)"
@@ -914,7 +1038,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -927,7 +1053,9 @@
       "title": "Unlocking GovCMS Personalization: Custom Metatags and Convivial Profiler in Action",
       "location": "Cinema 1",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3564",
-      "track": "User Experience & Content",
+      "track": [
+        "User Experience & Content"
+      ],
       "speakers": [
         "Naveen Valecha"
       ],
@@ -942,7 +1070,9 @@
       "title": "Deep Telemetry with eBPF and Rust",
       "location": "Cinema 2",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3484",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Nick Schuch"
       ],
@@ -957,7 +1087,9 @@
       "title": "Turning rules and legislation into interactive digital experiences",
       "location": "Swinburne",
       "link": "https://drupalsouth.org/events/drupalsouth-melbourne-2025/schedule/3540",
-      "track": "Web Tools & Complementary Technologies",
+      "track": [
+        "Web Tools & Complementary Technologies"
+      ],
       "speakers": [
         "Phillipa Martin"
       ],
@@ -972,7 +1104,9 @@
       "title": "Break (Room change)",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -985,7 +1119,9 @@
       "title": "Closing remarks",
       "location": "Cinema 1",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -998,7 +1134,9 @@
       "title": "Afterparty",
       "location": "The Duke of Wellington, 2/146 Flinders St, Melbourne VIC 3000",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",

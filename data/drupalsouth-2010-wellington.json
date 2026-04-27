@@ -20,7 +20,9 @@
       "title": "Registration | Welcome: Bevan Rudge (Bevan)",
       "location": "Blue Marine (Main Room), Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -33,7 +35,9 @@
       "title": "Abandonment Issues: Your Drupal Clients, and What Happens When You're Gone",
       "location": "Blue Marine (Main Room), Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/abandonment-issues-your-drupal-clients-and-what-happens-when-youre-gone",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Liz Henry"
       ],
@@ -48,7 +52,9 @@
       "title": "Domain Access: Managing multiple websites out of one Drupal install",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/domain-access-managing-mulitple-websites-out-of-one-drupal-install",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Amber Haley"
       ],
@@ -63,7 +69,9 @@
       "title": "PHP for Designers",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/php-for-designers",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "emmajane"
       ],
@@ -78,7 +86,9 @@
       "title": "CiviCRM adventures in Drupal-land",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/organic-groups-and-civicrm-bermuda-triangle",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "pete davis"
       ],
@@ -93,7 +103,9 @@
       "title": "How and where does Drupal fit in the CMS market?",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/what-is-happening-in-the-mid-tier-cms-market-nationally-and-internationally-and-how-does-dru",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "julian.carver"
       ],
@@ -108,7 +120,9 @@
       "title": "(Long) Lunch - Finger Food (Included) LCA Open Day 11-2pm Wellington Conference Centre",
       "location": "Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -121,7 +135,9 @@
       "title": "\"I am not a developer\" - talking Drupal to clients",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/i-am-not-a-developer-talking-drupal-to-clients",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Dave Sparks"
       ],
@@ -136,7 +152,9 @@
       "title": "Blaming the unknown - constructive approach to technology",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/blaming-the-unknown-constructive-approach-to-technology",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "datacharmer"
       ],
@@ -151,7 +169,9 @@
       "title": "Using Drupal for collaborative historical research",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/using-drupal-for-collaborative-historical-research",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Claudine Chionh"
       ],
@@ -166,7 +186,9 @@
       "title": "vetspace.org.nz",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/vetspaceorgnz",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "aaron1234nz@drupal.org"
       ],
@@ -181,7 +203,9 @@
       "title": "\"I am not a developer\" - talking Drupal to clients",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/i-am-not-a-developer-talking-drupal-to-clients",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Dave Sparks"
       ],
@@ -196,7 +220,9 @@
       "title": "Multi-Master MySQL",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/multi-master-mysql",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "arjen"
       ],
@@ -211,7 +237,9 @@
       "title": "Using Drupal for collaborative historical research",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/using-drupal-for-collaborative-historical-research",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Claudine Chionh"
       ],
@@ -226,7 +254,9 @@
       "title": "vetspace.org.nz",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/vetspaceorgnz",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "aaron1234nz@drupal.org"
       ],
@@ -241,7 +271,9 @@
       "title": "Break",
       "location": "Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -254,7 +286,9 @@
       "title": "Looking Forward To Drupal 7",
       "location": "Blue Marine (Main Room), Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/looking-forward-to-drupal-7",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "webchick"
       ],
@@ -269,7 +303,9 @@
       "title": "Drupal hosting in the clouds",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/drupal-hosting-in-the-clouds",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Berend de Boer"
       ],
@@ -284,7 +320,9 @@
       "title": "Technical Q + A",
       "location": "Blue Marine (Main Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -297,7 +335,9 @@
       "title": "Lightning Talks / Ignite Talks",
       "location": "Blue Marine (Main Room), Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/lightening-talks",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "kattekrab"
       ],
@@ -312,7 +352,9 @@
       "title": "Tidy-up: we could do with everyone lending a hand as the function room is booked for this evening so we can't leave it set up.",
       "location": "Blue Marine (Main Room), Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -325,7 +367,9 @@
       "title": "Welcome to Day Two",
       "location": "Blue Marine (Main Room), Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -338,7 +382,9 @@
       "title": "Module Development: or How I Learned to Stop Worrying and Love the Module",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/module-development-for-the-absolute-beginner-working-title",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "welly"
       ],
@@ -353,7 +399,9 @@
       "title": "Ubercart - converting your drupal site into a money machine.",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/ubercart-converting-your-drupal-site-into-a-money-machine",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "univate"
       ],
@@ -368,7 +416,9 @@
       "title": "Break",
       "location": "Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -381,7 +431,9 @@
       "title": "Doesn't Play Nicely!",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/doesnt-play-nicely",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "xurizaemon"
       ],
@@ -396,7 +448,9 @@
       "title": "FOSS: The We Economy",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/foss-community-and-you",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "emmajane"
       ],
@@ -411,7 +465,9 @@
       "title": "Building interactive calculators",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/building-interactive-calculators",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Kale Worsley"
       ],
@@ -426,7 +482,9 @@
       "title": "Drupal for Project Management - lessons learned",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/drupal-for-project-management-lessons-learned",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "dave.lane"
       ],
@@ -441,7 +499,9 @@
       "title": "fixmystreet.org.nz",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/fixmystreetorgnz",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "jonathan.hunt"
       ],
@@ -456,7 +516,9 @@
       "title": "Training Wheels - Learning and Teaching Drupal",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/tackling-training-head-on",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "kattekrab"
       ],
@@ -471,7 +533,9 @@
       "title": "Lunch - Finger Food (Included)",
       "location": "Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -484,7 +548,9 @@
       "title": "jQuery Basics Plus Plus",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/jquery-basics-plus-plus",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Bevan"
       ],
@@ -499,7 +565,9 @@
       "title": "MySQL > YourSQL",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/mysql-yoursql",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "cafuego"
       ],
@@ -514,7 +582,9 @@
       "title": "Easy and Fast Tree/Graph Traversal and Social Networking in Drupal",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/graph-engine-for-mysql-mariadb-and-drizzle",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "arjen"
       ],
@@ -529,7 +599,9 @@
       "title": "jQuery Basics Plus Plus",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/jquery-basics-plus-plus",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "Bevan"
       ],
@@ -544,7 +616,9 @@
       "title": "Boost database performance with MySQL partitions",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/boost-database-performance-with-mysql-partitions",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "datacharmer"
       ],
@@ -559,7 +633,9 @@
       "title": "Drupal.net.nz site re-build in 7",
       "location": "Blue Marine (Main Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/drupalsouth-site-re-build-in-7",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "Let's help the Drupal community as it launches the latest and greatest core feature set we call version 7, by taking it for a collaborative spin.\n\nAt the same time serving our kiwi Drupal community by re-building our Drupal showcase site, currently in D5.\n\nBe part of the process of brain-storming, finding the right man (or woman) for the job, squashing bugs, contributing patches, and simply getting heads down and bums up so it gets done.\n\nNo idle chitter chatter here mates.\n\nAre you up to the challenge?\n\nWe are looking for an over-arching development team who are conversant in the inner workings of D.o to mentor others in the deployment, bug-squishing, patching process, as well as getting down and dirty themselves.\n\nThere is also a call for a team leader in the theming, wow and pizzaz department.\n\nPlease leave your ideas on what you'd like to see on New Zealand's Drupal Showcase site in the comments below.",
@@ -572,7 +648,9 @@
       "title": "Break",
       "location": "Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -585,7 +663,9 @@
       "title": "Config in code with Drush and Features",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/config-in-code-with-drush-and-features",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "fiasco"
       ],
@@ -600,7 +680,9 @@
       "title": "Hackfest continued",
       "location": "Blue Marine (Main Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -613,7 +695,9 @@
       "title": "Aegir",
       "location": "Garland (Smaller Room)",
       "link": "http://wellington2010.drupalsouth.net.nz/session/aegir",
-      "track": "Session",
+      "track": [
+        "Session"
+      ],
       "speakers": [
         "skwashd"
       ],
@@ -628,7 +712,9 @@
       "title": "Hackfest continued",
       "location": "Blue Marine (Main Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",
@@ -641,7 +727,9 @@
       "title": "Job Fair, Wrap-up and Pack Down",
       "location": "Blue Marine (Main Room), Garland (Smaller Room)",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "description": "",
       "full_description": "",

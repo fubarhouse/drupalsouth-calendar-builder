@@ -30,7 +30,9 @@
       "title": "Registration",
       "location": "Foyer",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": ""
@@ -42,7 +44,9 @@
       "title": "Opening Remarks",
       "location": "Top of the Cross",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Marge"
       ],
@@ -56,7 +60,9 @@
       "title": "Venue Sponsor Remarks - PreviousNext",
       "location": "Top of the Cross",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": ""
@@ -68,7 +74,9 @@
       "title": "Content Creators and Drupal: Bridging the Gap Between Developers and Publishers",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Mel Stubbings",
         "Chris Knowles",
@@ -86,7 +94,9 @@
       "title": "Common (but tricky) GovCMS requirements",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "David Flores-Condezo"
       ],
@@ -100,7 +110,9 @@
       "title": "CivicTheme and Starshot: World-class site builder experience delivering world-class digital experiences",
       "location": "Private Dining",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Thomas Peterson"
       ],
@@ -114,7 +126,9 @@
       "title": "Morning Tea",
       "location": "Foyer",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": ""
@@ -126,7 +140,9 @@
       "title": "How to unlock enhanced search visibility & provide a richer user experience using Schema.org",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Julia Topliss"
       ],
@@ -140,7 +156,9 @@
       "title": "PDF or not to PDF!",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Andre Kakos"
       ],
@@ -154,7 +172,9 @@
       "title": "GovFlix: A behind the scenes look of a content recommendation system",
       "location": "Private Dining",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Murray Woodman"
       ],
@@ -168,7 +188,9 @@
       "title": "Accessibility Mistakes: A Developer's Guide",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Jeannie Panting"
       ],
@@ -182,7 +204,9 @@
       "title": "Lunch",
       "location": "Foyer",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": ""
@@ -194,7 +218,9 @@
       "title": "Exploring Single Directory Components",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Brynn Briedis"
       ],
@@ -208,7 +234,9 @@
       "title": "Starshot show & tell (& tell me what you think)",
       "location": "Private Dining",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Pamela Barone"
       ],
@@ -222,7 +250,9 @@
       "title": "What has the Drupal Association ever done for us?",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2024-session-information",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Owen Lansbury"
       ],
@@ -236,7 +266,9 @@
       "title": "Closing Remarks & Networking Sponsor Remarks (Annex)",
       "location": "Top of the Cross",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Marge"
       ],
@@ -250,7 +282,9 @@
       "title": "Networking Event (sponsored by Annex)",
       "location": "Venue",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": ""

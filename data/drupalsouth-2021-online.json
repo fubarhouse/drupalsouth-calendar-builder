@@ -20,7 +20,9 @@
       "title": "Minute of Silence (Remembrance Day)",
       "location": "Main Stage",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null
     },
     {
@@ -30,7 +32,9 @@
       "title": "Welcome and Introductions",
       "location": "Main Stage",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null
     },
     {
@@ -40,8 +44,12 @@
       "title": "Keynote: Drupal 10 and Beyond",
       "location": "Main Stage",
       "link": "https://drupalsouth.org/node/662",
-      "track": "Keynote",
-      "speakers": ["Lee Rowlands"]
+      "track": [
+        "Keynote"
+      ],
+      "speakers": [
+        "Lee Rowlands"
+      ]
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -50,8 +58,12 @@
       "title": "Mobile accessibility: testing mobile sites for accessibility",
       "location": "Deep Dive",
       "link": "https://drupalsouth.org/node/661",
-      "track": "Deep Dive",
-      "speakers": ["Gian Wild"]
+      "track": [
+        "Deep Dive"
+      ],
+      "speakers": [
+        "Gian Wild"
+      ]
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -60,8 +72,13 @@
       "title": "An ambitious digital experience platform for the future of Australia's government",
       "location": "Showcase",
       "link": "https://drupalsouth.org/node/654",
-      "track": "Showcase",
-      "speakers": ["Kristen Pol", "Stuart Rowlands"]
+      "track": [
+        "Showcase"
+      ],
+      "speakers": [
+        "Kristen Pol",
+        "Stuart Rowlands"
+      ]
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -70,8 +87,13 @@
       "title": "Sector + Gatsby - taking a distribution decoupled",
       "location": "Showcase",
       "link": "https://drupalsouth.org/node/655",
-      "track": "Showcase",
-      "speakers": ["Marco Guidetti", "Gareth Poole"]
+      "track": [
+        "Showcase"
+      ],
+      "speakers": [
+        "Marco Guidetti",
+        "Gareth Poole"
+      ]
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -80,8 +102,12 @@
       "title": "Caching Gamification",
       "location": "Deep Dive",
       "link": "https://drupalsouth.org/node/656",
-      "track": "Deep Dive",
-      "speakers": ["Sean Hamlin"]
+      "track": [
+        "Deep Dive"
+      ],
+      "speakers": [
+        "Sean Hamlin"
+      ]
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -90,8 +116,15 @@
       "title": "Security Talk",
       "location": "Lightning",
       "link": "https://drupalsouth.org/node/663",
-      "track": "Lightning",
-      "speakers": ["Nick Schuch", "Hasitha Guruge", "Steve Coochin", "Chris Burgess"]
+      "track": [
+        "Lightning"
+      ],
+      "speakers": [
+        "Nick Schuch",
+        "Hasitha Guruge",
+        "Steve Coochin",
+        "Chris Burgess"
+      ]
     },
     {
       "startTime": "2021-11-11T01:45:00Z",
@@ -100,7 +133,9 @@
       "title": "Hallway Track!",
       "location": "Main Stage",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null
     },
     {
@@ -110,8 +145,13 @@
       "title": "Content accessibility in Drupal",
       "location": "Deep Dive",
       "link": "https://drupalsouth.org/node/657",
-      "track": "Deep Dive",
-      "speakers": ["Phillipa Martin", "Danielle Sheffler"]
+      "track": [
+        "Deep Dive"
+      ],
+      "speakers": [
+        "Phillipa Martin",
+        "Danielle Sheffler"
+      ]
     },
     {
       "startTime": "2021-11-11T02:15:00Z",
@@ -120,8 +160,13 @@
       "title": "High Availability for nsw.gov.au",
       "location": "Showcase",
       "link": "https://drupalsouth.org/node/652",
-      "track": "Showcase",
-      "speakers": ["Simon Hobbs", "Nathan ter Bogt"]
+      "track": [
+        "Showcase"
+      ],
+      "speakers": [
+        "Simon Hobbs",
+        "Nathan ter Bogt"
+      ]
     },
     {
       "startTime": "2021-11-11T02:15:00Z",
@@ -130,8 +175,12 @@
       "title": "Drupal as commodity software",
       "location": "Showcase",
       "link": "https://drupalsouth.org/node/658",
-      "track": "Showcase",
-      "speakers": ["Alexar Pendashteh"]
+      "track": [
+        "Showcase"
+      ],
+      "speakers": [
+        "Alexar Pendashteh"
+      ]
     },
     {
       "startTime": "2021-11-11T02:15:00Z",
@@ -140,8 +189,12 @@
       "title": "Building a decoupled application with Drupal and React Query",
       "location": "Showcase",
       "link": "https://drupalsouth.org/node/659",
-      "track": "Showcase",
-      "speakers": ["Jack Taranto"]
+      "track": [
+        "Showcase"
+      ],
+      "speakers": [
+        "Jack Taranto"
+      ]
     },
     {
       "startTime": "2021-11-11T02:15:00Z",
@@ -150,8 +203,12 @@
       "title": "DrupalSouth community update",
       "location": "Panel",
       "link": "https://drupalsouth.org/node/660",
-      "track": "Panel",
-      "speakers": ["DrupalSouth Steering Committee"]
+      "track": [
+        "Panel"
+      ],
+      "speakers": [
+        "DrupalSouth Steering Committee"
+      ]
     },
     {
       "startTime": "2021-11-11T03:00:00Z",
@@ -160,7 +217,9 @@
       "title": "Sponsor Showcase",
       "location": "Main Stage",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null
     },
     {
@@ -170,8 +229,12 @@
       "title": "Panel Discussion: Drupal at the heart of your Digital Experience Platforms",
       "location": "Main Stage",
       "link": "",
-      "track": "Panel",
-      "speakers": ["Steven Hayes"]
+      "track": [
+        "Panel"
+      ],
+      "speakers": [
+        "Steven Hayes"
+      ]
     },
     {
       "startTime": "2021-11-11T04:25:00Z",
@@ -180,7 +243,9 @@
       "title": "Wrap up & Acknowledgements",
       "location": "Main Stage",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null
     },
     {
@@ -190,7 +255,9 @@
       "title": "Online Contribution Sprint",
       "location": "Online",
       "link": "https://www.previousnext.com.au/blog/join-us-drupalsouth-2021-code-sprints",
-      "track": "Sprint",
+      "track": [
+        "Sprint"
+      ],
       "speakers": null
     }
   ],

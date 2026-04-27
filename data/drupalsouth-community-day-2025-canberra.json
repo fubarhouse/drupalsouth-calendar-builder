@@ -30,7 +30,9 @@
       "title": "Registration",
       "location": "Foyer",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -43,7 +45,9 @@
       "title": "Opening Remarks",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/sites/default/files/2025-11/DSCD25open.pdf",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Marge"
       ],
@@ -58,7 +62,9 @@
       "title": "Keynote: Say hello to the AI Agent: your newest persona!",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#salsa",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Akhil Bhandari",
         "Julia Topliss"
@@ -74,7 +80,9 @@
       "title": "Reef Knowledge System: Personalising the user experience on GovCMS",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#david",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "David Flores-Condezo"
       ],
@@ -89,7 +97,9 @@
       "title": "Open Source Web Analytics for Drupal",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#vr2",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -104,7 +114,9 @@
       "title": "Seeing what they see: user research insights from the field (and what we keep getting wrong)",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#millie",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Maddi Collings"
       ],
@@ -119,7 +131,9 @@
       "title": "Visual regression testing: BackstopJS for the win",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#marji",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Marji Cermak"
       ],
@@ -134,7 +148,9 @@
       "title": "Morning Tea",
       "location": "Foyer",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -147,7 +163,9 @@
       "title": "Drupal Jeopardy",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#toby",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Toby Wild"
       ],
@@ -162,7 +180,9 @@
       "title": "Content design systems: A whole of government approach to content",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#emma",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Emma Kelson",
         "McGee Noble"
@@ -178,7 +198,9 @@
       "title": "No code rules engine for Drupal automation and AI integration",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#vr1",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -193,7 +215,9 @@
       "title": "Designing a starter theme",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#murray",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Murray Woodman"
       ],
@@ -208,7 +232,9 @@
       "title": "Five Years Late, Still On Time: mentalhealthonline.org.au Drupal 8 to 11 journey",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#alex",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Alex Skrypnyk"
       ],
@@ -223,7 +249,9 @@
       "title": "Lunch",
       "location": "Foyer",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -236,7 +264,9 @@
       "title": "Mad Libs meets Drupal",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#al",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Al O'Neill"
       ],
@@ -251,7 +281,9 @@
       "title": "Content Governance: Delivering Accurate, Accessible, and Trusted Information",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#julia",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "Julia Topliss"
       ],
@@ -266,7 +298,9 @@
       "title": "Building for the Future with Web Components",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#brynn",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Brynn Briedis"
       ],
@@ -281,7 +315,9 @@
       "title": "Unifying the UX pipeline",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#andre",
-      "track": "Non-technical",
+      "track": [
+        "Non-technical"
+      ],
       "speakers": [
         "André Kakos",
         "Matt Commons"
@@ -297,7 +333,9 @@
       "title": "The Anatomy of a 100 Lighthouse Score",
       "location": "Orion",
       "link": "https://drupalsouth.org/drupalsouth-community-day-2025-session-information#pat",
-      "track": "Technical",
+      "track": [
+        "Technical"
+      ],
       "speakers": [
         "Pat Roberts"
       ],
@@ -312,7 +350,9 @@
       "title": "Closing Remarks",
       "location": "Top of the Cross",
       "link": "https://drupalsouth.org/sites/default/files/2025-11/DSCD25close.pdf",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Marge"
       ],
@@ -327,7 +367,9 @@
       "title": "Networking Event (sponsored by Annex)",
       "location": "Venue",
       "link": "",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",

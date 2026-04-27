@@ -30,7 +30,9 @@
       "title": "Islandora CLAW: a next generation content repository",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/islandora-claw-next-generation-content-repository",
-      "track": "UX & Content",
+      "track": [
+        "UX & Content"
+      ],
       "speakers": [
         "Jonathan Hunt"
       ],
@@ -45,7 +47,9 @@
       "title": "Media Management in Drupal 8",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/media-management-drupal-8",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Ivan Zugec"
       ],
@@ -60,7 +64,9 @@
       "title": "The story of GovCMS - Challenges, changes, and the journey ahead for our growing community. Help us write the next chapter.",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/story-govcms-challenges-changes-and-journey-ahead-our",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Toby Bellwood",
         "Nathan Wall"
@@ -76,7 +82,9 @@
       "title": "Partnering with vendors for agile success",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/partnering-vendors-agile-success",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Elisha Hulme",
         "Antoine Osanz"
@@ -92,7 +100,9 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -105,7 +115,9 @@
       "title": "Having Your Say, our challenges in making consultations available for everyone.",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/having-your-say-our-challenges-making-consultations",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Akhil Bhandari"
       ],
@@ -120,7 +132,9 @@
       "title": "How to keep Drupal relevant in the API-driven and git-based CMS era",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/how-keep-drupal-relevant-api-driven-and-git-based-cms-era",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Eduardo Garcia"
       ],
@@ -135,7 +149,9 @@
       "title": "Utilising Drupal's full potential",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/utilising-drupals-full-potential",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Ian Laslett"
       ],
@@ -150,7 +166,9 @@
       "title": "HashiCorp Vault for Drupalers",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/hashicorp-vault-drupalers",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Nick Santamaria"
       ],
@@ -165,7 +183,9 @@
       "title": "Apps in GovCMS",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/apps-govcms",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Nick Trembath",
         "Alexis Cooper"
@@ -181,7 +201,9 @@
       "title": "Morning Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -194,7 +216,9 @@
       "title": "Introducing Tokaido: The seriously fast local Drupal dev environment manager",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/introducing-tokaido-seriously-fast-local-drupal-dev",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Michael Richardson"
       ],
@@ -209,7 +233,9 @@
       "title": "WorkSafe Victoria: Service design on headless Drupal",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/worksafe-victoria-service-design-headless-drupal",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Si Hobbs",
         "Dan Laush"
@@ -225,7 +251,9 @@
       "title": "Migration 101 a sampler of methods",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/migration-101-sampler-methods",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Victoria Spagnolo"
       ],
@@ -240,7 +268,9 @@
       "title": "The Role of Microcopy in User Experience",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/role-microcopy-user-experience",
-      "track": "UX & Content",
+      "track": [
+        "UX & Content"
+      ],
       "speakers": [
         "Richard Sison"
       ],
@@ -255,7 +285,9 @@
       "title": "REST Ready: Auditing Drupal 8 Websites for use as a Content Hub",
       "location": "Room 1",
       "link": "",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Sam Becker"
       ],
@@ -270,7 +302,9 @@
       "title": "Are You Really Listening to Your Customers?",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/are-you-really-listening-your-customers",
-      "track": "UX & Content",
+      "track": [
+        "UX & Content"
+      ],
       "speakers": [
         "Fonda Le"
       ],
@@ -285,7 +319,9 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -298,7 +334,9 @@
       "title": "Delivering to a budget with agile - fixed budget, controlled scope",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/delivering-budget-agile-fixed-budget-controlled-scope",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Juliane Erben"
       ],
@@ -313,7 +351,9 @@
       "title": "Future of Content: Intelligent Content",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/future-content-intelligent-content",
-      "track": "UX & Content",
+      "track": [
+        "UX & Content"
+      ],
       "speakers": [
         "Alexar Pendashteh"
       ],
@@ -328,7 +368,9 @@
       "title": "Getting the most from GovCMS8 and the UI-Kit Starter theme",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/getting-most-govcms8-and-ui-kit-starter-theme",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Murray Woodman",
         "Toby Bellwood"
@@ -344,7 +386,9 @@
       "title": "Regional personalisation is a pain!",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/regional-personalisation-pain",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Max Pogonowski"
       ],
@@ -359,7 +403,9 @@
       "title": "A Collaborative Drupal Workflow for the Dev Team",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/collaborative-drupal-workflow-dev-team",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Vishal Sahody"
       ],
@@ -374,7 +420,9 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -387,7 +435,9 @@
       "title": "How to build simplytest.me with Kubernetes, an introduction to K8s",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/how-build-simplytestme-kubernetes-introduction-k8s",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Thom Toogood"
       ],
@@ -402,7 +452,9 @@
       "title": "Drupal 8 Architectural Paradigms",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/drupal-8-architectural-paradigms",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Jay Friendly"
       ],
@@ -417,7 +469,9 @@
       "title": "A tale of two sites: dragging 'Dickensian' publications into the digital age",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/tale-two-sites-dragging-dickensian-publications-digital",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Megan Watson",
         "Jeremy Graham",
@@ -434,7 +488,9 @@
       "title": "Let's Go Nuxt!",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/lets-go-nuxt",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Guy Owen",
         "Tim Yao"
@@ -450,7 +506,9 @@
       "title": "Search in Decoupled architectures using GraphQL",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/search-decoupled-architectures-using-graphql",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Duarte Garin"
       ],
@@ -465,7 +523,9 @@
       "title": "A tall glass of Kool-Aid: remaking dta.gov.au",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/tall-glass-kool-aid-remaking-dtagovau",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Jesse Boyd"
       ],
@@ -480,7 +540,9 @@
       "title": "Building flexible displays in an elegant and maintainable way",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/building-flexible-displays-elegant-and-maintainable-way",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Adam Bramley"
       ],
@@ -495,7 +557,9 @@
       "title": "Behind the agency curtain: What all clients should know!",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/behind-agency-curtain-what-all-clients-should-know",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Pamela Barone"
       ],
@@ -510,7 +574,9 @@
       "title": "How Drupal Contribution leads to Success",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/how-drupal-contribution-leads-success",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Kim Pepper"
       ],
@@ -525,7 +591,9 @@
       "title": "Afternoon Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -538,7 +606,9 @@
       "title": "The ICEMEDIA Keynote: Jithma Beneragama",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/icemedia-keynote-jithma-beneragama-victorian-department",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Jithma Beneragama"
       ],
@@ -553,7 +623,9 @@
       "title": "Salsa/Amazee.io Opening Cocktail Party",
       "location": "Hotel Realm Sydney and Melbourne Foyers",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/salsaamazeeio-opening-cocktail-party",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "WHEN: Monday December 3rd, straight after the Keynote\n\nWHERE: Hotel Realm Sydney and Melbourne Foyers\n\nWhat better way to end Day One of DrupalSouth by joining Salsa Digital and Amazee.io for opening night drinks, jazz, and good times in the classy surrounds of the Hotel Realm.",
       "summary": "WHEN: Monday December 3rd, straight after the Keynote WHERE: Hotel Realm Sydney and Melbourne Foyers What better way to end Day One of DrupalSouth by joining Salsa Digital and Amazee.io for opening night drinks, jazz, an...",
@@ -566,7 +638,9 @@
       "title": "Annual DrupalSouth Digital Leaders Dinner",
       "location": "Belluci's Manuka",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/digital-leaders-dinner",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "Chris Skene (Platform.sh) and Piyush Poddar (Axelerant) are bringing back the Digital Leaders Dinner in Canberra this year, which will take place on Monday the 3rd of December.\n\nIf you are a Digital Leader at a Drupal Agency or Government, please join us for a special evening. Last year we had the dinner in Auckland and were joined by Leaders from GovCMS, Salsa Digital, PreviousNext, Amazee, Digital8 to name a few. You can read a recap at http://bit.ly/AgencyLeadersDinnerRecap\n\nWe organise this dinner to have meaningful discussions, share knowledge, fun stories and ideas around how to battle the common challenges faced by those seeking to innovate in the digital space.\n\nThe dinner will be held at Belluci's Manuka. It will be a three-course dinner followed by drinks.\n\nEVENT INFORMATION\n\nDate: Monday, December 3rd, 2018\n\nTime: 19:00-22:00\n\nLocation: Belluci's Manuka\n\nRSVP: Please book your seat via Eventbrite\n\nPrice: We will enjoy a three-course dinner and it will cost around AUD$50 per person.",
       "summary": "Chris Skene (Platform.sh) and Piyush Poddar (Axelerant) are bringing back the Digital Leaders Dinner in Canberra this year, which will take place on Monday the 3rd of December....",
@@ -579,7 +653,9 @@
       "title": "The Today Design Keynote: Charbel Zeaiter",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/today-design-keynote-charbel-zeaiter",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Charbel Zeaiter"
       ],
@@ -594,7 +670,9 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -607,7 +685,9 @@
       "title": "Securing your Drupal site with Cloudflare",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/securing-your-drupal-site-cloudflare",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Sean Hamlin"
       ],
@@ -622,7 +702,9 @@
       "title": "Single Digital Presence: Inside the Victorian Government's Drupal 8 Platform",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/single-digital-presence-inside-victorian-governments",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Kurt Foster"
       ],
@@ -637,7 +719,9 @@
       "title": "Build, Test, Audit: Simplifying component library development.",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/build-test-audit-simplifying-component-library",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Brian Gilbert",
         "Stuart Clark"
@@ -653,7 +737,9 @@
       "title": "To Drupal or not to Drupal: a closer look at Wix and Wordpress",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/drupal-or-not-drupal-closer-look-wix-and-wordpress",
-      "track": "UX & Content",
+      "track": [
+        "UX & Content"
+      ],
       "speakers": [
         "Vladimir Roudakov"
       ],
@@ -668,7 +754,9 @@
       "title": "Partial Decoupling Drupal with React Components",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/partial-decoupling-drupal-react-components",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Tony Comben"
       ],
@@ -683,7 +771,9 @@
       "title": "Morning Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -696,7 +786,9 @@
       "title": "Creating a Reusable Webpack Configuration",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/creating-reusable-webpack-configuration",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Keegan Street"
       ],
@@ -711,7 +803,9 @@
       "title": "Drupal Test Traits: a Drupal extension for testing existing sites",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/drupal-test-traits-drupal-extension-testing-existing",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Jibran Ijaz"
       ],
@@ -726,7 +820,9 @@
       "title": "Open Source for Open Government - Panel Discussion",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/open-source-open-government-panel-discussion",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Alfred Deeb",
         "Sharyn Clarkson",
@@ -745,7 +841,9 @@
       "title": "Containerized Databases for Developers",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/containerized-databases-developers",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Nick Schuch"
       ],
@@ -760,7 +858,9 @@
       "title": "Revisions and Moderation for Webforms and other Configuration Entities? You can't do that!",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/revisions-and-moderation-webforms-and-other-configuration",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Nigel Cunningham"
       ],
@@ -775,7 +875,9 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -788,7 +890,9 @@
       "title": "The black dog can code too",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/black-dog-can-code-too",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Laura Munro"
       ],
@@ -803,7 +907,9 @@
       "title": "Streamlining multiple campaign website delivery from a single GovCMS SaaS instance",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/streamlining-multiple-campaign-website-delivery-single",
-      "track": "Government",
+      "track": [
+        "Government"
+      ],
       "speakers": [
         "Danny Marlow"
       ],
@@ -818,7 +924,9 @@
       "title": "PANEL: Security, DevOps, and Your Digital Ecosystem",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/panel-security-devops-and-your-digital-ecosystem",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Adam Malone",
         "Amin Astaneh",
@@ -837,7 +945,9 @@
       "title": "Griffith University takes Drupal to the Pacific",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/griffith-university-takes-drupal-pacific",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Arve Solland"
       ],
@@ -852,7 +962,9 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -865,7 +977,9 @@
       "title": "Smarter Social for a Minister's Site using Drupal Feeds",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/smarter-social-ministers-site-using-drupal-feeds",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Akhil Bhandari"
       ],
@@ -880,7 +994,9 @@
       "title": "Build Cross Platform Apps with Drupal and React Native",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/build-cross-platform-apps-drupal-and-react-native",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Ajax McKerral"
       ],
@@ -895,7 +1011,9 @@
       "title": "Editor Experience in GovCMS8",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/editor-experience-govcms8",
-      "track": "UX & Content",
+      "track": [
+        "UX & Content"
+      ],
       "speakers": [
         "Ian Humble"
       ],
@@ -910,7 +1028,9 @@
       "title": "PANEL: Remote Working - What, why, why not and how.",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/panel-remote-working-what-why-why-not-and-how",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Suchi Garg",
         "Jason Coghlan",
@@ -929,7 +1049,9 @@
       "title": "ChatOPS for Dummies",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/chatops-dummies",
-      "track": "Back-End Development",
+      "track": [
+        "Back-End Development"
+      ],
       "speakers": [
         "Campbell Tilley"
       ],
@@ -944,7 +1066,9 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -957,7 +1081,9 @@
       "title": "The next 10 years: Strategies for a vibrant Drupal Community",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/next-10-years-strategies-vibrant-drupal-community",
-      "track": "Showcases & Project Management",
+      "track": [
+        "Showcases & Project Management"
+      ],
       "speakers": [
         "Owen Lansbury"
       ],
@@ -972,7 +1098,9 @@
       "title": "Migrations at Scale",
       "location": "Room 2",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/migrations-scale",
-      "track": "DevOps and Security",
+      "track": [
+        "DevOps and Security"
+      ],
       "speakers": [
         "Alex Skrypnyk",
         "Stuart Rowlands"
@@ -988,7 +1116,9 @@
       "title": "Avoid epic fails, and win at Drupal",
       "location": "Room 3",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/avoid-epic-fails-and-win-drupal",
-      "track": "Project Management",
+      "track": [
+        "Project Management"
+      ],
       "speakers": [
         "Scott Anderson"
       ],
@@ -1003,7 +1133,9 @@
       "title": "How you really should use Behat for website testing",
       "location": "Room 4",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/how-you-really-should-use-behat-website-testing",
-      "track": "Front-end Development",
+      "track": [
+        "Front-end Development"
+      ],
       "speakers": [
         "Berend de Boer"
       ],
@@ -1018,7 +1150,9 @@
       "title": "Afternoon Tea",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -1031,7 +1165,9 @@
       "title": "The OPC IT keynote: Sally Young",
       "location": "Room 1",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/keynote-sally-young",
-      "track": "Keynote",
+      "track": [
+        "Keynote"
+      ],
       "speakers": [
         "Sally Young"
       ],
@@ -1046,7 +1182,9 @@
       "title": "Closing remarks & DrupalSouth 2019 Announcement",
       "location": "",
       "link": "",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "",
       "summary": "",
@@ -1059,7 +1197,9 @@
       "title": "The Oakton Digital DrupalSouth Closing Party",
       "location": "Ostani, Hotel Realm",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/oakton-drupalsouth-closing-party",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "WHERE: Ostani, Hotel Realm WHEN: December 4th, 530pm till late Supported by:...",
       "summary": "WHERE: Ostani, Hotel Realm\n\nWHEN: December 4th, 530pm till late\n\nSupported by:",
@@ -1072,7 +1212,9 @@
       "title": "Code Sprint",
       "location": "Hotel Realm",
       "link": "https://drupalsouth.org/events/drupalsouth-canberra-2018/sessions/code-sprint",
-      "track": "Other",
+      "track": [
+        "Other"
+      ],
       "speakers": null,
       "full_description": "WHERE: Hotel Realm\n\nWHEN: Wednesday December 5th, 2018, from 9am\n\nWhat's a Sprint Day about anyway?\n\nContribution Sprints are a great opportunity to get involved in contributing to Drupal. Contributions don't have to be just about code. Issue triage, documentation, and manual testing are examples of non-code contributions.\n\nIf you are new to contributing, you can take a look at the New Contributor tasks on the Drupal.org Contributor Tasks page.\n\nWhile there will be experienced contributors there on the day to help, keep in mind, this is not a training session. :-)\n\nSet Up a Development Environment\n\nThere is more than one way to shear a sheep, and there is also more than one way to set up a local development environment for working on Drupal.\n\nWe've create a Drupal project starter kit for sprint attendees which should speed up this process. Head over to https://github.com/previousnext/drupal-project and follow the README.\n\nIf you have any issues, feel free to post them in the Github issue queue https://github.com/previousnext/drupal-project/issues and we'll try and resolve them before the day.\n\nFind Issues to Work On\n\nIf you want to see what might be an interesting issue to work on, head over to the Drupal.org Issue Queue and look for issues tagged with 'DrupalSouth 2018'. These are issues that others have tagged.\n\nYou can also tag an issue yourself to be added to the list.\n\nBeing face-to-face with fellow contributors is a great opportunity to have discussions and put forward ideas. Don't feel like you need to come away from the day having completed lines and lines of code.\n\nWe look forward to seeing you all there!",
       "summary": "WHERE: Hotel Realm WHEN: Wednesday December 5th, 2018, from 9am What's a Sprint Day about anyway?...",

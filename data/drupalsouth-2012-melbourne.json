@@ -30,7 +30,9 @@
       "title": "Drupal 7 in a Day",
       "location": "Coders Lounge",
       "link": "http://2012.drupaldownunder.org/drupal-7-day",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -43,7 +45,9 @@
       "title": "MySQL - Query Design",
       "location": "BOF Room 5",
       "link": "http://2012.drupaldownunder.org/mysql-query-design",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -56,7 +60,9 @@
       "title": "Object-Oriented Programming in PHP",
       "location": "BOF Room 6",
       "link": "http://2012.drupaldownunder.org/object-oriented-programming-php",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -69,7 +75,9 @@
       "title": "Lunch break",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/lunch-break",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -82,7 +90,9 @@
       "title": "Lunch break",
       "location": "BOF Room 5, BOF Room 6, Coders Lounge",
       "link": "http://2012.drupaldownunder.org/lunch-break",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -95,7 +105,9 @@
       "title": "Drupal 7 in a Day",
       "location": "Coders Lounge",
       "link": "http://2012.drupaldownunder.org/drupal-7-day-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -108,7 +120,9 @@
       "title": "MySQL - Server Tuning",
       "location": "BOF Room 5",
       "link": "http://2012.drupaldownunder.org/mysql-server-tuning",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -121,7 +135,9 @@
       "title": "Object-Oriented Programming in PHP",
       "location": "BOF Room 6",
       "link": "http://2012.drupaldownunder.org/object-oriented-programming-php-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -134,7 +150,9 @@
       "title": "Hello Drupal!",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/hello-drupal",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -147,7 +165,9 @@
       "title": "Pre-Conference Drinks",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/pre-conference-drinks",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -160,7 +180,9 @@
       "title": "Pre-Conference Drinks",
       "location": "BOF Room 5, BOF Room 6, Coders Lounge",
       "link": "http://2012.drupaldownunder.org/pre-conference-drinks",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -173,7 +195,9 @@
       "title": "Morning tea",
       "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
       "link": "http://2012.drupaldownunder.org/saturday-morning-tea",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -186,7 +210,9 @@
       "title": "Views API Exposed",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/views-api-exposed",
-      "track": "Code, Core and Contrib",
+      "track": [
+        "Code, Core and Contrib"
+      ],
       "speakers": [
         "Michael Strelan"
       ],
@@ -199,7 +225,9 @@
       "title": "Field, Widgets and Formatters - oh my!",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/field-widgets-and-formatters-oh-my",
-      "track": "Code, Core and Contrib",
+      "track": [
+        "Code, Core and Contrib"
+      ],
       "speakers": [
         "Lee Rowlands"
       ],
@@ -212,7 +240,9 @@
       "title": "jQuery for Designers & Themers",
       "location": "CrossFunctional Room",
       "link": "http://2012.drupaldownunder.org/session/jquery-designers-themers",
-      "track": "Theming and Design",
+      "track": [
+        "Theming and Design"
+      ],
       "speakers": [
         "Bevan Rudge"
       ],
@@ -225,7 +255,9 @@
       "title": "Lunch",
       "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
       "link": "http://2012.drupaldownunder.org/saturday-lunch",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -238,7 +270,9 @@
       "title": "Aegir - Skynet for Drupal",
       "location": "CrossFunctional Room",
       "link": "http://2012.drupaldownunder.org/session/aegir-skynet-drupal",
-      "track": "Building Sites and Systems",
+      "track": [
+        "Building Sites and Systems"
+      ],
       "speakers": [
         "Miguel Jacq"
       ],
@@ -251,7 +285,9 @@
       "title": "The Dark Arts of Business Analysis: Requirements Gathering with Mind Maps for a Drupal Project",
       "location": "Powerful CMS Room",
       "link": "http://2012.drupaldownunder.org/session/dark-arts-business-analysis-requirements-gathering-mind-maps-drupal-project",
-      "track": "The Business of Drupal",
+      "track": [
+        "The Business of Drupal"
+      ],
       "speakers": [
         "Jason Brooks"
       ],
@@ -264,7 +300,9 @@
       "title": "Drupal Commerce Group Buy: A Case Study Disaster",
       "location": "CrossFunctional Room",
       "link": "http://2012.drupaldownunder.org/session/drupal-commerce-group-buy-case-study-disaster",
-      "track": "Stories and Case Studies",
+      "track": [
+        "Stories and Case Studies"
+      ],
       "speakers": [
         "John Kennedy"
       ],
@@ -277,7 +315,9 @@
       "title": "Love and Devotion",
       "location": "Melbourne room",
       "link": "http://2012.drupaldownunder.org/session/love-and-devotion",
-      "track": "Government, Education and NFP's",
+      "track": [
+        "Government, Education and NFP's"
+      ],
       "speakers": [
         "Richard Hayward"
       ],
@@ -290,7 +330,9 @@
       "title": "Node.js and Drupal",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/nodejs-and-drupal",
-      "track": "Code, Core and Contrib",
+      "track": [
+        "Code, Core and Contrib"
+      ],
       "speakers": [
         "Justin Randell"
       ],
@@ -303,7 +345,9 @@
       "title": "Simple and powerful site deployment with capistrano",
       "location": "Powerful CMS Room",
       "link": "http://2012.drupaldownunder.org/session/simple-and-powerful-site-deployment-capistrano",
-      "track": "Building Sites and Systems",
+      "track": [
+        "Building Sites and Systems"
+      ],
       "speakers": [
         "Kim Pepper"
       ],
@@ -316,7 +360,9 @@
       "title": "Afternoon tea",
       "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
       "link": "http://2012.drupaldownunder.org/saturday-afternoon-tea",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -329,7 +375,9 @@
       "title": "Responsive Design",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/responsive-design",
-      "track": "Theming and Design",
+      "track": [
+        "Theming and Design"
+      ],
       "speakers": [
         "Geoffrey Roberts"
       ],
@@ -342,7 +390,9 @@
       "title": "Scaling out your Drupal and Database Infrastructure, Affordably",
       "location": "CrossFunctional Room",
       "link": "http://2012.drupaldownunder.org/session/scaling-out-your-drupal-and-database-infrastructure-affordably",
-      "track": "Building Sites and Systems",
+      "track": [
+        "Building Sites and Systems"
+      ],
       "speakers": [
         "Arjen Lentz"
       ],
@@ -355,7 +405,9 @@
       "title": "Morning tea",
       "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
       "link": "http://2012.drupaldownunder.org/sunday-morning-tea",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -368,7 +420,9 @@
       "title": "HTML5 video specifications",
       "location": "CrossFunctional Room",
       "link": "http://2012.drupaldownunder.org/session/html5-video-specifications",
-      "track": "Building Sites and Systems",
+      "track": [
+        "Building Sites and Systems"
+      ],
       "speakers": [
         "Silvia Pfeiffer"
       ],
@@ -381,7 +435,9 @@
       "title": "Poppin' forms that clients love.",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/poppin-forms-clients-love",
-      "track": "Code, Core and Contrib",
+      "track": [
+        "Code, Core and Contrib"
+      ],
       "speakers": [
         "Simon Hobbs"
       ],
@@ -394,7 +450,9 @@
       "title": "Small is beautiful",
       "location": "Powerful CMS Room",
       "link": "http://2012.drupaldownunder.org/session/small-beautiful",
-      "track": "The Business of Drupal",
+      "track": [
+        "The Business of Drupal"
+      ],
       "speakers": [
         "Campbell Angus"
       ],
@@ -407,7 +465,9 @@
       "title": "eGility: Drupal ERP based Shopping Cart",
       "location": "Melbourne room",
       "link": "http://2012.drupaldownunder.org/session/egility-drupal-erp-based-shopping-cart",
-      "track": "Building Sites and Systems",
+      "track": [
+        "Building Sites and Systems"
+      ],
       "speakers": [
         "Martin Fuggle"
       ],
@@ -420,7 +480,9 @@
       "title": "Ezy-bake Drupal: Cooking sites with Distributions",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/ezy-bake-drupal-cooking-sites-distributions",
-      "track": "Building Sites and Systems",
+      "track": [
+        "Building Sites and Systems"
+      ],
       "speakers": [
         "Stuart Clark"
       ],
@@ -433,7 +495,9 @@
       "title": "Lunch",
       "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
       "link": "http://2012.drupaldownunder.org/sunday-lunch",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -446,7 +510,9 @@
       "title": "Crowdsourcing Historical Research",
       "location": "Melbourne room",
       "link": "http://2012.drupaldownunder.org/session/crowdsourcing-historical-research",
-      "track": "Stories and Case Studies",
+      "track": [
+        "Stories and Case Studies"
+      ],
       "speakers": [
         "Claudine Chionh"
       ],
@@ -459,7 +525,9 @@
       "title": "Drupal, Web Typography, and You",
       "location": "CrossFunctional Room",
       "link": "http://2012.drupaldownunder.org/session/drupal-web-typography-and-you",
-      "track": "Theming and Design",
+      "track": [
+        "Theming and Design"
+      ],
       "speakers": [
         "Simon Pascal Klein"
       ],
@@ -472,7 +540,9 @@
       "title": "Re-imagining CRM systems with Drupal",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/re-imagining-crm-systems-drupal",
-      "track": "Code, Core and Contrib",
+      "track": [
+        "Code, Core and Contrib"
+      ],
       "speakers": [
         "Michael Priest"
       ],
@@ -485,7 +555,9 @@
       "title": "CDNs made simple, fast & cheap",
       "location": "Powerful CMS Room",
       "link": "http://2012.drupaldownunder.org/session/cdns-made-simple-fast-cheap",
-      "track": "Building Sites and Systems",
+      "track": [
+        "Building Sites and Systems"
+      ],
       "speakers": [
         "Murray Woodman"
       ],
@@ -498,7 +570,9 @@
       "title": "Afternoon tea",
       "location": "PreviousNext Keynote, CrossFunctional Room, Powerful CMS Room, Melbourne room",
       "link": "http://2012.drupaldownunder.org/sunday-afternoon-lunch",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],
@@ -511,7 +585,9 @@
       "title": "Lightning Talks",
       "location": "PreviousNext Keynote",
       "link": "http://2012.drupaldownunder.org/session/lightning-talks",
-      "track": "Keynote Presentation",
+      "track": [
+        "Keynote Presentation"
+      ],
       "speakers": [
         "TBA"
       ],
@@ -524,7 +600,9 @@
       "title": "Code Sprint",
       "location": "Statewide Resources Center - Meeting Room A & B",
       "link": "http://2012.drupaldownunder.org/code-sprint-0",
-      "track": "General",
+      "track": [
+        "General"
+      ],
       "speakers": [
         "Event Team"
       ],

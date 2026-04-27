@@ -75,6 +75,14 @@ export function escapeHtml(text) {
     .replace(/'/g, '&#39;');
 }
 
+export function normalizeTracks(trackValue) {
+  if (Array.isArray(trackValue)) {
+    return [...new Set(trackValue.map((track) => String(track || '').trim()).filter(Boolean))];
+  }
+  const track = String(trackValue || '').trim();
+  return track ? [track] : [];
+}
+
 export function announceStatus(message) {
   const region = document.getElementById('ariaStatus');
   if (!region) return;

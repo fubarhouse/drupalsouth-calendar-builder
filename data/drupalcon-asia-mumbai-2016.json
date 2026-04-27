@@ -30,7 +30,7 @@
       "title": "Registration & Help Desk",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -40,7 +40,9 @@
       "title": "Drupal 8 In A Day",
       "location": "Auditorium",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
     {
@@ -50,7 +52,9 @@
       "title": "Build Frontend / Mobile Applications with Headless Drupal",
       "location": "Rooms 03",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
     {
@@ -60,17 +64,21 @@
       "title": "Drupal 8 Theming",
       "location": "Rooms 04",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
-        {
+    {
       "startTime": "2016-02-18T04:30:00Z",
       "endTime": "2016-02-18T12:30:00Z",
       "duration": "P480M",
       "title": "Personalization and Dynamic Content in Drupal",
       "location": "Rooms 05",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
     {
@@ -80,7 +88,9 @@
       "title": "Business Summit",
       "location": "Room 11",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
     {
@@ -90,7 +100,7 @@
       "title": "Higher Education Summit",
       "location": "Room 12",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -100,7 +110,7 @@
       "title": "Community Summit",
       "location": "Room 13",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -110,7 +120,7 @@
       "title": "Government Summit",
       "location": "Hall 21",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -120,7 +130,7 @@
       "title": "Breakfast",
       "location": "Convocation Hall",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -130,7 +140,7 @@
       "title": "We've outsourced the pre-note to India - Pre-Note",
       "location": "Convocation Hall",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -140,19 +150,19 @@
       "title": "Keynote: Dries Buytaert",
       "location": "Convocation Hall",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Dries Buytaert"
       ]
     },
-        {
+    {
       "startTime": "2016-02-19T05:30:00Z",
       "endTime": "2016-02-19T06:00:00Z",
       "duration": "P30M",
       "title": "Group Photo & Break",
       "location": "Convocation Hall",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -164,7 +174,9 @@
       "title": "Drupal - The perfect frontend for document management",
       "location": "Auditorium",
       "link": "",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "Niraj Meegarma"
       ]
@@ -176,7 +188,9 @@
       "title": "Always under construction: Websites that are never “finished”",
       "location": "Hall 21",
       "link": "",
-      "track": "Business and Strategy",
+      "track": [
+        "Business and Strategy"
+      ],
       "speakers": [
         "Peter Brownell"
       ]
@@ -188,7 +202,9 @@
       "title": "Seamless Interoperability of Web and Mobility using Drupal",
       "location": "Hall 22",
       "link": "",
-      "track": "Mobile",
+      "track": [
+        "Mobile"
+      ],
       "speakers": [
         "Melvin Tan",
         "Azhan Moin"
@@ -201,7 +217,9 @@
       "title": "How to publish a module on drupal.org",
       "location": "Hall 23",
       "link": "",
-      "track": "Contributions",
+      "track": [
+        "Contributions"
+      ],
       "speakers": [
         "Klaus Purer"
       ]
@@ -213,7 +231,9 @@
       "title": "Meet PHP-FIG: Your community just got a lot bigger",
       "location": "Hall 31",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Jeffrey McGuire",
         "Campbell Vertesi"
@@ -226,7 +246,7 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -238,7 +258,9 @@
       "title": "Drupal 8 Theming: No more divitis",
       "location": "Auditorium",
       "link": "",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Morten Birch Heide-Jørgensen"
       ]
@@ -250,7 +272,9 @@
       "title": "Delivering the Mail",
       "location": "Hall 21",
       "link": "",
-      "track": "Case Studies",
+      "track": [
+        "Case Studies"
+      ],
       "speakers": [
         "Tom Phethean"
       ]
@@ -262,7 +286,9 @@
       "title": "How can CMOs prepare for the collaboration age?",
       "location": "Hall 22",
       "link": "",
-      "track": "Business and Strategy",
+      "track": [
+        "Business and Strategy"
+      ],
       "speakers": [
         "Muktesh Kandpal"
       ]
@@ -274,7 +300,9 @@
       "title": "Hooks, Events, Plugins, and Services: Pick the right tool",
       "location": "Hall 23",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Kim Pepper"
       ]
@@ -286,7 +314,9 @@
       "title": "Drupal 8: Mobile is in its DNA",
       "location": "Hall 31",
       "link": "",
-      "track": "Mobile",
+      "track": [
+        "Mobile"
+      ],
       "speakers": [
         "Ram Singh"
       ]
@@ -298,7 +328,7 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -308,7 +338,9 @@
       "title": "Everything multilingual in Drupal 8",
       "location": "Auditorium",
       "link": "",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "Gábor Hojtsy"
       ]
@@ -320,7 +352,9 @@
       "title": "Let's get ready for D8 - Migrating Drupal Themes",
       "location": "Hall 21",
       "link": "",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Amit Vyas"
       ]
@@ -332,7 +366,9 @@
       "title": "The New Mobile Web Trinity: ServiceWorker, Push, App Manifests",
       "location": "Hall 22",
       "link": "",
-      "track": "Mobile",
+      "track": [
+        "Mobile"
+      ],
       "speakers": [
         "Dan Callahan"
       ]
@@ -344,7 +380,9 @@
       "title": "Migrating the top 50 most visited site in the U.S. onto Drupal - Legacy.com",
       "location": "Hall 23",
       "link": "",
-      "track": "Case Studies",
+      "track": [
+        "Case Studies"
+      ],
       "speakers": [
         "Ankur Gupta",
         "Lakshmi Narasimhan",
@@ -360,19 +398,21 @@
       "title": "Be part of a community - Give, Learn, Connect, get recognized, start contributing today!",
       "location": "Hall 31",
       "link": "",
-      "track": "Contributions",
+      "track": [
+        "Contributions"
+      ],
       "speakers": [
         "Shyamala Rajaram"
       ]
     },
-        {
+    {
       "startTime": "2016-02-19T10:15:00Z",
       "endTime": "2016-02-19T10:30:00Z",
       "duration": "P15M",
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -384,7 +424,9 @@
       "title": "Make your code do your job",
       "location": "Auditorium",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Larry Garfield"
       ]
@@ -396,7 +438,9 @@
       "title": "The journey of a Drupal Community from 2 people to 500 - State of Contributions in Drupal and why you should start contributing.",
       "location": "Hall 21",
       "link": "",
-      "track": "Contributions",
+      "track": [
+        "Contributions"
+      ],
       "speakers": [
         "Chakrapani Reddivari",
         "Gokul N K"
@@ -409,7 +453,9 @@
       "title": "The largest Drupal 8 Sites on Earth, and the NP8 news portal distribution",
       "location": "Hall 22",
       "link": "",
-      "track": "Case Studies",
+      "track": [
+        "Case Studies"
+      ],
       "speakers": [
         "Augustin Delaporte"
       ]
@@ -421,7 +467,9 @@
       "title": "Web Implementation Estimation - Science not an Art",
       "location": "Hall 23",
       "link": "",
-      "track": "Business and Strategy",
+      "track": [
+        "Business and Strategy"
+      ],
       "speakers": [
         "Andrew Kucharski"
       ]
@@ -433,7 +481,9 @@
       "title": "Art of Debugging and optimising Front End using Chrome Dev Tools",
       "location": "Hall 31",
       "link": "",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Swastik Pareek",
         "Saket Kuma"
@@ -446,7 +496,7 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -458,7 +508,9 @@
       "title": "Drupal 8 with Backbone, and Underscore",
       "location": "Auditorium",
       "link": "",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Abhishek Anand",
         "Naveen Valecha"
@@ -471,7 +523,9 @@
       "title": "State of contrib modules in Drupal 8",
       "location": "Hall 21",
       "link": "",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "Josef Dabernig"
       ]
@@ -483,7 +537,9 @@
       "title": "Design Patterns in PHP",
       "location": "Hall 22",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Mohit Aghera",
         "Ankit Agrawal"
@@ -496,7 +552,9 @@
       "title": "Contribution: Getting involved and coming back for more",
       "location": "Hall 23",
       "link": "",
-      "track": "Contributions",
+      "track": [
+        "Contributions"
+      ],
       "speakers": [
         "Enna Karayiannis"
       ]
@@ -508,7 +566,9 @@
       "title": "Starting a Drupal 8 Project? Technical Discovery",
       "location": "Hall 31",
       "link": "",
-      "track": "Case Studies",
+      "track": [
+        "Case Studies"
+      ],
       "speakers": [
         "Shashank Merothiya",
         "Ravindra Singh"
@@ -521,7 +581,7 @@
       "title": "Breakfast",
       "location": "Convocation Hall",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -533,7 +593,7 @@
       "title": "Keynote: Danese Cooper",
       "location": "Convocation Hall",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         "Danese Cooper"
       ]
@@ -545,7 +605,7 @@
       "title": "Break",
       "location": "Convocation Hall",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -557,7 +617,9 @@
       "title": "The Drupal 8 Theming Experience",
       "location": "Auditorium",
       "link": "",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Scott Reeves"
       ]
@@ -569,7 +631,9 @@
       "title": "Features V/S CMI - The battle for Drupal 8",
       "location": "Hall 21",
       "link": "",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "Neetu Morwani"
       ]
@@ -581,7 +645,9 @@
       "title": "Using Drupal with SharePoint intranets, and mobile apps - a Singapore Management University Case Study",
       "location": "Hall 22",
       "link": "",
-      "track": "Case Studies",
+      "track": [
+        "Case Studies"
+      ],
       "speakers": [
         "Wee Sen Goh"
       ]
@@ -593,7 +659,9 @@
       "title": "Sustenance!!! Is internship a good way to sustain talent?",
       "location": "Hall 23",
       "link": "",
-      "track": "Business and Strategy",
+      "track": [
+        "Business and Strategy"
+      ],
       "speakers": [
         "Suchi Garg"
       ]
@@ -605,20 +673,22 @@
       "title": "Automated Mobile Testing using Appium",
       "location": "Hall 31",
       "link": "",
-      "track": "Mobile",
+      "track": [
+        "Mobile"
+      ],
       "speakers": [
         "Lokesh Soni",
         "Sarvesh Sawant"
       ]
     },
-        {
+    {
       "startTime": "2016-02-20T07:00:00Z",
       "endTime": "2016-02-20T07:15:00Z",
       "duration": "P15M",
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -630,7 +700,9 @@
       "title": "Drupal 8 Sitebuilding: Coding vs. Clicking",
       "location": "Auditorium",
       "link": "",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "Adam Juran",
         "Josef Dabernig"
@@ -643,7 +715,9 @@
       "title": "Conflict at a distance: disentanglement principles",
       "location": "Hall 21",
       "link": "",
-      "track": "Contributions",
+      "track": [
+        "Contributions"
+      ],
       "speakers": [
         "Maia Sauren"
       ]
@@ -655,7 +729,9 @@
       "title": "Value-Driven Development with “Continuous Discovery”",
       "location": "Hall 22",
       "link": "",
-      "track": "Business and Strategy",
+      "track": [
+        "Business and Strategy"
+      ],
       "speakers": [
         "Prabhat Sinha",
         "Vishnu Vijayan",
@@ -670,7 +746,9 @@
       "title": "Deploying Drupal 8",
       "location": "Hall 23",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Dave Hall"
       ]
@@ -682,7 +760,9 @@
       "title": "Innovation Policy Platform: Drupal Powered Open Data Knowledge Discovery Experience",
       "location": "Hall 31",
       "link": "",
-      "track": "Case Studies",
+      "track": [
+        "Case Studies"
+      ],
       "speakers": [
         "Gokul N K",
         "Venky Goteti"
@@ -695,7 +775,7 @@
       "title": "Lunch",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -705,7 +785,9 @@
       "title": "The best of both worlds: writing Drupal 8 code for Drupal 7 sites",
       "location": "Auditorium",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Campbell Vertesi"
       ]
@@ -717,7 +799,9 @@
       "title": "Decoupled Drupal with React",
       "location": "Hall 21",
       "link": "",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Preston So"
       ]
@@ -729,7 +813,9 @@
       "title": "How to build a sustainable contribution culture",
       "location": "Hall 22",
       "link": "",
-      "track": "Contributions",
+      "track": [
+        "Contributions"
+      ],
       "speakers": [
         "Ashish Thakur",
         "Marijit Singh"
@@ -742,7 +828,9 @@
       "title": "Mobile App or A Brand New Website in AngularJS / Ionic",
       "location": "Hall 23",
       "link": "",
-      "track": "Mobile",
+      "track": [
+        "Mobile"
+      ],
       "speakers": [
         "Sumit Kataria"
       ]
@@ -754,7 +842,9 @@
       "title": "Drupal 8 Lightning: The distribution for enterprise authoring",
       "location": "Hall 31",
       "link": "",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "Jacob Singh"
       ]
@@ -766,7 +856,7 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -778,7 +868,9 @@
       "title": "Build Mobile Applications with Headless Drupal 8",
       "location": "Auditorium",
       "link": "",
-      "track": "Mobile",
+      "track": [
+        "Mobile"
+      ],
       "speakers": [
         "Prateek Jain",
         "Saumil Chheda"
@@ -791,7 +883,9 @@
       "title": "Outsource! Really difficult to do it, eh?",
       "location": "Hall 21",
       "link": "",
-      "track": "Business and Strategy",
+      "track": [
+        "Business and Strategy"
+      ],
       "speakers": [
         "Rakhi Mandhania"
       ]
@@ -803,7 +897,9 @@
       "title": "Scalable cloud based e-commerce platform on Drupal with a common back office for managing sales of entry passes to multiple events",
       "location": "Hall 22",
       "link": "",
-      "track": "Case Studies",
+      "track": [
+        "Case Studies"
+      ],
       "speakers": [
         "Vimal Joseph"
       ]
@@ -815,7 +911,9 @@
       "title": "Scaling Drupal 8",
       "location": "Hall 23",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Abhishek Anand",
         "Naveen Valecha"
@@ -828,7 +926,9 @@
       "title": "Using Deploy in Drupal 8",
       "location": "Hall 31",
       "link": "",
-      "track": "Site Building",
+      "track": [
+        "Site Building"
+      ],
       "speakers": [
         "Tim Milwood",
         "Dick Olsson"
@@ -841,7 +941,7 @@
       "title": "Break",
       "location": "",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": [
         null
       ]
@@ -853,7 +953,9 @@
       "title": "Panel Discussion: India's journey from Consumption to Contribution",
       "location": "Auditorium",
       "link": "",
-      "track": "Contributions",
+      "track": [
+        "Contributions"
+      ],
       "speakers": [
         "Piyush Poddar",
         "Megan Sanicki",
@@ -869,7 +971,9 @@
       "title": "Migration to Drupal 8",
       "location": "Hall 21",
       "link": "",
-      "track": "Coding and Development",
+      "track": [
+        "Coding and Development"
+      ],
       "speakers": [
         "Asif Mohammad",
         "Chakrapani Reddivari"
@@ -882,7 +986,9 @@
       "title": "How to Build Mobile Apps Drupal way",
       "location": "Hall 22",
       "link": "",
-      "track": "Mobile",
+      "track": [
+        "Mobile"
+      ],
       "speakers": [
         "Prashant Goel"
       ]
@@ -894,7 +1000,9 @@
       "title": "Drupal and Isomorphic Javascript",
       "location": "Hall 23",
       "link": "",
-      "track": "Frontend",
+      "track": [
+        "Frontend"
+      ],
       "speakers": [
         "Makbul Khan",
         "Nikhil Sukul"
@@ -907,7 +1015,9 @@
       "title": "Data Science and Analytics in Drupal and Content Strategy",
       "location": "Hall 31",
       "link": "",
-      "track": "Business and Strategy",
+      "track": [
+        "Business and Strategy"
+      ],
       "speakers": [
         "Obaid Malik"
       ]
@@ -919,7 +1029,7 @@
       "title": "Lecture Hall Complex | First Floor Foyer",
       "location": "Lecture Hall Complex LA 101",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     },
     {
@@ -929,7 +1039,9 @@
       "title": "First-Time Sprinter Workshop",
       "location": "Lecture Hall Complex LA 101",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
     {
@@ -939,7 +1051,9 @@
       "title": "Mentored Core Sprint",
       "location": "Lecture Hall Complex LH 101",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
     {
@@ -949,7 +1063,9 @@
       "title": "Contribution Sprints",
       "location": "Lecture Hall Complex LH 102",
       "link": "",
-      "track": "Workshop",
+      "track": [
+        "Workshop"
+      ],
       "speakers": null
     },
     {
@@ -959,7 +1075,7 @@
       "title": "Closing Session",
       "location": "Lecture Hall Complex LA 101",
       "link": "",
-      "track": "",
+      "track": [],
       "speakers": null
     }
   ],
