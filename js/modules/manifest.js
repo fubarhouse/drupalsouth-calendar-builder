@@ -39,7 +39,7 @@ export const EVENT_MANIFEST = [
   { file: 'drupalsouth-2012-melbourne.json', label: 'DrupalSouth 2012: Melbourne (Drupal Down Under)', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   { file: 'drupalsouth-2011-brisbane.json', label: 'DrupalSouth 2011: Brisbane (Drupal Down Under)', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   { file: 'drupalsouth-2010-wellington.json', label: 'DrupalSouth 2010: Wellington', flagImage: './img/flags/nz.svg', flagAlt: 'New Zealand flag' },
-  { file: 'drupalsouth-2009-christchurch.json', label: 'DrupalSouth 2009: Christchurch', flagImage: './img/flags/nz.svg', flagAlt: 'New Zealand flag' },
+  { file: 'drupalsouth-2008-christchurch.json', label: 'DrupalSouth 2008: Christchurch', flagImage: './img/flags/nz.svg', flagAlt: 'New Zealand flag' },
   { file: 'drupalsouth-2008-drupalcamp-sydney.json', label: 'DrupalSouth 2008: Sydney', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
   // DrupalSouth Community Day
   { file: 'drupalsouth-community-day-2025-canberra.json', label: 'DrupalSouth Community Day 2025: Canberra', flagImage: './img/flags/au.svg', flagAlt: 'Australia flag' },
