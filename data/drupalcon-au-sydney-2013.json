@@ -10,7 +10,17 @@
     "timezone": "Australia/Sydney",
     "columns": 3,
     "startDate": "2013-02-05T21:00:00Z",
-    "endDate": "2013-02-09T06:45:00Z"
+    "endDate": "2013-02-09T06:45:00Z",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/k9tBK",
+      "title": "DrupalCon Sydney 2013 Photos",
+      "text": "Browse community photos from DrupalCon Sydney 2013 in the official Flickr group.",
+      "image": "./img/flickr/drupalsouth/2013_sydney_drupalcon.jpg",
+      "imageAlt": "DrupalCon logo",
+      "buttonLabel": "View Flickr Photos",
+      "mode": "archive"
+    }
   },
   "items": [
     {
