@@ -35,7 +35,8 @@ function parseModeFromUrl() {
   const params = new URLSearchParams(window.location.search);
   const design = String(params.get('design') || params.get('layout') || '').toLowerCase();
   const theme = String(params.get('theme') || '').toLowerCase();
-  return { design, theme };
+  const id = String(params.get('id') || '').trim().toLowerCase();
+  return { design, theme, id };
 }
 
 function normalizeDesignMode(design) {
@@ -283,6 +284,76 @@ function getManifestItemByFile(file) {
   return EVENT_MANIFEST.find((item) => item.file === file) || null;
 }
 
+function slugify(text) {
+  return String(text || '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/-+/g, '-');
+}
+
+function getEventIdForManifestItem(item) {
+  const label = String(item?.label || '').trim();
+  if (label.includes(':')) {
+    const parts = label.split(':');
+    const location = parts[parts.length - 1].trim();
+    const base = parts.slice(0, -1).join(' ').trim();
+    const fromLabel = slugify(`${base} ${location}`);
+    if (fromLabel) return fromLabel;
+  }
+  return slugify(String(item?.file || '').replace(/\.json$/i, ''));
+}
+
+function getEventFileById(eventId) {
+  const id = slugify(eventId);
+  if (!id) return null;
+  const match = EVENT_MANIFEST.find((item) => getEventIdForManifestItem(item) === id);
+  return match ? match.file : null;
+}
+
+function getEventIdByFile(file) {
+  const item = getManifestItemByFile(file);
+  return item ? getEventIdForManifestItem(item) : '';
+}
+
+function buildShareUrl(file) {
+  const id = getEventIdByFile(file);
+  if (!id) return window.location.href;
+  const url = new URL(window.location.href);
+  url.search = '';
+  url.searchParams.set('id', id);
+  return url.toString();
+}
+
+function updateBrowserUrlForEvent(file) {
+  const id = getEventIdByFile(file);
+  if (!id) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set('id', id);
+  window.history.replaceState({}, '', url.toString());
+}
+
+async function copyCurrentShareUrl() {
+  if (!state.currentEventFile) return;
+  const button = document.getElementById('shareSchedule');
+  const url = buildShareUrl(state.currentEventFile);
+
+  try {
+    await navigator.clipboard.writeText(url);
+    if (button) {
+      const previous = button.innerHTML;
+      button.innerHTML = '<i class="fas fa-check mr-2"></i>Link copied';
+      setTimeout(() => {
+        button.innerHTML = previous;
+      }, 1600);
+    }
+  } catch {
+    window.prompt('Copy this schedule link:', url);
+  }
+}
+
 function updateHeaderFlag(manifestItem = null) {
   const flag = document.getElementById('headerFlag');
   if (!flag) return;
@@ -319,6 +390,7 @@ export async function fetchEvents(filename) {
 
 export async function loadEvent(filename) {
   state.currentEventFile = filename;
+  updateBrowserUrlForEvent(filename);
   const manifestItem = getManifestItemByFile(filename);
   updateHeaderFlag(manifestItem);
   const events = await fetchEvents(filename);
@@ -426,6 +498,11 @@ export function setupEventListeners() {
       toggleIcon.classList.remove('rotate-180');
     }
   });
+
+  const shareButton = document.getElementById('shareSchedule');
+  if (shareButton) {
+    shareButton.addEventListener('click', () => copyCurrentShareUrl());
+  }
 }
 
 export async function init() {
@@ -440,10 +517,11 @@ export async function init() {
   applyThemeClass(state.themeMode);
 
   const eventSelector = document.getElementById('eventSelector');
+  const fileFromUrl = getEventFileById(urlModes.id);
   const savedEvent = localStorage.getItem('selectedEventFile');
   const savedEventIsValid = savedEvent && EVENT_MANIFEST.some((e) => e.file === savedEvent);
   const defaultEvent = EVENT_MANIFEST.find((e) => e.default) || EVENT_MANIFEST[0];
-  const initialFile = savedEventIsValid ? savedEvent : defaultEvent.file;
+  const initialFile = fileFromUrl || (savedEventIsValid ? savedEvent : defaultEvent.file);
   const initialManifestItem = EVENT_MANIFEST.find((e) => e.file === initialFile) || defaultEvent;
   const initialCategory = getEventCategory(initialManifestItem);
   const availableCategories = getAvailableEnabledCategories();
