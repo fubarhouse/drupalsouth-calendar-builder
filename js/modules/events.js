@@ -26,7 +26,7 @@ const DRUPALCON_SINGAPORE_LOGO_URL = new URL('../../img/drupalcon-singapore-logo
 const DESIGN_STORAGE_KEY = 'scheduleDesignMode';
 const THEME_STORAGE_KEY = 'scheduleThemeMode';
 // Hard-coded default layout mode. Toggle this between 'drupalsouth' and 'drupalcon'.
-const DEFAULT_DESIGN_MODE = 'drupalsouth';
+const DEFAULT_DESIGN_MODE = 'drupalcon';
 
 let updateSelectionOverview = () => {};
 let updateStageStats = () => {};
