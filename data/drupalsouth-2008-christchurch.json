@@ -47,7 +47,7 @@
       "duration": "P30M",
       "title": "Welcome",
       "location": "Saturday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/welcome",
+      "link": "http://drupalsouth.net.nz/session/welcome",
       "track": "General",
       "speakers": [
         "jonathan.hunt"
@@ -63,7 +63,7 @@
       "duration": "P30M",
       "title": "Drupal vs the rest",
       "location": "Saturday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-vs-the-rest",
+      "link": "http://drupalsouth.net.nz/session/drupal-vs-the-rest",
       "track": "Session",
       "speakers": [
         "Julian Carver"
@@ -79,7 +79,7 @@
       "duration": "P30M",
       "title": "Drupal and the Encyclopedia of Life - True Taxonomy",
       "location": "Saturday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/something-about-drupal",
+      "link": "http://drupalsouth.net.nz/session/something-about-drupal",
       "track": "Session",
       "speakers": [
         "Dan dman"
@@ -95,7 +95,7 @@
       "duration": "P30M",
       "title": "Drupal and CiviCRM for campaigns",
       "location": "Saturday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-and-civicrm-for-campaigns",
+      "link": "http://drupalsouth.net.nz/session/drupal-and-civicrm-for-campaigns",
       "track": "Session",
       "speakers": [
         "Chris Burgess"
@@ -111,7 +111,7 @@
       "duration": "P30M",
       "title": "JQuery UI interface development for Drupal",
       "location": "Saturday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/cool-user-interfaces-using-jquery-ui",
+      "link": "http://drupalsouth.net.nz/session/cool-user-interfaces-using-jquery-ui",
       "track": "Session",
       "speakers": [
         "David Thomas"
@@ -127,7 +127,7 @@
       "duration": "P30M",
       "title": "OpenID with Drupal",
       "location": "Saturday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/openid-with-drupal",
+      "link": "http://drupalsouth.net.nz/session/openid-with-drupal",
       "track": "Session",
       "speakers": [
         "Marek Kuziel"
@@ -213,7 +213,7 @@
       "duration": "P30M",
       "title": "Welcome",
       "location": "Sunday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/welcome",
+      "link": "http://drupalsouth.net.nz/session/welcome",
       "track": "General",
       "speakers": [
         "jonathan.hunt"
@@ -229,7 +229,7 @@
       "duration": "P30M",
       "title": "Google Maps in Drupal; The Hub Map",
       "location": "Sunday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/google-maps-in-drupal-the-hub-map",
+      "link": "http://drupalsouth.net.nz/session/google-maps-in-drupal-the-hub-map",
       "track": "Session",
       "speakers": [
         "Bevan Rudge"
@@ -245,7 +245,7 @@
       "duration": "P30M",
       "title": "Managing Drupal with Drupal",
       "location": "Sunday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/managing-drupal-with-drupal",
+      "link": "http://drupalsouth.net.nz/session/managing-drupal-with-drupal",
       "track": "Session",
       "speakers": [
         "Dave Lane"
@@ -261,7 +261,7 @@
       "duration": "P30M",
       "title": "Drupal in Education",
       "location": "Sunday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-in-education",
+      "link": "http://drupalsouth.net.nz/session/drupal-in-education",
       "track": "Session",
       "speakers": [
         "Josh Campbell"
@@ -277,7 +277,7 @@
       "duration": "P30M",
       "title": "Drupal on Postgres",
       "location": "Sunday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-on-postgres",
+      "link": "http://drupalsouth.net.nz/session/drupal-on-postgres",
       "track": "Session",
       "speakers": [
         "Brenda Shiny"
@@ -293,7 +293,7 @@
       "duration": "P30M",
       "title": "NZ Government web standards and Drupal",
       "location": "Sunday",
-      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/nz-government-web-standards-and-drupal",
+      "link": "http://drupalsouth.net.nz/session/nz-government-web-standards-and-drupal",
       "track": "Session",
       "speakers": [
         "Jonathan Hunt"

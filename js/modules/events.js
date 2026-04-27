@@ -19,10 +19,12 @@ import {
   toggleEventSelection
 } from './calendar.js';
 
-const DRUPALSOUTH_LOGO_URL = new URL('../../img/drupalsouth-logo.png', import.meta.url).toString();
-const DRUPALGOV_LOGO_URL = new URL('../../img/drupalgov-logo.png', import.meta.url).toString();
-const DRUPALCON_LOGO_URL = new URL('../../img/drupalcon-logo.svg', import.meta.url).toString();
-const DRUPALCON_SINGAPORE_LOGO_URL = new URL('../../img/drupalcon-singapore-logo.png', import.meta.url).toString();
+const DRUPALSOUTH_LOGO_URL = new URL('../../img/logos/drupalsouth-logo.png', import.meta.url).toString();
+const DRUPALSOUTH_NZ_LEGACY_LOGO_URL = new URL('../../img/logos/drupalsouth-nz-legacy-logo.png', import.meta.url).toString();
+const DRUPALSOUTH_2014_LOGO_URL = new URL('../../img/logos/drupalsouth-nz-2014-logo.png', import.meta.url).toString();
+const DRUPALGOV_LOGO_URL = new URL('../../img/logos/drupalgov-logo.png', import.meta.url).toString();
+const DRUPALCON_LOGO_URL = new URL('../../img/logos/drupalcon-logo.svg', import.meta.url).toString();
+const DRUPALCON_SINGAPORE_LOGO_URL = new URL('../../img/logos/drupalcon-singapore-logo.png', import.meta.url).toString();
 const DESIGN_STORAGE_KEY = 'scheduleDesignMode';
 const THEME_STORAGE_KEY = 'scheduleThemeMode';
 // Hard-coded default layout mode. Toggle this between 'drupalsouth' and 'drupalcon'.
@@ -137,11 +139,12 @@ export function getHeaderBranding(category, eventMeta = null) {
         logoAlt: 'DrupalGov logo'
       };
     }
+    const drupalSouthLogo = getDrupalSouthLogoForEvent(eventMeta, state.currentEventFile || '');
     return {
       kicker: 'DrupalSouth Schedule',
       iconClass: 'fas fa-water',
       brandClass: 'brand-drupalsouth',
-      logoUrl: DRUPALSOUTH_LOGO_URL,
+      logoUrl: drupalSouthLogo,
       logoAlt: 'DrupalSouth logo'
     };
   }
@@ -152,6 +155,32 @@ export function getHeaderBranding(category, eventMeta = null) {
     logoUrl: isDrupalConSingapore ? DRUPALCON_SINGAPORE_LOGO_URL : DRUPALCON_LOGO_URL,
     logoAlt: isDrupalConSingapore ? 'DrupalCon Singapore logo' : 'DrupalCon logo'
   };
+}
+
+function getDrupalSouthLogoForEvent(eventMeta = null, currentEventFile = '') {
+  const year = Number.parseInt(String(eventMeta?.year || ''), 10);
+  const region = String(eventMeta?.region || '').toLowerCase();
+  const location = String(eventMeta?.location || '').toLowerCase();
+  const timezone = String(eventMeta?.timezone || '');
+
+  const isNewZealandEvent =
+    region.includes('new zealand') ||
+    timezone === 'Pacific/Auckland' ||
+    /wellington|auckland|christchurch/.test(location);
+
+  if (!isNewZealandEvent || Number.isNaN(year)) {
+    return DRUPALSOUTH_LOGO_URL;
+  }
+
+  if (year === 2014 || currentEventFile === 'drupalsouth-2014-wellington.json') {
+    return DRUPALSOUTH_2014_LOGO_URL;
+  }
+
+  if (year < 2014) {
+    return DRUPALSOUTH_NZ_LEGACY_LOGO_URL;
+  }
+
+  return DRUPALSOUTH_LOGO_URL;
 }
 
 export function updateHeaderBranding(category) {
@@ -182,66 +211,174 @@ function renderEventMediaPromo(eventMeta = null) {
   if (!container) return;
 
   const promo = eventMeta?.mediaPromo;
-  if (!promo || !promo.groupUrl) {
-    container.innerHTML = '';
-    container.classList.add('hidden');
-    return;
+  const hasPromo = Boolean(promo && promo.groupUrl);
+
+  const stack = document.createElement('div');
+  stack.className = 'space-y-3';
+
+  if (hasPromo) {
+    const isFutureEvent = Boolean(eventMeta?.startDate && new Date(eventMeta.startDate) > new Date());
+    const mode = promo.mode || (isFutureEvent ? 'cta' : 'archive');
+    const title = promo.title || (mode === 'cta' ? 'Share Your Event Photos' : 'Event Photos');
+    const text =
+      promo.text ||
+      (mode === 'cta'
+        ? 'Join the photo group and share your shots from the event.'
+        : 'Explore photos shared by the community.');
+    const buttonLabel = promo.buttonLabel || (mode === 'cta' ? 'Open Flickr Group' : 'View Photos');
+    const platformLabel = (promo.platform || 'media').toUpperCase();
+
+    const card = document.createElement('div');
+    card.className =
+      'rounded-lg border border-gray-300 bg-white p-3 sm:p-4 flex gap-3 sm:gap-4 items-start';
+
+    if (promo.image) {
+      const image = document.createElement('img');
+      image.src = promo.image;
+      image.alt = promo.imageAlt || `${platformLabel} promo image`;
+      image.className = 'w-[142px] h-[106px] rounded-md object-cover border border-gray-300 bg-white shrink-0';
+      card.appendChild(image);
+    }
+
+    const body = document.createElement('div');
+    body.className = 'min-w-0 flex-1';
+
+    const platform = document.createElement('div');
+    platform.className = 'text-xs font-semibold tracking-wide text-gray-600';
+    platform.textContent = platformLabel;
+    body.appendChild(platform);
+
+    const heading = document.createElement('h3');
+    heading.className = 'text-sm sm:text-base font-semibold text-gray-900 mt-0.5';
+    heading.textContent = title;
+    body.appendChild(heading);
+
+    const copy = document.createElement('p');
+    copy.className = 'text-sm text-gray-700 mt-1';
+    copy.textContent = text;
+    body.appendChild(copy);
+
+    const action = document.createElement('a');
+    action.href = promo.groupUrl;
+    action.target = '_blank';
+    action.rel = 'noopener noreferrer';
+    action.className =
+      'inline-flex items-center mt-2 px-3 py-1.5 rounded-md text-sm font-medium text-white drupal-blue drupal-blue-hover transition-colors';
+    action.textContent = buttonLabel;
+    body.appendChild(action);
+
+    card.appendChild(body);
+    stack.appendChild(card);
   }
 
-  const isFutureEvent = Boolean(eventMeta?.startDate && new Date(eventMeta.startDate) > new Date());
-  const mode = promo.mode || (isFutureEvent ? 'cta' : 'archive');
-  const title = promo.title || (mode === 'cta' ? 'Share Your Event Photos' : 'Event Photos');
-  const text =
-    promo.text ||
-    (mode === 'cta'
-      ? 'Join the photo group and share your shots from the event.'
-      : 'Explore photos shared by the community.');
-  const buttonLabel = promo.buttonLabel || (mode === 'cta' ? 'Open Flickr Group' : 'View Photos');
-  const platformLabel = (promo.platform || 'media').toUpperCase();
+  const eventInfoCard = document.createElement('div');
+  eventInfoCard.className = 'event-info-card rounded-lg border border-gray-300 bg-white p-3 sm:p-4';
 
-  const card = document.createElement('div');
-  card.className =
-    'rounded-lg border border-gray-300 bg-white p-3 sm:p-4 flex gap-3 sm:gap-4 items-start';
+  const infoTitle = document.createElement('h3');
+  infoTitle.className = 'text-sm sm:text-base font-semibold text-gray-900';
+  infoTitle.textContent = 'Event Info';
+  eventInfoCard.appendChild(infoTitle);
 
-  if (promo.image) {
-    const image = document.createElement('img');
-    image.src = promo.image;
-    image.alt = promo.imageAlt || `${platformLabel} promo image`;
-    image.className = 'w-[142px] h-[106px] rounded-md object-cover border border-gray-300 bg-white shrink-0';
-    card.appendChild(image);
+  const infoList = document.createElement('dl');
+  infoList.className = 'mt-2 grid grid-cols-[auto,1fr] gap-x-3 gap-y-1.5 text-sm';
+
+  const eventName = String(eventMeta?.designation || '').trim();
+  const location = eventMeta?.region || eventMeta?.location || 'Unknown';
+  const venue = eventMeta?.venue || 'Unknown';
+  const dateRange = formatEventDateRange(eventMeta);
+  const website = deriveOfficialWebsite(eventMeta);
+
+  appendInfoRow(infoList, 'Event', eventName || 'Unknown');
+  appendInfoRow(infoList, 'Location', location);
+  appendInfoRow(infoList, 'Venue', venue);
+  appendInfoRow(infoList, 'Dates', dateRange);
+
+  const websiteTerm = document.createElement('dt');
+  websiteTerm.className = 'font-semibold text-gray-700';
+  websiteTerm.textContent = 'Official Website';
+  infoList.appendChild(websiteTerm);
+  const websiteValue = document.createElement('dd');
+  websiteValue.className = 'text-gray-800 break-all';
+  if (website) {
+    const websiteLink = document.createElement('a');
+    websiteLink.href = website;
+    websiteLink.target = '_blank';
+    websiteLink.rel = 'noopener noreferrer';
+    websiteLink.className = 'drupal-blue-text hover:underline';
+    websiteLink.textContent = website;
+    websiteValue.appendChild(websiteLink);
+  } else {
+    websiteValue.textContent = 'Unknown';
   }
+  infoList.appendChild(websiteValue);
 
-  const body = document.createElement('div');
-  body.className = 'min-w-0 flex-1';
+  eventInfoCard.appendChild(infoList);
+  stack.appendChild(eventInfoCard);
 
-  const platform = document.createElement('div');
-  platform.className = 'text-xs font-semibold tracking-wide text-gray-600';
-  platform.textContent = platformLabel;
-  body.appendChild(platform);
-
-  const heading = document.createElement('h3');
-  heading.className = 'text-sm sm:text-base font-semibold text-gray-900 mt-0.5';
-  heading.textContent = title;
-  body.appendChild(heading);
-
-  const copy = document.createElement('p');
-  copy.className = 'text-sm text-gray-700 mt-1';
-  copy.textContent = text;
-  body.appendChild(copy);
-
-  const action = document.createElement('a');
-  action.href = promo.groupUrl;
-  action.target = '_blank';
-  action.rel = 'noopener noreferrer';
-  action.className =
-    'inline-flex items-center mt-2 px-3 py-1.5 rounded-md text-sm font-medium text-white drupal-blue drupal-blue-hover transition-colors';
-  action.textContent = buttonLabel;
-  body.appendChild(action);
-
-  card.appendChild(body);
   container.innerHTML = '';
-  container.appendChild(card);
+  container.appendChild(stack);
   container.classList.remove('hidden');
+}
+
+function appendInfoRow(list, label, value) {
+  const term = document.createElement('dt');
+  term.className = 'font-semibold text-gray-700';
+  term.textContent = label;
+  list.appendChild(term);
+
+  const desc = document.createElement('dd');
+  desc.className = 'text-gray-800';
+  desc.textContent = value || 'Unknown';
+  list.appendChild(desc);
+}
+
+function formatEventDateRange(eventMeta = null) {
+  const startValue = eventMeta?.startDate;
+  const endValue = eventMeta?.endDate;
+  if (!startValue || !endValue) return 'Unknown';
+
+  const start = new Date(startValue);
+  const end = new Date(endValue);
+  if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) return 'Unknown';
+
+  const timeZone = eventMeta?.timezone || 'UTC';
+  const formatDay = new Intl.DateTimeFormat('en-US', {
+    timeZone,
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric'
+  });
+  const startLabel = formatDay.format(start);
+  const endLabel = formatDay.format(end);
+  return startLabel === endLabel ? startLabel : `${startLabel} - ${endLabel}`;
+}
+
+function deriveOfficialWebsite(eventMeta = null) {
+  const website = String(eventMeta?.website || '').trim();
+  const scheduleURL = String(eventMeta?.scheduleURL || '').trim();
+  const candidate = website || scheduleURL;
+  if (!candidate) return '';
+  return normalizeEventWebsiteUrl(candidate);
+}
+
+function normalizeEventWebsiteUrl(urlString) {
+  try {
+    const url = new URL(urlString);
+    url.hash = '';
+    url.search = '';
+
+    url.pathname = url.pathname
+      .replace(
+        /\/(?:schedule|programme|program|sessions(?:\/accepted\.html)?)\/?$/i,
+        '/'
+      )
+      .replace(/\/+$/g, '/');
+
+    return url.toString().replace(/\/$/, '');
+  } catch {
+    return urlString;
+  }
 }
 
 export function setActiveTab(category) {

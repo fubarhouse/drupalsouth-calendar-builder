@@ -371,9 +371,15 @@
         .design-drupalcon #eventMediaPromo:not(.hidden) {
             display: block !important;
         }
-        .design-drupalcon #eventMediaPromo > div {
+        .design-drupalcon #eventMediaPromo > div > div {
             border-color: rgba(157, 198, 238, 0.35) !important;
             background: linear-gradient(160deg, rgba(16, 36, 58, 0.9), rgba(13, 30, 49, 0.88)) !important;
+        }
+        .design-drupalcon .event-info-card dt {
+            color: #cfe3f7 !important;
+        }
+        .design-drupalcon .event-info-card dd {
+            color: #ebf4ff !important;
         }
         .session-modal-overlay {
             position: fixed;
