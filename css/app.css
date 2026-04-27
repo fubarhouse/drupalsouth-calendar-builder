@@ -447,7 +447,19 @@
         .session-modal-meta {
             color: #334f6b;
             font-size: 0.95rem;
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.28rem;
+            display: grid;
+            grid-template-columns: 6.7rem minmax(0, 1fr);
+            align-items: start;
+            column-gap: 0.5rem;
+            line-height: 1.4;
+        }
+        .session-modal-meta-label {
+            font-weight: 700;
+            color: #1e3550;
+        }
+        .session-modal-meta-value {
+            min-width: 0;
         }
         .session-modal-links {
             display: flex;
@@ -501,6 +513,27 @@
             font-size: 0.95rem;
             line-height: 1.55;
         }
+        .session-modal-description p,
+        .session-description-preview p {
+            margin: 0 0 0.35rem 0;
+        }
+        .session-modal-description p:last-child,
+        .session-description-preview p:last-child {
+            margin-bottom: 0;
+        }
+        .session-modal-description ul,
+        .session-description-preview ul {
+            margin: 0.2rem 0 0.45rem 1.1rem;
+            list-style: disc;
+        }
+        .session-modal-description li,
+        .session-description-preview li {
+            margin: 0 0 0.2rem 0;
+        }
+        .session-modal-description ul:last-child,
+        .session-description-preview ul:last-child {
+            margin-bottom: 0;
+        }
         .session-modal-actions {
             margin-top: 1rem;
             padding-top: 0.8rem;
@@ -543,6 +576,9 @@
         }
         .theme-dark .session-modal-meta {
             color: #c3d7ec;
+        }
+        .theme-dark .session-modal-meta-label {
+            color: #e1efff;
         }
         .theme-dark .session-modal-description {
             color: #d4e3f4;
@@ -595,5 +631,9 @@
             }
             .session-modal-title {
                 font-size: 1.1rem;
+            }
+            .session-modal-meta {
+                grid-template-columns: 1fr;
+                row-gap: 0.08rem;
             }
         }

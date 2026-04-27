@@ -4,8 +4,52 @@ import { getLocalDate, formatDuration, highlightKeywords, escapeHtml } from './u
 const SESSION_MODAL_ID = 'sessionDetailModal';
 let lastFocusedElementBeforeModal = null;
 
-function descriptionToHtml(text) {
-  return escapeHtml(String(text || '').trim()).replace(/\n/g, '<br>');
+function formatTextBlock(text, keywords = '') {
+  const input = String(text || '').trim();
+  if (!input) return '';
+
+  const lines = input.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n');
+  const blocks = [];
+  let listItems = [];
+  let paragraphLines = [];
+
+  const flushList = () => {
+    if (listItems.length === 0) return;
+    blocks.push(`<ul>${listItems.map((item) => `<li>${item}</li>`).join('')}</ul>`);
+    listItems = [];
+  };
+
+  const flushParagraph = () => {
+    if (paragraphLines.length === 0) return;
+    blocks.push(`<p>${paragraphLines.join('<br>')}</p>`);
+    paragraphLines = [];
+  };
+
+  lines.forEach((rawLine) => {
+    const line = rawLine.trimEnd();
+    const bulletMatch = line.match(/^\s*[-*]\s+(.+)$/);
+
+    if (bulletMatch) {
+      flushParagraph();
+      const highlighted = highlightKeywords(escapeHtml(bulletMatch[1].trim()), keywords);
+      listItems.push(highlighted);
+      return;
+    }
+
+    if (line.trim() === '') {
+      flushList();
+      flushParagraph();
+      return;
+    }
+
+    flushList();
+    paragraphLines.push(highlightKeywords(escapeHtml(line.trim()), keywords));
+  });
+
+  flushList();
+  flushParagraph();
+
+  return blocks.join('');
 }
 
 function getSessionDescription(event) {
@@ -14,6 +58,30 @@ function getSessionDescription(event) {
 
 function getEventById(eventId) {
   return state.allEvents.find((event) => event.id === eventId) || null;
+}
+
+function getSpeakersInfo(speakers) {
+  if (!speakers) {
+    return { text: '', isMultiple: false };
+  }
+
+  if (Array.isArray(speakers)) {
+    const cleaned = speakers.map((speaker) => String(speaker || '').trim()).filter(Boolean);
+    return {
+      text: cleaned.join(', '),
+      isMultiple: cleaned.length > 1
+    };
+  }
+
+  const text = String(speakers).trim();
+  if (!text) {
+    return { text: '', isMultiple: false };
+  }
+
+  return {
+    text,
+    isMultiple: text.includes(',')
+  };
 }
 
 function ensureSessionModal() {
@@ -109,21 +177,39 @@ function renderSessionModalContent(event) {
 
   const isSelected = state.selectedEvents.has(event.id);
   const description = getSessionDescription(event);
+  const descriptionHtml = formatTextBlock(description);
+  const speakersInfo = getSpeakersInfo(event.speakers);
+  const speakersIcon = speakersInfo.isMultiple ? 'fa-users' : 'fa-user';
+  const whenValue = `${escapeHtml(dayDate)}, ${escapeHtml(startTime)} - ${escapeHtml(endTime)}`;
   const body = ensureSessionModal().querySelector('#sessionModalBody');
 
   body.innerHTML = `
     <h2 id="sessionModalTitle" class="session-modal-title">${escapeHtml(event.title || 'Session')}</h2>
     ${
-      event.speakers
-        ? `<p class="session-modal-meta"><strong>Speakers:</strong> ${escapeHtml(
-            Array.isArray(event.speakers) ? event.speakers.join(', ') : event.speakers
-          )}</p>`
+      speakersInfo.text
+        ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Speakers</span><span class="session-modal-meta-value"><i class="fas ${speakersIcon} mr-1" aria-hidden="true"></i>${escapeHtml(
+            speakersInfo.text
+          )}</span></p>`
         : ''
     }
-    <p class="session-modal-meta"><strong>When:</strong> ${escapeHtml(dayDate)}, ${escapeHtml(startTime)} - ${escapeHtml(endTime)}</p>
-    ${event.location ? `<p class="session-modal-meta"><strong>Location:</strong> ${escapeHtml(event.location)}</p>` : ''}
-    ${event.track ? `<p class="session-modal-meta"><strong>Track:</strong> ${escapeHtml(event.track)}</p>` : ''}
-    ${event.duration ? `<p class="session-modal-meta"><strong>Duration:</strong> ${escapeHtml(formatDuration(event, event.duration))}</p>` : ''}
+    <p class="session-modal-meta"><span class="session-modal-meta-label">When</span><span class="session-modal-meta-value"><i class="far fa-clock mr-1" aria-hidden="true"></i>${whenValue}</span></p>
+    ${
+      event.location
+        ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Location</span><span class="session-modal-meta-value">${escapeHtml(event.location)}</span></p>`
+        : ''
+    }
+    ${
+      event.track
+        ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Track</span><span class="session-modal-meta-value">${escapeHtml(event.track)}</span></p>`
+        : ''
+    }
+    ${
+      event.duration
+        ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Duration</span><span class="session-modal-meta-value">${escapeHtml(
+            formatDuration(event, event.duration)
+          )}</span></p>`
+        : ''
+    }
     ${
       event.link || event.video_url
         ? `<div class="session-modal-links">
@@ -140,7 +226,7 @@ function renderSessionModalContent(event) {
           </div>`
         : ''
     }
-    <div class="session-modal-description">${description ? descriptionToHtml(description) : '<em>No description available.</em>'}</div>
+    <div class="session-modal-description">${descriptionHtml || '<em>No description available.</em>'}</div>
     <div class="session-modal-actions">
       <button id="sessionModalToggleSelection" type="button" aria-pressed="${isSelected ? 'true' : 'false'}" class="session-modal-toggle ${isSelected ? 'is-selected' : ''}">
         ${isSelected ? 'Remove from selection' : 'Add to selection'}
@@ -327,12 +413,12 @@ export function displayListView(events, container) {
           const fullDateTime = `${dayDate}.<br><strong>${startTimeItem} - ${endTimeItem}</strong>`;
           const timelineTime = `${startTimeItem} - ${endTimeItem}`;
           const highlightedSummary = highlightKeywords(event.title, keywordsFilter);
-          const highlightedSpeakers = event.speakers
-            ? highlightKeywords(Array.isArray(event.speakers) ? event.speakers.join(', ') : event.speakers, keywordsFilter)
-            : '';
+          const speakersInfo = getSpeakersInfo(event.speakers);
+          const highlightedSpeakers = speakersInfo.text ? highlightKeywords(speakersInfo.text, keywordsFilter) : '';
+          const speakersIcon = speakersInfo.isMultiple ? 'fa-users' : 'fa-user';
           const highlightedLocation = event.location ? highlightKeywords(event.location, keywordsFilter) : '';
           const descriptionText = event.summary || event.description || '';
-          const highlightedDescription = descriptionText ? highlightKeywords(descriptionText, keywordsFilter) : '';
+          const highlightedDescription = descriptionText ? formatTextBlock(descriptionText, keywordsFilter) : '';
           const trackLabel = typeof event.track === 'string' ? event.track.trim() : '';
           const highlightedTrack = trackLabel ? highlightKeywords(trackLabel, keywordsFilter) : '';
           const durationText = formatDuration(event, event.duration);
@@ -343,12 +429,10 @@ export function displayListView(events, container) {
           const cardStyle = isDrupalConDesign ? `style="--event-color-a: ${colorA}; --event-color-b: ${colorB};"` : '';
           const cardExtraClass = isDrupalConDesign ? 'event-card-dc' : '';
           const trackClass = isDrupalConDesign ? 'track-pill track-pill-dc' : 'track-pill text-xs text-gray-600 bg-white bg-opacity-60 px-2 py-1 rounded inline-block';
-          const selectedBadge = isSelected
-            ? '<span class="session-selected-indicator" aria-hidden="true">Selected</span>'
-            : '<span class="session-selected-indicator-placeholder" aria-hidden="true"></span>';
+          const selectedBadge = isSelected ? '<span class="session-selected-indicator" aria-hidden="true">Selected</span>' : '';
 
           return `
-            <div class="event-card h-full p-4 rounded-md transition-colors cursor-pointer border-2 ${cardExtraClass} ${bgColor} ${hoverColor} ${
+            <div class="event-card relative h-full p-4 rounded-md transition-colors cursor-pointer border-2 ${cardExtraClass} ${bgColor} ${hoverColor} ${
             isSelected ? 'drupal-blue-border-light' : 'border-transparent'
           }"
                  role="button"
@@ -358,20 +442,39 @@ export function displayListView(events, container) {
                  onclick="openSessionModal('${event.id}')"
                  onkeydown="handleSessionCardKeydown(event, '${event.id}')"
                  ${cardStyle}>
-                <div class="flex justify-between items-stretch h-full">
-                    <div class="flex items-start space-x-3 flex-1 self-stretch">
-                        <div class="flex-1 flex flex-col h-full">
+                <div class="absolute top-3 right-3 flex flex-col items-end gap-1">
+                    <label class="schedule-select-label inline-flex items-center justify-center cursor-pointer select-none" title="Add or remove from selection">
+                      <input
+                        type="checkbox"
+                        class="h-4 w-4 schedule-select-checkbox"
+                        ${isSelected ? 'checked' : ''}
+                        onclick="event.stopPropagation()"
+                        onchange="window.toggleEventSelection && window.toggleEventSelection('${event.id}')"
+                        aria-label="${isSelected ? 'Remove session from selection' : 'Add session to selection'}: ${escapeHtml(
+                          event.title || 'Session'
+                        )}"
+                      />
+                    </label>
+                    ${selectedBadge}
+                </div>
+                <span class="absolute bottom-3 right-3 text-xs text-gray-500 whitespace-nowrap">${durationText}</span>
+                <div class="flex items-start space-x-3 flex-1 self-stretch">
+                        <div class="flex-1 flex flex-col h-full pr-16">
                             <h3 class="font-medium text-gray-900 mb-1">${highlightedSummary}</h3>
-                            ${event.speakers ? `<p class="text-sm text-gray-700 mb-1">${highlightedSpeakers}</p>` : ''}
+                            ${
+                              speakersInfo.text
+                                ? `<p class="text-sm text-gray-700 mb-1"><i class="fas ${speakersIcon} mr-1" aria-hidden="true"></i>${highlightedSpeakers}</p>`
+                                : ''
+                            }
                             ${event.location ? `<p class="text-sm text-gray-500 mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${highlightedLocation}</p>` : ''}
                             ${
                               isDrupalConDesign
-                                ? `<p class="text-xs text-gray-500 mb-1">${timelineTime}</p>`
-                                : `<p class="text-sm text-gray-600 mb-1">${fullDateTime}</p>`
+                                ? `<p class="text-xs text-gray-500 mb-1"><i class="far fa-clock mr-1" aria-hidden="true"></i>${timelineTime}</p>`
+                                : `<p class="text-sm text-gray-600 mb-1"><i class="far fa-clock mr-1" aria-hidden="true"></i>${fullDateTime}</p>`
                             }
                             ${
                               descriptionText
-                                ? `<p class="text-sm text-gray-700 mb-1">${highlightedDescription}</p>`
+                                ? `<div class="session-description-preview text-sm text-gray-700 mb-1">${highlightedDescription}</div>`
                                 : '<div class="mb-1"></div>'
                             }
                             ${
@@ -390,23 +493,6 @@ export function displayListView(events, container) {
                                 : ''
                             }
                         </div>
-                    </div>
-                    <div class="ml-2 flex flex-col items-end justify-between">
-                      <div class="mb-1">${selectedBadge}</div>
-                      <label class="schedule-select-label inline-flex items-center justify-center cursor-pointer select-none" title="Add or remove from selection">
-                        <input
-                          type="checkbox"
-                          class="h-4 w-4 schedule-select-checkbox"
-                          ${isSelected ? 'checked' : ''}
-                          onclick="event.stopPropagation()"
-                          onchange="window.toggleEventSelection && window.toggleEventSelection('${event.id}')"
-                          aria-label="${isSelected ? 'Remove session from selection' : 'Add session to selection'}: ${escapeHtml(
-                            event.title || 'Session'
-                          )}"
-                        />
-                      </label>
-                      <span class="text-xs text-gray-500 whitespace-nowrap">${durationText}</span>
-                    </div>
                 </div>
             </div>
           `;

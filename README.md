@@ -15,6 +15,14 @@ This is a simple _"web application"_ for building personalized schedules for Dru
 
 [See the app in action on GitHub Pages.](https://fubarhouse.github.io/drupalsouth-calendar-builder/)
 
+## Purpose
+
+This project aims to provide a way of storing all of this information in static files in a place where they cannot rot, go missing for any unreasonable reason etc.
+
+This project is deliberately consolidating the information and storing the information long-term so that information which may be disparate or unavailable elsewhere will be still perfectly functional in 50 years assuming the repository exists.
+
+This is why retrospectively, youtube links and Flickr banners are available so that people can enjoy the additional conference content available.
+
 ## Features
 
 - **Browse Sessions**: View all DrupalSouth, DrupalSouth Community Day & DrupalGov sessions and events
