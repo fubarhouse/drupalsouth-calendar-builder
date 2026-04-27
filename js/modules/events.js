@@ -21,9 +21,41 @@ import {
 
 const DRUPALSOUTH_LOGO_URL = new URL('../../img/drupalsouth-logo.png', import.meta.url).toString();
 const DRUPALGOV_LOGO_URL = new URL('../../img/drupalgov-logo.png', import.meta.url).toString();
+const DESIGN_STORAGE_KEY = 'scheduleDesignMode';
+const THEME_STORAGE_KEY = 'scheduleThemeMode';
+// Hard-coded default layout mode. Toggle this between 'drupalsouth' and 'drupalcon'.
+const DEFAULT_DESIGN_MODE = 'drupalsouth';
 
 let updateSelectionOverview = () => {};
 let updateStageStats = () => {};
+
+function parseModeFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const design = String(params.get('design') || params.get('layout') || '').toLowerCase();
+  const theme = String(params.get('theme') || '').toLowerCase();
+  return { design, theme };
+}
+
+function normalizeDesignMode(design) {
+  if (design === 'drupalcon') return 'drupalcon';
+  if (design === 'default') return 'drupalsouth';
+  return 'drupalsouth';
+}
+
+function normalizeThemeMode(theme) {
+  return theme === 'light' ? 'light' : 'dark';
+}
+
+function applyDesignClass(designMode) {
+  const body = document.body;
+  body.classList.toggle('design-drupalcon', designMode === 'drupalcon');
+  body.classList.toggle('design-drupalsouth', designMode === 'drupalsouth');
+}
+
+function applyThemeClass(themeMode) {
+  const body = document.body;
+  body.classList.toggle('theme-dark', themeMode === 'dark');
+}
 
 export function wireStatsHandlers(selectionOverviewFn, stageStatsFn) {
   updateSelectionOverview = selectionOverviewFn;
@@ -217,6 +249,26 @@ export function populateEventSelector(category, preferredFile) {
   }
 }
 
+function getManifestItemByFile(file) {
+  return EVENT_MANIFEST.find((item) => item.file === file) || null;
+}
+
+function updateHeaderFlag(manifestItem = null) {
+  const flag = document.getElementById('headerFlag');
+  if (!flag) return;
+  const src = manifestItem?.flagImage || '';
+  const alt = manifestItem?.flagAlt || 'Event country flag';
+  if (!src) {
+    flag.classList.add('hidden');
+    flag.removeAttribute('src');
+    flag.removeAttribute('alt');
+    return;
+  }
+  flag.src = src;
+  flag.alt = alt;
+  flag.classList.remove('hidden');
+}
+
 export async function fetchEvents(filename) {
   try {
     const response = await fetch(`./data/${filename}`);
@@ -237,6 +289,8 @@ export async function fetchEvents(filename) {
 
 export async function loadEvent(filename) {
   state.currentEventFile = filename;
+  const manifestItem = getManifestItemByFile(filename);
+  updateHeaderFlag(manifestItem);
   const events = await fetchEvents(filename);
   if (state.currentEventCategory) {
     updateHeaderBranding(state.currentEventCategory);
@@ -345,6 +399,16 @@ export function setupEventListeners() {
 }
 
 export async function init() {
+  const urlModes = parseModeFromUrl();
+  const savedDesign = localStorage.getItem(DESIGN_STORAGE_KEY) || '';
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY) || '';
+  state.designMode = normalizeDesignMode(urlModes.design || savedDesign || DEFAULT_DESIGN_MODE);
+  state.themeMode = normalizeThemeMode(urlModes.theme || savedTheme || 'dark');
+  localStorage.setItem(DESIGN_STORAGE_KEY, state.designMode);
+  localStorage.setItem(THEME_STORAGE_KEY, state.themeMode);
+  applyDesignClass(state.designMode);
+  applyThemeClass(state.themeMode);
+
   const eventSelector = document.getElementById('eventSelector');
   const savedEvent = localStorage.getItem('selectedEventFile');
   const savedEventIsValid = savedEvent && EVENT_MANIFEST.some((e) => e.file === savedEvent);

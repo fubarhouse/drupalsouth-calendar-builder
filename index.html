@@ -19,7 +19,10 @@
                         <i id="headerLogoIcon" class="fas fa-water"></i>
                     </div>
                     <div>
-                        <div id="headerKicker" class="header-kicker">DrupalSouth Schedule</div>
+                        <div class="flex items-center gap-2">
+                            <div id="headerKicker" class="header-kicker">DrupalSouth Schedule</div>
+                            <img id="headerFlag" class="header-flag hidden" src="" alt="">
+                        </div>
                         <h1 id="pageTitle" class="header-title">
                             <span class="header-event">Custom Schedule Builder</span>
                             <span class="header-suffix">Planner</span>
@@ -32,7 +35,7 @@
 
     <div class="w-full lg:w-4/5 mx-auto px-4 py-8">
         <!-- Event Selector -->
-        <div class="bg-white rounded-lg shadow-md p-4 mb-6">
+        <div id="filtersPanel" class="bg-white rounded-lg shadow-md p-4 mb-6">
             <div id="eventTabs" class="flex flex-wrap gap-2 mb-3">
                 <button type="button" class="event-tab event-tab-disabled px-3 py-1.5 rounded-md text-sm font-medium border border-gray-300 transition-colors" data-category="DrupalCon US" disabled aria-disabled="true" title="Coming soon">DrupalCon US</button>
                 <button type="button" class="event-tab event-tab-disabled px-3 py-1.5 rounded-md text-sm font-medium border border-gray-300 transition-colors" data-category="DrupalCon EU" disabled aria-disabled="true" title="Coming soon">DrupalCon EU</button>

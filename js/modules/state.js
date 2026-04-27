@@ -3,6 +3,8 @@ const state = {
   currentEventCategory: null,
   eventMeta: null,
   eventColumns: 3,
+  designMode: 'drupalsouth',
+  themeMode: 'dark',
   selectedEvents: new Set(),
   allEvents: [],
   displayedEvents: []
