@@ -267,13 +267,13 @@
       "duration": "P30M",
       "title": "Drupal as an API for fun things",
       "location": "Breakout 3",
-      "link": "",
+      "link": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule/4340",
       "track": "Other",
       "speakers": [
         "Rox Flame"
       ],
-      "full_description": "",
-      "summary": ""
+      "full_description": "Drupal can be used as a database for games, apps and multimedia experiences. In my long history of both Games and Drupal, I've been part of a number of projects and prototypes where we have utilized Drupal to manage user accounts and data storage served over API to games and apps.\n\nI've picked out 4 of my favourites I've been involved in that each have unique approaches\n\nTHE {} AND - A personal connection questions game / mobile app, with firebase and Drupal stored data\nMonomaly - A yet to be announced procedural trading card game repository\nPave - User management for a digital version of a tabletop game\nEventa - Biometric and QR check-ins for a Drupal ticketing platform\n\nIn this talk I share my personal experiences working on these projects and how they work with Drupal as an API",
+      "summary": "Drupal can be used as a database for games, apps and multimedia experiences...."
     },
     {
       "startTime": "2026-05-13T00:50:00Z",
