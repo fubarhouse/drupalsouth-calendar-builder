@@ -1,5 +1,144 @@
 import state from './state.js';
-import { getLocalDate, formatDuration, highlightKeywords } from './utils.js';
+import { getLocalDate, formatDuration, highlightKeywords, escapeHtml } from './utils.js';
+
+const SESSION_MODAL_ID = 'sessionDetailModal';
+
+function descriptionToHtml(text) {
+  return escapeHtml(String(text || '').trim()).replace(/\n/g, '<br>');
+}
+
+function getSessionDescription(event) {
+  return event.full_description || event.description || '';
+}
+
+function getEventById(eventId) {
+  return state.allEvents.find((event) => event.id === eventId) || null;
+}
+
+function ensureSessionModal() {
+  let modal = document.getElementById(SESSION_MODAL_ID);
+  if (modal) return modal;
+
+  modal = document.createElement('div');
+  modal.id = SESSION_MODAL_ID;
+  modal.className = 'session-modal-overlay hidden';
+  modal.innerHTML = `
+    <div class="session-modal-card" role="dialog" aria-modal="true" aria-labelledby="sessionModalTitle">
+      <div class="session-modal-header">
+        <button id="sessionModalBack" type="button" class="session-modal-back">
+          <i class="fas fa-arrow-left"></i><span>Back to schedule</span>
+        </button>
+        <button id="sessionModalClose" type="button" class="session-modal-close" aria-label="Close session details">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="session-modal-body" id="sessionModalBody"></div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      closeSessionModal();
+    }
+  });
+  modal.querySelector('#sessionModalClose').addEventListener('click', closeSessionModal);
+  modal.querySelector('#sessionModalBack').addEventListener('click', closeSessionModal);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !modal.classList.contains('hidden')) {
+      closeSessionModal();
+    }
+  });
+
+  return modal;
+}
+
+function renderSessionModalContent(event) {
+  const startDate = new Date(event.startTime);
+  const endDate = new Date(event.endTime);
+  const dayDate = startDate.toLocaleDateString('en-US', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    timeZone: state.eventMeta.timezone
+  });
+  const startTime = startDate.toLocaleTimeString('en-US', {
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: state.eventMeta.timezone
+  });
+  const endTime = endDate.toLocaleTimeString('en-US', {
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: state.eventMeta.timezone
+  });
+
+  const isSelected = state.selectedEvents.has(event.id);
+  const description = getSessionDescription(event);
+  const body = ensureSessionModal().querySelector('#sessionModalBody');
+
+  body.innerHTML = `
+    <h2 id="sessionModalTitle" class="session-modal-title">${escapeHtml(event.title || 'Session')}</h2>
+    ${
+      event.speakers
+        ? `<p class="session-modal-meta"><strong>Speakers:</strong> ${escapeHtml(
+            Array.isArray(event.speakers) ? event.speakers.join(', ') : event.speakers
+          )}</p>`
+        : ''
+    }
+    <p class="session-modal-meta"><strong>When:</strong> ${escapeHtml(dayDate)}, ${escapeHtml(startTime)} - ${escapeHtml(endTime)}</p>
+    ${event.location ? `<p class="session-modal-meta"><strong>Location:</strong> ${escapeHtml(event.location)}</p>` : ''}
+    ${event.track ? `<p class="session-modal-meta"><strong>Track:</strong> ${escapeHtml(event.track)}</p>` : ''}
+    ${event.duration ? `<p class="session-modal-meta"><strong>Duration:</strong> ${escapeHtml(formatDuration(event, event.duration))}</p>` : ''}
+    ${
+      event.link || event.video_url
+        ? `<div class="session-modal-links">
+            ${
+              event.link
+                ? `<a class="session-modal-link" href="${event.link}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i><span>Session page</span></a>`
+                : ''
+            }
+            ${
+              event.video_url
+                ? `<a class="session-modal-link" href="${event.video_url}" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i><span>Watch recording</span></a>`
+                : ''
+            }
+          </div>`
+        : ''
+    }
+    <div class="session-modal-description">${description ? descriptionToHtml(description) : '<em>No description available.</em>'}</div>
+    <div class="session-modal-actions">
+      <button id="sessionModalToggleSelection" type="button" class="session-modal-toggle ${isSelected ? 'is-selected' : ''}">
+        ${isSelected ? 'Remove from selection' : 'Add to selection'}
+      </button>
+    </div>
+  `;
+
+  const toggleButton = body.querySelector('#sessionModalToggleSelection');
+  toggleButton.addEventListener('click', () => {
+    if (window.toggleEventSelection) {
+      window.toggleEventSelection(event.id);
+    }
+    const selected = state.selectedEvents.has(event.id);
+    toggleButton.classList.toggle('is-selected', selected);
+    toggleButton.textContent = selected ? 'Remove from selection' : 'Add to selection';
+  });
+}
+
+export function openSessionModal(eventId) {
+  const event = getEventById(eventId);
+  if (!event) return;
+  const modal = ensureSessionModal();
+  renderSessionModalContent(event);
+  modal.classList.remove('hidden');
+  document.body.classList.add('session-modal-open');
+}
+
+export function closeSessionModal() {
+  const modal = ensureSessionModal();
+  modal.classList.add('hidden');
+  document.body.classList.remove('session-modal-open');
+}
 
 export function groupEventsByDate(events) {
   return events.reduce((groups, event) => {
@@ -153,27 +292,22 @@ export function displayListView(events, container) {
             <div class="event-card h-full p-4 rounded-md transition-colors cursor-pointer border-2 ${cardExtraClass} ${bgColor} ${hoverColor} ${
             isSelected ? 'drupal-blue-border-light' : 'border-transparent'
           }"
-                 onclick="toggleEventSelection('${event.id}')"
+                 onclick="openSessionModal('${event.id}')"
                  ${cardStyle}>
                 <div class="flex justify-between items-stretch h-full">
                     <div class="flex items-start space-x-3 flex-1 self-stretch">
-                        <input type="checkbox"
-                               class="mt-1 h-4 w-4 drupal-blue-text drupal-blue-focus border-gray-300 rounded cursor-pointer"
-                               ${isSelected ? 'checked' : ''}
-                               onclick="event.stopPropagation()"
-                               onchange="toggleEventSelection('${event.id}')">
                         <div class="flex-1 flex flex-col h-full">
                             <h3 class="font-medium text-gray-900 mb-1">${highlightedSummary}</h3>
                             ${event.speakers ? `<p class="text-sm text-gray-700 mb-1">${highlightedSpeakers}</p>` : ''}
                             ${event.location ? `<p class="text-sm text-gray-500 mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${highlightedLocation}</p>` : ''}
                             ${
                               event.link
-                                ? `<p class="text-sm drupal-blue-text mb-1"><a href="${event.link}" target="_blank" class="hover:underline" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>`
+                                ? `<p class="text-sm mb-1"><a href="${event.link}" target="_blank" class="schedule-link" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>`
                                 : ''
                             }
                             ${
                               event.video_url
-                                ? `<p class="text-sm mb-1"><a href="${event.video_url}" target="_blank" class="drupal-blue-text hover:underline inline-flex items-center" onclick="event.stopPropagation()"><i class="fab fa-youtube mr-1"></i>Watch recording</a></p>`
+                                ? `<p class="text-sm mb-1"><a href="${event.video_url}" target="_blank" class="schedule-link inline-flex items-center" onclick="event.stopPropagation()"><i class="fab fa-youtube mr-1"></i>Watch recording</a></p>`
                                 : ''
                             }
                             ${
@@ -193,7 +327,19 @@ export function displayListView(events, container) {
                             }
                         </div>
                     </div>
-                    <span class="text-xs text-gray-500 ml-2 whitespace-nowrap">${durationText}</span>
+                    <div class="ml-2 flex flex-col items-end justify-between">
+                      <label class="inline-flex items-center cursor-pointer select-none" title="Add or remove from selection">
+                        <input
+                          type="checkbox"
+                          class="h-4 w-4 schedule-select-checkbox"
+                          ${isSelected ? 'checked' : ''}
+                          onclick="event.stopPropagation()"
+                          onchange="window.toggleEventSelection && window.toggleEventSelection('${event.id}')"
+                          aria-label="${isSelected ? 'Remove session from selection' : 'Add session to selection'}"
+                        />
+                      </label>
+                      <span class="text-xs text-gray-500 whitespace-nowrap">${durationText}</span>
+                    </div>
                 </div>
             </div>
           `;
@@ -233,3 +379,6 @@ export function displayEvents(events) {
   const container = document.getElementById('eventsContainer');
   displayListView(events, container);
 }
+
+window.openSessionModal = openSessionModal;
+window.closeSessionModal = closeSessionModal;

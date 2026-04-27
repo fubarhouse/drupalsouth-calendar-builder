@@ -13,11 +13,15 @@
         }
         .drupal-blue { background-color: rgb(0, 106, 169); }
         .drupal-blue-hover:hover { background-color: rgb(0, 85, 135); }
-        .drupal-blue-text { color: var(--accent-strong); }
+        .drupal-blue-text { color: #005f9e; }
+        .drupal-blue-text:hover { color: #004a7c; }
         .drupal-blue-border { border-color: var(--accent); }
         .drupal-blue-focus:focus { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
         .drupal-blue-bg-light { background-color: rgba(46, 163, 255, 0.18); }
         .drupal-blue-border-light { border-color: rgba(79, 178, 255, 0.9); }
+        .schedule-select-checkbox {
+            accent-color: #0d78cc;
+        }
         .keyword-highlight { 
             background-color: #ff9f6b;
             color: #08121c;
@@ -49,6 +53,15 @@
         .theme-dark .text-gray-600,
         .theme-dark .text-gray-500,
         .theme-dark .text-gray-400 { color: var(--text-2) !important; }
+        .theme-dark .drupal-blue-text {
+            color: #9fd6ff !important;
+        }
+        .theme-dark .drupal-blue-text:hover {
+            color: #c7e7ff !important;
+        }
+        .theme-dark .schedule-select-checkbox {
+            accent-color: #66beff;
+        }
         .theme-dark input,
         .theme-dark select {
             background: var(--surface-1);
@@ -321,6 +334,175 @@
             border-color: rgba(157, 198, 238, 0.35) !important;
             background: linear-gradient(160deg, rgba(16, 36, 58, 0.9), rgba(13, 30, 49, 0.88)) !important;
         }
+        .session-modal-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 1200;
+            background: rgba(7, 14, 23, 0.7);
+            backdrop-filter: blur(3px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .session-modal-overlay.hidden {
+            display: none;
+        }
+        .session-modal-card {
+            width: min(880px, 100%);
+            max-height: 90vh;
+            background: #ffffff;
+            border: 1px solid #d0d9e4;
+            border-radius: 12px;
+            box-shadow: 0 24px 56px rgba(0, 0, 0, 0.35);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .session-modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.9rem 1rem;
+            border-bottom: 1px solid #e3e8ef;
+            background: #f8fbff;
+        }
+        .session-modal-back,
+        .session-modal-close {
+            border: 1px solid #d5deea;
+            background: #ffffff;
+            color: #2b4058;
+            border-radius: 0.5rem;
+            font-size: 0.9rem;
+            line-height: 1;
+            cursor: pointer;
+        }
+        .session-modal-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            font-weight: 600;
+        }
+        .session-modal-close {
+            width: 2rem;
+            height: 2rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .session-modal-body {
+            overflow-y: auto;
+            padding: 1rem 1.1rem 1.2rem;
+        }
+        .session-modal-title {
+            font-size: 1.3rem;
+            line-height: 1.25;
+            color: #172b41;
+            margin-bottom: 0.7rem;
+            font-weight: 700;
+        }
+        .session-modal-meta {
+            color: #334f6b;
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+        }
+        .session-modal-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin: 0.75rem 0;
+        }
+        .session-modal-links a,
+        .schedule-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: #005f9e;
+            font-size: 0.92rem;
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-thickness: 1.5px;
+            text-underline-offset: 2.5px;
+        }
+        .session-modal-links a:hover,
+        .schedule-link:hover {
+            color: #004a7c;
+        }
+        .session-modal-links a:focus-visible,
+        .schedule-link:focus-visible {
+            outline: 2px solid #0d78cc;
+            outline-offset: 2px;
+            border-radius: 0.2rem;
+        }
+        .session-modal-description {
+            margin-top: 0.8rem;
+            color: #22384f;
+            font-size: 0.95rem;
+            line-height: 1.55;
+        }
+        .session-modal-actions {
+            margin-top: 1rem;
+            padding-top: 0.8rem;
+            border-top: 1px solid #e3e8ef;
+        }
+        .session-modal-toggle {
+            border: 1px solid #0c6ab3;
+            background: #0d78cc;
+            color: #ffffff;
+            border-radius: 0.55rem;
+            padding: 0.58rem 0.95rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .session-modal-toggle.is-selected {
+            background: #eef6ff;
+            color: #0b5f9f;
+            border-color: #8cbce3;
+        }
+        body.session-modal-open {
+            overflow: hidden;
+        }
+        .theme-dark .session-modal-card {
+            background: #102033;
+            border-color: #2f4662;
+        }
+        .theme-dark .session-modal-header {
+            background: #0d1a2a;
+            border-bottom-color: #2f4662;
+        }
+        .theme-dark .session-modal-back,
+        .theme-dark .session-modal-close {
+            background: #15293f;
+            color: #d8e8fa;
+            border-color: #3e5c7c;
+        }
+        .theme-dark .session-modal-title {
+            color: #eef6ff;
+        }
+        .theme-dark .session-modal-meta {
+            color: #c3d7ec;
+        }
+        .theme-dark .session-modal-description {
+            color: #d4e3f4;
+        }
+        .theme-dark .session-modal-actions {
+            border-top-color: #2f4662;
+        }
+        .theme-dark .session-modal-links a,
+        .theme-dark .schedule-link {
+            color: #9fd6ff;
+        }
+        .theme-dark .session-modal-links a:hover,
+        .theme-dark .schedule-link:hover {
+            color: #c7e7ff;
+        }
+        .theme-dark .session-modal-links a:focus-visible,
+        .theme-dark .schedule-link:focus-visible {
+            outline-color: #9fd6ff;
+        }
         @media (max-width: 900px) {
             .design-drupalcon .timeline-row {
                 grid-template-columns: 1fr;
@@ -345,5 +527,14 @@
             }
             .header-title {
                 font-size: clamp(1.2rem, 6.4vw, 1.6rem);
+            }
+            .session-modal-overlay {
+                padding: 0.45rem;
+            }
+            .session-modal-body {
+                padding: 0.85rem 0.85rem 1rem;
+            }
+            .session-modal-title {
+                font-size: 1.1rem;
             }
         }
