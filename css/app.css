@@ -329,5 +329,21 @@
             .design-drupalcon .timeline-time {
                 position: static;
                 text-align: left;
+                padding: 0;
+                margin-bottom: 2px;
+            }
+            .design-drupalcon .timeline-time-hour {
+                font-size: 0.95rem;
+            }
+            .design-drupalcon .timeline-time-date {
+                font-size: 0.72rem;
+            }
+        }
+        @media (max-width: 640px) {
+            #eventTabs .event-tab {
+                flex: 1 1 calc(50% - 0.5rem);
+            }
+            .header-title {
+                font-size: clamp(1.2rem, 6.4vw, 1.6rem);
             }
         }

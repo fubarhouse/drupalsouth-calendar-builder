@@ -108,7 +108,7 @@ function renderCategoryTabs(categories) {
     button.type = 'button';
     button.dataset.category = category;
     button.className =
-      'event-tab px-3 py-1.5 rounded-md text-sm font-medium border border-gray-300 transition-colors';
+      'event-tab px-3 py-1.5 rounded-md text-xs sm:text-sm text-center font-medium border border-gray-300 transition-colors';
     button.textContent = category;
     tabsContainer.appendChild(button);
   });
