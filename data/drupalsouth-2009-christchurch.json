@@ -1,0 +1,377 @@
+{
+  "event": {
+    "designation": "DrupalSouth",
+    "location": "Christchurch",
+    "year": "2009",
+    "website": "http://drupalsouth.net.nz/",
+    "region": "New Zealand – Christchurch",
+    "scheduleURL": "http://drupalsouth.net.nz/programme",
+    "venue": "The Twisted Hop, Christchurch",
+    "timezone": "Pacific/Auckland",
+    "startDate": "2008-10-31T20:00:00Z",
+    "endDate": "2008-11-02T05:15:00Z",
+    "sourceCache": "cache/wayback/drupalsouth-2009/raw"
+  },
+  "items": [
+    {
+      "startTime": "2008-10-31T20:00:00Z",
+      "endTime": "2008-10-31T20:30:00Z",
+      "duration": "P30M",
+      "title": "Setup",
+      "location": "Saturday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-10-31T20:30:00Z",
+      "endTime": "2008-10-31T21:00:00Z",
+      "duration": "P30M",
+      "title": "Registration, coffee",
+      "location": "Saturday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-10-31T21:00:00Z",
+      "endTime": "2008-10-31T21:30:00Z",
+      "duration": "P30M",
+      "title": "Welcome",
+      "location": "Saturday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/welcome",
+      "track": "General",
+      "speakers": [
+        "jonathan.hunt"
+      ],
+      "description": "",
+      "full_description": "Welcome to DrupalSouth. Introductions, house keeping, scene setting.",
+      "summary": "Welcome to DrupalSouth....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-10-31T21:30:00Z",
+      "endTime": "2008-10-31T22:00:00Z",
+      "duration": "P30M",
+      "title": "Drupal vs the rest",
+      "location": "Saturday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-vs-the-rest",
+      "track": "Session",
+      "speakers": [
+        "Julian Carver"
+      ],
+      "description": "",
+      "full_description": "Having conducted multiple RFPs where Drupal was offered as a solution, Julian can offer some insight into how Drupal stacks up against competing offerings such as Silverstripe, Alfresco, Episerver and others. How credible is Drupal in the enterprise? What does it do well? What needs to improve?",
+      "summary": "Having conducted multiple RFPs where Drupal was offered as a solution, Julian can offer some insight into how Drupal stacks up against competing offerings....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-10-31T22:00:00Z",
+      "endTime": "2008-10-31T22:30:00Z",
+      "duration": "P30M",
+      "title": "Drupal and the Encyclopedia of Life - True Taxonomy",
+      "location": "Saturday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/something-about-drupal",
+      "track": "Session",
+      "speakers": [
+        "Dan dman"
+      ],
+      "description": "",
+      "full_description": "The Encyclopedia of Life is a fascinating project investing big money and brainpower into Drupal. It is, or will be, a catalog of every single organism on Earth, something like 3 to 7 million taxons. They are distributing branches of this global tree to registered scientists as their own Drupal subsite, each maintaining and sharing a clade of the web of life.",
+      "summary": "The Encyclopedia of Life is a fascinating project investing big money and brainpower into Drupal....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-10-31T22:30:00Z",
+      "endTime": "2008-10-31T23:00:00Z",
+      "duration": "P30M",
+      "title": "Drupal and CiviCRM for campaigns",
+      "location": "Saturday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-and-civicrm-for-campaigns",
+      "track": "Session",
+      "speakers": [
+        "Chris Burgess"
+      ],
+      "description": "",
+      "full_description": "Reach your audience with effective campaigns using Drupal and CiviCRM, based on experience with the NZ Greens and other advocacy organisations. The archived session page also notes it had not yet been allocated a slot at that capture date.",
+      "summary": "Reach your audience with effective campaigns using Drupal and CiviCRM....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-10-31T23:00:00Z",
+      "endTime": "2008-10-31T23:30:00Z",
+      "duration": "P30M",
+      "title": "JQuery UI interface development for Drupal",
+      "location": "Saturday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/cool-user-interfaces-using-jquery-ui",
+      "track": "Session",
+      "speakers": [
+        "David Thomas"
+      ],
+      "description": "",
+      "full_description": "Using jQuery UI to easily create modern eye-catching widgets and effects for Drupal.",
+      "summary": "Using jQuery UI to easily create modern eye-catching widgets and effects for Drupal....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-10-31T23:30:00Z",
+      "endTime": "2008-11-01T00:00:00Z",
+      "duration": "P30M",
+      "title": "OpenID with Drupal",
+      "location": "Saturday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/openid-with-drupal",
+      "track": "Session",
+      "speakers": [
+        "Marek Kuziel"
+      ],
+      "description": "",
+      "full_description": "During this session you will find out answers for the following questions:\n\n- What is OpenID?\n- What is current state of OpenID in Drupal?\n- How can I use OpenID at my Drupal based website today?",
+      "summary": "During this session you will find out answers for the following questions....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T00:00:00Z",
+      "endTime": "2008-11-01T01:00:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Saturday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T01:00:00Z",
+      "endTime": "2008-11-01T03:30:00Z",
+      "duration": "P150M",
+      "title": "Unconference - Adhoc talks, demos, tutorials, hacking",
+      "location": "Saturday",
+      "link": "",
+      "track": "Unconference",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T03:45:00Z",
+      "endTime": "2008-11-01T04:00:00Z",
+      "duration": "P15M",
+      "title": "Wrap up",
+      "location": "Saturday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T04:00:00Z",
+      "endTime": "2008-11-01T05:00:00Z",
+      "duration": "P60M",
+      "title": "Refreshments",
+      "location": "Saturday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T05:00:00Z",
+      "endTime": "2008-11-01T05:15:00Z",
+      "duration": "P15M",
+      "title": "Cleanup",
+      "location": "Saturday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T20:30:00Z",
+      "endTime": "2008-11-01T21:00:00Z",
+      "duration": "P30M",
+      "title": "Welcome",
+      "location": "Sunday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/welcome",
+      "track": "General",
+      "speakers": [
+        "jonathan.hunt"
+      ],
+      "description": "",
+      "full_description": "Welcome to DrupalSouth. Introductions, house keeping, scene setting.",
+      "summary": "Welcome to DrupalSouth....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T21:00:00Z",
+      "endTime": "2008-11-01T21:30:00Z",
+      "duration": "P30M",
+      "title": "Google Maps in Drupal; The Hub Map",
+      "location": "Sunday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/google-maps-in-drupal-the-hub-map",
+      "track": "Session",
+      "speakers": [
+        "Bevan Rudge"
+      ],
+      "description": "",
+      "full_description": "Demonstrate features of the Hub Map, talk briefly about how it was built, current issues and developments, and plans for the future. This will be followed up with a \"Drupal+GoogleMaps mashup in 30 minutes\" tutorial.",
+      "summary": "Demonstrate features of the Hub Map, talk briefly about how it was built....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T21:30:00Z",
+      "endTime": "2008-11-01T22:00:00Z",
+      "duration": "P30M",
+      "title": "Managing Drupal with Drupal",
+      "location": "Sunday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/managing-drupal-with-drupal",
+      "track": "Session",
+      "speakers": [
+        "Dave Lane"
+      ],
+      "description": "",
+      "full_description": "Using CaseTracker, organic groups, custom code to manage Drupal projects from requirements capture, development, testing and support.",
+      "summary": "Using CaseTracker, organic groups, custom code to manage Drupal projects from requirements capture, development, testing and support....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T22:00:00Z",
+      "endTime": "2008-11-01T22:30:00Z",
+      "duration": "P30M",
+      "title": "Drupal in Education",
+      "location": "Sunday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-in-education",
+      "track": "Session",
+      "speakers": [
+        "Josh Campbell"
+      ],
+      "description": "",
+      "full_description": "Twice nominated for NZ Open Source Awards, Josh Campbell is at the forefront of teaching computing using open source tools. Find out how Drupal has been used at Hagley Community College.",
+      "summary": "Twice nominated for NZ Open Source Awards, Josh Campbell is at the forefront of teaching computing using open source tools....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T22:30:00Z",
+      "endTime": "2008-11-01T23:00:00Z",
+      "duration": "P30M",
+      "title": "Drupal on Postgres",
+      "location": "Sunday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/drupal-on-postgres",
+      "track": "Session",
+      "speakers": [
+        "Brenda Shiny"
+      ],
+      "description": "",
+      "full_description": "Usually Drupal is deployed on MySQL. What does Postgres bring to the table and what do you need to look out for?",
+      "summary": "Usually Drupal is deployed on MySQL....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T23:00:00Z",
+      "endTime": "2008-11-01T23:30:00Z",
+      "duration": "P30M",
+      "title": "NZ Government web standards and Drupal",
+      "location": "Sunday",
+      "link": "https://web.archive.org/web/20090122154504/http://drupalsouth.net.nz/session/nz-government-web-standards-and-drupal",
+      "track": "Session",
+      "speakers": [
+        "Jonathan Hunt"
+      ],
+      "description": "",
+      "full_description": "Sites for NZ Government agencies are required to meet NZ Government Web Standards and Recommendations. These guidelines are generally good practice for all websites. Find out how to alter Drupal to match NZ web standards.",
+      "summary": "Sites for NZ Government agencies are required to meet NZ Government Web Standards and Recommendations....",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-01T23:30:00Z",
+      "endTime": "2008-11-02T00:30:00Z",
+      "duration": "P60M",
+      "title": "Lunch",
+      "location": "Sunday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-02T00:30:00Z",
+      "endTime": "2008-11-02T03:30:00Z",
+      "duration": "P180M",
+      "title": "Unconference",
+      "location": "Sunday",
+      "link": "",
+      "track": "Unconference",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-02T03:45:00Z",
+      "endTime": "2008-11-02T04:00:00Z",
+      "duration": "P15M",
+      "title": "Wrap up/Farewell",
+      "location": "Sunday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-02T04:00:00Z",
+      "endTime": "2008-11-02T04:30:00Z",
+      "duration": "P30M",
+      "title": "Refreshments",
+      "location": "Sunday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    },
+    {
+      "startTime": "2008-11-02T05:00:00Z",
+      "endTime": "2008-11-02T05:15:00Z",
+      "duration": "P15M",
+      "title": "Cleanup",
+      "location": "Sunday",
+      "link": "",
+      "track": "General",
+      "speakers": null,
+      "description": "",
+      "full_description": "",
+      "summary": "",
+      "video_url": ""
+    }
+  ]
+}
