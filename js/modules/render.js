@@ -56,6 +56,10 @@ function getSessionDescription(event) {
   return event.full_description || event.description || '';
 }
 
+function hasSessionDescription(event) {
+  return Boolean(String(event.full_description || event.description || event.summary || '').trim());
+}
+
 function getEventById(eventId) {
   return state.allEvents.find((event) => event.id === eventId) || null;
 }
@@ -178,6 +182,7 @@ function renderSessionModalContent(event) {
   const isSelected = state.selectedEvents.has(event.id);
   const description = getSessionDescription(event);
   const descriptionHtml = formatTextBlock(description);
+  const hasDescription = hasSessionDescription(event);
   const speakersInfo = getSpeakersInfo(event.speakers);
   const speakersIcon = speakersInfo.isMultiple ? 'fa-users' : 'fa-user';
   const whenValue = `${escapeHtml(dayDate)}, ${escapeHtml(startTime)} - ${escapeHtml(endTime)}`;
@@ -211,10 +216,10 @@ function renderSessionModalContent(event) {
         : ''
     }
     ${
-      event.link || event.video_url
+      event.video_url || (event.link && hasDescription)
         ? `<div class="session-modal-links">
             ${
-              event.link
+              event.link && hasDescription
                 ? `<a class="session-modal-link" href="${event.link}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i><span>Session page</span></a>`
                 : ''
             }
@@ -418,6 +423,7 @@ export function displayListView(events, container) {
           const speakersIcon = speakersInfo.isMultiple ? 'fa-users' : 'fa-user';
           const highlightedLocation = event.location ? highlightKeywords(event.location, keywordsFilter) : '';
           const descriptionText = event.summary || event.description || '';
+          const hasDescription = hasSessionDescription(event);
           const highlightedDescription = descriptionText ? formatTextBlock(descriptionText, keywordsFilter) : '';
           const trackLabel = typeof event.track === 'string' ? event.track.trim() : '';
           const highlightedTrack = trackLabel ? highlightKeywords(trackLabel, keywordsFilter) : '';
@@ -478,7 +484,7 @@ export function displayListView(events, container) {
                                 : '<div class="mb-1"></div>'
                             }
                             ${
-                              event.link
+                              event.link && hasDescription
                                 ? `<p class="text-sm mb-1"><a href="${event.link}" target="_blank" class="schedule-link" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>`
                                 : ''
                             }
