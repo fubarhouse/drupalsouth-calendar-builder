@@ -64,14 +64,22 @@ export function displayListView(events, container) {
       day: 'numeric'
     });
 
-    const eventsByStartTime = groupEventsByStartTime(dateEvents);
+    const sortedDateEvents = [...dateEvents].sort((a, b) => {
+      const byTime = new Date(a.startTime) - new Date(b.startTime);
+      if (byTime !== 0) return byTime;
+      const byLocation = String(a.location || '').localeCompare(String(b.location || ''));
+      if (byLocation !== 0) return byLocation;
+      return String(a.title || '').localeCompare(String(b.title || ''));
+    });
+    const eventsByStartTime = groupEventsByStartTime(sortedDateEvents);
+    const startTimeEntries = Object.entries(eventsByStartTime).sort((a, b) => new Date(a[0]) - new Date(b[0]));
     let dateHtml = isDrupalConDesign
       ? `<h2 class="schedule-day-heading text-xl font-semibold text-gray-800 mb-4">${formattedDate}</h2>`
       : `<h2 class="text-xl font-semibold text-gray-800 mb-3">${formattedDate}</h2>`;
 
     const timeSlotColors = ['slot-bg-a', 'slot-bg-b'];
 
-    Object.entries(eventsByStartTime).forEach(([startTime, timeSlotEvents], index) => {
+    startTimeEntries.forEach(([startTime, timeSlotEvents], index) => {
       const startDate = new Date(startTime);
       const displayDate = startDate.toLocaleDateString('en-US', {
         weekday: 'long',
@@ -86,11 +94,17 @@ export function displayListView(events, container) {
       });
 
       const maxColumns = Math.max(1, Math.min(6, state.eventColumns || 3));
-      const slotColumns = Math.min(timeSlotEvents.length, maxColumns);
+      const designColumnsCap = isDrupalConDesign ? Math.max(maxColumns, 4) : maxColumns;
+      const slotColumns = Math.min(timeSlotEvents.length, designColumnsCap);
       const gridCols = 'grid grid-cols-1 md:grid-cols-2 lg:[grid-template-columns:repeat(var(--slot-columns),minmax(0,1fr))] gap-2';
 
       const timeSlotBgColor = timeSlotColors[index % timeSlotColors.length];
-      const slotCardsHtml = timeSlotEvents
+      const sortedSlotEvents = [...timeSlotEvents].sort((a, b) => {
+        const byLocation = String(a.location || '').localeCompare(String(b.location || ''));
+        if (byLocation !== 0) return byLocation;
+        return String(a.title || '').localeCompare(String(b.title || ''));
+      });
+      const slotCardsHtml = sortedSlotEvents
         .map((event) => {
           const isSelected = state.selectedEvents.has(event.id);
           const startDateItem = new Date(event.startTime);
