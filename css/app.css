@@ -81,6 +81,13 @@
             box-shadow: 0 12px 34px rgba(0, 0, 0, 0.25);
         }
         .track-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.24rem 0.62rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            line-height: 1.1;
+            letter-spacing: 0.01em;
             background: rgba(255, 255, 255, 0.08) !important;
             border: 1px solid rgba(162, 196, 232, 0.28);
             color: #bcd4ef !important;
@@ -148,6 +155,15 @@
             text-transform: uppercase;
             color: rgba(224, 242, 255, 0.92);
         }
+        .header-flag {
+            width: 22px;
+            height: 15px;
+            border-radius: 3px;
+            border: 1px solid rgba(218, 236, 255, 0.5);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+            object-fit: cover;
+            transform: translateY(-0.5px);
+        }
         .header-title {
             font-size: clamp(1.35rem, 2.4vw, 2.2rem);
             line-height: 1.15;
@@ -168,3 +184,150 @@
         .brand-drupalsouth { background: linear-gradient(150deg, rgba(91, 177, 242, 0.45), rgba(24, 87, 142, 0.55)); }
         .brand-community { background: linear-gradient(150deg, rgba(86, 196, 184, 0.45), rgba(28, 105, 120, 0.55)); }
         .brand-drupalcon { background: linear-gradient(150deg, rgba(160, 170, 196, 0.35), rgba(78, 93, 121, 0.55)); }
+
+        body.design-drupalcon #eventsContainer {
+            background: transparent !important;
+            border: none;
+            box-shadow: none;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .design-drupalcon .schedule-day-heading {
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: 1px solid rgba(173, 210, 245, 0.35);
+            background: linear-gradient(95deg, rgba(22, 56, 92, 0.7), rgba(17, 42, 70, 0.7));
+            position: sticky;
+            top: 0;
+            z-index: 15;
+        }
+        .design-drupalcon .timeline-row {
+            display: grid;
+            grid-template-columns: minmax(132px, 160px) minmax(0, 1fr);
+            gap: 12px;
+            align-items: start;
+        }
+        .design-drupalcon .timeline-time {
+            position: sticky;
+            top: 56px;
+            border: none;
+            border-radius: 0;
+            padding: 2px 2px 2px 0;
+            background: transparent;
+            text-align: right;
+        }
+        .design-drupalcon .timeline-time-hour {
+            color: #e7f3ff;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+        .design-drupalcon .timeline-time-date {
+            margin-top: 2px;
+            color: #9fbad6;
+            font-size: 0.73rem;
+            line-height: 1.25;
+        }
+        .design-drupalcon .timeline-events {
+            align-items: stretch;
+        }
+        .design-drupalcon .timeline-events .event-card {
+            height: 100%;
+        }
+        .design-drupalcon .timeline-events .event-card > div {
+            height: 100%;
+        }
+        .design-drupalcon #filtersPanel {
+            border: 1px solid rgba(160, 206, 247, 0.34) !important;
+            background:
+                radial-gradient(circle at 92% -30%, rgba(96, 169, 232, 0.18), transparent 45%),
+                linear-gradient(165deg, rgba(18, 42, 67, 0.92), rgba(12, 31, 50, 0.9)) !important;
+            box-shadow: 0 16px 38px rgba(0, 0, 0, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+        .design-drupalcon #filtersPanel .text-gray-700 {
+            color: #d7e7f8 !important;
+            letter-spacing: 0.01em;
+            padding-left: 0.14rem;
+        }
+        .design-drupalcon #filtersPanel .text-gray-600 {
+            color: #aec6df !important;
+        }
+        .design-drupalcon #filtersPanel input,
+        .design-drupalcon #filtersPanel select {
+            background: linear-gradient(180deg, rgba(17, 39, 63, 0.9), rgba(13, 31, 51, 0.9));
+            border: 1px solid rgba(135, 181, 223, 0.34) !important;
+            color: #eaf4ff;
+            border-radius: 0.62rem;
+            padding-left: 0.82rem;
+            padding-right: 0.82rem;
+            transition: border-color 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
+        }
+        .design-drupalcon #filtersPanel select {
+            padding-right: 2rem;
+        }
+        .design-drupalcon #filtersPanel input::placeholder {
+            color: rgba(182, 204, 227, 0.76);
+        }
+        .design-drupalcon #filtersPanel input:focus,
+        .design-drupalcon #filtersPanel select:focus {
+            border-color: rgba(122, 190, 245, 0.95) !important;
+            box-shadow: 0 0 0 1px rgba(122, 190, 245, 0.55), 0 0 0 4px rgba(43, 125, 194, 0.2);
+        }
+        .design-drupalcon #filtersPanel .border-t {
+            border-top-color: rgba(130, 170, 207, 0.28) !important;
+        }
+        .design-drupalcon #filtersPanel button {
+            border-radius: 0.62rem;
+            border-color: rgba(146, 188, 224, 0.35) !important;
+            background: linear-gradient(180deg, rgba(27, 56, 86, 0.88), rgba(20, 44, 71, 0.9));
+            color: #e1efff !important;
+        }
+        .design-drupalcon #filtersPanel button:hover {
+            background: linear-gradient(180deg, rgba(37, 73, 109, 0.95), rgba(25, 52, 82, 0.95));
+            border-color: rgba(162, 204, 238, 0.6) !important;
+        }
+        .design-drupalcon #filtersPanel #clearKeywords {
+            background: transparent;
+            border: none !important;
+            box-shadow: none !important;
+            color: #b9cde2 !important;
+            padding: 0;
+        }
+        .design-drupalcon #filtersPanel #clearKeywords:hover {
+            color: #e3f0ff !important;
+        }
+        .design-drupalcon .event-card-dc {
+            border-color: rgba(149, 191, 233, 0.2);
+            background:
+                linear-gradient(160deg, rgba(15, 27, 43, 0.92), rgba(15, 27, 43, 0.9)),
+                linear-gradient(110deg, var(--event-color-a), var(--event-color-b));
+            background-blend-mode: normal, soft-light;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+        .design-drupalcon .event-card-dc:hover {
+            border-color: var(--event-color-a);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+        }
+        .design-drupalcon .track-pill-dc {
+            background: rgba(255, 255, 255, 0.09) !important;
+            border-color: var(--event-color-b);
+            color: #edf6ff !important;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+        }
+        .design-drupalcon #eventMediaPromo:not(.hidden) {
+            display: block !important;
+        }
+        .design-drupalcon #eventMediaPromo > div {
+            border-color: rgba(157, 198, 238, 0.35) !important;
+            background: linear-gradient(160deg, rgba(16, 36, 58, 0.9), rgba(13, 30, 49, 0.88)) !important;
+        }
+        @media (max-width: 900px) {
+            .design-drupalcon .timeline-row {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            .design-drupalcon .timeline-time {
+                position: static;
+                text-align: left;
+            }
+        }

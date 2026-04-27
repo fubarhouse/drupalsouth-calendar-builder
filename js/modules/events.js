@@ -21,9 +21,44 @@ import {
 
 const DRUPALSOUTH_LOGO_URL = new URL('../../img/drupalsouth-logo.png', import.meta.url).toString();
 const DRUPALGOV_LOGO_URL = new URL('../../img/drupalgov-logo.png', import.meta.url).toString();
+const DRUPALCON_LOGO_URL = new URL('../../img/drupalcon-logo.svg', import.meta.url).toString();
+const DRUPALCON_SINGAPORE_LOGO_URL = new URL('../../img/drupalcon-singapore-logo.png', import.meta.url).toString();
+const DESIGN_STORAGE_KEY = 'scheduleDesignMode';
+const THEME_STORAGE_KEY = 'scheduleThemeMode';
+// Hard-coded default layout mode. Toggle this between 'drupalsouth' and 'drupalcon'.
+const DEFAULT_DESIGN_MODE = 'drupalsouth';
 
 let updateSelectionOverview = () => {};
 let updateStageStats = () => {};
+
+function parseModeFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const design = String(params.get('design') || params.get('layout') || '').toLowerCase();
+  const theme = String(params.get('theme') || '').toLowerCase();
+  return { design, theme };
+}
+
+function normalizeDesignMode(design) {
+  if (design === 'drupalcon') return 'drupalcon';
+  if (design === 'drupalsouth') return 'drupalsouth';
+  if (design === 'default') return 'drupalsouth';
+  return 'drupalcon';
+}
+
+function normalizeThemeMode(theme) {
+  return theme === 'light' ? 'light' : 'dark';
+}
+
+function applyDesignClass(designMode) {
+  const body = document.body;
+  body.classList.toggle('design-drupalcon', designMode === 'drupalcon');
+  body.classList.toggle('design-drupalsouth', designMode === 'drupalsouth');
+}
+
+function applyThemeClass(themeMode) {
+  const body = document.body;
+  body.classList.toggle('theme-dark', themeMode === 'dark');
+}
 
 export function wireStatsHandlers(selectionOverviewFn, stageStatsFn) {
   updateSelectionOverview = selectionOverviewFn;
@@ -57,15 +92,38 @@ export function getManifestForCategory(category) {
   );
 }
 
+function getAvailableEnabledCategories() {
+  return ENABLED_EVENT_CATEGORIES.filter((category) => getManifestForCategory(category).length > 0);
+}
+
+function renderCategoryTabs(categories) {
+  const tabsContainer = document.getElementById('eventTabs');
+  if (!tabsContainer) return;
+
+  tabsContainer.innerHTML = '';
+
+  categories.forEach((category) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.dataset.category = category;
+    button.className =
+      'event-tab px-3 py-1.5 rounded-md text-sm font-medium border border-gray-300 transition-colors';
+    button.textContent = category;
+    tabsContainer.appendChild(button);
+  });
+}
+
 export function getHeaderBranding(category, eventMeta = null) {
   const isDrupalGov =
     eventMeta?.designation === 'DrupalGov' || (state.currentEventFile || '').startsWith('drupalgov-');
+  const isDrupalConSingapore = (state.currentEventFile || '') === 'drupalcon-asia-singapore-2024.json';
   if (category === 'DrupalSouth Community Day') {
     return {
       kicker: 'DrupalSouth Community Day',
       iconClass: 'fas fa-users',
       brandClass: 'brand-community',
-      logoUrl: DRUPALSOUTH_LOGO_URL
+      logoUrl: DRUPALSOUTH_LOGO_URL,
+      logoAlt: 'DrupalSouth logo'
     };
   }
   if (category === 'DrupalSouth') {
@@ -74,21 +132,24 @@ export function getHeaderBranding(category, eventMeta = null) {
         kicker: 'DrupalGov Schedule',
         iconClass: 'fas fa-landmark',
         brandClass: 'brand-drupalsouth',
-        logoUrl: DRUPALGOV_LOGO_URL
+        logoUrl: DRUPALGOV_LOGO_URL,
+        logoAlt: 'DrupalGov logo'
       };
     }
     return {
       kicker: 'DrupalSouth Schedule',
       iconClass: 'fas fa-water',
       brandClass: 'brand-drupalsouth',
-      logoUrl: DRUPALSOUTH_LOGO_URL
+      logoUrl: DRUPALSOUTH_LOGO_URL,
+      logoAlt: 'DrupalSouth logo'
     };
   }
   return {
     kicker: 'DrupalCon Schedule',
     iconClass: 'fas fa-globe',
     brandClass: 'brand-drupalcon',
-    logoUrl: ''
+    logoUrl: isDrupalConSingapore ? DRUPALCON_SINGAPORE_LOGO_URL : DRUPALCON_LOGO_URL,
+    logoAlt: isDrupalConSingapore ? 'DrupalCon Singapore logo' : 'DrupalCon logo'
   };
 }
 
@@ -106,6 +167,7 @@ export function updateHeaderBranding(category) {
 
   if (branding.logoUrl) {
     logoImage.src = branding.logoUrl;
+    logoImage.alt = branding.logoAlt || 'Event logo';
     logoImage.classList.remove('hidden');
     logoIcon.classList.add('hidden');
   } else {
@@ -217,6 +279,26 @@ export function populateEventSelector(category, preferredFile) {
   }
 }
 
+function getManifestItemByFile(file) {
+  return EVENT_MANIFEST.find((item) => item.file === file) || null;
+}
+
+function updateHeaderFlag(manifestItem = null) {
+  const flag = document.getElementById('headerFlag');
+  if (!flag) return;
+  const src = manifestItem?.flagImage || '';
+  const alt = manifestItem?.flagAlt || 'Event country flag';
+  if (!src) {
+    flag.classList.add('hidden');
+    flag.removeAttribute('src');
+    flag.removeAttribute('alt');
+    return;
+  }
+  flag.src = src;
+  flag.alt = alt;
+  flag.classList.remove('hidden');
+}
+
 export async function fetchEvents(filename) {
   try {
     const response = await fetch(`./data/${filename}`);
@@ -237,6 +319,8 @@ export async function fetchEvents(filename) {
 
 export async function loadEvent(filename) {
   state.currentEventFile = filename;
+  const manifestItem = getManifestItemByFile(filename);
+  updateHeaderFlag(manifestItem);
   const events = await fetchEvents(filename);
   if (state.currentEventCategory) {
     updateHeaderBranding(state.currentEventCategory);
@@ -345,6 +429,16 @@ export function setupEventListeners() {
 }
 
 export async function init() {
+  const urlModes = parseModeFromUrl();
+  const savedDesign = localStorage.getItem(DESIGN_STORAGE_KEY) || '';
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY) || '';
+  state.designMode = normalizeDesignMode(urlModes.design || savedDesign || DEFAULT_DESIGN_MODE);
+  state.themeMode = normalizeThemeMode(urlModes.theme || savedTheme || 'dark');
+  localStorage.setItem(DESIGN_STORAGE_KEY, state.designMode);
+  localStorage.setItem(THEME_STORAGE_KEY, state.themeMode);
+  applyDesignClass(state.designMode);
+  applyThemeClass(state.themeMode);
+
   const eventSelector = document.getElementById('eventSelector');
   const savedEvent = localStorage.getItem('selectedEventFile');
   const savedEventIsValid = savedEvent && EVENT_MANIFEST.some((e) => e.file === savedEvent);
@@ -352,7 +446,17 @@ export async function init() {
   const initialFile = savedEventIsValid ? savedEvent : defaultEvent.file;
   const initialManifestItem = EVENT_MANIFEST.find((e) => e.file === initialFile) || defaultEvent;
   const initialCategory = getEventCategory(initialManifestItem);
-  const safeInitialCategory = ENABLED_EVENT_CATEGORIES.includes(initialCategory) ? initialCategory : 'DrupalSouth';
+  const availableCategories = getAvailableEnabledCategories();
+  const safeInitialCategory = availableCategories.includes(initialCategory)
+    ? initialCategory
+    : availableCategories[0] || '';
+
+  renderCategoryTabs(availableCategories);
+
+  if (!safeInitialCategory) {
+    eventSelector.innerHTML = '';
+    return;
+  }
 
   state.currentEventCategory = safeInitialCategory;
   setActiveTab(safeInitialCategory);
