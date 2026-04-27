@@ -10,7 +10,17 @@
     "timezone": "Australia/Sydney",
     "startDate": "2011-01-21T21:00:00Z",
     "endDate": "2011-01-23T06:30:00Z",
-    "sourceCache": "cache/wayback/drupalsouth-2011/raw"
+    "sourceCache": "cache/wayback/drupalsouth-2011/raw",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/go/fsUsw",
+      "title": "Drupal Down Under Sydney 2011 Photos",
+      "text": "Browse community photos from Drupal Down Under Sydney 2011 in the official Flickr group.",
+      "image": "./img/flickr/drupalsouth/2011_sydney.jpg",
+      "imageAlt": "DrupalCon logo",
+      "buttonLabel": "View Flickr Photos",
+      "mode": "archive"
+    }
   },
   "items": [
     {
@@ -151,9 +161,7 @@
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/content/group-session-plus-photo-0",
       "track": "General",
-      "speakers": [
-        "TBA"
-      ],
+      "speakers": [],
       "description": ""
     },
     {
@@ -502,9 +510,7 @@
       "location": "Glo Digital Room, PreviousNext Room 1, PreviousNext Room 2",
       "link": "http://2011.drupaldownunder.org/session/lightning-talks",
       "track": "Drupal Community",
-      "speakers": [
-        "TBA"
-      ],
+      "speakers": [],
       "description": ""
     }
   ]

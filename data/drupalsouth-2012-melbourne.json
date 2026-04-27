@@ -10,7 +10,17 @@
     "timezone": "Australia/Melbourne",
     "startDate": "2012-01-12T22:00:00Z",
     "endDate": "2012-01-16T05:30:00Z",
-    "sourceCache": "cache/wayback/drupalsouth-2012/raw"
+    "sourceCache": "cache/wayback/drupalsouth-2012/raw",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/fLUHK",
+      "title": "Drupal Down Under Melbourne 2012 Photos",
+      "text": "Browse community photos from Drupal Down Under Melbourne 2012 in the official Flickr group.",
+      "image": "./img/flickr/drupalsouth/2012_melbourne.jpg",
+      "imageAlt": "DrupalCon logo",
+      "buttonLabel": "View Flickr Photos",
+      "mode": "archive"
+    }
   },
   "items": [
     {

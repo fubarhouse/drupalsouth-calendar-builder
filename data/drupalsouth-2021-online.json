@@ -9,7 +9,8 @@
     "endDate": "2021-11-12T05:00:00Z",
     "scheduleURL": "https://drupalsouth.org/drupalsouth-21-schedule-11-November",
     "venue": "Online",
-    "timezone": "Australia/Sydney"
+    "timezone": "Australia/Sydney",
+    "columns": 5
   },
   "items": [
     {

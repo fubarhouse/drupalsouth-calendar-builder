@@ -10,6 +10,7 @@
     "scheduleURL": "https://drupalsouth.org/events/hobart-2019/schedule",
     "venue": "Hotel Grand Chancellor",
     "timezone": "Australia/Hobart",
+    "columns": 5,
     "sourceCache": "cache/remote/2026-04-25T11-59-37Z/drupalsouth-hobart-2019-json-hobart-2019",
     "mediaPromo": {
       "platform": "flickr",
@@ -806,8 +807,8 @@
       "speakers": [
         "Dane Cavanagh"
       ],
-      "full_description": "A presentation of the CCAMLR websites and how we work with Multiple Languages within a Drupal environment using an in house translation team in a large group of sites.",
-      "summary": "A presentation of the CCAMLR websites and how we work with Multiple Languages within a Drupal environment using an in house translation team in a large group of sites....",
+      "full_description": "A presentation of the CCAMLR websites and how we work with Multiple Languages within a Drupal environment using an in house translation team in a large group of sites....",
+      "summary": "A presentation of the CCAMLR websites and how we work with Multiple Languages within a Drupal environment using an in house translation team in a large group of sites.",
       "video_url": "https://www.youtube.com/watch?v=fbr92rBDF9Q"
     },
     {

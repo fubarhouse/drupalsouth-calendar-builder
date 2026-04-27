@@ -10,7 +10,17 @@
     "timezone": "Australia/Brisbane",
     "startDate": "2016-03-01T22:30:00Z",
     "endDate": "2016-03-04T07:45:00Z",
-    "sourceCache": "cache/wayback/drupalsouth-2016/raw"
+    "sourceCache": "cache/wayback/drupalsouth-2016/raw",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/soZbz",
+      "title": "DrupalSouth Brisbane 2016 Photos",
+      "text": "Browse community photos from DrupalSouth Brisbane 2016 in the official Flickr group.",
+      "image": "./img/flickr/drupalsouth/2016_brisbane.jpg",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "View Flickr Photos",
+      "mode": "archive"
+    }
   },
   "items": [
     {

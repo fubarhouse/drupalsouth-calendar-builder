@@ -10,7 +10,17 @@
     "timezone": "Pacific/Auckland",
     "startDate": "2014-02-13T20:00:00Z",
     "endDate": "2014-02-16T05:00:00Z",
-    "sourceCache": "cache/wayback/drupalsouth-2014/raw"
+    "sourceCache": "cache/wayback/drupalsouth-2014/raw",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/o8BYG",
+      "title": "DrupalSouth Wellington 2014 Photos",
+      "text": "Browse community photos from DrupalSouth Wellington 2014 in the official Flickr group.",
+      "image": "./img/flickr/drupalsouth/2014_wellington.jpg",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "View Flickr Photos",
+      "mode": "archive"
+    }
   },
   "items": [
     {

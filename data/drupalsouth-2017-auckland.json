@@ -10,7 +10,17 @@
     "timezone": "Pacific/Auckland",
     "startDate": "2017-03-15T19:30:00Z",
     "endDate": "2017-03-17T04:50:00Z",
-    "sourceCache": "cache/remote/2026-04-27T02-28-37Z/drupalsouth-auckland-2017-json-auckland-2017"
+    "sourceCache": "cache/remote/2026-04-27T02-28-37Z/drupalsouth-auckland-2017-json-auckland-2017",
+    "mediaPromo": {
+      "platform": "flickr",
+      "groupUrl": "https://flic.kr/g/z4PQs",
+      "title": "DrupalSouth Auckland 2017 Photos",
+      "text": "Browse community photos from DrupalSouth Auckland 2017 in the official Flickr group.",
+      "image": "./img/flickr/drupalsouth/2017_auckland.jpg",
+      "imageAlt": "DrupalSouth logo",
+      "buttonLabel": "View Flickr Photos",
+      "mode": "archive"
+    }
   },
   "items": [
     {
@@ -371,8 +381,8 @@
       "speakers": [
         "Jack Taranto"
       ],
-      "full_description": "Turn your Drupal 8 theme into a clean, mean machine by combining style guide driven development with DRY techniques and advanced features of Twig to smash out components that can be used over and over in a variety of ways.",
-      "summary": "Turn your Drupal 8 theme into a clean, mean machine by combining style guide driven development with DRY techniques and advanced features of Twig to smash out components that can be used over and over in a variety of way...",
+      "full_description": "Turn your Drupal 8 theme into a clean, mean machine by combining style guide driven development with DRY techniques and advanced features of Twig to smash out components that can be used over and over in a variety of way...",
+      "summary": "Turn your Drupal 8 theme into a clean, mean machine by combining style guide driven development with DRY techniques and advanced features of Twig to smash out components that can be used over and over in a variety of ways.",
       "video_url": "https://www.youtube.com/watch?v=HytOs7TS-FY"
     },
     {
@@ -629,8 +639,8 @@
       "speakers": [
         "Aimee Whitcroft"
       ],
-      "full_description": "Aimee’s talk will cover open source software, open government and open data, and how they can interact to form civic technology initiatives with the potential to benefit us all.",
-      "summary": "Aimee’s talk will cover open source software, open government and open data, and how they can interact to form civic technology initiatives with the potential to benefit us all....",
+      "full_description": "Aimee’s talk will cover open source software, open government and open data, and how they can interact to form civic technology initiatives with the potential to benefit us all....",
+      "summary": "Aimee’s talk will cover open source software, open government and open data, and how they can interact to form civic technology initiatives with the potential to benefit us all.",
       "video_url": "https://www.youtube.com/watch?v=ea0bfOI7JCk"
     },
     {
@@ -705,8 +715,8 @@
       "speakers": [
         "Kirill Roskolii"
       ],
-      "full_description": "Will talk about components, integrations, uses cases and more.",
-      "summary": "Will talk about components, integrations, uses cases and more....",
+      "full_description": "Will talk about components, integrations, uses cases and more....",
+      "summary": "Will talk about components, integrations, uses cases and more.",
       "video_url": "https://www.youtube.com/watch?v=eFt-DbTJnWU"
     },
     {

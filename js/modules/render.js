@@ -60,6 +60,13 @@ function hasSessionDescription(event) {
   return Boolean(String(event.full_description || event.description || event.summary || '').trim());
 }
 
+function getCardSummary(event) {
+  if (Object.prototype.hasOwnProperty.call(event, 'summary')) {
+    return String(event.summary || '').trim();
+  }
+  return String(event.description || '').trim();
+}
+
 function getEventById(eventId) {
   return state.allEvents.find((event) => event.id === eventId) || null;
 }
@@ -422,7 +429,7 @@ export function displayListView(events, container) {
           const highlightedSpeakers = speakersInfo.text ? highlightKeywords(speakersInfo.text, keywordsFilter) : '';
           const speakersIcon = speakersInfo.isMultiple ? 'fa-users' : 'fa-user';
           const highlightedLocation = event.location ? highlightKeywords(event.location, keywordsFilter) : '';
-          const descriptionText = event.summary || event.description || '';
+          const descriptionText = getCardSummary(event);
           const hasDescription = hasSessionDescription(event);
           const highlightedDescription = descriptionText ? formatTextBlock(descriptionText, keywordsFilter) : '';
           const trackLabel = typeof event.track === 'string' ? event.track.trim() : '';
@@ -485,12 +492,12 @@ export function displayListView(events, container) {
                             }
                             ${
                               event.link && hasDescription
-                                ? `<p class="text-sm mb-1"><a href="${event.link}" target="_blank" class="schedule-link" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>`
+                                ? `<p class="text-sm mb-1"><a href="${event.link}" target="_blank" class="schedule-link" onclick="event.stopPropagation()"><span>View Session Details</span> <i class="fas fa-external-link-alt ml-1"></i></a></p>`
                                 : ''
                             }
                             ${
                               event.video_url
-                                ? `<p class="text-sm mb-1"><a href="${event.video_url}" target="_blank" class="schedule-link inline-flex items-center" onclick="event.stopPropagation()"><i class="fab fa-youtube mr-1"></i>Watch recording</a></p>`
+                                ? `<p class="text-sm mb-1"><a href="${event.video_url}" target="_blank" class="schedule-link inline-flex items-center" onclick="event.stopPropagation()"><i class="fab fa-youtube mr-1"></i><span>Watch recording</span></a></p>`
                                 : ''
                             }
                             ${
