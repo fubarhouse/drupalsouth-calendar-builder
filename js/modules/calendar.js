@@ -1,5 +1,5 @@
 import state, { getStorageKey } from './state.js';
-import { formatDateForICS, escapeHtml } from './utils.js';
+import { formatDateForICS, escapeHtml, announceStatus } from './utils.js';
 
 function getCalendarDescriptionText(event) {
   return event.full_description || event.description || event.summary || '';
@@ -151,6 +151,7 @@ export function addSelectedEventsToGoogleCalendar(events) {
 
 export function toggleEventSelection(eventId, applyFilterFn, updateSelectionOverviewFn) {
   const event = state.allEvents.find((item) => item.id === eventId);
+  if (!event) return;
   const sessionMetadata = { session: event.title };
   const trackMetadata = { track: event.track };
 
@@ -158,14 +159,16 @@ export function toggleEventSelection(eventId, applyFilterFn, updateSelectionOver
     state.selectedEvents.delete(eventId);
     window.sa_event?.('removeSession', sessionMetadata);
     window.sa_event?.('removeFromTrack', trackMetadata);
+    announceStatus(`Removed: ${event.title}. ${state.selectedEvents.size} selected.`);
   } else {
     state.selectedEvents.add(eventId);
     window.sa_event?.('addSession', sessionMetadata);
     window.sa_event?.('addToTrack', trackMetadata);
+    announceStatus(`Selected: ${event.title}. ${state.selectedEvents.size} selected.`);
   }
 
   localStorage.setItem(getStorageKey(), JSON.stringify([...state.selectedEvents]));
   updateDownloadButton();
   updateSelectionOverviewFn(state.allEvents);
-  applyFilterFn(state.allEvents);
+  applyFilterFn(state.allEvents, null, true, false);
 }

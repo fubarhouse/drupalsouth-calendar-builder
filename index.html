@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/app.css">
 </head>
 <body class="theme-dark bg-gray-100 min-h-screen">
+    <div id="ariaStatus" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
     <!-- Header with Navigation -->
     <header class="header-shell text-white shadow-lg">
         <div class="w-[94%] sm:w-[90%] mx-auto px-3 sm:px-4">
@@ -53,7 +54,7 @@
             <h2 class="text-xl font-bold text-gray-800 mb-2">Usage Instructions</h2>
             <ul class="list-disc list-inside pl-1 text-gray-600 space-y-1">
                 <li>Browse and filter sessions and events to find the ones you want to attend.</li>
-                <li>Click on a session to select it. Your selections are automatically saved to your browser.</li>
+                <li>Open a session card for details, and use the checkbox on each card to quickly select sessions. Your selections are automatically saved to your browser.</li>
                 <li>Use the download button of prefernce to download your personalized schedule and import it into your calendar application.</li>
             </ul>
         </div>
@@ -116,10 +117,10 @@
             <div class="w-[94%] sm:w-[90%] mx-auto flex flex-col flex-1 min-h-0">
                 <!-- Sticky top bar -->
                 <div class="p-0">
-                    <a id="toggleDetails" class="flex p-4 pb-2 justify-between text-white hover:text-gray-300 text-sm font-medium items-center hover:cursor-pointer">
+                    <button id="toggleDetails" type="button" class="w-full flex p-4 pb-2 justify-between text-white hover:text-gray-300 text-sm font-medium items-center text-left">
                         <span>Selected sessions: <span id="totalEvents">0</span> sessions in <span id="totalDuration">0 hours</span> (expand to see details)</span>
                         <i class="fas fa-chevron-up transform transition-transform duration-200"></i>
-                    </a>
+                    </button>
                 </div>
                 <!-- Scrollable content area (only expanded details) -->
                 <div id="stageDetails" class="overflow-y-auto flex-1 mt-4 px-4 hidden">

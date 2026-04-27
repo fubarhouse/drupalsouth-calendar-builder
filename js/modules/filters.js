@@ -1,5 +1,5 @@
 import state, { getStorageKey } from './state.js';
-import { debounce, getLocalDate } from './utils.js';
+import { debounce, getLocalDate, announceStatus } from './utils.js';
 import { displayEvents } from './render.js';
 import { updateDownloadButton } from './calendar.js';
 
@@ -20,7 +20,7 @@ export function toggleClearButton() {
   }
 }
 
-export function filterEvents(events, clickedFilterName, skipAnalytics = false) {
+export function filterEvents(events, clickedFilterName, skipAnalytics = false, announceResultCount = true) {
   if (clickedFilterName && !skipAnalytics) {
     const filterValue = document.getElementById(clickedFilterName).value;
     window.sa_event?.(clickedFilterName, {
@@ -63,6 +63,10 @@ export function filterEvents(events, clickedFilterName, skipAnalytics = false) {
 
   state.displayedEvents = filteredEvents;
   displayEvents(filteredEvents);
+  if (announceResultCount) {
+    const resultLabel = filteredEvents.length === 1 ? 'session' : 'sessions';
+    announceStatus(`${filteredEvents.length} ${resultLabel} shown.`);
+  }
 }
 
 export const debouncedFilterEvents = debounce((events) => {
@@ -106,7 +110,10 @@ export function selectAllDisplayed(events) {
 
     updateDownloadButton();
     updateSelectionOverviewFn(state.allEvents);
-    filterEvents(state.allEvents);
+    filterEvents(state.allEvents, null, true, false);
+    announceStatus(
+      `${addedCount} ${addedCount === 1 ? 'session' : 'sessions'} added. ${state.selectedEvents.size} selected total.`
+    );
   }
 }
 
@@ -130,6 +137,9 @@ export function deselectAllDisplayed(events) {
 
     updateDownloadButton();
     updateSelectionOverviewFn(state.allEvents);
-    filterEvents(state.allEvents);
+    filterEvents(state.allEvents, null, true, false);
+    announceStatus(
+      `${removedCount} ${removedCount === 1 ? 'session' : 'sessions'} removed. ${state.selectedEvents.size} selected total.`
+    );
   }
 }

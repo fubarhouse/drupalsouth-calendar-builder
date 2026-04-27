@@ -1,6 +1,6 @@
 import state, { getStorageKey } from './state.js';
 import { EVENT_MANIFEST, ENABLED_EVENT_CATEGORIES } from './manifest.js';
-import { getLocalDate } from './utils.js';
+import { getLocalDate, announceStatus } from './utils.js';
 import {
   filterEvents,
   debouncedFilterEvents,
@@ -342,6 +342,7 @@ async function copyCurrentShareUrl() {
 
   try {
     await navigator.clipboard.writeText(url);
+    announceStatus('Share link copied to clipboard.');
     if (button) {
       const previous = button.innerHTML;
       button.innerHTML = '<i class="fas fa-check mr-2"></i>Link copied';
@@ -350,6 +351,7 @@ async function copyCurrentShareUrl() {
       }, 1600);
     }
   } catch {
+    announceStatus('Clipboard unavailable. Copy dialog opened.');
     window.prompt('Copy this schedule link:', url);
   }
 }

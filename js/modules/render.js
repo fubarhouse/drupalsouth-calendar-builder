@@ -2,6 +2,7 @@ import state from './state.js';
 import { getLocalDate, formatDuration, highlightKeywords, escapeHtml } from './utils.js';
 
 const SESSION_MODAL_ID = 'sessionDetailModal';
+let lastFocusedElementBeforeModal = null;
 
 function descriptionToHtml(text) {
   return escapeHtml(String(text || '').trim()).replace(/\n/g, '<br>');
@@ -22,6 +23,7 @@ function ensureSessionModal() {
   modal = document.createElement('div');
   modal.id = SESSION_MODAL_ID;
   modal.className = 'session-modal-overlay hidden';
+  modal.setAttribute('aria-hidden', 'true');
   modal.innerHTML = `
     <div class="session-modal-card" role="dialog" aria-modal="true" aria-labelledby="sessionModalTitle">
       <div class="session-modal-header">
@@ -44,13 +46,45 @@ function ensureSessionModal() {
   });
   modal.querySelector('#sessionModalClose').addEventListener('click', closeSessionModal);
   modal.querySelector('#sessionModalBack').addEventListener('click', closeSessionModal);
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && !modal.classList.contains('hidden')) {
+  modal.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
       closeSessionModal();
+      return;
+    }
+    if (event.key !== 'Tab') {
+      return;
+    }
+    const focusable = getFocusableElements(modal);
+    if (focusable.length === 0) {
+      event.preventDefault();
+      return;
+    }
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const active = document.activeElement;
+
+    if (event.shiftKey && active === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && active === last) {
+      event.preventDefault();
+      first.focus();
     }
   });
 
   return modal;
+}
+
+function getFocusableElements(container) {
+  const selectors = [
+    'a[href]',
+    'button:not([disabled])',
+    'input:not([disabled]):not([type="hidden"])',
+    'select:not([disabled])',
+    'textarea:not([disabled])',
+    '[tabindex]:not([tabindex="-1"])'
+  ];
+  return [...container.querySelectorAll(selectors.join(','))].filter((element) => !element.hasAttribute('disabled'));
 }
 
 function renderSessionModalContent(event) {
@@ -108,7 +142,7 @@ function renderSessionModalContent(event) {
     }
     <div class="session-modal-description">${description ? descriptionToHtml(description) : '<em>No description available.</em>'}</div>
     <div class="session-modal-actions">
-      <button id="sessionModalToggleSelection" type="button" class="session-modal-toggle ${isSelected ? 'is-selected' : ''}">
+      <button id="sessionModalToggleSelection" type="button" aria-pressed="${isSelected ? 'true' : 'false'}" class="session-modal-toggle ${isSelected ? 'is-selected' : ''}">
         ${isSelected ? 'Remove from selection' : 'Add to selection'}
       </button>
     </div>
@@ -121,6 +155,7 @@ function renderSessionModalContent(event) {
     }
     const selected = state.selectedEvents.has(event.id);
     toggleButton.classList.toggle('is-selected', selected);
+    toggleButton.setAttribute('aria-pressed', selected ? 'true' : 'false');
     toggleButton.textContent = selected ? 'Remove from selection' : 'Add to selection';
   });
 }
@@ -129,15 +164,26 @@ export function openSessionModal(eventId) {
   const event = getEventById(eventId);
   if (!event) return;
   const modal = ensureSessionModal();
+  lastFocusedElementBeforeModal = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   renderSessionModalContent(event);
   modal.classList.remove('hidden');
+  modal.setAttribute('aria-hidden', 'false');
   document.body.classList.add('session-modal-open');
+  const closeButton = modal.querySelector('#sessionModalClose');
+  if (closeButton) {
+    closeButton.focus();
+  }
 }
 
 export function closeSessionModal() {
   const modal = ensureSessionModal();
   modal.classList.add('hidden');
+  modal.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('session-modal-open');
+  if (lastFocusedElementBeforeModal && document.contains(lastFocusedElementBeforeModal)) {
+    lastFocusedElementBeforeModal.focus();
+  }
+  lastFocusedElementBeforeModal = null;
 }
 
 export function groupEventsByDate(events) {
@@ -287,6 +333,9 @@ export function displayListView(events, container) {
           const cardStyle = isDrupalConDesign ? `style="--event-color-a: ${colorA}; --event-color-b: ${colorB};"` : '';
           const cardExtraClass = isDrupalConDesign ? 'event-card-dc' : '';
           const trackClass = isDrupalConDesign ? 'track-pill track-pill-dc' : 'track-pill text-xs text-gray-600 bg-white bg-opacity-60 px-2 py-1 rounded inline-block';
+          const selectedBadge = isSelected
+            ? '<span class="session-selected-indicator" aria-hidden="true">Selected</span>'
+            : '<span class="session-selected-indicator-placeholder" aria-hidden="true"></span>';
 
           return `
             <div class="event-card h-full p-4 rounded-md transition-colors cursor-pointer border-2 ${cardExtraClass} ${bgColor} ${hoverColor} ${
@@ -298,6 +347,7 @@ export function displayListView(events, container) {
                     <div class="flex items-start space-x-3 flex-1 self-stretch">
                         <div class="flex-1 flex flex-col h-full">
                             <h3 class="font-medium text-gray-900 mb-1">${highlightedSummary}</h3>
+                            <p class="text-sm mb-1"><button type="button" class="schedule-link" onclick="event.stopPropagation(); openSessionModal('${event.id}')">Open details</button></p>
                             ${event.speakers ? `<p class="text-sm text-gray-700 mb-1">${highlightedSpeakers}</p>` : ''}
                             ${event.location ? `<p class="text-sm text-gray-500 mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${highlightedLocation}</p>` : ''}
                             ${
@@ -328,14 +378,17 @@ export function displayListView(events, container) {
                         </div>
                     </div>
                     <div class="ml-2 flex flex-col items-end justify-between">
-                      <label class="inline-flex items-center cursor-pointer select-none" title="Add or remove from selection">
+                      <div class="mb-1">${selectedBadge}</div>
+                      <label class="schedule-select-label inline-flex items-center justify-center cursor-pointer select-none" title="Add or remove from selection">
                         <input
                           type="checkbox"
                           class="h-4 w-4 schedule-select-checkbox"
                           ${isSelected ? 'checked' : ''}
                           onclick="event.stopPropagation()"
                           onchange="window.toggleEventSelection && window.toggleEventSelection('${event.id}')"
-                          aria-label="${isSelected ? 'Remove session from selection' : 'Add session to selection'}"
+                          aria-label="${isSelected ? 'Remove session from selection' : 'Add session to selection'}: ${escapeHtml(
+                            event.title || 'Session'
+                          )}"
                         />
                       </label>
                       <span class="text-xs text-gray-500 whitespace-nowrap">${durationText}</span>

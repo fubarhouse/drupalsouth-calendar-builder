@@ -74,3 +74,13 @@ export function escapeHtml(text) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 }
+
+export function announceStatus(message) {
+  const region = document.getElementById('ariaStatus');
+  if (!region) return;
+
+  region.textContent = '';
+  window.setTimeout(() => {
+    region.textContent = String(message || '');
+  }, 20);
+}
