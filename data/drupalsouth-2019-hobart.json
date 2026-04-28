@@ -161,6 +161,7 @@
       "speakers": [
         "Margery Tongway"
       ],
+      "speaker_usernames": ["p_stampy"],
       "full_description": "A case study looking back over 2 years of blood, sweat and beers to consolidate 14 government websites into 1, and migrate 2 more at the Department of Industry, Innovation and Science.\n\nOn time, on budget, using GovCMS SaaS",
       "summary": "A case study looking back over 2 years of blood, sweat and beers to consolidate 14 government websites into 1, and migrate 2 more at the Department of Industry, Innovation and Science....",
       "video_url": ""
@@ -262,6 +263,7 @@
       "speakers": [
         "Si Hobbs"
       ],
+      "speaker_usernames": ["sime"],
       "full_description": "Drupal is truly the greatest CMS and with great power comes great responsibility. This presentation looks at a range of content modeling techniques in Drupal, new techniques and old faithfuls. It is suitable for non-technical users who want to start site building, but can be overwhelmed by the flexibility and jargon. Topics will include:\n\n* tips for naming fields (machine names)\n\n* techniques to plan your content model\n\n* how content modeling can interacts with layout and styling\n\n* balance between structure and traditional HTML\n\n* an overview of general tips and further reading",
       "summary": "Drupal is truly the greatest CMS and with great power comes great responsibility....",
       "video_url": ""
@@ -296,6 +298,9 @@
       "speakers": [
         "Heike Theis",
         "Daniel Veza"
+      ],
+      "speaker_usernames": [
+        "danielveza"
       ],
       "full_description": "The public alpha for the design system for New Zealand public sector websites is up and running - design-system-alpha.digital.govt.nz. Now’s the time to look into options to provide the components in a Drupal-compatible format - which isn't part of the alpha yet - and to look into how Sector can help bridge the gap.\n\nThis talk is in three parts. In Part 1, we'll go over what a design system is, why it needs to be about more than design and code, and why you might need one. In Part 2, we'll have a look at public sector design systems and introduce the New Zealand Design System Alpha. And in Part 3, we'll talk about our Drupal approach and a roadmap for Sector with the design system components included in the Starter Kit or as a Sector add-on. We'll look at themes, Twig, text filters, WYSIWYG templates, style drop-downs, and more - and we hope to hear your ideas as well!",
       "summary": "The public alpha for the design system for New Zealand public sector websites is up and running - design-system-alpha.digital.govt.nz....",
@@ -416,6 +421,9 @@
       ],
       "speakers": [
         "Daniel Veza"
+      ],
+      "speaker_usernames": [
+        "danielveza"
       ],
       "full_description": "Building Drupal distributions is fun … but that doesn’t mean it’s trivial. A distribution defines a way to approach and build Drupal sites, and not everybody will agree on how to do this. Moving Sector from Drupal 7 to Drupal 8 allowed us to rethink and revisit the idea of building a truly modular, plug-and-play distribution - with the Sector Starter Kit in the centre and the Sector add-ons growing around it.\n\nThis talk is about how we approached Sector D8 from two perspectives - providing usable and useful modular tools to our clients, and working the magic behind the scenes to make it happen, the Drupal 8 way.",
       "summary": "Building Drupal distributions is fun … but that doesn’t mean it’s trivial....",
@@ -702,6 +710,7 @@
       "speakers": [
         "Murray Woodman"
       ],
+      "speaker_usernames": ["murrayw"],
       "full_description": "Watch video\n\nDrupal provides a solid foundation for managing content. That is a solved problem. The next phase in content management is around personalising the user experience and ensuring that the experience is consistent across platforms. This presentation will provide a practical demonstration of how user behaviour and content data (from federated sites) can be used to personalise the content recommended to users.\n\nThe personalisation of content, customised to the user, is a powerful way to improve the user experience. Personalised content can deliver more relevant information to your users, keeping them engaged. It is especially useful on commerce sites where similar products can be recommended, or on content-driven sites where relevant information can be uncovered. In practical terms, it is able to increase the time users spend on a site and improve the chances of conversion.\n\nRecombee is a leading SaaS-based recommendation engine which is able to combine user behaviour and content properties to provide real-time user and item recommendations. It exposes an API which provides tracking and recommendation functionality which can be accessed from the Drupal frontend. It offers an affordable and simple pathway to web personalisation.\n\nThe developers at Morpht have implemented a SearchAPI backend implementation for Recombee, allowing content to be synced across into the Recombee engine, augmenting the data collected through user interactions. Recommendation quality is improved, especially when relatively little data has been collected on the current user. The presentation will demonstrate the module publicly for the first time.\n\nThis presentation will cover the following areas:\n\n- content modelling techniques for improving personalisation\n\n- tracking user behaviour to drive recommendations\n\n- a decoupled approach for presenting the recommendations,\n\n- the advantages of using an external system such as GTM for orchestrating personalisation.\n\nThe session should be of interest to the following people:\n\n- marketers who wish to find out more about practical personalisation,\n\n- commerce and site owners who want to get more from their site,\n\n- content modellers who are interested in modelling the enterprise,\n\n- backend developers who are interested in SearchAPI plugins,\n\n- front-enders who may be interested in a pragmatic implementation of snippets with handlebars templates.\n\nThe presentation is suitable for beginners and intermediates as it will mostly be conceptual in nature. There should be a practical demo for the audience to participate in as well.\n\nAuthor details\n\nhttps://www.linkedin.com/in/murraywoodman/\n\nhttps://www.drupal.org/u/murrayw\n\nhttps://twitter.com/murrayw\n\nhttps://www.morpht.com/about/murray-woodman",
       "summary": "Watch video Drupal provides a solid foundation for managing content....",
       "video_url": "https://www.youtube.com/watch?v=A6WXQuFbWY8"
@@ -883,6 +892,7 @@
       "speakers": [
         "Sean Hamlin"
       ],
+      "speaker_usernames": ["wiifm"],
       "full_description": "This session is all about the steps that any new launch or high traffic event should go through in order to have the best chance of success. Topics covered:\n\nLoad testing\n\nEnsuring (auto) scaling is configured\n\nCache tuning and minimising origin requests\n\nLetting your hosting provider know\n\nWhat success looks like",
       "summary": "This session is all about the steps that any new launch or high traffic event should go through in order to have the best chance of success....",
       "video_url": ""
@@ -1069,6 +1079,7 @@
       "speakers": [
         "Alex Skrypnyk"
       ],
+      "speaker_usernames": ["alex.skrypnyk"],
       "full_description": "When working on Drupal projects, the typical workflow to deliver a new feature may look like this:\n\nStart local dev environment -> Make changes -> Add unit tests -> Add Behat tests -> Lint code -> Push to remote -> Wait for CI to finish -> Open PR -> Deploy to Preview environment -> Merge PR -> Deploy to Production\n\nSetting up such workflow requires significant DevOps and Drupal knowledge and time.\n\nDrevOps is a free open-source Drupal project template with development-testing-deployment workflow provided out of the box. It has all necessary configurations (tested) to support such workflow and covers the following areas:\n\n- Composer-based Drupal (8, 7)\n\n- Local development environment (Docker, Ahoy)\n\n- Code linting (PHP, JS, SASS)\n\n- Testing (PHPUnit, Behat, Simpletest)\n\n- Automated builds (CircleCI)\n\n- Deployment (Acquia, Amazee Lagoon)\n\n- Documentation\n\n- Integrations (Diffy, dependencies.io)\n\nDuring this session I will demonstrate how DrevOps helps digital agencies and individual developers to use enterprise-level DevOps systems with Drupal projects.\n\nThis session may be interested to Digital Agencies that want to significantly decrease project setup and maintenance costs, while increasing quality and client satisfaction.",
       "summary": "When working on Drupal projects, the typical workflow to deliver a new feature may look like this: Start local dev environment -> Make changes -> Add unit tests -> Add Behat tests -> Lint code -> Push to remote -> Wait f...",
       "video_url": ""
@@ -1218,6 +1229,7 @@
       "speakers": [
         "Karl Hepworth"
       ],
+      "speaker_usernames": ["fubarhouse"],
       "full_description": "GovCMS has evolved into a popular choice for government agencies choosing to take advantage of Drupal and modern technologies. Have a look at how GovCMS handles auditing and monitoring of Drupal applications on the Lagoon platform, and where it's heading with the increased security classification around the corner.",
       "summary": "GovCMS has evolved into a popular choice for government agencies choosing to take advantage of Drupal and modern technologies....",
       "video_url": ""

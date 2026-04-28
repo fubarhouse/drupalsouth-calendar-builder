@@ -51,6 +51,7 @@
       "speakers": [
         "Marge"
       ],
+      "speaker_usernames": ["p_stampy"],
       "full_description": "",
       "summary": "",
       "video_url": ""
@@ -69,6 +70,7 @@
         "Akhil Bhandari",
         "Julia Topliss"
       ],
+      "speaker_usernames": ["jct321"],
       "full_description": "Keynote, sponsored by Salsa Digital\nAI Keynote Personalisation UX\nAI as your next UX persona? Salsa Digital unpacks what that actually means - no pitch, just perspective.\nDiscover how AI agents are becoming the newest UX personas, reshaping digital journeys with smarter, more adaptive, and more human-centred experiences. AI agents are emerging as a new kind of persona in website and UX design, not just abstract tools, but active partners in shaping user journeys.\nSalsa Digital introduces the AI Agent persona concept to expand traditional persona frameworks, enable more adaptive and personalised experiences and open up fresh opportunities for designers to create smarter, more human-centred digital interactions today and into the future.",
       "summary": "Keynote, sponsored by Salsa Digital AI Keynote Personalisation UX AI as your next UX persona?...",
       "video_url": ""
@@ -221,6 +223,7 @@
       "speakers": [
         "Murray Woodman"
       ],
+      "speaker_usernames": ["murrayw"],
       "full_description": "CSS Frontend GovCMS Theming\nWhat goes into building out a starter theme? What theme level tools can be built to help with accelerated site delivery? Drupal is about leveraging out-of-the-box tools and handling complexity. How can the theme layer make this a reality?\nIn this presentation, we will share some of the techniques and approaches which can be used for building out the backend of a starter theme. The following areas will be covered:\nFoundation theme selection\nThe power of CSS Variables\nComponents and Classes, breaking the BEM conventions\nColour palettes\nDark mode\nUser Interface\nThis presentation will be helpful for those working on GovCMS SaaS, where the environment is a little more constrained. You will find out how to trick out the theme layer to build a more functional interface for ambitious sitebuilders. Drupal devs may also gain some insights into how a theme can be structured and organised for maximum flexibility.",
       "summary": "CSS Frontend GovCMS Theming What goes into building out a starter theme?...",
       "video_url": ""
@@ -238,6 +241,7 @@
       "speakers": [
         "Alex Skrypnyk"
       ],
+      "speaker_usernames": ["alex.skrypnyk"],
       "full_description": "Case Study CI/CD Performance Testing\nIn 2018, Swinburne University commissioned the Mental Health Online platform — a Drupal-based service delivering evidence-backed programs, therapist–client interactions, and research capabilities. Development was completed the same year on Drupal 8, but for internal and business reasons the platform remained behind closed doors and used only internally for five years.\nThe challenge: keeping a large, complex platform (150+ modules, permissions, messaging, multi-user workflows) production-ready for half a decade without ever going public. Instead of freezing, the platform was continuously maintained and progressively upgraded — from Drupal 8 to 9 to 10.\nAutomated testing and CI/CD pipelines ensured every change was validated, while Behat and PHPUnit coverage safeguarded critical functionality. Rector accelerated code upgrades, with regression tests providing confidence at each step.\nWhen the university was ready in 2023, the site launched immediately on Drupal 10 — stable, secure, and future-proof. Since then, the same practices have allowed it to be upgraded further to Drupal 11, proving the long-term sustainability of this approach.\nDuring this session, we’ll walk through the processes and tooling that made this possible: how test coverage, CI/CD, and progressive upgrades can keep a complex Drupal project healthy and launch-ready for years — even when real-world delays get in the way.",
       "summary": "Case Study CI/CD Performance Testing In 2018, Swinburne University commissioned the Mental Health Online platform — a Drupal-based service delivering evidence-backed programs, therapist–client interactions, and research...",
       "video_url": "https://youtu.be/Lc4n4goSSvw"
@@ -287,6 +291,7 @@
       "speakers": [
         "Julia Topliss"
       ],
+      "speaker_usernames": ["jct321"],
       "full_description": "Accessibility Content GovCMS Governance\nClear, accurate, and accessible content is essential to building trust with citizens. But without strong governance, content quickly becomes outdated, inconsistent, or hard to use.\nThis session shows how to use Drupal (GovCMS) to keep content accurate, accessible, and trusted. This session will cover simple, actionable steps, a governance checklist and insights into tools you can use to help your team deliver content that people can rely on.",
       "summary": "Accessibility Content GovCMS Governance Clear, accurate, and accessible content is essential to building trust with citizens....",
       "video_url": ""

@@ -147,6 +147,7 @@
         "Si Hobbs",
         "Samantha Presser"
       ],
+      "speaker_usernames": ["sime"],
       "full_description": "The Department of Justice and Regulation in Victoria began working with Drupal 8, prior to its first release, with the initial goal of leveraging improvements in configuration management. We're incorporating the latest (and evolving) best practice around config-as-code, composer, designing for continuous integration and asking the ultimate question: do we need a canonical database?",
       "summary": "The Department of Justice and Regulation in Victoria began working with Drupal 8, prior to its first release, with the initial goal of leveraging improvements in configuration management..."
     },
@@ -496,6 +497,7 @@
       "speakers": [
         "Christopher Skene"
       ],
+      "speaker_usernames": ["xtfer"],
       "full_description": "",
       "summary": ""
     }

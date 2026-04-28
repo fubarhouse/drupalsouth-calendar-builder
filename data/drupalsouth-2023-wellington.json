@@ -182,6 +182,7 @@
       "speakers": [
         "Margery Tongway"
       ],
+      "speaker_usernames": ["p_stampy"],
       "full_description": "A case study about a GovCMS SaaS project with a dark theme - from kick off to forklift in 6 weeks (aka 3 sprints).\n\nThe presentation will provide insights into the project team structure, development set up, theming, content types, design iterations, and accessibility testing.\n\nThere will be low level technical information, and is aimed towards anyone who wants to know about our lessons learned on a short GovCMS SaaS forklifted project.",
       "summary": "A case study about a GovCMS SaaS project with a dark theme - from kick off to forklift in 6 weeks (aka 3 sprints)....",
       "video_url": "https://youtu.be/7G1JyyvPQPk"
@@ -231,6 +232,9 @@
       "speakers": [
         "Daniel Veza"
       ],
+      "speaker_usernames": [
+        "danielveza"
+      ],
       "full_description": "Layout builder can be intimidating, and handing over the control of the presentation layer of a website can be a reason why people think twice before using Layout Builder. But the good news is that it doesn't have to be that way. Layout Builder has come a long way and in 2023, it doesn't need to be avoided.\n\nThis talk will cover modules that can be used to enhance and control the Layout Builder experience, and approaches we have taken to empower the content editorial experience for our editors while keeping the front end consistant.",
       "summary": "Layout builder can be intimidating, and handing over the control of the presentation layer of a website can be a reason why people think twice before using Layout Builder....",
       "video_url": "https://youtu.be/X_-PGPxfShM"
@@ -248,6 +252,7 @@
       "speakers": [
         "Karl Hepworth"
       ],
+      "speaker_usernames": ["fubarhouse"],
       "full_description": "In this talk, Karl will dive into a CI/CD maturity model which can evaluate how far you are into the DevOps experience.\n\nWe will dive into a complete end-to-end user story familiar to us all, from the start of adoption until being fully mature, and explore all the avenues of opportunity along the way.\n\nAttendees will be able to evaluate their own CI/CD maturity and discover what might be in store for their journey next and into the future, and learn about some opportunities between where they are now, and where they can expect to arrive in the future.",
       "summary": "In this talk, Karl will dive into a CI/CD maturity model which can evaluate how far you are into the DevOps experience....",
       "video_url": "https://youtu.be/2GROJxRc4-w"
@@ -265,6 +270,7 @@
       "speakers": [
         "Sean Hamlin"
       ],
+      "speaker_usernames": ["wiifm"],
       "full_description": "Have you ever wondered how popular Drupal is in your local region and at the National Government level? This talk will answer that question, using open source tooling. The hope is that you gain some insight to the relative popularity of Drupal and appreciate more the impact you and Drupal have in New Zealand.\n\nThis session will include:\n\n* How to get a list of every government web site in New Zealand\n\n* How to determine what CMS they are using\n\n* How to measure site impact\n\n* Trends we are seeing at the national level, and by region\n\n* Comparison to Australia\n\n* Taking this tool further\n\n* How to contribute",
       "summary": "Have you ever wondered how popular Drupal is in your local region and at the National Government level?...",
       "video_url": "https://youtu.be/E6IgRYA7ca4"
@@ -348,6 +354,7 @@
       "speakers": [
         "Julia Topliss"
       ],
+      "speaker_usernames": ["jct321"],
       "full_description": "According to a recent survey, only 38 percent of respondents feel that leaders in their organisation take proactive steps to create a positive workplace culture. In fact, a toxic work culture is one of the main reasons people leave their jobs, ranking even higher than seeking better pay.\n\nWhile some of us can talk about a positive work environment they have experienced, many more of us have found ourselves on teams where we feel undermined and unappreciated. As employees, managers, or even clients, what can we do to create and maintain better places to work?\n\nIn this presentation I will provide the ingredients and recipe for building a strong workplace culture and how this impacts client relationships. We will delve into what turns a workplace sour and how to tell when it’s happening. We will also discuss how to counteract an office culture headed in the wrong direction and provide a set of ingredients to build a better team environment.\n\nWe will also describe in detail how to deftly handle the most challenging parts of a job: setting boundaries, saying no, and giving and accepting criticism.",
       "summary": "According to a recent survey, only 38 percent of respondents feel that leaders in their organisation take proactive steps to create a positive workplace culture....",
       "video_url": "https://youtu.be/Z9_EFmj7I9s"
@@ -462,6 +469,9 @@
       ],
       "speakers": [
         "Adam Bramley"
+      ],
+      "speaker_usernames" : [
+        "acbramley"
       ],
       "full_description": "The GraphQL Drupal module provides a powerful out-of-the-box toolkit for writing GraphQL APIs backed by Drupal. There are also some great docs on how to get started and how to write some basic schemas and data producers.\n\nHowever, with such a powerful toolkit, it can be hard to get your head around the concepts and how the puzzle pieces fit together, especially once you start getting into more complex content modeling.\n\nIn this session we'll cover:\n\n- How to kickstart your GraphQL API\n\n- The fundamentals of the module's architecture and how to write your own maintainable data producers.\n\n- How to write secure Mutations to Create, Update, and Delete content on your site.\n\n- A sneak peek into how to integrate all of this into a decoupled React app",
       "summary": "The GraphQL Drupal module provides a powerful out-of-the-box toolkit for writing GraphQL APIs backed by Drupal....",
@@ -802,6 +812,7 @@
       "speakers": [
         "Murray Woodman"
       ],
+      "speaker_usernames": ["murrayw"],
       "full_description": "The development and interest in AI technologies has exploded in recent months. AI is now mainstream and is being introduced to workflows at a rapid pace. ChatGPT has captured the public’s imagination and the recent release as a public API has made it easily integrated into tech such as Drupal. OpenAI isn’t the only game in town with many other services such as NLP Cloud offering compelling AI services which can also be integrated into Drupal.\n\nThis presentation will review the recent advancements in generative AI and demonstrate how they can be used in the context of Drupal to provide assistance to editors and creators in Drupal as they carry out their editorial tasks. ChatGPT offers new and improved capabilities over GPT3 for summarising and generating content. NLP Cloud offers a suite of services which can analyse and process text in a variety of ways. Together they form a formidable team capable of uplifting content.\n\nThe session will provide practical steps for implementing AI into Drupal. The following open source modules will be demonstrated in this presentation:\n\n- Augmentor: AI ecosystem for Drupal\n\n- ChatGPT Augmentor\n\n- NLP Cloud Augmentor\n\nBy the end of the presentation, the audience should have a grasp of the following:\n\n- Site owners: How AI can be safely integrated into a site.\n\n- Editors: A stack of ideas for how their workflow can be improved.\n\n- Site builders: Modules to install and how to wire together an AI implementation using open source code and SaaS integrations..\n\nThis presentation is suitable for anyone who wants to find out more about what this AI thing is all about. The main audiencewould be for site owners and editors to show some of the possibilities with AI. The future is now here.",
       "summary": "The development and interest in AI technologies has exploded in recent months....",
       "video_url": "https://youtu.be/4L5gRnetnIY"

@@ -240,6 +240,7 @@
         "Si Hobbs",
         "Dan Laush"
       ],
+      "speaker_usernames": ["sime"],
       "full_description": "For WorkSafe Victoria, a decoupled Drupal architecture allowed our project to be driven by Service Design. Our component library captures user interactions, branding and accessibility, while editors focus on content via Drupal. The result is rapid prototyping and design innovation.",
       "summary": "For WorkSafe Victoria, a decoupled Drupal architecture allowed our project to be driven by Service Design....",
       "video_url": ""
@@ -375,6 +376,7 @@
         "Murray Woodman",
         "Toby Bellwood"
       ],
+      "speaker_usernames": ["murrayw"],
       "full_description": "The newly released GovCMS8 distribution ships with a brand-new base theme, designed to deliver a great-looking, functional site - straight out of the box, with no theming or coding required. Suitable for government agencies, platform evaluators as well as site builders and themers.",
       "summary": "The newly released GovCMS8 distribution ships with a brand-new base theme, designed to deliver a great-looking, functional site - straight out of the box, with no theming or coding required....",
       "video_url": ""
@@ -546,6 +548,9 @@
       "speakers": [
         "Adam Bramley"
       ],
+      "speaker_usernames" : [
+        "acbramley"
+      ],
       "full_description": "A common problem that I’ve faced, is how to deliver the complex, component driven design that clients want while also giving content authors full flexibility with those components without creating an un-maintainable, or brittle product.\n\nIn this talk, we'll go over how to achieve just that!",
       "summary": "A common problem that I’ve faced, is how to deliver the complex, component driven design that clients want while also giving content authors full flexibility with those components without creating an un-maintainable, or...",
       "video_url": ""
@@ -691,6 +696,7 @@
       "speakers": [
         "Sean Hamlin"
       ],
+      "speaker_usernames": ["wiifm"],
       "full_description": "With the number of exploits and poorly configured Drupal sites in the wild, having a WAF will allow you to weather the storm of script kiddies and bots, and free up resources on your origin. This session will go through best practice WAF tuning, and how you can adapt this to your site.",
       "summary": "With the number of exploits and poorly configured Drupal sites in the wild, having a WAF will allow you to weather the storm of script kiddies and bots, and free up resources on your origin....",
       "video_url": ""
@@ -1105,6 +1111,7 @@
         "Alex Skrypnyk",
         "Stuart Rowlands"
       ],
+      "speaker_usernames": ["alex.skrypnyk"],
       "full_description": "Moving GovCMS SaaS and PaaS sites between Acquia and Lagoon shouldn’t be that hard, right? In this talk, we’ll discuss how we created system utilising AWX-based runners, building an automated workflow that can be continuously used and reused to easily migrate sites of different level of complexity.",
       "summary": "Moving GovCMS SaaS and PaaS sites between Acquia and Lagoon shouldn’t be that hard, right?...",
       "video_url": ""

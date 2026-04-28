@@ -494,6 +494,7 @@
         "Christopher Skene",
         "Colin Sweett"
       ],
+      "speaker_usernames": ["xtfer"],
       "full_description": "Publishers are now able to deposit publications with the National Library of Australia electronically, a process known as eDeposit. Publications are accepted in multiple electronic formats (such as PDF) and automatically registered with the Library's data management systems. The front end and management of submissions is powered by Drupal. This session will discuss the overall business requirements for the project, a deep dive into the technical architecture, and a summary of some of the learnings for using Drupal as an application front-end with complex business logic.",
       "summary": "Publishers are now able to deposit publications with the National Library of Australia electronically, a process known as eDeposit..."
     },

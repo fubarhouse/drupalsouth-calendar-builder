@@ -133,6 +133,7 @@
       "speakers": [
         "Karl Hepworth"
       ],
+      "speaker_usernames": ["fubarhouse"],
       "full_description": "Extracting and understanding key metrics in your application can provide powerful insight for product owners and developers.\n\nDiscover how you extend Drupal to create CloudWatch dashboards based on metrics from Drupal and see what insights they can provide.",
       "summary": "Extracting and understanding key metrics in your application can provide powerful insight for product owners and developers....",
       "video_url": "https://youtu.be/dd3AkR2DN28"
@@ -200,6 +201,9 @@
       "speakers": [
         "Daniel Veza"
       ],
+      "speaker_usernames": [
+        "danielveza"
+      ],
       "full_description": "Bundle classes and Layout Builder are a powerful combination for building modern Drupal sites. This presentation aims to demonstrate how you can use these along with twig to build and theme testable and clean sites with tried and true practises used on many production sites.",
       "summary": "Bundle classes and Layout Builder are a powerful combination for building modern Drupal sites....",
       "video_url": "https://youtu.be/mhI9FDtR4wM"
@@ -248,6 +252,9 @@
       ],
       "speakers": [
         "Adam Bramley"
+      ],
+      "speaker_usernames" : [
+        "acbramley"
       ],
       "full_description": "Learn how we leveraged a highly available AWS OpenSearch service fronted by React to build lightning fast, dynamic search interfaces backed by Drupal using Search API.\n\nThis talk will cover:\n- Our architecture, why it was chosen, and how you can set it up for yourself\n- An overview of the Search API Opensearch module\n- A deep dive into the frontend technologies and methodologies we used to make building decoupled search apps a breeze.",
       "summary": "Learn how we leveraged a highly available AWS OpenSearch service fronted by React to build lightning fast, dynamic search interfaces backed by Drupal using Search API....",
@@ -448,6 +455,7 @@
       "speakers": [
         "Murray Woodman"
       ],
+      "speaker_usernames": ["murrayw"],
       "full_description": "",
       "summary": "",
       "video_url": "https://youtu.be/iwxD7rMmnCQ"
@@ -483,6 +491,7 @@
         "Julia Topliss",
         "Matthew Pirani"
       ],
+      "speaker_usernames": ["jct321"],
       "full_description": "IPEA is a government authority tasked with the management and reporting of parliamentarian expenditure. In this case study we will show how the Migrate and Solr modules were used to solve scalability and performance challenges by providing a user and editor friendly solution. The end result is that citizens and parliamentarians can access data expenditure more efficiently.\n\nMatt & Julia will discuss how to work on GovCMS SaaS to deliver improved experiences.\n\nThis presentation covers:\n1. Improving user experience with better performance on rendering complex datasets containing many rows of data using view modes and Solr.\n2. Improving website management experience by providing internal tools to add/update/publish reports which contain thousands of rows of data. Considering scalability in the implementation with the requirement to factor in future reporting periods.\n3. Providing stability and scalability with a solution that is delivered onto the GovCMS SaaS platform and the restrictions & challenges that come with working on a proscriptive platform.\n\nThis presentation will be of interest to:\nGovCMS agencies who want to get the most from GovCMS SaaS\nDevelopers looking for tips on how to build performance and scalable solutions.\nOpen data advocates interested in citizen access to government data.",
       "summary": "IPEA is a government authority tasked with the management and reporting of parliamentarian expenditure....",
       "video_url": "https://youtu.be/_jN5mvglet4"
@@ -942,6 +951,7 @@
         "Juliane Erben",
         "Alex Skrypnyk"
       ],
+      "speaker_usernames": ["alex.skrypnyk"],
       "full_description": "The federal agency (who would like to be unidentified) was on an old version of MS SharePoint, which was used by authenticated users. The portal had a high cost of ownership, many functional gaps, was slow to respond, and was visually unappealing to the user. It was no longer fit for purpose. The federal agency engaged Salsa to:\n\n1 - Replace the old portal and migrate all of the existing data\n2 - Ingest reports from another portal\n3 - Integrate with an internal publishing system\n4 - Create analytical reports.\n\nThe portal’s purpose is to publish and distribute information to other government agencies. As of June 2022 the new, Salsa-built Drupal portal has replaced the old MS SharePoint solution. In this short presentation, we would like to address:\n\n- Ways of working together that ensured we could react to changes in scope.\n\n- Using the Salsa-built CivicTheme design system as the foundation for the build.\n\n- The outcomes for the content editors: a publishing workflow easily followed via a customised workbench, an editing experience that meets their expectations, and custom tools that allow them to import data from other sources and create compilations for their users in minutes.\n\n- Email alerts and subscription: Salsa custom built a subscription and alert functionality for the federal agency as out-of-the-box solutions (like Mailchimp) were not in question for security reasons.\n\n- The approach to migrating 1.2TB of data and dealing with a rapidly growing amount of data.\n\n- Searching through vast quantities of data using Solr and Elastic Search.\n\nDrupal is very capable of providing functionality far beyond a classic brochure website. This federal agency project showcases what can be achieved, even with a large range of security restrictions.\nJuliane Erben\nI was born and bred in Germany, however I have spent many years living overseas in various countries before settling in Australia in 2012. I have been working in the IT industry initially in sales and then in project management for 15 years and have managed Drupal projects for the past 5 years. I enjoy business analysis; I love how a project can feel like a puzzle and with every client discovery, every design, every JIRA ticket groomed, the puzzle evolves and finally the build will bring it all to life. My work satisfaction comes from delivering what the client needs, feeling like I have really done all I can to maximise the business benefit and ultimately seeing the outcomes for the end user. And I love the collaborative aspect of my role; bringing teams together to work towards a common goal.\nAdditional speakersThe second speaker is Alex Skrypnyk.\n\nBased in Melbourne, Alex works with Salsa and Salsa’s clients to design and build Drupal solutions, providing high level technology strategy and oversight.\n\nAs a solution architect, Alex oversees the technical direction at a strategic level. His continuous integration expertise ensures all projects merge development code into the pipeline early and often. This helps to reduce costs and risks in projects.\n\nAlex also works on Salsa projects as a technical lead, working closely with developers, business analysts and clients to provide a technical direction that meets our clients’ business needs.",
       "summary": "The federal agency (who would like to be unidentified) was on an old version of MS SharePoint, which was used by authenticated users....",
       "video_url": "https://youtu.be/A4QQIukLHEQ"
@@ -1008,6 +1018,7 @@
       "speakers": [
         "Sean Hamlin"
       ],
+      "speaker_usernames": ["wiifm"],
       "full_description": "Have you ever wondered how popular Drupal is in your local state and at the Federal Government level? This talk will answer that question, using open source tooling. The hope is that you gain some insight to the relative popularity of Drupal and appreciate more the impact you and Drupal have in Australia.\n\nThis session will include:\n\n* How to get a list of every government web site in Australia\n* How to determine what CMS they are using\n* How to measure site impact\n* Trends we are seeing at the federal level, and by state\n* Taking this tool further\n* How to contribute",
       "summary": "Have you ever wondered how popular Drupal is in your local state and at the Federal Government level?...",
       "video_url": "https://youtu.be/1jy9-e6uaEc"

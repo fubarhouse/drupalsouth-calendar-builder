@@ -107,7 +107,8 @@
       ],
       "speakers": [
         "Sean Hamlin"
-      ]
+      ],
+      "speaker_usernames": ["wiifm"]
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -124,7 +125,8 @@
         "Hasitha Guruge",
         "Steve Coochin",
         "Chris Burgess"
-      ]
+      ],
+      "speaker_usernames": ["xurizaemon"]
     },
     {
       "startTime": "2021-11-11T01:45:00Z",
@@ -166,7 +168,8 @@
       "speakers": [
         "Simon Hobbs",
         "Nathan ter Bogt"
-      ]
+      ],
+      "speaker_usernames": ["sime"]
     },
     {
       "startTime": "2021-11-11T02:15:00Z",

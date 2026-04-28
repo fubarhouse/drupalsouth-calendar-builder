@@ -124,6 +124,17 @@ function isUsernameLike(value) {
 }
 
 function parseSpeakerIdentity(value) {
+  if (value && typeof value === 'object' && !Array.isArray(value)) {
+    const objectName = normalizeText(value.name);
+    const objectUsername = normalizeText(value.username);
+    if (objectName || objectUsername) {
+      return {
+        name: objectName || objectUsername,
+        username: objectUsername
+      };
+    }
+  }
+
   const raw = normalizeText(value);
   if (!raw) return null;
 
@@ -174,6 +185,13 @@ function getSpeakerList(item) {
   if (!Array.isArray(item?.speakers)) return [];
   return item.speakers
     .map((speaker) => normalizeText(speaker))
+    .filter(Boolean);
+}
+
+function getSpeakerUsernames(item) {
+  if (!Array.isArray(item?.speaker_usernames)) return [];
+  return item.speaker_usernames
+    .map((username) => normalizeText(username))
     .filter(Boolean);
 }
 
@@ -572,8 +590,8 @@ function openTalkModal(talkId) {
   }
 }
 
-function addTalkForSpeaker(speaker, talk) {
-  const keys = speakerKeys(speaker);
+function addTalkForSpeaker(identity, talk) {
+  const keys = speakerKeys(identity);
   keys.forEach((key) => {
     if (!state.talksBySpeakerKey.has(key)) {
       state.talksBySpeakerKey.set(key, []);
@@ -582,26 +600,134 @@ function addTalkForSpeaker(speaker, talk) {
   });
 }
 
-function addUserForSpeaker(speaker) {
-  const identity = parseSpeakerIdentity(speaker);
+function addUserForSpeaker(input) {
+  const identity = parseSpeakerIdentity(input);
   if (!identity || isIgnoredSpeakerIdentity(identity)) return;
   const username = normalizeText(identity.username);
   const name = normalizeText(identity.name);
-  const key = username ? `u:${username.toLowerCase()}` : `n:${name.toLowerCase()}`;
-  if (!key) return;
+  const usernameKey = username ? `u:${username.toLowerCase()}` : '';
+  const nameKey = name ? `n:${name.toLowerCase()}` : '';
+  const usernameAliasNameKey = username ? `n:${username.toLowerCase()}` : '';
+  const nameLooksLikeUsername = name && isUsernameLike(name);
+  const nameAsUsernameKey = nameLooksLikeUsername ? `u:${name.toLowerCase()}` : '';
+  if (!usernameKey && !nameKey) return;
 
-  const existing = state.usersByKey.get(key);
+  const existingByUsername = usernameKey ? state.usersByKey.get(usernameKey) : null;
+  const existingByUsernameAlias = usernameAliasNameKey ? state.usersByKey.get(usernameAliasNameKey) : null;
+  const existingByNameAsUsername = nameAsUsernameKey ? state.usersByKey.get(nameAsUsernameKey) : null;
+  const existingByName = nameKey ? state.usersByKey.get(nameKey) : null;
+  const existing = existingByUsername || existingByUsernameAlias || existingByNameAsUsername || existingByName;
+
   if (existing) {
-    if (!existing.name && name) existing.name = name;
+    if (!Array.isArray(existing.aliases)) {
+      existing.aliases = [];
+    }
+    if (name) {
+      const hasAlias = existing.aliases.some((alias) => normalizeText(alias).toLowerCase() === name.toLowerCase());
+      if (!hasAlias) existing.aliases.push(name);
+    }
+
+    const existingName = normalizeText(existing.name);
+    const existingUsername = normalizeText(existing.username);
+    const hasBetterDisplayName =
+      Boolean(name) &&
+      (!existingName ||
+        (existingUsername &&
+          existingName.toLowerCase() === existingUsername.toLowerCase() &&
+          name.toLowerCase() !== existingUsername.toLowerCase()));
+
+    if (hasBetterDisplayName) {
+      existing.name = name;
+    }
     if (!existing.username && username) existing.username = username;
+    if (!existing.username && nameLooksLikeUsername) existing.username = name;
+    if (usernameKey) state.usersByKey.set(usernameKey, existing);
+    if (nameKey) state.usersByKey.set(nameKey, existing);
+    if (usernameAliasNameKey) state.usersByKey.set(usernameAliasNameKey, existing);
+    if (nameAsUsernameKey) state.usersByKey.set(nameAsUsernameKey, existing);
     return;
   }
 
-  state.usersByKey.set(key, {
-    username,
+  const created = {
+    username: username || (nameLooksLikeUsername ? name : ''),
     name: name || username,
-    avatar: ''
-  });
+    avatar: '',
+    aliases: name ? [name] : []
+  };
+  if (usernameKey) state.usersByKey.set(usernameKey, created);
+  if (nameKey) state.usersByKey.set(nameKey, created);
+  if (usernameAliasNameKey) state.usersByKey.set(usernameAliasNameKey, created);
+  if (nameAsUsernameKey) state.usersByKey.set(nameAsUsernameKey, created);
+}
+
+function buildSpeakerIdentities(speakers, usernames) {
+  const identities = [];
+  const normalizeToken = (value) => normalizeText(value).toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const firstNameToken = (name) => normalizeText(name).split(/\s+/)[0] || '';
+  const likelyNameMatchesUsername = (name, username) => {
+    const first = normalizeToken(firstNameToken(name));
+    const uname = normalizeToken(username);
+    if (!first || !uname) return false;
+    return uname.startsWith(first) || first.startsWith(uname) || uname.includes(first);
+  };
+  const addIdentity = (name, username) => {
+    const parsed = parseSpeakerIdentity({ name, username });
+    if (!parsed || isIgnoredSpeakerIdentity(parsed)) return;
+
+    // If this is effectively a username-only identity, try to merge it into an
+    // existing named speaker first (common when speaker_usernames has fewer items).
+    if (parsed.username && parsed.name.toLowerCase() === parsed.username.toLowerCase()) {
+      const matchedByName = identities.find(
+        (identity) =>
+          !identity.username &&
+          likelyNameMatchesUsername(identity.name, parsed.username)
+      );
+      if (matchedByName) {
+        matchedByName.username = parsed.username;
+        return;
+      }
+    }
+
+    const canonical = parsed.username
+      ? `u:${parsed.username.toLowerCase()}`
+      : `n:${parsed.name.toLowerCase()}`;
+    if (!canonical) return;
+    const existing = identities.find((identity) => {
+      const key = identity.username
+        ? `u:${identity.username.toLowerCase()}`
+        : `n:${identity.name.toLowerCase()}`;
+      return key === canonical;
+    });
+    if (existing) {
+      if (!existing.username && parsed.username) existing.username = parsed.username;
+      if (
+        parsed.name &&
+        existing.username &&
+        existing.name.toLowerCase() === existing.username.toLowerCase() &&
+        parsed.name.toLowerCase() !== existing.username.toLowerCase()
+      ) {
+        existing.name = parsed.name;
+      }
+      return;
+    }
+    identities.push(parsed);
+  };
+
+  if (speakers.length === 1 && usernames.length >= 1) {
+    addIdentity(speakers[0], usernames[0]);
+    return identities;
+  }
+
+  if (speakers.length > 0 && speakers.length === usernames.length) {
+    for (let i = 0; i < speakers.length; i += 1) {
+      addIdentity(speakers[i], usernames[i]);
+    }
+    return identities;
+  }
+
+  speakers.forEach((name) => addIdentity(name, ''));
+  usernames.forEach((username) => addIdentity(username, username));
+  return identities;
 }
 
 async function loadEventTalkIndex() {
@@ -616,7 +742,10 @@ async function loadEventTalkIndex() {
     const items = getItemList(payload);
     items.forEach((item) => {
       const speakers = getSpeakerList(item);
-      if (speakers.length === 0) return;
+      const speakerUsernames = getSpeakerUsernames(item);
+      if (speakers.length === 0 && speakerUsernames.length === 0) return;
+      const speakerIdentities = buildSpeakerIdentities(speakers, speakerUsernames);
+      if (speakerIdentities.length === 0) return;
 
       const talk = {
         id: `${entry.file}|${item?.startTime || ''}|${normalizeText(item?.title)}`,
@@ -630,20 +759,23 @@ async function loadEventTalkIndex() {
         summaryText: normalizeText(item?.summary || ''),
         fullDescription: normalizeText(item?.full_description || ''),
         descriptionText: normalizeText(item?.description || ''),
-        speakersText: speakers.join(', '),
+        speakersText: speakerIdentities
+          .map((identity) => normalizeText(identity.name || identity.username))
+          .filter(Boolean)
+          .join(', '),
         link: normalizeText(item?.link),
         videoUrl: normalizeText(item?.video_url)
       };
       state.talksById.set(talk.id, talk);
 
-      speakers.forEach((speaker) => {
-        addTalkForSpeaker(speaker, talk);
-        addUserForSpeaker(speaker);
+      speakerIdentities.forEach((identity) => {
+        addTalkForSpeaker(identity, talk);
+        addUserForSpeaker(identity);
       });
     });
   });
   await Promise.all(loads);
-  state.users = [...state.usersByKey.values()].sort((a, b) => {
+  state.users = [...new Set(state.usersByKey.values())].sort((a, b) => {
     const aName = normalizeText(a.name || a.username).toLowerCase();
     const bName = normalizeText(b.name || b.username).toLowerCase();
     return aName.localeCompare(bName);
@@ -662,28 +794,37 @@ function renderMessage(message) {
 function searchUsers(query) {
   const q = normalizeText(query).toLowerCase();
   if (!q) return [];
-  const scored = [];
+  const scoredByCanonical = new Map();
 
   state.users.forEach((user) => {
     const name = normalizeText(user.name);
     const username = normalizeText(user.username);
+    const aliases = Array.isArray(user.aliases) ? user.aliases.map((alias) => normalizeText(alias)).filter(Boolean) : [];
     const nameLower = name.toLowerCase();
     const usernameLower = username.toLowerCase();
+    const aliasLowers = aliases.map((alias) => alias.toLowerCase());
 
     let score = -1;
     if (usernameLower === q) score = 100;
     else if (nameLower === q) score = 95;
+    else if (aliasLowers.includes(q)) score = 92;
     else if (usernameLower.startsWith(q)) score = 85;
     else if (nameLower.startsWith(q)) score = 80;
+    else if (aliasLowers.some((alias) => alias.startsWith(q))) score = 78;
     else if (usernameLower.includes(q)) score = 70;
     else if (nameLower.includes(q)) score = 65;
+    else if (aliasLowers.some((alias) => alias.includes(q))) score = 63;
 
     if (score >= 0) {
-      scored.push({ user, score });
+      const canonicalKey = usernameLower ? `u:${usernameLower}` : `n:${nameLower}`;
+      const existing = scoredByCanonical.get(canonicalKey);
+      if (!existing || score > existing.score) {
+        scoredByCanonical.set(canonicalKey, { user, score });
+      }
     }
   });
 
-  return scored
+  return [...scoredByCanonical.values()]
     .sort((a, b) => {
       if (b.score !== a.score) return b.score - a.score;
       const ac = getTalksForUser(a.user).length;

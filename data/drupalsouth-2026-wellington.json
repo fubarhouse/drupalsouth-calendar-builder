@@ -108,6 +108,7 @@
       "speakers": [
         "Sean Hamlin"
       ],
+      "speaker_usernames": ["wiifm"],
       "full_description": "Automated traffic on the internet has evolved well beyond simple crawlers and brute-force attacks. Modern bots use headless browsers, residential proxy networks, and AI-driven scraping that deliberately mimic real users, making traditional IP blocking and rate limiting increasingly ineffective.\n\nThis session explores how Drupal teams can respond to this new reality using pragmatic, layered defences. In addition to Drupal modules such as Perimeter, CrowdSec, AbuseIPDB, and Facet Bot Blocker, the talk demonstrates how to place Anubis in front of a Drupal site to selectively protect high-cost or high-risk endpoints such as forms, search, pagination, and authenticated flows.\n\nRather than attempting to block all bots, this talk focuses on reducing abuse where it hurts most, understanding trade-offs, and integrating modern bot controls without breaking accessibility, SEO, or legitimate users.",
       "summary": "Automated traffic on the internet has evolved well beyond simple crawlers and brute-force attacks...."
     },
@@ -168,6 +169,9 @@
       "speakers": [
         "Daniel Veza"
       ],
+      "speaker_usernames": [
+        "danielveza"
+      ],
       "full_description": "Keyword-based search has served us well for years, but it often falls short when users ask natural language or exploratory questions. Semantic search improves relevance by understanding intent, meaning and context, while Retrieval-Augmented Generation (RAG) goes a step further by transforming search results into clear, human friendly answers.\n\nThis talk will explore how OpenSearch and Skpr enable semantic search by understanding the meaning behind content and queries, rather than just matching keywords, with the RAG processor layering generative AI on top of retrieved results. We’ll walk through a practical end-to-end flow: indexing and chunking content, generating the embeddings for semantic search, retrieving the most relevant search results, and using RAG to produce concise summaries and answers grounded directly in search results.\n\nAlong with answering questions, RAG can be also be used to summarise multiple documents, highlight key themes, and reduce information overload, while staying grounded in the indexed content without AI hallucinations.\n\nBy the end of the session, you’ll understand when semantic search is a better fit than traditional search, how OpenSearch’s RAG processor enables summarised, clear and contextual responses, and how these approaches can deliver faster access to accurate information, increase user engagement, and create search experiences that go beyond a simple list of links.",
       "summary": "Keyword-based search has served us well for years, but it often falls short when users ask natural language or exploratory questions...."
     },
@@ -199,6 +203,9 @@
       ],
       "speakers": [
         "Adam Bramley"
+      ],
+      "speaker_usernames" : [
+        "acbramley"
       ],
       "full_description": "Addressing the inefficiencies of traditional Drupal theming—where logic, markup, and styling are fragmented—the Pinto module by PreviousNext provides an entirely new theming paradigm for Drupal by enabling the reuse of design system components across the entire site using predictable, object-oriented patterns.\n\nIt’s a component-first approach that incorporates modern concepts like props and slots with complete type safety for fast and efficient theming.\n\nPinto components consist of a PHP object definition, CSS, JS and Twig. They can then be rendered anywhere in Drupal.\n\nFor both frontenders and backenders, this talk will cover Pinto’s simple setup, how to write a Pinto component, rendering, unit testing, best practices and integration with Storybook.\n\nWe will also showcase how Pinto objects can be used directly as Drupal Canvas components, without requiring a Single Directory Component (SDC).",
       "summary": "Addressing the inefficiencies of traditional Drupal theming—where logic, markup, and styling are fragmented—the Pinto module by PreviousNext provides an entirely new theming paradigm for Drupal by enabling the reuse of d..."
@@ -262,6 +269,7 @@
       "speakers": [
         "Alex Skrypnyk"
       ],
+      "speaker_usernames": ["alex.skrypnyk"],
       "full_description": "AI tools are everywhere - but despite the hype, they are neither autonomous builders nor replacements for experienced developers.\n\nIn this talk, we’ll look at a realistic, production-tested workflow where developers stay firmly in control, and AI agents act as fast, tireless implementers of clearly defined ideas.\n\nUsing real examples from consumer-facing Drupal sites, we’ll walk through a feature development lifecycle that starts with human planning and ends with tested, reviewable code. This includes:\n\n- Planning features before prompting\n\n- Using AI agents (including cloud-based code agents) to implement scoped tasks\n\n- Generating tests, wiring integrations, and linking code - without skipping engineering fundamentals\n\n- Reviewing, refining, and owning the final outcome as a developer\n\nRather than treating AI as a magic button, this session shows how to use it as a force multiplier: accelerating delivery while preserving code quality, architectural intent, and developer accountability.\n\nAttendees will leave with a clear mental model for where AI fits into modern Drupal development - and where it absolutely does not.",
       "summary": "AI tools are everywhere - but despite the hype, they are neither autonomous builders nor replacements for experienced developers...."
     },
@@ -372,6 +380,7 @@
       "speakers": [
         "Murray Woodman"
       ],
+      "speaker_usernames": ["murrayw"],
       "full_description": "The Drupal Marketplace is a new initiative where Drupal agencies are able to showcase site “Templates” which wrap up best practice patterns for enhanced site building. Templates encapsulate many of the new directions in Drupal: Drupal CMS, Canvas, Recipes and SDCs. Being part of Drupal CMS they also touch on areas such as Artificial Intelligence, enhanced editor workflows and advanced component driven designs. The Marketplace and Templates are a showcase of what is coming in Drupal and points to new skills and approaches which will need to be adopted.\n\nThe Drupal community as a whole needs to adapt to these new ways of working. In a sense it is similar to the changes we saw from moving to Drupal 8. New patterns and ways of working will need to be learnt. There is a lot to take in. The presentation aims to bring site builders and developers up to speed with the main changes and gotchas along the way.\n\nAims\n\nGet agencies and developers up to speed with what is coming\n\nIdentify the challenges and opportunities ahead.\n\nThe presentation will cover\n\nOverview of the Marketplace and the moving parts\n\nRequirements of the Marketplace and Templates\n\nSingle Directory Components - The basics\n\nCanvas - A new way of thinking\n\nFinding the middle ground between Canvas and Paragraphs\n\nMental model adjustments for design and build.\n\nThe presentation will draw some conclusions on:\n\nThe positioning of Drupal in the wider marketplace\n\nThe competing drivers of contents vs presentation\n\nThe presentation has been listed in the Development track, as there will be helpful introductory material for devs getting up to speed. There will be value for agency owners and clients who would like to get their head around the bigger picture.",
       "summary": "The Drupal Marketplace is a new initiative where Drupal agencies are able to showcase site “Templates” which wrap up best practice patterns for enhanced site building...."
     },
@@ -464,6 +473,7 @@
       "speakers": [
         "Simon Hobbs"
       ],
+      "speaker_usernames": ["sime"],
       "full_description": "Most Shopify apps follow a familiar shape: a React UI, some API calls, and a small service behind the scenes. That works well for isolated features. But if you’re already running Drupal, adding more services and stacks can feel unnecessary - what if you just used Drupal?\n\nThis talk looks at using Drupal as the operational backend behind Shopify. Shopify handles the storefront, checkout, and payments, shipping, fulfillment. Drupal fills the gaps where you would normally be paying monthly fees through the Shopify app store.\n\nAt The Diggers Club, we’re placing heavy investment in Shopify, however we have some unique processes which are not supported out of the box. Examples include a customized Pickrun/Quarantine process, and custom label generation for seed packets.\n\nRather than building multiple custom Shopify apps with separate React frontends and Node backends, we keep the logic in one place and treat Drupal as the “private backend” for operations. The result is fewer moving parts, less duplicated code, and a stack the team already understands.\n\nThe session will cover the strategy for embedding a Drupal ERP solution into Shopify. How to make the experience as seemless as possible for users while taking advantage of your existing Drupal capabilities.",
       "summary": "Most Shopify apps follow a familiar shape: a React UI, some API calls, and a small service behind the scenes...."
     },
@@ -480,6 +490,7 @@
       "speakers": [
         "Alex Matthews"
       ],
+      "speaker_usernames": ["alex.xequals"],
       "full_description": "To realise the true cost and time benefits of agile delivery, Government leaders need to move beyond traditional procurement and delivery silos and be willing to work closely with development teams - often literally in the same room - solving problems together in real time. Equally, developers must be comfortable collaborating directly with non-technical leaders, rapidly testing ideas, assumptions, and solution pathways through hands-on experimentation.\n\nMany of the well-known failure modes of waterfall projects stem from separation: between business cases, clients, project managers, developers, and expectations, with an over-reliance on documentation to bridge those gaps. As GovTech leaders continue to shift internal culture toward agile, this talk is aimed at both decision-makers and the teams delivering for them.\n\nAlex will unpack the practical success patterns behind modern digital transformation, drawing on real-world case studies from the past 12 months that show how New Zealand Government agencies are “walking the talk.” These examples demonstrate how taking the right risks, embracing rapid prototyping, and working collaboratively unlocks the full potential of speed, cost effectiveness, and flexibility that the Government wants and needs.\n\nThe session explores why in-person, cross-disciplinary collaboration remains the “killer app” of agile - and why making it work requires a learned, often uncomfortable skillset. It also highlights how Drupal 11, as the world's most enterprise-ready, API-first open-source platform, is enabling ambitious government digital systems that go far beyond traditional websites.\n\nPractical examples include:\n\n- HQSC’s Health Measures Library\n\n- Department of Conservation’s Smart Weed Alert Tool\n\n- Proof-of-concept and rapid prototyping initiatives reshaping large, traditionally waterfall government programmes",
       "summary": "To realise the true cost and time benefits of agile delivery, Government leaders need to move beyond traditional procurement and delivery silos and be willing to work closely with development teams - often literally in t..."
     },
@@ -571,6 +582,7 @@
         "Michael Richardson",
         "Julia Topliss"
       ],
+      "speaker_usernames": ["jct321"],
       "full_description": "",
       "summary": ""
     },
@@ -810,6 +822,7 @@
         "Jonathan Hunt",
         "Chris Burgess"
       ],
+      "speaker_usernames": ["xurizaemon"],
       "full_description": "Drupal can be a complex codebase and issues can be challenging to diagnose. Fortunately, tooling for Observability (o11y) is available, to give you greater insight into application behaviour. We've been exploring observability using OpenTelemetry (OT) and Grafana to expose Drupal metrics, logs, and traces. This talk introduces observability concepts, outlines how OpenTelemetry can be implemented in Drupal, and how Grafana can aggregate logs and display key application metrics and traces. We'll show how to generate custom metrics, parse logs, and gain new understanding of what is happening \"under the hood\".",
       "summary": "Drupal can be a complex codebase and issues can be challenging to diagnose...."
     },
@@ -953,6 +966,7 @@
         "Margery Tongway",
         "Vladimir Roudakov"
       ],
+      "speaker_usernames": ["p_stampy","xurizaemon", "jct321"],
       "full_description": "",
       "summary": ""
     },

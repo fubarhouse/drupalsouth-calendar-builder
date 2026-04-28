@@ -536,7 +536,8 @@
       ],
       "speakers": [
         "Chris Skene"
-      ]
+      ],
+      "speaker_usernames": ["xtfer"]
     },
     {
       "startTime": "2020-11-05T03:00:00Z",
@@ -616,7 +617,8 @@
       ],
       "speakers": [
         "Murray Woodman"
-      ]
+      ],
+      "speaker_usernames": ["murrayw"]
     },
     {
       "startTime": "2020-11-05T03:40:00Z",

@@ -264,6 +264,7 @@
       "speakers": [
         "Sean Hamlin"
       ],
+      "speaker_usernames": ["wiifm"],
       "full_description": "Following on from the session back in Drupalsouth Brisbane 2022 (blog post at https://www.pixelite.co.nz/article/drupal-and-the-open-web-in-the-australian-government-2022/ ) , this session will review the CMS landscape in the Australian government in 2024.\n\nThe presentation will focus on the movers and shakers in the CMS landscape, find out which high profile government departments are moving to Drupal, or away from it.\n\nAs in 2022, a state by state breakdown will be done, and we can even compare the total amount of Drupal running in each state, through a lens of PageRank. We will be able to see which states (and at the federal level) are making a broader adoption of Drupal.",
       "summary": "Following on from the session back in Drupalsouth Brisbane 2022 (blog post at https://www.pixelite.co.nz/article/drupal-and-the-open-web-in-the-australian-government-2022/ ) , this session will review the CMS landscape i...",
       "video_url": "https://youtu.be/Gfb5Zc-F4e0"
@@ -414,6 +415,7 @@
       "speakers": [
         "Chris Burgess"
       ],
+      "speaker_usernames": ["xurizaemon"],
       "full_description": "Composability is a long-term trend that Drupal has had at its core for a long time. The Recipes initiative, one of Drupal's core strategic initiatives, is a vision for creating bundles of functionality to build with.\n\nWe'll look at some practical examples for Recipes, compare with how you might be tackling these challenges today, consider common challenges of re-use between projects and where Recipes fits best in the developer's toolkit, and see what Recipes has in store for building Drupal sites in the future.",
       "summary": "Composability is a long-term trend that Drupal has had at its core for a long time....",
       "video_url": "https://youtu.be/oQTKCvqaBZk"
@@ -920,6 +922,7 @@
       "speakers": [
         "Karl Hepworth"
       ],
+      "speaker_usernames": ["fubarhouse"],
       "full_description": "Docker is a large and evolving open-source project.\n\nIn recent times, agencies have been hit hard with licensing changes preventing them from being able to use, develop, and manage all of their projects on existing contracts - this change is systemic!\n\nIn this talk, we explore the state of Docker for local development, its alternatives in detail, and how each would work with your workflow. We will also explore the architecture of each of these solutions.\n\nIt's aimed at technical users who have or will lose control over their working environment due to these licensing changes, such as enterprise users, government, and small businesses. We will work to help you regain control and access to your projects in your local environment.",
       "summary": "Docker is a large and evolving open-source project....",
       "video_url": "https://youtu.be/SxBA4I57WPA"
@@ -971,6 +974,7 @@
       "speakers": [
         "Murray Woodman"
       ],
+      "speaker_usernames": ["murrayw"],
       "full_description": "Each project brings its own challenges and learnings. Success comes from repeating the good, fixing the bad and avoiding the ugly. That's the theory anyway.\n\nThis presentation takes a lighthearted look back over hundreds of Drupal projects and will analyse them through the lense of the burn up chart. The jagged line tells a story of wins and losses, successes and failures, profit and loss. Along the way a lot of lessons have been learnt and no doubt missed as well. The presenter will provide some insights into some of the lowlights and highlights of delivering Drupal projects.\n\nThe session is suitable for business owners, project managers, developers and clients alike. There should be something relatable in it for everyone.",
       "summary": "Each project brings its own challenges and learnings....",
       "video_url": "https://youtu.be/Anr1Ebh_xRE"

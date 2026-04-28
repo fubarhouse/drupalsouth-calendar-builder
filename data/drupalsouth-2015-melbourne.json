@@ -253,6 +253,7 @@
       "speakers": [
         "Murray"
       ],
+      "speaker_usernames": ["murrayw"],
       "description": ""
     },
     {
@@ -776,6 +777,7 @@
         "Ivan Zugec",
         "Murray"
       ],
+      "speaker_usernames": ["murrayw"],
       "description": ""
     },
     {
