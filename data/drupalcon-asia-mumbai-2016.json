@@ -153,7 +153,9 @@
       "track": [],
       "speakers": [
         "Dries Buytaert"
-      ]
+      ],
+      "full_description": "Belgium born Drupal founder, Dries Buytaert is a pioneer in the open source web publishing and collaboration platform space. Dries is passionate about technology innovation, social media and photography.\n\nDries maintains the role as the project lead for Drupal, as well as the president of the Drupal Association. He is the co-founder and CTO of Acquia, the digital experience company. In 2013, Dries was elected a Young Global Leader for the World Economic Forum.",
+      "summary": "Belgium born Drupal founder, Dries Buytaert is a pioneer in the open source web publishing and collaboration platform space..."
     },
     {
       "startTime": "2016-02-19T05:30:00Z",
@@ -179,7 +181,9 @@
       ],
       "speakers": [
         "Niraj Meegarma"
-      ]
+      ],
+      "full_description": "A common problem with Document Management Systems (DMS) is the fact that they don’t have a very user-friendly Interface. To build one, is a complex and time consuming process. Drupal can solve this problem by integrating with any document management system and provide a more intutive user experience.\n\nBy using a CMS like Drupal we have the best of all worlds. For example, Drupal can provide an effective and user-friendly document browser and can use functions like document conversion provided by the DMS. Also on top of Drupal we can use Javascript libraries and plugins like PDF.js , annotatorjs for the user’s convenience. In most companies, employees use multiple systems to manage content/information and documents. The intention is to bring all systems to one place and also give the user a more convenient experience. This is an optimal solution for large organizations, small companies and a good module addition for company intranets.\n\nIn this session I will mention the benefits of this combination and demonstrate this concept with two document management systems, Alfresco and Box. Don’t miss out on this session. This could be a problem solver for your company or organization.",
+      "summary": "A common problem with Document Management Systems (DMS) is the fact that they don’t have a very user-friendly Interface..."
     },
     {
       "startTime": "2016-02-19T06:00:00Z",
@@ -237,7 +241,9 @@
       "speakers": [
         "Jeffrey McGuire",
         "Campbell Vertesi"
-      ]
+      ],
+      "full_description": "Drupal 8 is the first product of the PHP-FIG era--the age when PHP projects can work together--a meta-collection of home-grown code, mixed with Symfony2 framework components, 3rd party libraries, and a whole lotta love.\n\nSince 2009, the PHP Framework Interoperability Group (PHP-FIG) has been creating PHP Standards Recommendations (PSRs) to help projects break out of their individual API islands, and to stop reinventing numerous wheels. PHP-FIG PSRs plus helpers like Composer dependency management mean that Drupal, Typo3, SymfonyCMF, and others can stop “competing” on common, commodity functionality, and start benefiting from sharing code and ideas instead! Sound familiar? We’re open sourcing open source!\n\nIn this session, we’ll take you through the basics of what PHP-FIG is, what the various PSRs are and do, and what it means to be a part of the new, broader PHP community--including having better architecture, cleaner code, and more interoperability. Super-guest-star alert! We'll be featuring the friendly faces behind some major PHP (FIG) projects, and discussing what your projects can gain from their work.",
+      "summary": "Drupal 8 is the first product of the PHP-FIG era--the age when PHP projects can work together--a meta-collection of home-grown code, mixed with Symfony2 framework components, 3rd party libraries, and a whole lotta love..."
     },
     {
       "startTime": "2016-02-19T07:00:00Z",
@@ -263,7 +269,9 @@
       ],
       "speakers": [
         "Morten Birch Heide-Jørgensen"
-      ]
+      ],
+      "full_description": "Drupal 8 has many new exciting features, but none are as radical or as needed as the changes made to the theme system*!\n\nFor 10 years Drupal's front end was design and built by developers that tried their very best to figure out what the front end needed; the lack of dedicated front-enders in core; resulted in front end architecture that was \"less than ideal\" for the challenges that the front end has faced for the last 5 years.\n\nDrupal 8 and twig changed it all!\n\nA complete overhaul of the theme system started 3 years ago - PHPtemplate is now out the door, the twig template system is implemented, and most importantly, the core idea of how the front end is build has done a 180° from how Drupal 7 handled theming.\n\nThis means:\n\n- No more divitis!\n- No more Class soup\n- No more of Drupal's standard markup and classes\n- No more yelling at the markup and not knowing where stuff came from\n- No more using regex for modify a CSS class!\n\nSuch a dramatic change would normally cause panic is a time for celebration.\n\nThe session will give you a solid understanding of the key concepts of Drupal 8 theming, as a themer, as well as giving insight to why the drupal8 theming is changed so radical.\n\nThe session will cover:\n\n- \"Best practice\" of Drupal8 theming.\n- The structure of a Drupal 8 theme's\n- Classy and Stable, what happend with basethemes\n- How {{ twig }} works from a CSS/HTML coders perspective (how to build a theme)\n- A detailed look into fields, loops & how to completely control the markup\n\n* Yes I know that a lot of “big things came into d8” that weren't front end related ;)\n** This is the \"next version\" of the session I gave at DrupalCon Los Angeles & Barcelona, it builds on feedback from attendees & the changes that have happend since beta to RC1 to 8.0",
+      "summary": "Drupal 8 has many new exciting features, but none are as radical or as needed as the changes made to the theme system*..."
     },
     {
       "startTime": "2016-02-19T07:15:00Z",
@@ -277,7 +285,9 @@
       ],
       "speakers": [
         "Tom Phethean"
-      ]
+      ],
+      "full_description": "Over the last 5 years, Capgemini and Royal Mail Group - the UK’s designated Universal Postal Service Provider - have been working together to deliver an eBusiness platform for business and consumer online service.\n\nA high scale, high complexity platform, delivering nearly 100 business and consumer applications and combining numerous cloud, on-premise and legacy systems the solution includes one of the biggest Drupal implementations in the world.\n\nThis case study will describe the journey the platform has been on over the 5 years, take a high level look at the architecture and approaches to continuously evolve and innovate the solution whilst maintaining continuity of service. We’ll also describe some of the ways of working used to manage a large, multi-supplier project, a team of nearly 200 people distributed between the UK and India, and some of the plans for the future.",
+      "summary": "Over the last 5 years, Capgemini and Royal Mail Group - the UK’s designated Universal Postal Service Provider - have been working together to deliver an eBusiness platform for business and consumer online service..."
     },
     {
       "startTime": "2016-02-19T07:15:00Z",
@@ -291,7 +301,9 @@
       ],
       "speakers": [
         "Muktesh Kandpal"
-      ]
+      ],
+      "full_description": "Marketing & open source are natural allies. At the most fundamental level, both of them have a phenomenal, common underpinning – people.\n\nToday’s marketers very well understand the strategies and tactics they need to employ to succeed with the disruptive digital consumerism; unfortunately most digital experience platforms try to prescribe the above via their proprietary interfaces.\n\nThis is where Drupal provides the power and flexibility to the digital marketers of this day and age to create the tailored martech stack needed by your organization/customer.\n\nThis talk is about ideas on how Drupal (and only Drupal) presents a blue ocean opportunity for SIs, Agencies and Martech stakeholders to create your own marketing technology platform/product atop Drupal.",
+      "summary": "Marketing & open source are natural allies..."
     },
     {
       "startTime": "2016-02-19T07:15:00Z",
@@ -305,7 +317,9 @@
       ],
       "speakers": [
         "Kim Pepper"
-      ]
+      ],
+      "full_description": "Life was simple in Drupal 7. You had modules and you had hooks.\n\nDrupal 8 still has modules and hooks, but introduces a few new extension points: plugins, events, services including  tagged services. As they say, with great power comes great responsibility. How do you know which approach to take when building your custom module?\n\nIn this session, I give an introduction to the various new ways you can extend Drupal including plugins, events, tagged services, and explain what problem they solve, and how to pick the right tool for the job.",
+      "summary": "Life was simple in Drupal 7..."
     },
     {
       "startTime": "2016-02-19T07:15:00Z",
@@ -343,7 +357,9 @@
       ],
       "speakers": [
         "Gábor Hojtsy"
-      ]
+      ],
+      "full_description": "Over 1300 people participated in the issues around improving multilingual features and APIs in Drupal 8. More than 1600 issues have been worked on in this initiative as of this submission, making Drupal 8 a truly outstanding release for everybody looking to create even single language non-English sites but especially those making multilingual sites.\n\nThis session aims to show you around all the great improvements and give tips as to how to best utilise the new solutions.\n\nThe ideal attendee at this session has some experience in Drupal 6 or 7 multilingual site building, however those who have no experience in foreign/multilingual site building will also get a lot out of it.\n\nIt is still not late to get involved in this project! http://www.drupal8multilingual.org/ is our initiative home and we have meetings every week to discuss and move current efforts forward. Check out our contribution page at http://www.drupal8multilingual.org/issues/focus and talk to me at the conference!\n\nCheck out the slides at http://www.slideshare.net/gabor.hojtsy/everything-multilingual-in-drupal-8",
+      "summary": "Over 1300 people participated in the issues around improving multilingual features and APIs in Drupal 8..."
     },
     {
       "startTime": "2016-02-19T09:15:00Z",
@@ -389,7 +405,9 @@
         "Hussain Abbas",
         "Jordan Ryan",
         "Bassam Ismail"
-      ]
+      ],
+      "full_description": "After over a decade of building a wide variety of applications to support their newspaper obituaries, editorial content, and search platforms, Legacy.com was looking to innovate on its front-end user experience. To achieve this goal, Legacy built a rock solid engineering team to take on the Node and React application which would eventually manage the presentation of Legacy’s full stack. Our focus was simple: support the portions of the site that needed content management, and do so in a way that would allow expansion of RESTful content services as new sections rolled out.\n\nAt a high level, the Legacy.com system is based on Drupal 7 CMS, React, Apache SOLR Search, and is hosted on Acquia Cloud. The frontend development was led by the in-house team at Legacy.com and Axelerant provided the necessary Drupal CMS implementation.\n\nAlthough this is a decoupled system, it allows the Panels module use which enables administrators to modify the layout using Drupal’s backend. This layout is exposed via a RESTful service through the now contributed module, RESTful Panels, which was built for this project. This is a step in the right direction towards Progressive Decoupling, as discussed in the recent DrupalCon keynote by Dries Buytaert, project lead of Drupal.\n\nIn this presentation, Axelerant’s Ankur Gupta, Lakshmi Narasimhan, Hussain Abbas, Bassam Ismail  and Facet Interactive’s Jordan Ryan , will provide insights into the architectural decisions and best practices which helped address specific CMS, API, and migration requirements.\n\nArchitectural choices around specific concern areas around decoupled systems\n\n- caching\n- metatags\n- content preview\n- shortcode mapping\n- redirects, etc.\n\nMoreover, learn how Axelerant, Facet, and Legacy were able to work as a “Global and Continuous Delivery” team and achieve a record 4 month delivery timeline—which included site building, migration from MSSQL -> Drupal 7, api development, and performance testing.",
+      "summary": "After over a decade of building a wide variety of applications to support their newspaper obituaries, editorial content, and search platforms, Legacy.com was looking to innovate on its front-end user experience..."
     },
     {
       "startTime": "2016-02-19T09:15:00Z",
@@ -429,7 +447,9 @@
       ],
       "speakers": [
         "Larry Garfield"
-      ]
+      ],
+      "full_description": "Throughout history, advancement has come from reducing the amount of work that needs to be done by humans and letting technology do it for us.  Long before computers, humans were letting our technology work for us in order to make ourselves better.\n\nSo too with programming.  We have the ability in PHP, as in many languages, to make the language syntax itself find bugs for us. It's called \"types\", and is a far too under-utilized part of the language. Even many seasoned developers don't realize the benefits that come from having strict, explicit types in their code rather than relying on haphazard \"duck typing\".\n\nThis talk will make the case that your best way to improve your productivity as a developer is to make your language itself do your work for you.  With PHP 7's improved typing support that is now even easier than ever.\n\nSlides of this talk are available here: https://www.palantir.net/presentations/dcmumbai2016-code-job/",
+      "summary": "Throughout history, advancement has come from reducing the amount of work that needs to be done by humans and letting technology do it for us..."
     },
     {
       "startTime": "2016-02-19T10:30:00Z",
@@ -458,7 +478,9 @@
       ],
       "speakers": [
         "Augustin Delaporte"
-      ]
+      ],
+      "full_description": "Months before the release of Drupal 8, the Swiss online news industry was undergoing a revolution in its digital publishing operations. Thanks to a meticulously curated Drupal 8 distribution called NP8, online papers such as LeTemps.ch and Suedostschweiz.ch were enjoying better workflows, a 2.5x increase in performance, and higher Google search rankings.\n\n- Where did this magical Drupal 8 distribution come from?\n- How do Drupal 8 features, such as cache tags, play a role in the massive performance increase?\n- Who should consider using NP8 today?\n\n\"With 4.2 million page views per month, Le Temps is probably the largest website on Drupal 8\" - Dries Buytaert\n\nLearn about the NP8 Drupal distribution, the largest Drupal 8 sites on Earth, and the infrastructure that hosts and supports them in this case study session.",
+      "summary": "Months before the release of Drupal 8, the Swiss online news industry was undergoing a revolution in its digital publishing operations..."
     },
     {
       "startTime": "2016-02-19T10:30:00Z",
@@ -472,7 +494,9 @@
       ],
       "speakers": [
         "Andrew Kucharski"
-      ]
+      ],
+      "full_description": "Have you been given a 2 paragraph document listing the \"scope of services\" for a potential project and asked to provide a detailed estimate?  The client would like an estimate in 48 hours and there are no more details to help you deliver that required fixed bid contract.  At the same time, many teams have also been given (or created) a detailed PRD or backlog document and still had a project budget balloon out of control.\n\nIn this session I would like to discuss the not only the problems associated with estimation and how to avoid them, but more importantly how we can plan for them, turning our estimation process into not only an art, but a science. Well cover how to sell your estimate internally, and arm you with the methodologies to support your numbers.\n\nThe problem with software estimation\n- The metrics\n- The reality - an estimation metaphor\n\nAvoiding Risk\n- Project entry point of sale\n  - At what point of the project lifecycle is your first sale?\n- Risk association with point of sale\n- Products in the front, estimations in the back\n\nThe Elusive Discovery phase\n- How to estimate a discovery\n- How to sell a discovery\n- How to include discovery in a full fixed bid RFP\n\nPlanning for Risk\n- Estimation types\n  - Gut - An art form \n  - Comparables - An art/science \n  - Factors/formula - A science \n- Contingency \n- Rating systems\n- Formulas\n- Granularity",
+      "summary": "Have you been given a 2 paragraph document listing the \"scope of services\" for a potential project and asked to provide a detailed estimate..."
     },
     {
       "startTime": "2016-02-19T10:30:00Z",
@@ -487,7 +511,9 @@
       "speakers": [
         "Swastik Pareek",
         "Saket Kuma"
-      ]
+      ],
+      "full_description": "Every front end developer relies on chrome dev tools, yet few exploit it fully for debugging and optimising front end performance. This session aims to go beyond inspect element and network tab to provide tips/tricks/pointers on advance front end debugging and optimisation. We will employ devtools on real world front end issues and applications to show its power and talk about concepts that would help a front end developer deconstruct a front end problem and to use it effectively. Below is a brief outline of the talk:\n\nChrome dev tools Introduction\n- Popular features\n- Less known features\n\nExploring Chrome Dev Tools for debugging\n- Hands-on Debugging\n- Various settings and tools available\n\nPerformance audits using RAIL Model\n- Js Profiling\n- Input Latencies\n\nBrowser Rendering painting and Compositing\nResponse Latency of web apps\nMobile Performance Audits\nAnalysis and Optimisation suggestions for a live application\nOther Chrome Extensions for developer productivity",
+      "summary": "Every front end developer relies on chrome dev tools, yet few exploit it fully for debugging and optimising front end performance..."
     },
     {
       "startTime": "2016-02-19T11:30:00Z",
@@ -514,7 +540,9 @@
       "speakers": [
         "Abhishek Anand",
         "Naveen Valecha"
-      ]
+      ],
+      "full_description": "This session will cover the JS frameworks that in included in Drupal 8. Both Backbone.js, and Underscore.js are a part of Drupal 8.\n\nKey items of the session will be:\n\n- A quick look at both Backbone.js and Underscore.js\n- How they're used in core\n- How they can be used in extending Drupal 8\n- Data binding and custom events\n- Enumerable functions\n- Connects with API over a RESTful JSON interface\n\nWho should attend this:\n\n- Developers\n- Drupal Frontend Developer\n- Site Builders\n\nPrerequisites:\n\n- Familiarity with Drupal 8 development\n- Familiarity with JavaScript",
+      "summary": "This session will cover the JS frameworks that in included in Drupal 8..."
     },
     {
       "startTime": "2016-02-19T12:00:00Z",
@@ -543,7 +571,9 @@
       "speakers": [
         "Mohit Aghera",
         "Ankit Agrawal"
-      ]
+      ],
+      "full_description": "As PHP goes through it’s renaissance, there has been a lot of emphasis on best practices.There are numerous ways to structure the code and project for your web application. You can put as much (or as little) effort as you’d like into architecting.\n\nA pattern is a solution to a problem in a context..\n\nThe Design patterns is just fancy way of saying that something isn’t complex.\n\nDesign patterns don’t only present useful ways for developing robust software faster, but they also provide a way of encapsulating large ideas in friendly terms. Design patterns encompass many things—from interface design to architecture, even marketing to metrics. In this session we’ll be focusing on Object oriented programming related to development.\n\nIn this session, we’ll discuss:\n\n- Design patterns and their relation to implementation\n- Pros and cons of each design pattern\n- How they can be used in real world problems\n- We will be covering design patterns like\n  - Adapter Pattern\n  - Builder Pattern\n  - Decorator Pattern\n  - Factory Pattern\n  - Data Access Object Pattern\n  - others...\n\nThis session will also contain explanations on how to choose design patterns during project planning. We’ll also be covering which patterns suit which use cases (i.e for Flexible Object Programming we can use: “the Composite Pattern”, “the Decorator Pattern”, “The Facade Pattern,” etc.).\n\nAudience Experience Level:\n\nIt’s expected that the audience should be familiar with basic OOPS concepts and terminology.\n\nSlides :  https://docs.google.com/presentation/d/1_glSeJBAosjc_4zPp6EN75z-n_k_po3VqrKqDRQbjHU",
+      "summary": "As PHP goes through it’s renaissance, there has been a lot of emphasis on best practices.There are numerous ways to structure the code and project for your web application..."
     },
     {
       "startTime": "2016-02-19T12:00:00Z",
@@ -572,7 +602,9 @@
       "speakers": [
         "Shashank Merothiya",
         "Ravindra Singh"
-      ]
+      ],
+      "full_description": "When we are going to start a Drupal 8 project, we need to plan before we can actually start development. Will be talking about a case study around a project that we recently completed. We were asked to move a media publishing website from Drupal 6 to Drupal 8.\n\nEasy peasy you think.. eh?? Well we thought so too until we actually got down to do the same! Here we will we be providing you a low down on what all transpired and how gave a good product to our client.\n\nIn this talk we intend to cover the following aspects\n\n- Convincing clients to be the guinea pigs. Well they called themselves so!\n- How to go about analysing the project (and yet not get into paralysis)\n- Taking care of migration\n- Setting up development and deployment practices\n- Better Content Entry and workflow . Let's admit D6 wasnt \"Author-Friendly\"!\n- Requirements from QA perspective (we knew migrated content could turn out to be the biggest pain)\n- Drupal 8 wasnt released when we started the project. Which meant dealing with the uncertainty.\n\nThis case study can be useful for anyone who would like to take up a project in D8 or has already (or unknowingly) gotten into an agreement of a D8 project. This might just save the day!",
+      "summary": "When we are going to start a Drupal 8 project, we need to plan before we can actually start development..."
     },
     {
       "startTime": "2016-02-20T02:30:00Z",
@@ -636,7 +668,9 @@
       ],
       "speakers": [
         "Neetu Morwani"
-      ]
+      ],
+      "full_description": "Best pactise with Configuration Managemnet Interface and Features  with  Version control System.\n\n- How to ship the particular configuration between different environment and Instances?\n- How to use the CMI with VCS?\n- How changed the Feauture module in Drupal 8?\n- How to use Feature module with VCS?\n- Why we need to use Features in Drupal 8 , when there is a good CMI ?\n\nAll of these questions will be answered with demo.\n\nAudience: Drupal Devs, Students\n\nSpeaker: https://www.drupal.org/u/rakesh.gectcr",
+      "summary": "Best pactise with Configuration Managemnet Interface and Features with Version control System..."
     },
     {
       "startTime": "2016-02-20T06:00:00Z",
@@ -664,7 +698,9 @@
       ],
       "speakers": [
         "Suchi Garg"
-      ]
+      ],
+      "full_description": "For the past 1 year, we have been trying to figure out the best ways to hire the \"Best\" of Drupal resources. But the Drupal community in India is pretty limited and unless we start \"poaching\" - well the process is really painful. In addition, the educational institutions have really not been able to provide the Drupal community in India with a steady stream of \"ready\" candidates.\n\nAs a possible solution, in this session, we will talk about Hiring strategy which involves picking up the right interns, training them and finally hiring them when they are ready.",
+      "summary": "For the past 1 year, we have been trying to figure out the best ways to hire the \"Best\" of Drupal resources..."
     },
     {
       "startTime": "2016-02-20T06:00:00Z",
@@ -804,7 +840,9 @@
       ],
       "speakers": [
         "Preston So"
-      ]
+      ],
+      "full_description": "Of all the projects to emerge from the JavaScript renaissance, React, a library for rendering data in view components, has seen an explosion in popularity due to its compelling state system, colocation of view templates with view logic, and lack of assumptions about the stack. Created by Facebook to power its web applications, React is an intriguing candidate for use as a lightweight front end paired with decoupled Drupal. The Virtual DOM-based state system and JSX templating language are two of the most influential recent innovations in client-side frameworks.\n\nThough React's most overt power lies in fully decoupled single-page applications, its component-based rendering system also opens the door for other approaches such as progressively decoupled Drupal, in which Drupal renders and serves pages before handing React control over CMS-rendered page components. Moreover, React’s surrounding ecosystem is increasingly extensive, particularly relevant as a GraphQL server for Drupal 8 begins to take shape.\n\nWhat makes React so interesting for front-end developers as a solution for decoupled Drupal architectures? This session explores why React may be well-positioned for decoupled Drupal from a conceptual and architectural angle before examining integration techniques from a practical standpoint. Here are just a few of the concepts we’ll delve into:\n\n- Origins, motivations, and comparisons\n- React is a library, not an MVC framework\n- React architecture and components\n- State and the Virtual DOM\n- Rendering and JSX\n- Drawbacks of React\n- Why React for decoupled Drupal?\n- Fully decoupled Drupal with React\n- React and REST in Drupal\n- Working with Drupal data in React\n- Progressively decoupled Drupal with React\n- React and GraphQL in the Drupal ecosystem\n- Epilogue: React within Drupal?\n\nThis session is geared toward front-end developers and engineers who are interested in decoupled architectures with Drupal and up-and-coming JavaScript frameworks. No prior knowledge of React is assumed, but strong familiarity with JavaScript will be necessary.",
+      "summary": "Of all the projects to emerge from the JavaScript renaissance, React, a library for rendering data in view components, has seen an explosion in popularity due to its compelling state system, colocation of view templates with view logic, and lack of assumptions about the stack..."
     },
     {
       "startTime": "2016-02-20T09:15:00Z",
@@ -819,7 +857,9 @@
       "speakers": [
         "Ashish Thakur",
         "Marijit Singh"
-      ]
+      ],
+      "full_description": "The success of any opensource technology depends on how active the community is and the reason why Drupal is so successful is because of the community. Community is not just the users but organizations(product or service companies) using Drupal as a technology stack make an integral part of the community. Technical capability of any organisation can be easily figured out by their contributions towards Opensource technology they use. This session would focus on key insights on how to build a sustainable contributions culture within your organization.\n\nKey Insights\n- Ways to get involved: How can an organization get involved in contributions?\n- Why get involved: Benefits an organization and it's employees get by getting involved in the community\n- Pros and cons of full time drupal core contributor\n- Building a sustainable contribution culture in your organization: We would take the use case of my current organization(Srijan Technologies) and discuss how we enabled around 60% of our Drupal Team to contribute to Drupal 8 core and highlight key challenges faced during the process and the reasons we believe we have built a sustainable contribution culture in our organization. It would be a candid talk where I would highlight why we refrained from employing a full time drupal developer.\n- The session would also cover how we onboarded new folks into contributions. The new folks were not just devs but QA guys as well and the excitement felt by the QA guys when they saw their names in commit messages.\n\nAudience\n\nThis session is open for all. Users would learn ways to contribute and probably we can have a healthy discussion on contributions and see if we could come to a better conclusion and figure out more sustainable contribution culture.\n\nUpdate\nThe following tweet by Dries would make this more exciting :)\n\nhttps://twitter.com/Dries/status/646582727307870208\n\nPresentation Slides\nhttp://slides.com/ashish-thakur/drupalcon-asia#/",
+      "summary": "The success of any opensource technology depends on how active the community is and the reason why Drupal is so successful is because of the community..."
     },
     {
       "startTime": "2016-02-20T09:15:00Z",
@@ -847,7 +887,9 @@
       ],
       "speakers": [
         "Jacob Singh"
-      ]
+      ],
+      "full_description": "Our mission is to enable developers to create great authoring experiences and empower editorial teams. Using the Lightning distribution we have been able to significantly cut build times on projects in D7 we are now on target to release a beta for D8 in December. Lightning targets four functional areas:\n- Layout\n- Workflow\n- Media\n- Preview\n\nWe also implement three development princibles:\n- Security audited modules\n- SAAS product integrations\n- Out of the box automated testing\n\nIn this session we will break apart Lightning into its components and demonstrate how to leverage its features in any Drupal build to create a rich editorial experience.\n\nWhat you will learn:\n\n- How to significantly cut build time on advanced Drupal 8 projects using Lightning\n- How Lightning improves the accuracy of your development estimates\n- How you can contribute to the Lightning project\n- Our 3 year vision for Lightning",
+      "summary": "Our mission is to enable developers to create great authoring experiences and empower editorial teams..."
     },
     {
       "startTime": "2016-02-20T10:15:00Z",
@@ -888,7 +930,9 @@
       ],
       "speakers": [
         "Rakhi Mandhania"
-      ]
+      ],
+      "full_description": "Outsource! Really difficult to do it, eh?\n\nWhile skimming through a project's code, I found out via the commit messages that it was built by 8 different agencies. We were the 9th! I was not wondering on why it came so late to us, but on - How exhausted the project owners must be ? They outsourced the project, expecting it to be built in “x” months and of a shippable quality. However, what they got was “x + y” months of bill payments to various agencies and still no shot at a quality product! Outsourcing is crucial to a project’ success. If not done correctly, it can incur heavy losses.\n\nFirstly, don’t leave it till the end. Like submitting a session proposal in the very end - not a good idea especially when you wish to leave a global footprint with your work.\n\n- Identify what you need ? - Going to look for someone who can help you without knowing what your problem is - A big NO!\n- Identify when you need it - We often come up with unrealistic plans and associate them with timelines that we feel would work. There can be different scenarios here : our timeline is unachievable with the crisp quality needed or our timeline is based on funding and there isn’t anything we can do to push the dates.\n- Start the scavenger hunt - Look for consultants and not puppets! You should always look for like minded people teams - who aren’t just trying to make money but care about your requirements as it’s also going to impact their reputation. Look within the Open Source community - if you find Consultants who are kickass in contributions - you are headed in the Right direction.\n- Make smart choices, based on your needs - How to choose someone based on one meeting ?? This is not a practical choice in any phase of life. So, pitch in the idea of working together for a week and do brainstorming sessions together. If you are compatible to produce awesome ideas - go ahead without a doub. If not, you just figured out what you are not looking for.\n- Be prepared to listen - If you have made the right choice, you should also carefully absorb what the technical consultants have to share. You may just find out - “Oh! I never thought this was a possibility” or “Why was i stressing on this feature ? This isn’t a value addition.”\n- Also, Sometimes Don’t take NO for an answer - There may be something very critical to your investors, but the development team suggests it can be omitted as it’s not as per market standards. If you are sure about the gravity of the feature - Insist on getting it thought about from implementation perspective.\n- Don’t just talk about the process, but also about the culture - It is very important to learn and be comfortable with the processes followed in your Consultant’s firm. But it won’t hurt a bit to know about their culture. It might give you an insight of the kind of team you are going to work with. A lot of us must have had our share of working with highly talented, but frustrated teams. Would we like to repeat that ? Probably not!\n- Observe! In the brief period of your engagement, observe professionalism, approach to problems, precision in understanding your requirements, capability to listen, absorb and then suggest.\n\nYou will end up working with a really good team, and together create an awesome product! We will talk more about how to be good at outsourcing with some examples.",
+      "summary": "Outsource..."
     },
     {
       "startTime": "2016-02-20T10:30:00Z",
@@ -917,7 +961,9 @@
       "speakers": [
         "Abhishek Anand",
         "Naveen Valecha"
-      ]
+      ],
+      "full_description": "Performance is necessary for every website from a large scale to a small scale. We will share our experience with performance optimization work that we have done on Drupal 8.\n\nCaching is the recognition and exploitation of the fact that most \"dynamic\" data does not change every time you request it.\n\nKey items of the session will be:\n\n- Optimization Strategies\n- Why performance is important\n- Thumb Rules of performance in general\n- Why performance is important for Drupal\n- Drupal 8 Performance Enhancements\n- Cache Invalidation\n- Cache Tags\n- Cache Contexts\n- Server Side Dynamic Substitution\n- Client Side Dynamic Substitution\n- How Drupal 8 is more robust for handling authenticated users on small sites for shared hostings\n- SSI support in Drupal\n- Working with Varnish and NGINX\n- Working with memcache/ redis\n\nWho should attend this:\n- Drupal Developers\n- Support Engineers\n- Drupal enthusiasts and professionals\n\nPrerequisites:\n- Familiarity with Drupal development, preferably D8\n- Basic Understanding of all tiers of LAMP stack",
+      "summary": "Performance is necessary for every website from a large scale to a small scale..."
     },
     {
       "startTime": "2016-02-20T10:30:00Z",
@@ -932,7 +978,9 @@
       "speakers": [
         "Tim Milwood",
         "Dick Olsson"
-      ]
+      ],
+      "full_description": "Deploy was started by Greg Dunlap some 7 years ago for Drupal 5. Dick Olsson started committing to in 5 years ago. Since September 2015 Tim Millwood has been working on the Drupal 8 release.\n\nFor Drupal 8 Deploy has moved to more of a UI module as there is a lot more behind the scenes to make it work, much like Drupal 8 itself. The Multiversion and Relaxed modules of which Dick and Tim are both maintainers work as the foundations to Deploy.\n\nIn this session we will discuss the functionality exposed by the Multiversion and Relaxed modules, and what they do independently from Deploy. Then how to setup the Deploy module and how to Deploy content.\n\nThis session is a follow up to sessions in Barcelona and Los Angeles which talked about the Multiversion and Relaxed modules.\n- https://events.drupal.org/barcelona2015/sessions/planning-crap-and-revisions-core\n- https://events.drupal.org/losangeles2015/sessions/we-need-revisions-and-crap-everywhere-core\n\nSlides available at http://www.slideshare.net/timmillwood/using-deploy-in-drupal-8-58601953",
+      "summary": "Deploy was started by Greg Dunlap some 7 years ago for Drupal 5..."
     },
     {
       "startTime": "2016-02-20T11:30:00Z",
@@ -962,7 +1010,9 @@
         "Jeffrey 'Jam' McGuire",
         "Mike Lamb",
         "Hussain Abbas"
-      ]
+      ],
+      "full_description": "India has been the world’s 2nd largest software producing country since a decade. Yet it has frequently being touted as a cheap, low quality, code producing outsourcing hub for the world.\n\nIn a previous talk titled “Consumptions to Contributions - Lessons from India” I presented at Drupalcamp London 2015 and Bangalore 2015, I have tried to break this generalisation and explain how this has changed over the years, in particularly within the Drupal ecosystem. From a code consuming culture towards becoming the 2nd highest contributor country to Drupal 8 core ( refer Paul Johnson’s blog post “Which countries have contributed most to Drupal 8?” ).\n\nIt's not for no reasons that IT giants like Wipro, Sapient, TCS, CapGemini, Cognizant, Accenture, Mindtree have built significant Drupal teams (50+) in India while companies like Intel, Time Inc and Verizon have their own Indian Drupal delivery teams.\n\nFrom being the 2nd most visited country to Drupal.org ( per Drupal Assocation’s drupal.org analytic reports ) to 2000+ attendees & 300+ code sprinters participating every year in Drupal camps and meetups in Delhi, Mumbai, Pune, Bangalore, Hyderbad, Ahmedabad & Jaipur.\n\nThe panel will be comprised of Indian & International community leaders and will take this subject forward, as an attempt towards evaluating the current maturity levels of Indian Community from a global perspective, discussing various challenges being faced and learn from individual experiences of the panelists in how they overcame similar challenges within their communities.\n\nSome of the points that the panel discussion would touch upon :\n\n- Contribution culture & community involvement levels / scores at Indian organisations along with their maturity levels.\n- Challenges faced by companies in advocating / promoting contribution culture within their organisations like.\n  - balancing contribution hours vs billing dollars.\n  - developing sustainable talent pipeline, preventing poaching & controlling churns.\n  - hiring and committing dedicated contributors to Drupal project along with their cost to benefit analysis.\n  - establishing organisational credits from code & non code contributions and subsequent branding for business growth and as thought leaders.\n  - convincing clients in approving/ sponsoring code contribution if there’s value to be shared with the community as open source.\n- Perspectives and experiences from International leaders as to how they addressed these similar challenges as learnings and takeaways and the path ahead.\n\nMore such burning questions and challenges as above will be open sourced from the Indian Businesses and community and raised during this invigorating panel discussion.\n\nPanelists\n- Holly Ross\n- Mike Lamb\n- Jeffrey A. \"jam\" McGuire\n- Hussain Abba",
+      "summary": "India has been the world’s 2nd largest software producing country since a decade..."
     },
     {
       "startTime": "2016-02-20T12:00:00Z",
@@ -1020,7 +1070,9 @@
       ],
       "speakers": [
         "Obaid Malik"
-      ]
+      ],
+      "full_description": "Have you ever felt that when you first launched your site and you had a look at the statistics, you were pleasantly surprised. However, with time, after years of investment on content and optimizations, the growth in the statistics were not as expected (as per the rate you had experienced earlier), especially after so much of investment in content and SEO etc? Well! You're not the only one!\n\nAs the content on our sites grow and user experience and interaction increases during the shelf-life of the website, the content-strategy that was drawn up during the inception of the site is no longer efficient. Just as with performace and infrastructure, it is now time to scale up the content-strategy as well.\nIt wont' suffice to base the content-strategy around parameters bound to the site alone; recommendation engines based on your site maps and traffic now need to be ramped up, user experience maps based on your site-statistics alone are no longer effective, profiling based on extended site user-profiles are no longer efficient, analysis done on a population chosen from the site-users alone are no longer enough to be as dynamic as the competition requires.\n\nYes, it is time to move beyond that, beyond the boundaries of your site now.\n\nData Science and Analytics have a come a long way, and now that you have enough content on your site, it is high-time to harness the power of that. Imagine a site where content behaves according to the patterns of your user's real life experiences and perceptions, a content-strategy that emphatizes with your uses's sentiments, and further, the behavior of their real-life connections. A site so dynamic that it taps into their preferences and mind-set, a content-strategy that takes into context the universe that your user is a part of, and engages with, day-in and day-out, 24X7, and how that web universe is affecting your user and vice-versa.\n\nNow imagine a site where the content behaviour takes all of this into account, for each user, on every hit, re-thinking if the user has evolved since the last visit to the site.\n\nThis session will touch upon some thoughts along this, plans of implementation along with some examples/strategy along the line, touching lightly upon the technological road-map to the possible realization of these.",
+      "summary": "Have you ever felt that when you first launched your site and you had a look at the statistics, you were pleasantly surprised..."
     },
     {
       "startTime": "2016-02-21T02:30:00Z",
