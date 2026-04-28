@@ -509,7 +509,8 @@
         "Case study , Distributions , Drupal 8 , Governance , Hosting"
       ],
       "speakers": [
-        "Adam Leayr / Nathan Wall"
+        "Adam Leayr",
+        "Nathan Wall"
       ],
       "full_description": "govCMS is taking a community-driven approach to evaluating and implementing the next major version, based on Drupal 8. Hear about the approach we’re taking, and how anyone can get involved in developing the future.",
       "summary": "govCMS is taking a community-driven approach to evaluating and implementing the next major version, based on Drupal 8..."
@@ -526,6 +527,9 @@
       ],
       "speakers": [
         "Ivan Zugec"
+      ],
+      "speakers_usernames": [
+        "zugec"
       ],
       "full_description": "In Drupal 7 and below, managing media isn't one of its strengths. You do have a few modules which attempt the solve the problem. Some can be difficult to configure and others are not that feature rich or just support one type of media, i.e., images. Most Drupal sites do end up with some sort of media management but it's often buggy and difficult to use, b ut things in Drupal 8 are very different. Managing media in Drupal 8 has got a lot better thanks to the work from the Drupal Media team. In this session I'll cover the following: What's changed in the media ecosystem Where media management is heading Show how to store media assets using the \"Media entity\" module Demonstrate how to embed assets using the \"Entity embed\" module And finally, show how to use \"Entity browser\" module By the end you'll have a good understanding of which modules are required to handle media in Drupal 8.",
       "summary": "In Drupal 7 and below, managing media isn't one of its strengths..."

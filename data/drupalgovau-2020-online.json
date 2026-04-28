@@ -140,7 +140,8 @@
       ],
       "speakers": [
         "Alanna Burke"
-      ]
+      ],
+      "speaker_usernames": ["aburke626"]
     },
     {
       "startTime": "2020-11-04T23:30:00Z",
@@ -155,7 +156,8 @@
       "speakers": [
         "Andre Kakos",
         "Queenie Robertson"
-      ]
+      ],
+      "speaker_usernames": ["andrekakos"]
     },
     {
       "startTime": "2020-11-04T23:30:00Z",
@@ -603,7 +605,8 @@
       ],
       "speakers": [
         "Arjen Lentz"
-      ]
+      ],
+      "speaker_usernames": ["arjen"]
     },
     {
       "startTime": "2020-11-05T03:40:00Z",

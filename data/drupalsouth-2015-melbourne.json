@@ -10,7 +10,9 @@
     "timezone": "Australia/Melbourne",
     "startDate": "2015-03-04T21:00:00Z",
     "endDate": "2015-03-07T06:00:00Z",
-    "sourceCache": "cache/wayback/drupalsouth-2015/raw"
+    "sourceCache": "cache/wayback/drupalsouth-2015/raw",
+    "videoPlaylist": "https://www.youtube.com/playlist?list=PL31TzQhFjH2IcfNJT6ur9EVVw1ayWcdy-",
+    "videoPlaylistCache": "cache/remote/youtube/drupalsouth-2015/playlist.xml"
   },
   "items": [
     {
@@ -41,7 +43,8 @@
       "speakers": [
         "Angela Byron"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=sEOvYaBFj64"
     },
     {
       "startTime": "2015-03-04T23:15:00Z",
@@ -105,7 +108,8 @@
       "speakers": [
         "Tim Siers"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=QwO22HYa__E"
     },
     {
       "startTime": "2015-03-04T23:45:00Z",
@@ -137,7 +141,11 @@
       "speakers": [
         "Anoop John"
       ],
-      "description": ""
+      "speaker_usernames": [
+        "anoopjohn"
+      ],
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=BclWR33vcrk"
     },
     {
       "startTime": "2015-03-05T00:45:00Z",
@@ -253,7 +261,9 @@
       "speakers": [
         "Murray"
       ],
-      "speaker_usernames": ["murrayw"],
+      "speaker_usernames": [
+        "murrayw"
+      ],
       "description": ""
     },
     {
@@ -271,7 +281,8 @@
       "speakers": [
         "nick_schuch"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=aRuCzW23QRc"
     },
     {
       "startTime": "2015-03-05T03:30:00Z",
@@ -289,7 +300,8 @@
       "speakers": [
         "meeli"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=BR9FXPcFAfg"
     },
     {
       "startTime": "2015-03-05T03:30:00Z",
@@ -304,7 +316,8 @@
       "speakers": [
         "typhonius"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=oMD0q0kPnqM"
     },
     {
       "startTime": "2015-03-05T03:30:00Z",
@@ -386,7 +399,8 @@
       "speakers": [
         "davidseth"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=5pv2aL5lsbw"
     },
     {
       "startTime": "2015-03-05T04:45:00Z",
@@ -452,7 +466,8 @@
       "speakers": [
         "Gavin Jackson"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=SmT8X5iEX5Q"
     },
     {
       "startTime": "2015-03-05T05:45:00Z",
@@ -528,7 +543,8 @@
       "speakers": [
         "Harriet Wakelam"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=dvie58zXUuQ"
     },
     {
       "startTime": "2015-03-05T23:15:00Z",
@@ -744,7 +760,8 @@
       "speakers": [
         "Josh Taylor"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=xCWqKd80MVk"
     },
     {
       "startTime": "2015-03-06T02:30:00Z",
@@ -777,7 +794,10 @@
         "Ivan Zugec",
         "Murray"
       ],
-      "speaker_usernames": ["murrayw"],
+      "speaker_usernames": [
+        "zugec",
+        "murrayw"
+      ],
       "description": ""
     },
     {
@@ -794,7 +814,8 @@
       "speakers": [
         "angusg"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=ENXEk8nx3s0"
     },
     {
       "startTime": "2015-03-06T03:30:00Z",
@@ -875,7 +896,8 @@
       "speakers": [
         "Nick Santamaria"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=12idsSDDMDU"
     },
     {
       "startTime": "2015-03-06T04:45:00Z",
@@ -891,7 +913,8 @@
       "speakers": [
         "chloe"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=5Awjd5OIz_k"
     },
     {
       "startTime": "2015-03-06T04:45:00Z",
@@ -960,7 +983,8 @@
         "Josh Martin",
         "Michelle Stevens"
       ],
-      "description": ""
+      "description": "",
+      "video_url": "https://www.youtube.com/watch?v=J8rzCmnqrPo"
     },
     {
       "startTime": "2015-03-06T06:30:00Z",

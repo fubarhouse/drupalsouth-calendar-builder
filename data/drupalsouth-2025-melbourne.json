@@ -696,6 +696,7 @@
       "speakers": [
         "Akhil Bhandari"
       ],
+      "speaker_usernames": ["akhil-bhandari"],
       "full_description": "In the fast-evolving digital landscape, building and maintaining a cohesive design system for government platforms can feel daunting. Enter Starshot’s Experience Builder, a powerful tool integrated with CivicTheme to propel your design system to new heights within Drupal environments.\n\nThis talk explores how Starshot’s Experience Builder enhances CivicTheme’s capabilities, enabling non-technical and technical teams alike to create seamless, reusable components and UI patterns that scale effortlessly. Join us as we delve into practical use cases, from ideation through implementation, showing how Australian government agencies can accelerate their digital transformation with an efficient, open-source and highly adaptable design system built on Drupal.\n\nWalk away with insights on streamlining workflows, reducing development overhead and future-proofing your organisation’s digital assets—all while ensuring a consistent user experience across platforms.",
       "summary": "In the fast-evolving digital landscape, building and maintaining a cohesive design system for government platforms can feel daunting....",
       "video_url": "https://youtu.be/vhxv5uwWxO4"
@@ -952,6 +953,7 @@
       "speakers": [
         "Akhil Bhandari"
       ],
+      "speaker_usernames": ["akhil-bhandari"],
       "full_description": "Rev up your engines and put your knowledge to the test in Salsa Digital’s Drupal F1 Trivia!. Whether you’re a Drupal pro, an F1 fanatic, or just in it for the fun, this interactive session will keep you on your toes. Expect a mix of Drupal facts, F1 trivia, and crossover questions that blend the best of both worlds. Hands up for the right answers, win chocolate, and if you’ve got the best answer to our open-ended challenges, you’ll take home an F1 LEGO prize! No need to be an expert—just bring your best guesses and fastest reflexes. See you on the starting grid!",
       "summary": "Rev up your engines and put your knowledge to the test in Salsa Digital’s Drupal F1 Trivia!....",
       "video_url": ""

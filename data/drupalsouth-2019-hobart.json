@@ -21,7 +21,9 @@
       "imageAlt": "DrupalSouth logo",
       "buttonLabel": "View Flickr Photos",
       "mode": "archive"
-    }
+    },
+    "videoPlaylist": "https://www.youtube.com/playlist?list=PL31TzQhFjH2LV3MAnr4AIOctKIpl7PqaU",
+    "videoPlaylistCache": "cache/remote/youtube/drupalsouth-2019/playlist.xml"
   },
   "items": [
     {
@@ -161,7 +163,9 @@
       "speakers": [
         "Margery Tongway"
       ],
-      "speaker_usernames": ["p_stampy"],
+      "speaker_usernames": [
+        "p_stampy"
+      ],
       "full_description": "A case study looking back over 2 years of blood, sweat and beers to consolidate 14 government websites into 1, and migrate 2 more at the Department of Industry, Innovation and Science.\n\nOn time, on budget, using GovCMS SaaS",
       "summary": "A case study looking back over 2 years of blood, sweat and beers to consolidate 14 government websites into 1, and migrate 2 more at the Department of Industry, Innovation and Science....",
       "video_url": ""
@@ -263,10 +267,12 @@
       "speakers": [
         "Si Hobbs"
       ],
-      "speaker_usernames": ["sime"],
+      "speaker_usernames": [
+        "sime"
+      ],
       "full_description": "Drupal is truly the greatest CMS and with great power comes great responsibility. This presentation looks at a range of content modeling techniques in Drupal, new techniques and old faithfuls. It is suitable for non-technical users who want to start site building, but can be overwhelmed by the flexibility and jargon. Topics will include:\n\n* tips for naming fields (machine names)\n\n* techniques to plan your content model\n\n* how content modeling can interacts with layout and styling\n\n* balance between structure and traditional HTML\n\n* an overview of general tips and further reading",
       "summary": "Drupal is truly the greatest CMS and with great power comes great responsibility....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=580nU9Wgr1g"
     },
     {
       "startTime": "2019-11-27T23:15:00Z",
@@ -321,7 +327,7 @@
       ],
       "full_description": "Kubernetes has taken the world by storm and brought forth a new paradigm for application development.\n\nWhat everyone leaves out is how many new APIs and concepts you will need to learn to deploy an application. In this talk we will be demystifying all the APIs required to deploy Drupal.\n\nCome for the buzzwords, stay for the demo, let's deploy Drupal onto Kubernetes!",
       "summary": "Kubernetes has taken the world by storm and brought forth a new paradigm for application development....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=BSDr7-QwSFU"
     },
     {
       "startTime": "2019-11-27T23:15:00Z",
@@ -373,7 +379,7 @@
       ],
       "full_description": "This talk will take the audience through the WCAG v2.0 guidelines, how the (newish) WCAG v2.1 guidelines add some implementation considerations for the modern web, and what Accessibility features are offered through some common Drupal themes based on common frontend frameworks (Bootstrap and Foundation) and important modules (like Webform and Layout Builder). This talk will inform the audience about Accessibility guidelines, embedding an \"accessible mindset\" into project development, as well as offering practical considerations for your next Drupal project.",
       "summary": "This talk will take the audience through the WCAG v2.0 guidelines, how the (newish) WCAG v2.1 guidelines add some implementation considerations for the modern web, and what Accessibility features are offered through some...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=38bjHphuBCo"
     },
     {
       "startTime": "2019-11-28T00:15:00Z",
@@ -459,7 +465,7 @@
       ],
       "full_description": "Michelle Mannering (MishManners), Developer Community Manager at GitHub.\n\nMish is a highly motivated, curious and compassionate leader with a keen interest in driving entrepreneurial culture and pioneering Melbourne’s esports industry. She's founded several tech companies and, as a result, sits at the forefront of this city’s science, tech, esports and startup scenes.\n\nEveryday we see Mish creating awesome experiences and engaging with the vibrant GitHub developer community. She's run many hackathons - over 70, and is an accomplished MC, speaker, and facilitator. You'll often catch Mish at an event or speaking on stage!\n\nIn her 'spare' time she's a streamer, journalist, and always working on something exciting. Right now, her latest epic venture is Raine Scooters. The team has designed and created an electric scooter to put the fun in your daily commute ⚡🛴\n\nMichelle will be talking about DevOps and Collaboration: How Devs and non-Devs can work better together.",
       "summary": "Michelle Mannering (MishManners), Developer Community Manager at GitHub....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=XbwdhgBiCGQ"
     },
     {
       "startTime": "2019-11-28T02:45:00Z",
@@ -595,7 +601,7 @@
       ],
       "full_description": "Drupal vulnerabilities come and go, swiftly being patched and neutralised on up-to-date sites. But what about the undisclosed vulnerabilities, or the patches that lead researches to other weaknesses?\n\nSimply patching your site isn't enough, we need to look at how our hosting environments are built and configured to provide defense-in-depth protection against automated attacks and targeted efforts by very bad people.\n\nThis talk for system admins and backend developers will explore some common and not-so-common approaches for building secure web servers and containers running Drupal, to help keep your awesome Drupal site safe.",
       "summary": "Drupal vulnerabilities come and go, swiftly being patched and neutralised on up-to-date sites....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=RSDZXUk7_k8"
     },
     {
       "startTime": "2019-11-28T04:00:00Z",
@@ -609,6 +615,9 @@
       ],
       "speakers": [
         "Akhil Bhandari"
+      ],
+      "speaker_usernames": [
+        "akhil-bhandari"
       ],
       "full_description": "You’re ready to go, you have a team to deliver your website and you know how and what to do, but does everyone else? Ensuring everyone on the project team knows what part they’ll be playing and most importantly the processes they need to follow is key to a smooth(er) project delivery.\n\nThis session presented by Salsa Digital’s Akhil Bhandari will reflect the insights of process mapping key project activities, challenges faced, and key light-bulb moments discovered by the Department of Finance Migration Project team tasked to migrate 25 Australian Government websites on to GovCMS in six months.\n\nFind out how process mapping can help ensure everyone is on the same journey.",
       "summary": "You’re ready to go, you have a team to deliver your website and you know how and what to do, but does everyone else?...",
@@ -626,6 +635,9 @@
       ],
       "speakers": [
         "Ivan Zugec"
+      ],
+      "speakers_usernames": [
+        "zugec"
       ],
       "full_description": "Link to video: https://www.youtube.com/watch?v=K2qTR1FNkgM\n\nLink to slides: https://www.slideshare.net/zugec/learn-and-contribute-to-open-source-by-writing-blog-posts/\n\nIn this session, we'll discuss the benefits of having a blog and why you should produce content (text or video).\n\nWe'll discuss the following:\n\n- Why you should write content\n\n- The benefits of maintaining a blog\n\n- How to publish content (discuss platforms)\n\n- How to re-purpose content\n\nI'll also talk about my experience in running a web dev/Drupal blog called WebWash (webwash.net). Over the years, I've written over 160 tutorials and produced 100 videos.\n\nBy the end of the session, I hope to get you excited about setting up a blog and writing content which will help others.",
       "summary": "Link to video: https://www.youtube.com/watch?v=K2qTR1FNkgM Link to slides: https://www.slideshare.net/zugec/learn-and-contribute-to-open-source-by-writing-blog-posts/ In this session, we'll discuss the benefits of having...",
@@ -680,7 +692,7 @@
       ],
       "full_description": "Layout Builder provides a new \"core approved\" way for managing layouts. If you've wondered what it is, or are already using it and looking for tips and pointers this session should help you. We'll cover best practice, gotchas, UX issues and improvements, performance issues, and more.\n\nSlides: https://fenstrat.github.io/layout-builder-ds-hobart/",
       "summary": "Layout Builder provides a new \"core approved\" way for managing layouts....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=BnH4d2zFvX0"
     },
     {
       "startTime": "2019-11-28T04:45:00Z",
@@ -710,7 +722,9 @@
       "speakers": [
         "Murray Woodman"
       ],
-      "speaker_usernames": ["murrayw"],
+      "speaker_usernames": [
+        "murrayw"
+      ],
       "full_description": "Watch video\n\nDrupal provides a solid foundation for managing content. That is a solved problem. The next phase in content management is around personalising the user experience and ensuring that the experience is consistent across platforms. This presentation will provide a practical demonstration of how user behaviour and content data (from federated sites) can be used to personalise the content recommended to users.\n\nThe personalisation of content, customised to the user, is a powerful way to improve the user experience. Personalised content can deliver more relevant information to your users, keeping them engaged. It is especially useful on commerce sites where similar products can be recommended, or on content-driven sites where relevant information can be uncovered. In practical terms, it is able to increase the time users spend on a site and improve the chances of conversion.\n\nRecombee is a leading SaaS-based recommendation engine which is able to combine user behaviour and content properties to provide real-time user and item recommendations. It exposes an API which provides tracking and recommendation functionality which can be accessed from the Drupal frontend. It offers an affordable and simple pathway to web personalisation.\n\nThe developers at Morpht have implemented a SearchAPI backend implementation for Recombee, allowing content to be synced across into the Recombee engine, augmenting the data collected through user interactions. Recommendation quality is improved, especially when relatively little data has been collected on the current user. The presentation will demonstrate the module publicly for the first time.\n\nThis presentation will cover the following areas:\n\n- content modelling techniques for improving personalisation\n\n- tracking user behaviour to drive recommendations\n\n- a decoupled approach for presenting the recommendations,\n\n- the advantages of using an external system such as GTM for orchestrating personalisation.\n\nThe session should be of interest to the following people:\n\n- marketers who wish to find out more about practical personalisation,\n\n- commerce and site owners who want to get more from their site,\n\n- content modellers who are interested in modelling the enterprise,\n\n- backend developers who are interested in SearchAPI plugins,\n\n- front-enders who may be interested in a pragmatic implementation of snippets with handlebars templates.\n\nThe presentation is suitable for beginners and intermediates as it will mostly be conceptual in nature. There should be a practical demo for the audience to participate in as well.\n\nAuthor details\n\nhttps://www.linkedin.com/in/murraywoodman/\n\nhttps://www.drupal.org/u/murrayw\n\nhttps://twitter.com/murrayw\n\nhttps://www.morpht.com/about/murray-woodman",
       "summary": "Watch video Drupal provides a solid foundation for managing content....",
       "video_url": "https://www.youtube.com/watch?v=A6WXQuFbWY8"
@@ -843,7 +857,7 @@
       ],
       "full_description": "GovCMS has evolved in the last year, with the migration to amazee.io's Lagoon platform. With this, a wide range of opportunities to develop additional tooling and take advantage of new technology has also emerged. Whilst Drupal is the CMS that GovCMS is based on, the platform that supports it is comprised of a large amount of open source technology (with the occasional proprietary tool thrown in).\n\nIn this talk, Toby will talk through some of the tools, platforms and processes developed for use with GovCMS, and will provide some insight from the front-line on how they could also be used in your own Drupal infrastructure. Covering all stages of the development process, he'll cover CI tools (CircleCI, GitLab), the incorporation of Testing (tugboat.qa, CircleCI ), Logging (EFLK stack) and Monitoring (Grafana), Automation (Ansible and AWX), Containers and security (Docker, quay.io), a range of other tools (both familiar and unfamiliar) and some of the other goodies developed over the last year or so.\n\nThe last year in GovCMS has been a journey, and a great example in iterative development, building new tools and developing processes to address the ever-evolving needs of a growing platform and meeting the expectations of a user base building a new set of skills.",
       "summary": "GovCMS has evolved in the last year, with the migration to amazee.io's Lagoon platform....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=O_44JVcMmM4"
     },
     {
       "startTime": "2019-11-28T22:00:00Z",
@@ -860,7 +874,7 @@
       ],
       "full_description": "Today, in the digitally-driven world, connecting their systems is a must for any organization.\n\nAs these could be different systems, websites and many more, having a single authentication mechanism across all is highly beneficial.\n\nWhat is SSO?\n\nSingle Sign-On (SSO) is a user authentication service that permits a user to use one set of login credentials (e.g., name and password) to access multiple systems.\n\nWhat will be discussed?\n\n- Advantages of having a single authenticated system to an organization\n\n- How to set up SSO for multiple systems using Simple SAML\n\n- SSO in a production environment and the use of Open Source Identity Provider for authenticating\n\n- Generic discussion on few Open Source SSO libraries/platforms along with a demonstration (configure with WSO2 Identity Server)",
       "summary": "Today, in the digitally-driven world, connecting their systems is a must for any organization....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=wp9PK4wlQ3E"
     },
     {
       "startTime": "2019-11-28T22:00:00Z",
@@ -877,7 +891,7 @@
       ],
       "full_description": "Session outline:\n\nWhat if you don't need to decouple, to have some fun?\n\nWhat if you could make your CSS and JS over 90% more lean, with just a slice of opinion?\n\nWhat if the theming layer, is actually in your way?\n\nWhat if someone is going to tell you about a cutting-edge native Drupal frontend alternative?\n\nWould you come?\n\nThis talk is around the potential of splitting up the theming layer of Drupal",
       "summary": "Session outline: What if you don't need to decouple, to have some fun?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=XMkIjhxt0Jg"
     },
     {
       "startTime": "2019-11-28T22:25:00Z",
@@ -892,7 +906,9 @@
       "speakers": [
         "Sean Hamlin"
       ],
-      "speaker_usernames": ["wiifm"],
+      "speaker_usernames": [
+        "wiifm"
+      ],
       "full_description": "This session is all about the steps that any new launch or high traffic event should go through in order to have the best chance of success. Topics covered:\n\nLoad testing\n\nEnsuring (auto) scaling is configured\n\nCache tuning and minimising origin requests\n\nLetting your hosting provider know\n\nWhat success looks like",
       "summary": "This session is all about the steps that any new launch or high traffic event should go through in order to have the best chance of success....",
       "video_url": ""
@@ -1064,7 +1080,7 @@
       ],
       "full_description": "Workflow in Drupal 8 is part of core - so far, so good. However, after hours of head shaking and box ticking, the user experience for content editors using the core modules out-of-the-box is anything but easy to understand or use. We can and we need to do better. Developers might build Drupal sites, but the editorial teams have to use them day to day over many years.\n\nThis talk is about our approach to content workflow, moderation and audits in Drupal 8 - it is about throwing out-of-the-box out of the window to find the answers you (really) need, the tools that can support you, and the resilience to survive.",
       "summary": "Workflow in Drupal 8 is part of core - so far, so good....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=gbnCyE4VtlM"
     },
     {
       "startTime": "2019-11-29T00:15:00Z",
@@ -1079,10 +1095,12 @@
       "speakers": [
         "Alex Skrypnyk"
       ],
-      "speaker_usernames": ["alex.skrypnyk"],
+      "speaker_usernames": [
+        "alex.skrypnyk"
+      ],
       "full_description": "When working on Drupal projects, the typical workflow to deliver a new feature may look like this:\n\nStart local dev environment -> Make changes -> Add unit tests -> Add Behat tests -> Lint code -> Push to remote -> Wait for CI to finish -> Open PR -> Deploy to Preview environment -> Merge PR -> Deploy to Production\n\nSetting up such workflow requires significant DevOps and Drupal knowledge and time.\n\nDrevOps is a free open-source Drupal project template with development-testing-deployment workflow provided out of the box. It has all necessary configurations (tested) to support such workflow and covers the following areas:\n\n- Composer-based Drupal (8, 7)\n\n- Local development environment (Docker, Ahoy)\n\n- Code linting (PHP, JS, SASS)\n\n- Testing (PHPUnit, Behat, Simpletest)\n\n- Automated builds (CircleCI)\n\n- Deployment (Acquia, Amazee Lagoon)\n\n- Documentation\n\n- Integrations (Diffy, dependencies.io)\n\nDuring this session I will demonstrate how DrevOps helps digital agencies and individual developers to use enterprise-level DevOps systems with Drupal projects.\n\nThis session may be interested to Digital Agencies that want to significantly decrease project setup and maintenance costs, while increasing quality and client satisfaction.",
       "summary": "When working on Drupal projects, the typical workflow to deliver a new feature may look like this: Start local dev environment -> Make changes -> Add unit tests -> Add Behat tests -> Lint code -> Push to remote -> Wait f...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=zOsjoWzMvmc"
     },
     {
       "startTime": "2019-11-29T01:00:00Z",
@@ -1163,7 +1181,7 @@
       ],
       "full_description": "Service NSW was created to provide a unified approach to customer service. It gives people and businesses easy access to government services online, over the phone or in-person at service centres. With 118 million visits since 2013, the Service NSW website is the most visited government digital touchpoint in NSW and one of the largest Drupal sites in Australia.\n\nIn June 2019, Service NSW launched a new and improved website that features a new design, improved content and functionality, as well as an upgraded content management system (CMS).\n\nIn this session, we'll discuss how we delivered a better and more innovative digital experience through:\n\nUX research and user-centred design processes that meets the needs of our customers,\n\nagile ways of working that allow us to respond quickly to usability improvements,\n\nfrontend and CMS functionality that enhances the user and publishing experience,\n\nan upgraded platform that increases reliability and performance, and\n\nour contributions back to the Drupal community.",
       "summary": "Service NSW was created to provide a unified approach to customer service....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=TaIU2gzbp8U"
     },
     {
       "startTime": "2019-11-29T03:00:00Z",
@@ -1180,7 +1198,7 @@
       ],
       "full_description": "What happens when you want to display products from an external source on your website, and when marketing teams need to augment those products with extra information?\n\nOne option here is to migrate the products you are selling into your Drupal 8 website. Drupal Commerce is one of the most popular ways to build e-commerce websites and to use a CMS as ‘the glass’.\n\nWith the rise of demand on online shopping, we can easily and automatically migrate products, variations, and attributes into Drupal from, amongst other sources, a CSV/XML file or JSON API. This approach cuts down time, increases accuracy, and allows marketers to provide additional content.\n\nThis talk will take us through a real-world example of integrating the Drupal migrate framework with Commerce and teach you how to pull accurate product information and attributes, while also ensuring it doesn’t become stale.",
       "summary": "What happens when you want to display products from an external source on your website, and when marketing teams need to augment those products with extra information?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=FV8W6JW0wrI"
     },
     {
       "startTime": "2019-11-29T03:00:00Z",
@@ -1229,7 +1247,9 @@
       "speakers": [
         "Karl Hepworth"
       ],
-      "speaker_usernames": ["fubarhouse"],
+      "speaker_usernames": [
+        "fubarhouse"
+      ],
       "full_description": "GovCMS has evolved into a popular choice for government agencies choosing to take advantage of Drupal and modern technologies. Have a look at how GovCMS handles auditing and monitoring of Drupal applications on the Lagoon platform, and where it's heading with the increased security classification around the corner.",
       "summary": "GovCMS has evolved into a popular choice for government agencies choosing to take advantage of Drupal and modern technologies....",
       "video_url": ""
@@ -1264,7 +1284,7 @@
       ],
       "full_description": "Security, Drupal 9, and Navigating the Changing Web Landscape\n\nThis Keynote explores how Drupal 8 core has made its way \"off the island\" by leveraging industry standards like semantic versioning, package management, third-party libraries, and other external tools, and how these changes will affect Drupal 9 and 10. This shift brings a lot of benefits, but has also impacted how we manage release schedules, backwards compatibility, and security.\n\nWorking in Acquia's Drupal Acceleration Team, xjm is one of two Drupal core release managers and among Drupal 8's top patch contributors. She is also a member of the Drupal Security Team and has helped coordinate most core security releases since Drupal 8's release in 2015.\n\nPreviously, xjm founded the core contribution mentoring program in 2011, and worked as a member of the Views in Core initiative team in 2012.",
       "summary": "Security, Drupal 9, and Navigating the Changing Web Landscape This Keynote explores how Drupal 8 core has made its way \"off the island\" by leveraging industry standards like semantic versioning, package management, third...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=yxVJggeMAPs"
     },
     {
       "startTime": "2019-11-29T05:15:00Z",

@@ -905,6 +905,9 @@
       "speakers": [
         "Ivan Zugec"
       ],
+      "speakers_usernames": [
+        "zugec"
+      ],
       "full_description": "Webform is a native form builder for Drupal. It offers a powerful user interface for building forms and managing their fields.\n\nWebform can create a contact us form, all the way to a complex multi-page form with conditional field logic.\n\nIn this session, you'll learn the following:\n\n- Introduction to Webform\n\n- Contact a form\n\n- Manage fields on the form\n\n- Add conditional logic to fields\n\n- Add confirmation step\n\n- Manage submissions\n\n- Embed forms into pages\n\nBy the end, you'll have the necessary skills to build custom forms directly within Drupal.",
       "summary": "Webform is a native form builder for Drupal....",
       "video_url": "https://youtu.be/dJ6WswsaAWI"

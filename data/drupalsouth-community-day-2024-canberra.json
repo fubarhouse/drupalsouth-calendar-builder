@@ -163,6 +163,7 @@
       "speakers": [
         "Andre Kakos"
       ],
+      "speaker_usernames": ["andrekakos"],
       "full_description": "Content development\nAndre Kakos\nGovernment site content managers struggle with the decision about what format they should publish their content. Their concern is that content should be published in an open and accessible form.\nSo do they convert all legacy PDF content into HTML?\nCan they still publish new content in PDF?\nWhat are some the considerations for publishing content either way?\nStandard Drupal\nStar",
       "summary": "Content development Andre Kakos Government site content managers struggle with the decision about what format they should publish their content...."
     },

@@ -10,7 +10,9 @@
     "scheduleURL": "https://drupalsouth.org/drupalsouth-21-schedule-11-November",
     "venue": "Online",
     "timezone": "Australia/Sydney",
-    "columns": 5
+    "columns": 5,
+    "videoPlaylist": "https://www.youtube.com/playlist?list=PL31TzQhFjH2KGV13c03XfB9zQKqTwqfju",
+    "videoPlaylistCache": "cache/remote/youtube/drupalsouth-2021/playlist.xml"
   },
   "items": [
     {
@@ -49,7 +51,8 @@
       ],
       "speakers": [
         "Lee Rowlands"
-      ]
+      ],
+      "video_url": "https://www.youtube.com/watch?v=Q8-I-fhVTUg"
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -78,7 +81,8 @@
       "speakers": [
         "Kristen Pol",
         "Stuart Rowlands"
-      ]
+      ],
+      "video_url": "https://www.youtube.com/watch?v=eexVhQilurE"
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -93,7 +97,8 @@
       "speakers": [
         "Marco Guidetti",
         "Gareth Poole"
-      ]
+      ],
+      "video_url": "https://www.youtube.com/watch?v=n-qCiQqm5i8"
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -108,7 +113,9 @@
       "speakers": [
         "Sean Hamlin"
       ],
-      "speaker_usernames": ["wiifm"]
+      "speaker_usernames": [
+        "wiifm"
+      ]
     },
     {
       "startTime": "2021-11-11T01:00:00Z",
@@ -126,7 +133,9 @@
         "Steve Coochin",
         "Chris Burgess"
       ],
-      "speaker_usernames": ["xurizaemon"]
+      "speaker_usernames": [
+        "xurizaemon"
+      ]
     },
     {
       "startTime": "2021-11-11T01:45:00Z",
@@ -169,7 +178,9 @@
         "Simon Hobbs",
         "Nathan ter Bogt"
       ],
-      "speaker_usernames": ["sime"]
+      "speaker_usernames": [
+        "sime"
+      ]
     },
     {
       "startTime": "2021-11-11T02:15:00Z",
@@ -237,7 +248,8 @@
       ],
       "speakers": [
         "Steven Hayes"
-      ]
+      ],
+      "video_url": "https://www.youtube.com/watch?v=72h3SHiYtdY"
     },
     {
       "startTime": "2021-11-11T04:25:00Z",

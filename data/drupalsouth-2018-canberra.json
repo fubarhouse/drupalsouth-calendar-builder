@@ -20,7 +20,9 @@
       "imageAlt": "DrupalSouth logo",
       "buttonLabel": "View Flickr Photos",
       "mode": "archive"
-    }
+    },
+    "videoPlaylist": "https://www.youtube.com/playlist?list=PL31TzQhFjH2KpUcvs-88kkR2R2HoW32pQ",
+    "videoPlaylistCache": "cache/remote/youtube/drupalsouth-2018/playlist.xml"
   },
   "items": [
     {
@@ -38,7 +40,7 @@
       ],
       "full_description": "CLAW is a digital repository based on Drupal 8 and Fedora Commons 4. It is increasingly used by libraries, museums, and universities to showcase digital collections and research outputs. Learn about using linked data, W3C standards, and micro-services, for your content collections.",
       "summary": "CLAW is a digital repository based on Drupal 8 and Fedora Commons 4....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=vGWisDmo4Ec"
     },
     {
       "startTime": "2018-12-02T22:00:00Z",
@@ -53,9 +55,12 @@
       "speakers": [
         "Ivan Zugec"
       ],
+      "speakers_usernames": [
+        "zugec"
+      ],
       "full_description": "This session will focus on how to add media management functionality into a Drupal 8 site.\n\nUsing the following modules:\n\n- Entity browser\n\n- Entity Embed\n\n- DropzoneJS\n\n- Inline Entity Form\n\nUnfortunately, setting all this up isn't as simple as one thinks.",
       "summary": "This session will focus on how to add media management functionality into a Drupal 8 site....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=AccTCn5b5_U"
     },
     {
       "startTime": "2018-12-02T22:00:00Z",
@@ -121,9 +126,12 @@
       "speakers": [
         "Akhil Bhandari"
       ],
+      "speaker_usernames": [
+        "akhil-bhandari"
+      ],
       "full_description": "Public consultation is essential to getting government services and policy development right. But creating an effective, efficient, easy to use and manage platform seem like a mythical unicorn for citizen consultation platforms. Here's how far we come in trying to catch our Having Your Say unicorn.",
       "summary": "Public consultation is essential to getting government services and policy development right....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=5XZD6_y0O1g"
     },
     {
       "startTime": "2018-12-02T23:00:00Z",
@@ -140,7 +148,7 @@
       ],
       "full_description": "How many times have you ever heard? \"Choose the right tool for the job\" or \"When all you have is a hammer, everything looks like a nail.\"\n\nLet me show how to transition from Traditional CMS to Headless CMS and even better to Static Site, always using Drupal as Data repository.",
       "summary": "How many times have you ever heard?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=HGqPoBLTUu4"
     },
     {
       "startTime": "2018-12-02T23:00:00Z",
@@ -224,7 +232,7 @@
       ],
       "full_description": "Come and witness the grand unveiling of Tokaido, the world's fastest local Drupal dev environment manager. It's cross platform, light-weight, and painfully fast. Tokaido will slash your caffeine consumption by giving you less time to drink coffee, and more time to code. Sorry about that (not really)",
       "summary": "Come and witness the grand unveiling of Tokaido, the world's fastest local Drupal dev environment manager....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=WbuKE0AbJik"
     },
     {
       "startTime": "2018-12-03T00:15:00Z",
@@ -240,10 +248,12 @@
         "Si Hobbs",
         "Dan Laush"
       ],
-      "speaker_usernames": ["sime"],
+      "speaker_usernames": [
+        "sime"
+      ],
       "full_description": "For WorkSafe Victoria, a decoupled Drupal architecture allowed our project to be driven by Service Design. Our component library captures user interactions, branding and accessibility, while editors focus on content via Drupal. The result is rapid prototyping and design innovation.",
       "summary": "For WorkSafe Victoria, a decoupled Drupal architecture allowed our project to be driven by Service Design....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=MQC0M1JO9q0"
     },
     {
       "startTime": "2018-12-03T00:15:00Z",
@@ -260,7 +270,7 @@
       ],
       "full_description": "An introduction to different methods of migrating, using drush. A comparison of using migrate_manifest, migrate_run and migrate_tools to run and develop migrations.\n\nExamples of each workflow will be show using the same Drupal 6 source site and performing the same tasks and individual migrations.",
       "summary": "An introduction to different methods of migrating, using drush....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=zg22xQSLd2U"
     },
     {
       "startTime": "2018-12-03T00:15:00Z",
@@ -294,7 +304,7 @@
       ],
       "full_description": "",
       "summary": "",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=qZ4Y5l2dNrw"
     },
     {
       "startTime": "2018-12-03T00:40:00Z",
@@ -308,6 +318,9 @@
       ],
       "speakers": [
         "Fonda Le"
+      ],
+      "speaker_usernames": [
+        "fonda"
       ],
       "full_description": "You hear it all the time - companies asking you for feedback, a rating, a review... but what should they be doing with this feedback? There’s a lot we can learn from companies who have successfully used feedback to their advantage to help increase customer satisfaction, retention and loyalty.",
       "summary": "You hear it all the time - companies asking you for feedback, a rating, a review...",
@@ -343,7 +356,7 @@
       ],
       "full_description": "How to deliver agile projects in a less than perfect agile environment of fixed budgets and fixed expectations? While \"agile\" and \"SCRUM\" are the buzz words of our time, actually delivering \"agile\" often proves challenging in the \"real world\". These are my key lessons learned.",
       "summary": "How to deliver agile projects in a less than perfect agile environment of fixed budgets and fixed expectations?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=RbJ9uD9Sqyk"
     },
     {
       "startTime": "2018-12-03T01:15:00Z",
@@ -376,10 +389,12 @@
         "Murray Woodman",
         "Toby Bellwood"
       ],
-      "speaker_usernames": ["murrayw"],
+      "speaker_usernames": [
+        "murrayw"
+      ],
       "full_description": "The newly released GovCMS8 distribution ships with a brand-new base theme, designed to deliver a great-looking, functional site - straight out of the box, with no theming or coding required. Suitable for government agencies, platform evaluators as well as site builders and themers.",
       "summary": "The newly released GovCMS8 distribution ships with a brand-new base theme, designed to deliver a great-looking, functional site - straight out of the box, with no theming or coding required....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=499RZ5aNx9s"
     },
     {
       "startTime": "2018-12-03T01:15:00Z",
@@ -413,7 +428,7 @@
       ],
       "full_description": "We know how flexible Drupal is as a tool. However, one of the biggest challenges we face when it comes to building online applications is the collaboration between teams. With real-life examples and solutions, let's find out how we make it as effective and collaborative from day to day.",
       "summary": "We know how flexible Drupal is as a tool....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=I0GTlqndElk"
     },
     {
       "startTime": "2018-12-03T02:00:00Z",
@@ -445,7 +460,7 @@
       ],
       "full_description": "Rebuilding simplytest.me with Kubernetes in 231 lines of code! An introduction to Kubernetes.",
       "summary": "Rebuilding simplytest.me with Kubernetes in 231 lines of code!...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=RFvvyQUH8HE"
     },
     {
       "startTime": "2018-12-03T03:00:00Z",
@@ -462,7 +477,7 @@
       ],
       "full_description": "Drupal 8 is built on PHP, but using new architecture paradigms that can be difficult to grasp for developers coming from a Drupal 7 background. This talk will aim to give an overview of Drupal 8 Services, Plugins, Vendor libraries, and other concepts new to Drupal 8.",
       "summary": "Drupal 8 is built on PHP, but using new architecture paradigms that can be difficult to grasp for developers coming from a Drupal 7 background....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=TUwiQXhknq0"
     },
     {
       "startTime": "2018-12-03T03:00:00Z",
@@ -516,7 +531,7 @@
       ],
       "full_description": "In this talk I will go through an approach to expose search engine functionality to decoupled frontend apps via Drupal. We will be talking about Search API, GraphQL and the new GraphQL Search API module to perform complex queries on an search engine while still leveraging the power of Drupal.",
       "summary": "In this talk I will go through an approach to expose search engine functionality to decoupled frontend apps via Drupal....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=cHPtQ3MCp8A"
     },
     {
       "startTime": "2018-12-03T04:00:00Z",
@@ -548,7 +563,7 @@
       "speakers": [
         "Adam Bramley"
       ],
-      "speaker_usernames" : [
+      "speaker_usernames": [
         "acbramley"
       ],
       "full_description": "A common problem that I’ve faced, is how to deliver the complex, component driven design that clients want while also giving content authors full flexibility with those components without creating an un-maintainable, or brittle product.\n\nIn this talk, we'll go over how to achieve just that!",
@@ -619,7 +634,7 @@
       ],
       "full_description": "When faced with the challenges of tech and audience fragmentation, the costs of duplicated effort and inconsistent user experiences across government, what did the Victorian Department of Premier and Cabinet do? It developed Single Digital Presence as a flexible, open solution with collaboration and community built-in from the beginning.\n\nJithma Beneragama is an executive with more than 15 years’ experience in digital product management, delivery and marketing. Working within start-ups, large corporates to now government, he has international exposure driving businesses to innovate and has delivered compelling customer experience across multiple platforms. He has led teams to deliver a number of industry firsts and award winning products in categories such as innovation, customer experience and design.\n\nJithma joined the Victorian Public Service in March 2014 to focus on improving the Victorian Government’s digital experience; to make it easier for citizens, business and the community to interact with Government via digital channels.\n\nIn this session, Jithma will talk about why DPC chose Drupal 8, their philosophy around the product and how they hope development communities will contribute to delivering better outcomes for citizens.\n\nThis session is sponsored by ICEMEDIA",
       "summary": "When faced with the challenges of tech and audience fragmentation, the costs of duplicated effort and inconsistent user experiences across government, what did the Victorian Department of Premier and Cabinet do?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=HlO8mGMiKW4"
     },
     {
       "startTime": "2018-12-03T06:00:00Z",
@@ -696,7 +711,9 @@
       "speakers": [
         "Sean Hamlin"
       ],
-      "speaker_usernames": ["wiifm"],
+      "speaker_usernames": [
+        "wiifm"
+      ],
       "full_description": "With the number of exploits and poorly configured Drupal sites in the wild, having a WAF will allow you to weather the storm of script kiddies and bots, and free up resources on your origin. This session will go through best practice WAF tuning, and how you can adapt this to your site.",
       "summary": "With the number of exploits and poorly configured Drupal sites in the wild, having a WAF will allow you to weather the storm of script kiddies and bots, and free up resources on your origin....",
       "video_url": ""
@@ -989,6 +1006,9 @@
       "speakers": [
         "Akhil Bhandari"
       ],
+      "speaker_usernames": [
+        "akhil-bhandari"
+      ],
       "full_description": "Given a plethora of social media platforms rise & fall daily, how do we better serve our Minister’s social content?\n\nWith an ‘easier said than done’ idea to add live social content to our Minister’s site we rebuilt it in GovCMS and integrated it with a 3rd party platform & added a clever theme layer.",
       "summary": "Given a plethora of social media platforms rise & fall daily, how do we better serve our Minister’s social content?...",
       "video_url": ""
@@ -1111,7 +1131,9 @@
         "Alex Skrypnyk",
         "Stuart Rowlands"
       ],
-      "speaker_usernames": ["alex.skrypnyk"],
+      "speaker_usernames": [
+        "alex.skrypnyk"
+      ],
       "full_description": "Moving GovCMS SaaS and PaaS sites between Acquia and Lagoon shouldn’t be that hard, right? In this talk, we’ll discuss how we created system utilising AWX-based runners, building an automated workflow that can be continuously used and reused to easily migrate sites of different level of complexity.",
       "summary": "Moving GovCMS SaaS and PaaS sites between Acquia and Lagoon shouldn’t be that hard, right?...",
       "video_url": ""

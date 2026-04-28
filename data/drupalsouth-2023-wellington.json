@@ -165,6 +165,9 @@
       "speakers": [
         "Ivan Zugec"
       ],
+      "speakers_usernames": [
+        "zugec"
+      ],
       "full_description": "One of Drupal’s best features is the entity and field system. The ability to create content types and attach custom fields makes Drupal a flexible CMS.\n\nIn this session, you’ll learn about the field and entity system. We’ll also perform a live demo and show you how to create a content type and attach fields to it.\n\nYou’ll learn the following:\n\n- How to create a content type\n\n- Attach fields\n\n- Discuss all the different fields\n\n- Reuse fields\n\n- Understanding the “number of values”\n\n- And we’ll look at some modules that offer useful field types\n\nBy the end you’ll have a better understanding of how fields in Drupal work and have practical examples on how to use them in your next project.",
       "summary": "One of Drupal’s best features is the entity and field system....",
       "video_url": "https://youtu.be/IT31WOEdj4c"
@@ -337,6 +340,7 @@
       "speakers": [
         "Fonda Duffy"
       ],
+      "speaker_usernames": ["fonda"],
       "full_description": "If you don’t know how that joke ends, I may be able to help if you come along to hear me talk about icebreakers. Something so simple can play a significant role in building and maintaining team connection. Whether you're working with a new team or an established one, in person or remotely, icebreakers can help alleviate any initial awkwardness. Of course, there are some dos and don'ts to consider, but having a better understanding of icebreakers and how to use them effectively is an essential tool for any facilitator.",
       "summary": "If you don’t know how that joke ends, I may be able to help if you come along to hear me talk about icebreakers....",
       "video_url": "https://youtu.be/is0ltTDDdkg"
@@ -556,6 +560,7 @@
       "speakers": [
         "Alanna C Burke"
       ],
+      "speaker_usernames": ["aburke626"],
       "full_description": "Picture this: you’ve found a new project on GitHub. It does exactly what you’re looking for, and it’s open-source. Amazing! So you roll up your sleeves and get to it. But then, you run into an error. You Google it. You find similar queries, but never the answer. You pour over the code. You search for anything documenting this project, but keep coming up empty. This project would be perfect, but no one ever documented it.\n\nFar too often, the information we need is never found. It stays locked in the minds of the engineers who wrote the code. But what good is code that no one knows how to use? Documentation is every bit as important as making sure the project works.\n\nThat buy-in can be hard. Stakeholders don’t want to pay for the time. Project managers don’t prioritize the work. Engineers don’t want to do it.\n\nThe only way to solve this problem is to create a culture around documentation. In this session, we’ll talk about how to elevate the status of the humble documentation to its rightful place alongside your code. We’ll cover how to integrate the documentation process into your existing processes so that your engineers are on board, and how to show stakeholders and others who push back that documentation is not only worthwhile, but essential to the success of your project.",
       "summary": "Picture this: you’ve found a new project on GitHub....",
       "video_url": "https://youtu.be/8SRf6n-xaw8"
@@ -763,6 +768,7 @@
       "speakers": [
         "Akhil Bhandari"
       ],
+      "speaker_usernames": ["akhil-bhandari"],
       "full_description": "You have the perfect final design, ready to be built. You’ve spent months and an eye-watering budget creating, researching, validating and testing your visual website designs. The designs look exquisite and next…a simple build in Drupal.\n\nThe first thing your development team does is start asking how the interactions look for this component or how the behaviours work for that design.\n\nSo they do their best Google Translate impression and begin interpreting the designs and inevitably your visual design artwork is a thing of the past and the Drupal build is fantastic, but not quite like the designs and it cost another small fortune to build (say bye-bye Christmas party)...\n\nThe cost, time and pain in translating design to build is often very high. Designs get missed, misinterpreted and take a long time to translate into code. Many bugs arise, which take time to resolve that end up breaking the bank.\n\nCompare that to an experience when designers can arrange key page layouts and assign interactions in Figma design files and web publishers and administrators in Drupal can create and manage the identical pages and flexible layout designs without any coding.\n\nCivicTheme is a true atomic, component-based design system in Figma that is 100% in sync with its Drupal 10 build. This significantly reduces the time it takes to build your website while ensuring a consistent, compliant and visually stunning experience.\n\nLearn more about the Figma-to-Drupal process with CivicTheme and how you can design fast, build fast and deploy fast. This gives a head start to all content, development and research teams, reducing your Drupal design-build-test-deploy project lifecycle.\n\nFinally find out how you can deliver exactly the designs your executives signed off on.",
       "summary": "You have the perfect final design, ready to be built....",
       "video_url": "https://youtu.be/4Y9R1taGM1k"

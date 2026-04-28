@@ -124,34 +124,48 @@ function isUsernameLike(value) {
 }
 
 function parseSpeakerIdentity(value) {
+  const parseBracketed = (inputName, inputUsername = '') => {
+    const candidateName = normalizeText(inputName);
+    const explicitUsername = normalizeText(inputUsername);
+    if (!candidateName && !explicitUsername) return null;
+
+    if (explicitUsername) {
+      return {
+        name: candidateName || explicitUsername,
+        username: explicitUsername
+      };
+    }
+
+    const bracketed = candidateName.match(/^(.+?)\s*\(([^()]{2,})\)\s*$/);
+    if (bracketed) {
+      const namePart = normalizeText(bracketed[1]);
+      const usernamePart = normalizeText(bracketed[2]);
+      if (isUsernameLike(usernamePart)) {
+        return {
+          name: namePart || usernamePart,
+          username: usernamePart
+        };
+      }
+    }
+
+    if (isUsernameLike(candidateName)) {
+      return { name: candidateName, username: candidateName };
+    }
+
+    return { name: candidateName, username: '' };
+  };
+
   if (value && typeof value === 'object' && !Array.isArray(value)) {
     const objectName = normalizeText(value.name);
     const objectUsername = normalizeText(value.username);
     if (objectName || objectUsername) {
-      return {
-        name: objectName || objectUsername,
-        username: objectUsername
-      };
+      return parseBracketed(objectName, objectUsername);
     }
   }
 
   const raw = normalizeText(value);
   if (!raw) return null;
-
-  const bracketed = raw.match(/^(.+?)\s*\(([^()]{2,})\)\s*$/);
-  if (bracketed) {
-    const name = normalizeText(bracketed[1]);
-    const username = normalizeText(bracketed[2]);
-    if (isUsernameLike(username)) {
-      return { name: name || username, username };
-    }
-  }
-
-  if (isUsernameLike(raw)) {
-    return { name: raw, username: raw };
-  }
-
-  return { name: raw, username: '' };
+  return parseBracketed(raw, '');
 }
 
 function isIgnoredSpeakerIdentity(identity) {
@@ -184,8 +198,14 @@ function getItemList(payload) {
 function getSpeakerList(item) {
   if (!Array.isArray(item?.speakers)) return [];
   return item.speakers
-    .map((speaker) => normalizeText(speaker))
-    .filter(Boolean);
+    .flatMap((speaker) => {
+      const text = normalizeText(speaker);
+      if (!text) return [];
+      return text
+        .split(/\s*,\s*|\s+\/\s+/g)
+        .map((part) => normalizeText(part))
+        .filter(Boolean);
+    });
 }
 
 function getSpeakerUsernames(item) {
@@ -214,6 +234,8 @@ function formatTalkCard(talk) {
   const location = escapeHtml(talk.location || '');
   const summaryText = escapeHtml(talk.summaryText || '');
   const speakersText = escapeHtml(talk.speakersText || '');
+  const speakerCount = Array.isArray(talk.speakersList) ? talk.speakersList.length : 0;
+  const speakersIcon = speakerCount > 1 ? 'fa-users' : 'fa-user';
   const trackMarkup = (Array.isArray(talk.trackLabels) ? talk.trackLabels : [])
     .map((track) => `<span class="track-pill track-pill-dc">${escapeHtml(track)}</span>`)
     .join('');
@@ -231,7 +253,7 @@ function formatTalkCard(talk) {
       <div class="flex items-start space-x-3 h-full">
         <div class="flex-1 flex flex-col h-full">
           <h3 class="font-medium text-gray-900 mb-1">${title}</h3>
-          ${speakersText ? `<p class="text-sm text-gray-700 mb-1"><i class="fas fa-user mr-1" aria-hidden="true"></i>${speakersText}</p>` : ''}
+          ${speakersText ? `<p class="text-sm text-gray-700 mb-1"><i class="fas ${speakersIcon} mr-1" aria-hidden="true"></i>${speakersText}</p>` : ''}
           <p class="text-sm text-gray-700 mb-1"><i class="fas fa-calendar-day mr-1"></i>${eventLabel}</p>
           ${dateText ? `<p class="text-xs text-gray-500 mb-1"><i class="far fa-clock mr-1" aria-hidden="true"></i>${dateText}</p>` : ''}
           ${location ? `<p class="text-sm text-gray-500 mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${location}</p>` : ''}
@@ -554,6 +576,8 @@ function openTalkModal(talkId) {
   const fullText = normalizeText(talk.fullDescription || talk.descriptionText || talk.summaryText);
   const descriptionHtml = formatTextBlock(fullText) || '<em>No description available.</em>';
 
+  const speakerCount = Array.isArray(talk.speakersList) ? talk.speakersList.length : 0;
+  const speakersIcon = speakerCount > 1 ? 'fa-users' : 'fa-user';
   body.innerHTML = `
     <h2 id="speakerTalkModalTitle" class="session-modal-title">${escapeHtml(talk.title || 'Session')}</h2>
     <p class="session-modal-meta"><span class="session-modal-meta-label">Event</span><span class="session-modal-meta-value">${escapeHtml(
@@ -561,7 +585,7 @@ function openTalkModal(talkId) {
     )}</span></p>
     ${talk.dateText ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Date</span><span class="session-modal-meta-value"><i class="far fa-clock mr-1"></i>${escapeHtml(talk.dateText)}</span></p>` : ''}
     ${talk.location ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Location</span><span class="session-modal-meta-value">${escapeHtml(talk.location)}</span></p>` : ''}
-    ${talk.speakersText ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Speakers</span><span class="session-modal-meta-value">${escapeHtml(talk.speakersText)}</span></p>` : ''}
+    ${talk.speakersText ? `<p class="session-modal-meta"><span class="session-modal-meta-label">Speakers</span><span class="session-modal-meta-value"><i class="fas ${speakersIcon} mr-1"></i>${escapeHtml(talk.speakersText)}</span></p>` : ''}
     ${
       talk.link || talk.videoUrl
         ? `<div class="session-modal-links">
@@ -663,12 +687,17 @@ function addUserForSpeaker(input) {
 function buildSpeakerIdentities(speakers, usernames) {
   const identities = [];
   const normalizeToken = (value) => normalizeText(value).toLowerCase().replace(/[^a-z0-9]+/g, '');
-  const firstNameToken = (name) => normalizeText(name).split(/\s+/)[0] || '';
+  const nameTokens = (name) =>
+    normalizeText(name)
+      .split(/\s+/)
+      .map((part) => normalizeToken(part))
+      .filter((part) => part.length >= 2);
   const likelyNameMatchesUsername = (name, username) => {
-    const first = normalizeToken(firstNameToken(name));
     const uname = normalizeToken(username);
-    if (!first || !uname) return false;
-    return uname.startsWith(first) || first.startsWith(uname) || uname.includes(first);
+    if (!uname) return false;
+    const tokens = nameTokens(name);
+    if (tokens.length === 0) return false;
+    return tokens.some((token) => uname.startsWith(token) || token.startsWith(uname) || uname.includes(token));
   };
   const addIdentity = (name, username) => {
     const parsed = parseSpeakerIdentity({ name, username });
@@ -718,15 +747,28 @@ function buildSpeakerIdentities(speakers, usernames) {
     return identities;
   }
 
-  if (speakers.length > 0 && speakers.length === usernames.length) {
-    for (let i = 0; i < speakers.length; i += 1) {
-      addIdentity(speakers[i], usernames[i]);
-    }
-    return identities;
-  }
-
+  // Ambiguous mapping (e.g. multiple speakers with fewer usernames):
+  // keep all speaker names, and map usernames only when there is exactly one
+  // clear name match for that username.
   speakers.forEach((name) => addIdentity(name, ''));
-  usernames.forEach((username) => addIdentity(username, username));
+  const assignedSpeakers = new Set();
+  usernames.forEach((username) => {
+    const candidates = speakers.filter(
+      (name) => !assignedSpeakers.has(name) && likelyNameMatchesUsername(name, username)
+    );
+    if (candidates.length === 1) {
+      addIdentity(candidates[0], username);
+      assignedSpeakers.add(candidates[0]);
+      return;
+    }
+
+    // If we don't have speaker names (username-only events), keep the username identity.
+    if (speakers.length === 0) {
+      addIdentity(username, username);
+    }
+    // If zero or multiple candidates, skip username mapping to avoid
+    // contaminating talk ownership/search results.
+  });
   return identities;
 }
 
@@ -759,13 +801,24 @@ async function loadEventTalkIndex() {
         summaryText: normalizeText(item?.summary || ''),
         fullDescription: normalizeText(item?.full_description || ''),
         descriptionText: normalizeText(item?.description || ''),
-        speakersText: speakerIdentities
-          .map((identity) => normalizeText(identity.name || identity.username))
-          .filter(Boolean)
-          .join(', '),
+        speakersList: (() => {
+          const names = speakerIdentities
+            .map((identity) => normalizeText(identity.name || identity.username))
+            .filter(Boolean);
+          const seen = new Set();
+          const unique = [];
+          names.forEach((name) => {
+            const key = name.toLowerCase();
+            if (seen.has(key)) return;
+            seen.add(key);
+            unique.push(name);
+          });
+          return unique;
+        })(),
         link: normalizeText(item?.link),
         videoUrl: normalizeText(item?.video_url)
       };
+      talk.speakersText = talk.speakersList.join(', ');
       state.talksById.set(talk.id, talk);
 
       speakerIdentities.forEach((identity) => {
@@ -895,6 +948,15 @@ function wireControls() {
       void shareSearchQuery(queryInput.value);
     });
   }
+
+  document.addEventListener('keydown', (event) => {
+    const isFindShortcut = (event.ctrlKey || event.metaKey) && String(event.key).toLowerCase() === 'f';
+    if (!isFindShortcut) return;
+    event.preventDefault();
+    queryInput.focus();
+    queryInput.select();
+    announceStatus('Focused speaker search');
+  });
 
   resultsContainer.addEventListener('click', (event) => {
     const target = event.target;
