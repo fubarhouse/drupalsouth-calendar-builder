@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Search | Drupal Event Schedule Builder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body class="theme-dark design-drupalcon bg-gray-100 min-h-screen">
+    <div id="ariaStatus" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+    <header class="header-shell text-white shadow-lg">
+        <div class="w-[94%] sm:w-[90%] mx-auto px-3 sm:px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center gap-3 sm:gap-4">
+                    <div id="headerLogo" class="header-logo brand-drupalcon">
+                        <img id="headerLogoImage" class="header-logo-image" src="./img/logos/drupalcon-logo.svg" alt="DrupalCon logo">
+                        <i id="headerLogoIcon" class="fas fa-globe hidden"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <div id="headerKicker" class="header-kicker">DrupalCon Directory</div>
+                        </div>
+                        <h1 id="pageTitle" class="header-title">
+                            <span class="header-event">Speaker Search</span>
+                            <span class="header-suffix">Across Events</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-[94%] sm:w-[90%] mx-auto px-3 sm:px-4 py-6 sm:py-8">
+        <section id="filtersPanel" class="bg-white rounded-lg shadow-md p-4 mb-6">
+            <div class="space-y-4">
+                <div>
+                    <label for="speakerQuery" class="block text-sm font-medium text-gray-700 mb-1">Speaker Search</label>
+                    <form id="speakerSearchForm" class="flex flex-col sm:flex-row gap-2">
+                        <div class="relative w-full">
+                            <input
+                                id="speakerQuery"
+                                type="text"
+                                class="w-full rounded-md border-gray-300 shadow-sm drupal-blue-focus pr-10"
+                                placeholder="Search by name or username..."
+                                autocomplete="off"
+                            >
+                            <button id="clearSpeakerQuery" type="button" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 focus:outline-none hidden" title="Clear search">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <button type="submit" class="h-10 px-4 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors whitespace-nowrap">
+                            <i class="fas fa-search mr-2"></i>Search
+                        </button>
+                        <a href="./index.html" class="h-10 px-4 inline-flex items-center justify-center border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors whitespace-nowrap">
+                            <i class="fas fa-calendar mr-2"></i>Back to schedule
+                        </a>
+                    </form>
+                </div>
+                <p id="searchHelpText" class="text-sm text-gray-600">
+                    Search speakers derived from all event data files and show matching talks across conferences.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-md p-4">
+            <div class="flex items-center justify-between gap-2 mb-3">
+                <h2 class="text-lg font-semibold text-gray-900">Results</h2>
+                <div class="flex items-center gap-2">
+                    <div id="resultMeta" class="h-10 px-4 inline-flex items-center justify-center text-sm text-gray-600 border border-gray-300 rounded-md"></div>
+                    <button id="shareSearch" type="button" class="h-10 px-4 inline-flex items-center justify-center border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors whitespace-nowrap">
+                        <i class="fas fa-link mr-2"></i>Share search
+                    </button>
+                </div>
+            </div>
+            <div id="speakerResults" class="space-y-3">
+                <p class="text-sm text-gray-600">Start typing to find speakers.</p>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./js/speakers.js"></script>
+</body>
+</html>

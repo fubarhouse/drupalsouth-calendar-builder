@@ -475,7 +475,13 @@
       "location": "Visions Theatre",
       "link": "http://lanyrd.com/2016/drupalgov/sdxxmw/",
       "track": [],
-      "speakers": null,
+      "speakers": [
+        "Emma Davidson",
+        "Sharyn Clarkson",
+        "Gavin Tapp",
+        "Kurt Foster",
+        "Geoff Dibley"
+      ],
       "full_description": "",
       "summary": ""
     },
@@ -487,7 +493,9 @@
       "location": "Visions Theatre",
       "link": "http://lanyrd.com/2016/drupalgov/sdxxmx/",
       "track": [],
-      "speakers": null,
+      "speakers": [
+        "Christopher Skene"
+      ],
       "full_description": "",
       "summary": ""
     }
