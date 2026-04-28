@@ -168,7 +168,7 @@
       ],
       "full_description": "A case study looking back over 2 years of blood, sweat and beers to consolidate 14 government websites into 1, and migrate 2 more at the Department of Industry, Innovation and Science.\n\nOn time, on budget, using GovCMS SaaS",
       "summary": "A case study looking back over 2 years of blood, sweat and beers to consolidate 14 government websites into 1, and migrate 2 more at the Department of Industry, Innovation and Science....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=jFQ5eFM0ihk"
     },
     {
       "startTime": "2019-11-27T22:00:00Z",
@@ -203,7 +203,7 @@
       ],
       "full_description": "Stop for a moment and ask yourself:\n\n* How many times have you get tired of the back-and-forth on bug reporting and fixing after months of development?\n\n* How many times have a project go over budget because developers didn't get all necessary scenarios covered in their tests?\n\n* How many unsatisfied emails did you get from angry clients that just wanted their projects delivered on-time with the expected quality?\n\nIf you've answered _several_ for any of these questions, it is probably time to review your QA (Quality Assurance) strategy!\n\nIn this session, we're going to discuss how dedicated QA people could partner with the PM and the Tech Lead/Architect to ensure better coverage of the use cases/test scenarios on multiple projects and how it would help in controlling the quality of the software delivered by your developers.\n\nThroughout this session, we'll see how to take better advantage of several well-known tools, but also talk about simple scripts, internal tools, and sets of rules for pre-screening and managing projects' deployments.\n\nBesides that, we'll also cover the need to teach our customers the importance of QA.",
       "summary": "Stop for a moment and ask yourself: * How many times have you get tired of the back-and-forth on bug reporting and fixing after months of development?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=cv3FSzkL4"
     },
     {
       "startTime": "2019-11-27T22:00:00Z",
@@ -220,7 +220,7 @@
       ],
       "full_description": "With many sites moving to Drupal 8 over the last few years, I'm sure many of you have had to write some serious migrations to move content from the existing site to the new site. Migrations tend to get tricky when the old data isn't clean, doesn't have a consistent format or is the wrong style to match up to your new data model. That's where process plugins come in, out of the box and with a few handy modules from contrib, there are a range of powerful process plugins available to help you process your old data into a clean and consistent format ready to be imported into your new website.\n\nThis talk will go over some of the available process plugins in core migrate and from some common migrate contrib modules as well at looking at ways you can use them and combine them for powerful results.",
       "summary": "With many sites moving to Drupal 8 over the last few years, I'm sure many of you have had to write some serious migrations to move content from the existing site to the new site....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=5ehEPiI_KBc"
     },
     {
       "startTime": "2019-11-27T22:25:00Z",
@@ -237,7 +237,7 @@
       ],
       "full_description": "Moving an entire government department onto a new content management system and a new user-focused framework with no expensive consultancy to hold your hand. It's a huge, scary job. Then our director got another department excited about the platform too.\n\nFind out how we:\n\n- won over the doubters\n\n- provided brand flexibility alongside consistency\n\n- work with content owners at scale.",
       "summary": "Moving an entire government department onto a new content management system and a new user-focused framework with no expensive consultancy to hold your hand....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=TlTiymxLkYA"
     },
     {
       "startTime": "2019-11-27T22:45:00Z",
@@ -310,7 +310,7 @@
       ],
       "full_description": "The public alpha for the design system for New Zealand public sector websites is up and running - design-system-alpha.digital.govt.nz. Now’s the time to look into options to provide the components in a Drupal-compatible format - which isn't part of the alpha yet - and to look into how Sector can help bridge the gap.\n\nThis talk is in three parts. In Part 1, we'll go over what a design system is, why it needs to be about more than design and code, and why you might need one. In Part 2, we'll have a look at public sector design systems and introduce the New Zealand Design System Alpha. And in Part 3, we'll talk about our Drupal approach and a roadmap for Sector with the design system components included in the Starter Kit or as a Sector add-on. We'll look at themes, Twig, text filters, WYSIWYG templates, style drop-downs, and more - and we hope to hear your ideas as well!",
       "summary": "The public alpha for the design system for New Zealand public sector websites is up and running - design-system-alpha.digital.govt.nz....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=dU7TJtsTG5U"
     },
     {
       "startTime": "2019-11-27T23:15:00Z",
@@ -362,7 +362,7 @@
       ],
       "full_description": "Business relationships are increasingly about being partners rather than the traditional vendor/client relationship. But what does a good partnership entail? In many cases, it’s not that different to what makes a successful personal relationship -- importantly, it takes two.\n\nIn this session, Salsa Digital’s Julie Erben and Department of Finance’s Nathan Wall (Head of GovCMS) discuss the importance of a true partnership for delivering digital projects. They’ll cover what it takes to be a good partner from both sides -- as the vendor/supplier and as the client.\n\nFind out what you can do to bring a partnership approach into your business relationships.",
       "summary": "Business relationships are increasingly about being partners rather than the traditional vendor/client relationship....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=ATapg5mE_iE"
     },
     {
       "startTime": "2019-11-28T00:15:00Z",
@@ -396,7 +396,7 @@
       ],
       "full_description": "Learn how to win at the game of delivery and set your project up for success.\n\nTo win at the game of delivery you first need to understand the game. So what is it and where do you start?\n\nIn this session, Damian Tunney (Head of Engagement and Delivery at Cordelta Digital) will share his insights on the core ingredients to designing complex engagements. With a focus of the people side of projects, Damian will draw from his experience across the private and public sectors delivering global campaigns, product launches and his most recent digital transformation projects.",
       "summary": "Learn how to win at the game of delivery and set your project up for success....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=AvvCjEoYY80"
     },
     {
       "startTime": "2019-11-28T00:15:00Z",
@@ -413,7 +413,7 @@
       ],
       "full_description": "A design system is an invaluable asset for any organisation so let's take a look at the strategies, technologies and methodologies behind creating something successful. In this session I'll be covering: ideal design patterns; technology options for implementation with plenty of technical front end development examples; common pitfalls and persuasion points as to why every organisation should build one as a fully fledged product.",
       "summary": "A design system is an invaluable asset for any organisation so let's take a look at the strategies, technologies and methodologies behind creating something successful....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=nHYGa3kIy9U"
     },
     {
       "startTime": "2019-11-28T00:15:00Z",
@@ -433,7 +433,7 @@
       ],
       "full_description": "Building Drupal distributions is fun … but that doesn’t mean it’s trivial. A distribution defines a way to approach and build Drupal sites, and not everybody will agree on how to do this. Moving Sector from Drupal 7 to Drupal 8 allowed us to rethink and revisit the idea of building a truly modular, plug-and-play distribution - with the Sector Starter Kit in the centre and the Sector add-ons growing around it.\n\nThis talk is about how we approached Sector D8 from two perspectives - providing usable and useful modular tools to our clients, and working the magic behind the scenes to make it happen, the Drupal 8 way.",
       "summary": "Building Drupal distributions is fun … but that doesn’t mean it’s trivial....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=wjHDYxWAr-Q"
     },
     {
       "startTime": "2019-11-28T01:00:00Z",
@@ -498,7 +498,7 @@
       ],
       "full_description": "Join us as we take you on our journey: How we streamlined our delivery for clients with a sneak-peak into where we think the greatest impact will be moving forward.\n\nCompanies want to create customer experiences that rival the best of what they experience in their own lives, but technology moves fast and digital transformation takes time. There is a need to move faster without sacrificing quality, and this requires a more systematic and scalable approach to Drupal development and support.\n\nWe’ll share our story, as we’ve refined our approach, delivering the best of what Drupal has to offer for our Clients and ourselves.",
       "summary": "Join us as we take you on our journey: How we streamlined our delivery for clients with a sneak-peak into where we think the greatest impact will be moving forward....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=jmz6aE9iP1A"
     },
     {
       "startTime": "2019-11-28T03:00:00Z",
@@ -515,7 +515,7 @@
       ],
       "full_description": "Decoupled, headless, micro-services; Whatever you want to call it, its here to stay and often for good and great reasons. But are you using it for a good and great reason?\n\nIn the past 2 years we're seen a growing emergence of decoupled builds that questionably didn't need to me.\n\n* Were they faster?\n\n* Were they more engaging?\n\n* Were they cheaper?\n\nWe'll look at some the innovations that have been emerging from the frontend world and understand if this world is better or worse then the coupled delivery environment Drupal 8 is delivering.",
       "summary": "Decoupled, headless, micro-services; Whatever you want to call it, its here to stay and often for good and great reasons....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=6GwTClYxFmo"
     },
     {
       "startTime": "2019-11-28T03:00:00Z",
@@ -532,7 +532,7 @@
       ],
       "full_description": "Drupal has a very complex rendering system. The Drupal rendering process has the ability to cache rendered output at any level. In this session we'll talk about:\n\n* Render arrays\n\n* Caching of render arrays\n\n* Cache bins\n\n* Dynamic Page Cache\n\n* Reverse proxies\n\n* Troubleshooting Cache issues\n\n* Some interesting caching related problem-solving",
       "summary": "Drupal has a very complex rendering system....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=MjQUXXWtGAI"
     },
     {
       "startTime": "2019-11-28T03:00:00Z",
@@ -549,7 +549,7 @@
       ],
       "full_description": "Design systems have been a very popular topic over the past few years and for good reason. The benefits of aligning the broader team around shared principles and ways of working really are compelling.\n\nFor the design and development process in particular, Design Systems provide efficiencies to the team's workflow; a shared way of working enables diverse teams to approach problems in the same way (without adding as much design and technical debt).\n\nAnd while this is a natural fit for larger product teams, what I've found as a designer within an agency, is that we share a lot of the same problems.\n\nIn this presentation I'll be speaking about Design Systems from an agency's perspective. The presentation aims to demonstrate the benefits of establishing your own design system framework and getting teams to speak the same language.\n\nI'll be sharing my experience around the big problems we're solving with our system (along with some practical tips along the way).\n\nThis is a topic I'm particularly passionate about as I've always been agency-side have always advocated for streamlining the processes between designers and developers.",
       "summary": "Design systems have been a very popular topic over the past few years and for good reason....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=Pik27KxaaDw"
     },
     {
       "startTime": "2019-11-28T03:00:00Z",
@@ -584,7 +584,7 @@
       ],
       "full_description": "The Australian War Memorial is in the process of turning 5 of our large objects into a 360 experience. Currently two have been made live.\n\nThis presentation would be how the development team used Drupal as a back-end to a React 360 experience front end and the challenges that we came across along the way.\n\nThis presentation displays how far we can take Drupal as more than a website content management system and empower content creators.\n\nWe also plan to open source this project for others to use in the future.",
       "summary": "The Australian War Memorial is in the process of turning 5 of our large objects into a 360 experience....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=Q3MBwo9xRAM"
     },
     {
       "startTime": "2019-11-28T04:00:00Z",
@@ -621,7 +621,7 @@
       ],
       "full_description": "You’re ready to go, you have a team to deliver your website and you know how and what to do, but does everyone else? Ensuring everyone on the project team knows what part they’ll be playing and most importantly the processes they need to follow is key to a smooth(er) project delivery.\n\nThis session presented by Salsa Digital’s Akhil Bhandari will reflect the insights of process mapping key project activities, challenges faced, and key light-bulb moments discovered by the Department of Finance Migration Project team tasked to migrate 25 Australian Government websites on to GovCMS in six months.\n\nFind out how process mapping can help ensure everyone is on the same journey.",
       "summary": "You’re ready to go, you have a team to deliver your website and you know how and what to do, but does everyone else?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=UDoXdCQxY9I"
     },
     {
       "startTime": "2019-11-28T04:00:00Z",
@@ -658,7 +658,7 @@
       ],
       "full_description": "For various institutions, security audits are an essential step in launching a new Drupal website. This session will highlight the most common issues reported by external auditors and how to resolve them. By the end of this session you'll have a few practical strategies for passing a security audit and hardening your Drupal applications.",
       "summary": "For various institutions, security audits are an essential step in launching a new Drupal website....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=7Z4sI9e6s7U"
     },
     {
       "startTime": "2019-11-28T04:25:00Z",
@@ -675,7 +675,7 @@
       ],
       "full_description": "Most people are familiar with classification ratings for movies such as G, PG, MA etc., classifications that also apply to publications and games. Classification.gov.au is a resource for the public and industry to understand the classification process and search for classification ratings. Salsa Digital and the Department of Communications and the Arts (DoCA) re-developed classification.gov.au on GovCMS SaaS. The project adopted the DTA design system and also the DTA service design and delivery process, in particular, user research and testing prior to build.\n\nIn this session, Salsa Digital’s Paul Morriss and DoCA's Catherine Driessen will discuss the methodology used to deliver the project, the application of the DTA design system, the alignment to the DTA delivery process and lessons learnt. The boundaries of GovCMS SaaS were pushed when the project integrated with the National Classification Database via an API - this challenge, and the project’s solution, will also be presented. So while the session is on the Project Management track, it should also interest user experience and technical audiences.",
       "summary": "Most people are familiar with classification ratings for movies such as G, PG, MA etc., classifications that also apply to publications and games....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=snjngtSstaQ"
     },
     {
       "startTime": "2019-11-28T04:25:00Z",
@@ -744,7 +744,7 @@
       ],
       "full_description": "You've taken over a Drupal website and pretty soon you'll be expected to fix bugs, address production emergencies and develop new features. But... is it a pristine solution, crafted by the finest of Drupal artisans or does its slick carousel and parallax background hide terrible secrets, shocking security holes and spaghetti code.\n\nWhile there are clearly limits to how thoroughly you can review a site in 45 minutes, let me show you how far you can get in covering many important health checks and identifying potential concerns and action points.",
       "summary": "You've taken over a Drupal website and pretty soon you'll be expected to fix bugs, address production emergencies and develop new features....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=59nvaO4Iy1s"
     },
     {
       "startTime": "2019-11-28T05:15:00Z",
@@ -761,7 +761,7 @@
       ],
       "full_description": "Voice user interfaces are becoming more and more common in our daya to day lives. Whether it is in the office, at home or even in the car, we can see the usage of VUI increasing. The techniques of graphical user interfaces are not so relevant to VUI. Alexa (Amazon echo) uses one such VUI.\n\nIn this session, we will talk about:\n\n* Concepts and terminology\n\n* Design challenges of VUI\n\nWe will also do a quick demo of:\n\n* A Drupal recipes site, integrated with Alexa",
       "summary": "Voice user interfaces are becoming more and more common in our daya to day lives....",
-      "video_url": ""
+      "video_url":  "https://www.youtube.com/watch?v=1yAgCJ0T4uM"
     },
     {
       "startTime": "2019-11-28T05:15:00Z",
@@ -778,7 +778,7 @@
       ],
       "full_description": "We have hosted 15 conferences simultaneously around the world.\n\nHow did we facilitate for flexibility?\n\nWhat impact do we have across the globe?\n\nHow does the passion of a single global community look like?\n\nWhat divides and what unites us?\n\nThis session is how organizing a global conference made me a better person and how it can change you too. Using a conference as a tool to learn from different cultures.\n\nhttps://www.frontendunited.org/",
       "summary": "We have hosted 15 conferences simultaneously around the world....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=4inIPgiE4ko"
     },
     {
       "startTime": "2019-11-28T06:00:00Z",
@@ -840,7 +840,7 @@
       ],
       "full_description": "Project estimation is hard, especially when you've got a basic set of requirements in an RFP with little to no knowledge of the business drivers, potential risks, or deeper integration requirements for a solution. Enter the SWAG, or Scientific Wild-Ass Guess.\n\nWith little information to go on, how do we estimate successfully projects which may take months to actually deliver upon. The SWAG uses an approach not dissimilar to Fermi estimations, where intuition and subject matter knowledge can be combined to provide a good idea of the level of effort required to build entire projects.\n\nThis talk will take us through the steps of creating a SWAG, breaking requirements down into features, applying difficulty, risk, and uncertainty loadings alongside a healthy dose of Excel to provide a low-risk level of effort when estimating large projects across a number of streams.",
       "summary": "Project estimation is hard, especially when you've got a basic set of requirements in an RFP with little to no knowledge of the business drivers, potential risks, or deeper integration requirements for a solution....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=c37KxcBI880"
     },
     {
       "startTime": "2019-11-28T22:00:00Z",
@@ -911,7 +911,7 @@
       ],
       "full_description": "This session is all about the steps that any new launch or high traffic event should go through in order to have the best chance of success. Topics covered:\n\nLoad testing\n\nEnsuring (auto) scaling is configured\n\nCache tuning and minimising origin requests\n\nLetting your hosting provider know\n\nWhat success looks like",
       "summary": "This session is all about the steps that any new launch or high traffic event should go through in order to have the best chance of success....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=zujP5cGJUFw"
     },
     {
       "startTime": "2019-11-28T22:45:00Z",
@@ -957,11 +957,13 @@
       ],
       "speakers": [
         "Nick Santamaria",
-        "Nick Schuch"
+        "Nick Schuch",
+        "Michael Richardson",
+        "Scott Leggett"
       ],
       "full_description": "We have spent the last few years in the midst of a complete revolution in how web applications are built and deployed. The unprecedented speed of these changes has made it challenging to keep up with current best practices, and it often feels like these “improvements” are just trading one set of problems for another.\n\nTo help you sort through the FUD we are bringing together a panel of experts who have spent years deep in the trenches building cloud-native platforms to deploy fast and resilient Drupal applications.\n\nPanelists:\n\n- Mike Richardson - Co-Founder @ Ironstar\n\n- Nick Schuch - Technical Lead @ PreviousNext\n\n- Scott Leggett- Systems Engineer @ Amazee.io\n\nHosted by Nick Santamaria - SysOps Engineer @ PreviousNext\n\nThis discussion will cover a range of topics from:\n\n- Making Drupal cloud-native friendly\n\n- Best practices for building container images\n\n- Getting started with Kubernetes\n\n- Tip and gotchas when building and operating Kubernetes clusters\n\n- Options for deploying and managing Drupal apps on Kubernetes",
       "summary": "We have spent the last few years in the midst of a complete revolution in how web applications are built and deployed....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=MW16OOmaDb4"
     },
     {
       "startTime": "2019-11-28T23:15:00Z",
@@ -978,7 +980,7 @@
       ],
       "full_description": "Every successful Drupal agency has a roster of long term clients who probably account for 80% of their ongoing revenue. It's these type of clients that we all aspire to winning and retaining, but how can you do this year after year through constant change of personnel, strategies and budgets?\n\nThis talk will go into detail about how to first identify and secure the types of clients that you can form multi-year relationships with. Once you've delivered that first successful project, how do you put the processes and relationship management in place to ensure you can replicate this success time and again?\n\nAimed at agency leaders and project managers we'll be using real world examples of what happens when you get it right and, of course, sometimes terribly wrong!",
       "summary": "Every successful Drupal agency has a roster of long term clients who probably account for 80% of their ongoing revenue....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=dKumvxuV15g"
     },
     {
       "startTime": "2019-11-28T23:15:00Z",
@@ -995,7 +997,7 @@
       ],
       "full_description": "On site search serves a critical function for visitors. Search results relevance and optimisation often gets overlooked in the push to go live and there is little appetite to revisit search because of its black box nature.\n\nBusiness users want their site visitors to have a google search experience but don't understand efforts and cost that that go into creating that experience. This talk examines site search implementation through a case study and provides some strategies and tactics that will allow business users to implement effective site search to provide a google experience without the huge price tag.",
       "summary": "On site search serves a critical function for visitors....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=7DANkcW2_oQ"
     },
     {
       "startTime": "2019-11-28T23:15:00Z",
@@ -1029,7 +1031,7 @@
       ],
       "full_description": "Ensuring websites are bug free and stay bug free is a time consuming process, which only gets harder as sites grow in size and complexity. Testing websites based upon a decoupled architecture using a Drupal JSON API backend presents additional challenges. Learn about the approach the Single Digital Presence project takes to end to end testing using Cypress.io to run tests across front and back end.",
       "summary": "Ensuring websites are bug free and stay bug free is a time consuming process, which only gets harder as sites grow in size and complexity....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=5S8tp5eCHcI"
     },
     {
       "startTime": "2019-11-29T00:15:00Z",
@@ -1046,7 +1048,7 @@
       ],
       "full_description": "Does Digital Governance give you mystical powers? Will it finally make everybody do what you ask them? Probably not - but what is Digital Governance and how can it help small digital teams maintain and launch hundreds of sites? Can its success be attributed to products and technology, or is it a result of process and organisational best practices? How do some companies go from taking months to launch a site to weeks?\n\nAttendees will find out how organisations, big and small, organise themselves and their technologies to gain maximum efficiency - and what can go wrong without any Digital Governance in place. We will discuss best practices, lessons learned from working with a large network of experienced platform owners, and tactical things you can do immediately to ensure that your site production systems and teams are running like a well-oiled machine.",
       "summary": "Does Digital Governance give you mystical powers?...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=JHd2R_OJ-HI"
     },
     {
       "startTime": "2019-11-29T00:15:00Z",
@@ -1059,11 +1061,15 @@
         "Showcases & Project Management"
       ],
       "speakers": [
-        "Bevan Wishart"
+        "Bevan Wishart",
+        "Lee Rowlands",
+        "Adam Bramley",
+        "Pamela Barone",
+        "Ling Yu"
       ],
       "full_description": "Proposed session type: panel/open mic\n\nSessions at Drupal South tend towards the positive and the evangelistic.\n\nI'll be working with Si Hobbs @sime to bring this together.\n\nAnd there are others in the Aus/NZ community that have expressed interest in such a session.\n\nNewbies can come away from a conference with a sense that drupal is somehow magical, and certain features and modules can be enabled and configured with the click of a button.\n\nExperienced Drupal users know that there are common gotchas. They've made their own mistakes.\n\nThere would be great value in a casual session, with an emphasis on casual, where people have the opportunity to express their honest experiences, let their guard down, a great chance for everyone to learn from other people's mistakes, and to give new developers (and even experienced ones) a chance to see that even the most experienced developers make mistakes. And often these are common mistakes.\n\nI'm envisioning this as being suitable as one of the last sessions for the conference, where everyone is ready to start winding down, and relax with a bit of fun, a completion and culmination of the previous events of the conference, prior to the final keynote. A chance for people to chill, enjoy themselves, and feedback some of their successes and their failures too.\n\nI'll bring together some experienced volunteers for the panel chairs, so they can share their stories, and encourage the audience to come up with some examples of their own, and also ask questions that will inevitably come to mind.\n\nA few quotes from slack to highlight this are:\n\n> \"\"probably one of mine\" #drupalconfessions\"\n\n> I feel like I owe a “sorry” gift basket to every client I’ve given paragraphs to for building a landing page lol\n\n> I’ve learnt the hard way (or my clients have) but recently i feel like i’m\n\n> doing the right amount of stuff with it in the right amount of reuse\n\n> ... drupal is awesome ...\n\n> But.. well at least in my experience.. I can come out of a talk, or reading a blog about new features being elated.\n\n> and then when I go to use it reality sets back in..\n\n> i love this idea! it could be an open mic\n\n> also trying to figure out what is 'the shittiest thing' i've ever done...... ahh memories\n\n> you've probably prevented me from doing a lot of the potential 'worst thing'\n\n> it took me several years to accept that some people build sites without HTML filtering\n\n> there are some things in Drupal you only learn the hard way, or from someone else who learnt the hard way\n\n> the first Drupal site I built had a custom theme and module with the same machine name\n\n> I had module hooks in the theme and had no idea that the fact it worked was a miracle\n\n> What about 'why is drush hanging there'.. oh damn, xdebug.",
       "summary": "Proposed session type: panel/open mic Sessions at Drupal South tend towards the positive and the evangelistic....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=YmJOQG8hCww"
     },
     {
       "startTime": "2019-11-29T00:15:00Z",
@@ -1132,7 +1138,7 @@
       ],
       "full_description": "Neil Drumm (drumm) is a Drupal.org Architect and helps build Drupal.org as part of the Drupal Association's Engineering team. Drumm has been a member of Drupal.org for 16 years and has been credited for fixes on 184 issues in the past year.\n\nHe has been a regular at Drupal conferences since 2005, however, this will be his first time attending and presenting at DrupalSouth!\n\nNeil will be presenting a keynote on how Drupal.org is built.",
       "summary": "Neil Drumm (drumm) is a Drupal.org Architect and helps build Drupal.org as part of the Drupal Association's Engineering team....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=XYVQbtjbq4I"
     },
     {
       "startTime": "2019-11-29T02:45:00Z",
@@ -1162,7 +1168,7 @@
       "speakers": null,
       "full_description": "In mid 2019, the DrupalSouth Steering Committee was formed to provide continuity for the main conference and a means to initiate and fund other activities that support and grow the regional Drupal community and CMS adoption. This panel will introduce the Steering Committee members and provide an update on the goals and initiatives they're focusing on and how you can get involved to help drive things forward.",
       "summary": "In mid 2019, the DrupalSouth Steering Committee was formed to provide continuity for the main conference and a means to initiate and fund other activities that support and grow the regional Drupal community and CMS adopt...",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=cucyq1m1yPM"
     },
     {
       "startTime": "2019-11-29T03:00:00Z",
@@ -1215,7 +1221,7 @@
       ],
       "full_description": "Everyone talks about containers and wants to the technology in production. Amazee.io provides hosting of websites for several years to its customers and we’re currently working on the fourth iteration of our hosting stack called Lagoon. About 2 years ago we made a huge step and open-sourced all the code that runs our production environment for everyone to see and contribute.\n\nI’ll talk about why we open-sourced our daily work, why we think it’s the right step to do, and why open-source should be hosted by open source",
       "summary": "Everyone talks about containers and wants to the technology in production....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=ExCF-oPG3B4"
     },
     {
       "startTime": "2019-11-29T03:25:00Z",
@@ -1232,7 +1238,7 @@
       ],
       "full_description": "Migration is an Extract, transform, load (ETL) process. During site migration, the data source we are getting could be in any kind of structure that does not always fit into the Drupal paradigm. Thankfully the Migrate API provides a number of plugins that allow raw data to be moulded and shaped into the right form.\n\nIn my section, I will be going through a number of handy Migrate process plugins. How we can make use of these plugins, to ensure content is imported in the correct format to minimise the cleanup process afterwards? What callback functions can be used to process and clean up data, so you can utilise functions from contrib modules without reinventing the wheel? I will be sharing my experience in site migration especially in dealing with contents from non-Drupal sites.",
       "summary": "Migration is an Extract, transform, load (ETL) process....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=k1nSpNNuLII"
     },
     {
       "startTime": "2019-11-29T03:25:00Z",
@@ -1252,7 +1258,7 @@
       ],
       "full_description": "GovCMS has evolved into a popular choice for government agencies choosing to take advantage of Drupal and modern technologies. Have a look at how GovCMS handles auditing and monitoring of Drupal applications on the Lagoon platform, and where it's heading with the increased security classification around the corner.",
       "summary": "GovCMS has evolved into a popular choice for government agencies choosing to take advantage of Drupal and modern technologies....",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=Vs1fTddNk"
     },
     {
       "startTime": "2019-11-29T03:45:00Z",
@@ -1299,7 +1305,7 @@
       "speakers": null,
       "full_description": "",
       "summary": "",
-      "video_url": ""
+      "video_url": "https://www.youtube.com/watch?v=8NpHO5OkeHk"
     },
     {
       "startTime": "2019-11-29T05:45:00Z",
